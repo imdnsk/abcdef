@@ -5,17 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Akari-SG, server: 103.47.101.75, port: 2501, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Akari-TW, server: 185.220.237.192, port: 39211, type: vmess, uuid: faf18149-d999-49dc-9744-55fcbfbb6053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Alibaba-ID, server: ad.jmluo.buzz, port: 35421, type: vmess, uuid: aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ad.jmluo.buzz, network: ws, ws-opts: {path: /aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, headers: {Host: ad.jmluo.buzz}}, udp: true}
   - {name: Alibaba-TH, server: 8.222.11.141, port: 41840, type: vmess, uuid: 6899eb3e-4c26-454d-e48e-91b9ff64e567, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Awesomecloud-JP, server: 154.93.3.5, port: 16302, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: AWS-AU, server: 13.236.232.142, port: 443, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: AWS-HK, server: 18.162.135.141, port: 47080, type: vmess, uuid: 58d9c9a9-0d10-4f0d-8332-dc258810135e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-JP, server: 52.195.207.35, port: 15466, type: vmess, uuid: c38f3ab9-fc98-4a07-cfe7-7fceb27977a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-KR, server: 3.34.124.1, port: 33693, type: vmess, uuid: d8e7a97e-bd30-4bb4-8e8f-1afe28d905cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: AWS-SG, server: li.a88888.top, port: 443, type: vmess, uuid: 0b1fbb30-6bf1-49ff-e93b-054e8dec525d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: li.a88888.top, network: ws, ws-opts: {path: /0b1fbb30-6bf1-49ff-e93b-054e8dec525d, headers: {Host: li.a88888.top}}, udp: true}
-  - {name: Azure-JP, server: 20.222.87.193, port: 35035, type: vmess, uuid: 6d85ef85-0894-4043-a3d2-5b57e245c93b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-SG, server: test3.lavijiang.club, port: 12371, type: trojan, password: 19MLSpPmNt, sni: test3.lavijiang.club, skip-cert-verify: true, udp: true}
   - {name: CloudCone-AF, server: www.sunnyllguang.top, port: 58487, type: trojan, password: Xjsl4Tzacd, sni: www.sunnyllguang.top, skip-cert-verify: true, udp: true}
@@ -34,7 +30,6 @@ proxies:
   - {name: Oracle-KR 2, server: 152.70.89.135, port: 59194, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Oracle-KR 3, server: 140.238.8.36, port: 19220, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b4c91687}, udp: true}
   - {name: Oracle-SG, server: 129.150.59.244, port: 80, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sa}, udp: true}
-  - {name: Owl-JP, server: 45.14.65.134, port: 57040, type: vmess, uuid: b65bbd62-4c7a-4df2-b002-35b832e155b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: SK Broadband-KR, server: kr-05.lzmt.org, port: 13429, type: trojan, password: UPOxy13NcE, sni: kr-05.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Speedypage-SG, server: 45.146.6.40, port: 16557, type: vmess, uuid: 02c47ea1-29b0-4ea8-e66f-723b271f8874, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-HK, server: 101.32.221.151, port: 14602, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -54,7 +49,6 @@ proxies:
   - {name: Vultr-NL, server: an.smartalgorithmictrading.xyz, port: 51614, type: vmess, uuid: 387f6cbb-4622-428a-be18-53ffa4e47568, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: an.smartalgorithmictrading.xyz, udp: true}
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
   - {name: AWS-BR, server: 54.233.197.247, port: 32070, type: vmess, uuid: 9ea3cded-50a8-4056-9759-21a2fabfb37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-CA, server: 3.99.171.66, port: 40940, type: vmess, uuid: 7e0297b2-1452-4813-a774-bd11f3c65fd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ColoCrossing-US, server: 192.227.193.113, port: 18043, type: vmess, uuid: 1e1a87a2-b486-4a6f-9349-75211f9d27b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: DMIT-US, server: hjsdj.xhtk.cc, port: 24757, type: vmess, uuid: b4ad8cdb-b851-40fd-9779-9986a71ab5b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -64,7 +58,6 @@ proxies:
   - {name: DMIT-US 5, server: 174.136.207.82, port: 13860, type: vmess, uuid: f4c7c6da-5d22-4d23-9fc6-93c184e2c4ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-US, server: 35.236.28.58, port: 11604, type: vmess, uuid: cf18bccf-2141-481d-e0b5-db69552059b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: IT7-US, server: 74.121.149.4, port: 41555, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}, udp: true}
-  - {name: Kirino-US, server: 37.123.192.196, port: 8080, type: vmess, uuid: bb3baa37-602b-4336-d7b2-c55723bdfc3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Nextarray-US, server: 154.16.167.36, port: 42669, type: vmess, uuid: f5473ab0-5afb-41bc-e559-0997b6f6bb9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-CA, server: 155.248.227.34, port: 35987, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-US, server: 192.18.133.229, port: 16740, type: trojan, password: lx7colKeKe, skip-cert-verify: true, udp: true}
@@ -77,17 +70,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -106,7 +95,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -126,7 +114,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -136,7 +123,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -148,17 +134,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -177,7 +159,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -197,7 +178,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -207,7 +187,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -220,17 +199,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -249,7 +224,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -269,7 +243,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -279,7 +252,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -304,17 +276,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -333,7 +301,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -353,7 +320,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -363,7 +329,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -380,17 +345,13 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -409,7 +370,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -429,7 +389,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -439,7 +398,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -451,17 +409,13 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -480,7 +434,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -500,7 +453,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -510,7 +462,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -523,17 +474,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -552,7 +499,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -572,7 +518,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -582,7 +527,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
@@ -604,17 +548,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Akari-SG
       - Akari-TW
       - Alibaba-ID
       - Alibaba-TH
       - Awesomecloud-JP
       - AWS-AU
       - AWS-HK
-      - AWS-JP
-      - AWS-KR
       - AWS-SG
-      - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-AF
@@ -633,7 +573,6 @@ proxy-groups:
       - Oracle-KR 2
       - Oracle-KR 3
       - Oracle-SG
-      - Owl-JP
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -653,7 +592,6 @@ proxy-groups:
       - Vultr-NL
       - Vultr-UK
       - AWS-BR
-      - AWS-CA
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -663,7 +601,6 @@ proxy-groups:
       - DMIT-US 5
       - GCP-US
       - IT7-US
-      - Kirino-US
       - Nextarray-US
       - Oracle-CA
       - Oracle-US
