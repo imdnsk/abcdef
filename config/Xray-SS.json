@@ -1,0 +1,54 @@
+{
+    "inbounds": [
+      {
+        "port": 44128,
+        "protocol": "shadowsocks",
+        "settings": {
+          "method": "aes-256-gcm",
+          "password": "15823asdLa",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {},
+        "tag": "blocked"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "www.raz-plus.com",
+              "port": 443,
+              "method": "aes-256-gcm",
+              "password": "15823asdLa"
+            }
+          ]
+        },
+        "tag": "raz-plus"
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": ["shadowsocks"],
+          "outboundTag": "raz-plus",
+          "domain": ["www.raz-plus.com"]
+        },
+        {
+          "type": "field",
+          "inboundTag": ["shadowsocks"],
+          "outboundTag": "blocked",
+          "network": "tcp,udp"
+        }
+      ]
+    }
+  }
