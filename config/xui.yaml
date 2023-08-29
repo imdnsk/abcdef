@@ -6,9 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Akari-HK, server: 185.248.186.7, port: 18420, type: vmess, uuid: 2e302ff6-13b4-4d4e-a4bf-ed5ca0d27837, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Akari-TW, server: 185.220.237.192, port: 39211, type: vmess, uuid: faf18149-d999-49dc-9744-55fcbfbb6053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Alibaba-ID, server: ad.jmluo.buzz, port: 35421, type: vmess, uuid: aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ad.jmluo.buzz, network: ws, ws-opts: {path: /aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, headers: {Host: ad.jmluo.buzz}}, udp: true}
-  - {name: Alibaba-MY, server: 47.254.231.196, port: 14510, type: vmess, uuid: e210d1c8-2e90-4ad6-d55d-cd2cf552d765, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Awesomecloud-JP, server: 154.93.3.5, port: 16302, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Awesomecloud-JP 2, server: 154.93.3.250, port: 48710, type: vmess, uuid: 396384c1-16f4-485b-e7fc-a78dfff7c3cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: AWS-AS, server: social.starkxstream.shop, port: 36628, type: vmess, uuid: c981af30-a03a-4fdc-b889-1425eb3ecc04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: social.starkxstream.shop, udp: true}
@@ -31,18 +29,16 @@ proxies:
   - {name: Hytron-HK 3, server: 191.96.242.25, port: 17725, type: vmess, uuid: f39b74e1-6775-41f0-b4c9-e5e6e43a248b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Kaopu-SG, server: 154.90.57.56, port: 35912, type: vmess, uuid: 5074073a-4cea-41a6-fe17-732f7d06957a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xinjiapo1}, udp: true}
   - {name: M247-AE, server: 38.180.11.133, port: 60635, type: vmess, uuid: 7637688f-08ac-4815-9daa-1506733189d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: M247-JP, server: 38.180.29.87, port: 28536, type: vmess, uuid: d615072d-dc26-447c-cc07-855b37548896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d615072d-dc26-447c-cc0}, udp: true}
+  - {name: M247-JP-优选, server: 162.159.246.193, port: 80, type: vmess, uuid: d615072d-dc26-447c-cc07-855b37548896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d615072d-dc26-447c-cc0, headers: {Host: cf-jp-01.lzmt.org}}, udp: true}
   - {name: M247-SG, server: 193.226.79.28, port: 81, type: vmess, uuid: 7d8600a2-5ed0-4532-e28d-e3eb0c245e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Ntte-KR, server: 112.196.223.64, port: 55128, type: ss, cipher: aes-256-gcm, password: 15823asdLa, udp: true}
   - {name: Oracle-AE, server: abc.uvok.tk, port: 10974, type: vmess, uuid: 3d9dfe60-59ee-43da-eab0-79a192a8e6db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: abc.uvok.tk, network: ws, ws-opts: {path: /1234, headers: {Host: abc.uvok.tk}}, udp: true}
   - {name: Oracle-AU, server: 1253.heisigou.eu.org, port: 2083, type: vmess, uuid: 3ed83f93-a70f-46fd-d44d-f03368bfd6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1253.heisigou.eu.org, network: ws, ws-opts: {path: /ali, headers: {Host: 1253.heisigou.eu.org}}, udp: true}
   - {name: Oracle-JP, server: 138.2.62.108, port: 43330, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Oracle-JP 2, server: 168.138.202.189, port: 49639, type: vmess, uuid: 3882ff4e-b5ef-4269-987b-c094a8c50fbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssss}, udp: true}
-  - {name: Oracle-JP 3, server: grpcjp.qqet.top, port: 470, type: vmess, uuid: 4659e400-e1ef-4fc8-d410-cec45875858f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: grpcjp.qqet.top, network: grpc, grpc-opts: {grpc-service-name: orange}, udp: true}
-  - {name: Oracle-KR, server: 146.56.100.248, port: 48771, type: vmess, uuid: 50257e2f-a5d2-4273-8038-3c9b1947a538, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /50257e2f}, udp: true}
-  - {name: Oracle-KR 2, server: 152.70.89.135, port: 59194, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Oracle-KR 3, server: 140.238.8.36, port: 19220, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b4c91687}, udp: true}
-  - {name: Oracle-SG, server: 129.150.59.244, port: 80, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sa}, udp: true}
+  - {name: Oracle-JP-优选, server: 162.159.129.217, port: 80, type: vmess, uuid: a6824d8a-3112-4123-9344-798112b1a1c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabhdsa, headers: {Host: 150-230-97-54.lzmt.org}}, udp: true}
+  - {name: Oracle-KR, server: 152.70.89.135, port: 59194, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Oracle-KR 2, server: 140.238.8.36, port: 19220, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b4c91687}, udp: true}
+  - {name: Oracle-SG-优选, server: 162.159.129.217, port: 80, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}, udp: true}
   - {name: SK Broadband-KR, server: kr-05.lzmt.org, port: 13429, type: trojan, password: UPOxy13NcE, sni: kr-05.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Speedypage-SG, server: 45.146.6.40, port: 16557, type: vmess, uuid: 02c47ea1-29b0-4ea8-e66f-723b271f8874, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-HK, server: 101.32.221.151, port: 14602, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -61,13 +57,14 @@ proxies:
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-IE, server: 38.180.21.78, port: 2095, type: vmess, uuid: 3f13b984-4a01-4aad-c6fb-08772eaec355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: M247-NL, server: 86.106.20.135, port: 16979, type: vmess, uuid: 05682586-0747-443e-c05c-783e449a25af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
   - {name: M247-NO, server: 83.243.121.19, port: 49810, type: vmess, uuid: bc0b9b47-77ec-4dcd-847d-104c5976320d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bc0b9b47-77ec-4dcd-847d-104c5976320d}, udp: true}
+  - {name: Oracle-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: de9c85fc-2b6b-4a2f-f17e-187e00e0d5c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bjbjhadbshsa, headers: {Host: 152-70-48-177.lzmt.org}}, udp: true}
   - {name: Oracle-UK, server: kjfg.cf, port: 39013, type: vmess, uuid: b25c8828-f305-4455-e14f-245a1251a43b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kjfg.cf}}, udp: true}
   - {name: Vultr-DE, server: www.nutzssr.club, port: 42089, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.nutzssr.club, udp: true}
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
   - {name: AWS-BR, server: 54.233.197.247, port: 32070, type: vmess, uuid: 9ea3cded-50a8-4056-9759-21a2fabfb37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-CA, server: 20.151.209.187, port: 8443, type: vmess, uuid: dc775526-f86a-49f8-8287-522672ace25f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ColoCrossing-US, server: 192.227.193.113, port: 18043, type: vmess, uuid: 1e1a87a2-b486-4a6f-9349-75211f9d27b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: DMIT-US, server: hjsdj.xhtk.cc, port: 24757, type: vmess, uuid: b4ad8cdb-b851-40fd-9779-9986a71ab5b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -81,7 +78,6 @@ proxies:
   - {name: Linode-US, server: 170.187.146.133, port: 5237, type: vmess, uuid: 098271a2-172e-4977-9541-a7b84fc57e5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Linode-US 2, server: 45.79.74.175, port: 25987, type: vmess, uuid: d85f3417-b590-4bee-e378-1f1ae701fd2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-US, server: 91.220.202.69, port: 54068, type: vmess, uuid: a34d852c-038c-4688-bd4f-3dd9e564e7e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Multacom-US, server: 104.194.226.124, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-CA, server: 155.248.227.34, port: 35987, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-US, server: 192.18.133.229, port: 16740, type: trojan, password: lx7colKeKe, skip-cert-verify: true, udp: true}
@@ -98,9 +94,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -123,18 +117,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -153,13 +145,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -173,7 +166,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -189,9 +181,7 @@ proxy-groups:
     interval: 300
     proxies:
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -214,18 +204,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -244,13 +232,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -264,7 +253,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -281,9 +269,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -306,18 +292,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -336,13 +320,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -356,7 +341,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -385,9 +369,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -410,18 +392,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -440,13 +420,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -460,7 +441,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -481,9 +461,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -506,18 +484,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -536,13 +512,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -556,7 +533,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -572,9 +548,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -597,18 +571,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -627,13 +599,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -647,7 +620,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -664,9 +636,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -689,18 +659,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -719,13 +687,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -739,7 +708,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
@@ -765,9 +733,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Akari-HK
-      - Akari-TW
       - Alibaba-ID
-      - Alibaba-MY
       - Awesomecloud-JP
       - Awesomecloud-JP 2
       - AWS-AS
@@ -790,18 +756,16 @@ proxy-groups:
       - Hytron-HK 3
       - Kaopu-SG
       - M247-AE
-      - M247-JP
+      - M247-JP-优选
       - M247-SG
       - Ntte-KR
       - Oracle-AE
       - Oracle-AU
       - Oracle-JP
-      - Oracle-JP 2
-      - Oracle-JP 3
+      - Oracle-JP-优选
       - Oracle-KR
       - Oracle-KR 2
-      - Oracle-KR 3
-      - Oracle-SG
+      - Oracle-SG-优选
       - SK Broadband-KR
       - Speedypage-SG
       - Tencent-HK
@@ -820,13 +784,14 @@ proxy-groups:
       - GCP-UK
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
+      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
       - AWS-BR
-      - Azure-CA
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
       - DMIT-US
@@ -840,7 +805,6 @@ proxy-groups:
       - Linode-US
       - Linode-US 2
       - M247-US
-      - Multacom-US
       - Olink-US
       - Oracle-CA
       - Oracle-US
