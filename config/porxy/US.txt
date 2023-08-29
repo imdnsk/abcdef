@@ -6,22 +6,31 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: AWS-BR, server: 54.233.197.247, port: 32070, type: vmess, uuid: 9ea3cded-50a8-4056-9759-21a2fabfb37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: BuyVM-US, server: 205.185.118.168, port: 52779, type: vmess, uuid: 5d50eb42-9e6c-427b-cdfd-e556d5c31ee2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ColoCrossing-US, server: 192.227.193.113, port: 18043, type: vmess, uuid: 1e1a87a2-b486-4a6f-9349-75211f9d27b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: DMIT-US, server: hjsdj.xhtk.cc, port: 24757, type: vmess, uuid: b4ad8cdb-b851-40fd-9779-9986a71ab5b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: DMIT-US 2, server: 154.17.3.74, port: 18422, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: DMIT-US 3, server: timd.semishadow.gq, port: 15143, type: vmess, uuid: fc506bcb-35de-4f64-c18f-0c532d064040, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: timd.semishadow.gq, network: ws, ws-opts: {path: /lululu, headers: {Host: timd.semishadow.gq}}, udp: true}
   - {name: DMIT-US 4, server: 154.17.1.9, port: 23782, type: vmess, uuid: e62ebd11-3b10-4970-cd05-439ce2623576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /e62ebd11-3b10-4970-cd05-439ce2623576}, udp: true}
   - {name: DMIT-US 5, server: 174.136.207.82, port: 13860, type: vmess, uuid: f4c7c6da-5d22-4d23-9fc6-93c184e2c4ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-US, server: 35.236.28.58, port: 11604, type: vmess, uuid: cf18bccf-2141-481d-e0b5-db69552059b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hetzner-US, server: 5.161.144.119, port: 33639, type: vmess, uuid: bf3fc083-b40a-468e-a39a-0398c679d7b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: IT7-US, server: 74.121.149.4, port: 41555, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}, udp: true}
+  - {name: Kirino-US, server: humanwig.shop, port: 33619, type: vmess, uuid: 5192301c-8012-493a-8f69-5c854e52bdc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: humanwig.shop, udp: true}
+  - {name: Kurun-US, server: 45.155.222.161, port: 10747, type: vmess, uuid: 2b5f9901-a6d0-4ef8-e408-109238cbccd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Linode-CA-优选, server: 23.227.38.216, port: 8080, type: vmess, uuid: dee7b508-4173-48df-d6fd-ea0b78ff70e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172-105-20-207.lzmt.org}}, udp: true}
   - {name: Linode-US, server: 170.187.146.133, port: 5237, type: vmess, uuid: 098271a2-172e-4977-9541-a7b84fc57e5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Linode-US 2, server: 45.79.74.175, port: 25987, type: vmess, uuid: d85f3417-b590-4bee-e378-1f1ae701fd2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-US, server: 91.220.202.69, port: 54068, type: vmess, uuid: a34d852c-038c-4688-bd4f-3dd9e564e7e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-CA, server: 155.248.227.34, port: 35987, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-US, server: 192.18.133.229, port: 16740, type: trojan, password: lx7colKeKe, skip-cert-verify: true, udp: true}
   - {name: Racknerd-US, server: 172.245.139.187, port: 27688, type: vmess, uuid: 6ec6059a-3a49-40f4-ba13-5f0d6ebc92a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Spartanhost-US, server: 45.156.146.30, port: 22334, type: vmess, uuid: a2d374d1-027d-4f46-b595-d1276ac2e37f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Spartanhost-US 2, server: 45.156.146.189, port: 44851, type: vmess, uuid: 2dc064a2-b2b8-4be9-f8bd-ede224caa2d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SpeedyPage-US, server: 103.163.186.46, port: 35444, type: vmess, uuid: f5082e28-cc3f-43f0-f99b-e3148b12eb3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ucloud-US, server: ub.engldong.top, port: 448, type: trojan, password: QJntAn5l9o, sni: ub.engldong.top, skip-cert-verify: true, udp: true}
   - {name: Vultr-BR, server: 216.238.115.194, port: 54202, type: vmess, uuid: 392e14e1-8d66-4e11-96df-98d58a71ccb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -31,22 +40,31 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: ♻️ 自动选择
@@ -55,22 +73,31 @@ proxy-groups:
     interval: 300
     proxies:
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: 🎥 NETFLIX
@@ -80,22 +107,31 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: ⛔️ 广告拦截
@@ -117,22 +153,31 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: 🌏 国内媒体
@@ -146,22 +191,31 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: 📲 电报信息
@@ -170,22 +224,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: 🍎 苹果服务
@@ -195,22 +258,31 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
   - name: 🎯 全球直连
@@ -229,22 +301,31 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - AWS-BR
-      - BuyVM-US
+      - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
       - DMIT-US 4
       - DMIT-US 5
       - GCP-US
+      - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
+      - Olink-US
       - Oracle-CA
       - Oracle-US
       - Racknerd-US
+      - Spartanhost-US
+      - Spartanhost-US 2
+      - SpeedyPage-US
       - Ucloud-US
       - Vultr-BR
 rules:

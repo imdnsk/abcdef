@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AWS-FR, server: 15.188.84.29, port: 29589, type: vmess, uuid: df7b007a-fb97-48e2-cfd5-6f8233e9c805, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Akari-UK-优选, server: 172.67.223.149, port: 8080, type: vmess, uuid: 071d4b3a-ccfc-43bb-bd10-870662d99bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadas, headers: {Host: 185-212-62-2.lzmt.org}}, udp: true}
   - {name: AWS-UK, server: 18.170.218.44, port: 28595, type: vmess, uuid: 2918df32-2baf-48f9-bd8a-dd40a7829199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-UK, server: 20.90.26.203, port: 44051, type: vmess, uuid: 7918fef3-f3ba-4ade-a4d8-8dd15d230297, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m3u8}, udp: true}
   - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
-  - {name: Linode-DE, server: 139.144.183.48, port: 44244, type: vmess, uuid: 43ff643c-af09-46d8-b361-9488da5cb31b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Kirino-UK, server: 185.217.110.23, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.217.110.23}}, udp: true}
+  - {name: Linode-DE-优选, server: 162.159.253.203, port: 80, type: vmess, uuid: e9b7d7d3-2779-4a5c-9588-6db6aaa1576d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsahdsa, headers: {Host: 139-144-183-48.lzmt.org}}, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-IE, server: 38.180.21.78, port: 2095, type: vmess, uuid: 3f13b984-4a01-4aad-c6fb-08772eaec355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: M247-NL, server: 86.106.20.135, port: 16979, type: vmess, uuid: 05682586-0747-443e-c05c-783e449a25af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
   - {name: M247-NO, server: 83.243.121.19, port: 49810, type: vmess, uuid: bc0b9b47-77ec-4dcd-847d-104c5976320d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bc0b9b47-77ec-4dcd-847d-104c5976320d}, udp: true}
-  - {name: Oracle-IT, server: fsh07.fibm.club, port: 8888, type: vmess, uuid: 328210da-d415-40c7-dc07-a6feaebabee7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fsh07.fibm.club}}, udp: true}
-  - {name: Oracle-NL, server: 152.70.48.177, port: 29230, type: vmess, uuid: 29b2ac37-e453-4c1c-8d90-5a21bb576ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-UK, server: kjfg.cf, port: 39013, type: vmess, uuid: b25c8828-f305-4455-e14f-245a1251a43b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kjfg.cf}}, udp: true}
   - {name: Vultr-DE, server: www.nutzssr.club, port: 42089, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.nutzssr.club, udp: true}
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
@@ -25,17 +25,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -44,17 +44,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -64,17 +64,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -96,17 +96,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -120,17 +120,17 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -139,17 +139,17 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -159,17 +159,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -188,17 +188,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
-      - Linode-DE
+      - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
-      - M247-NL
+      - M247-NL-优选
       - M247-NO
-      - Oracle-IT
-      - Oracle-NL
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
