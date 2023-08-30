@@ -11,7 +11,6 @@ proxies:
   - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-UK, server: 185.217.110.23, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.217.110.23}}, udp: true}
-  - {name: Linode-DE-优选, server: 162.159.253.203, port: 80, type: vmess, uuid: e9b7d7d3-2779-4a5c-9588-6db6aaa1576d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsahdsa, headers: {Host: 139-144-183-48.lzmt.org}}, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-IE, server: 38.180.21.78, port: 2095, type: vmess, uuid: 3f13b984-4a01-4aad-c6fb-08772eaec355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
@@ -31,7 +30,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -50,7 +48,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -70,7 +67,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -102,7 +98,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -126,7 +121,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -145,7 +139,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -165,7 +158,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
@@ -194,7 +186,6 @@ proxy-groups:
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
-      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选

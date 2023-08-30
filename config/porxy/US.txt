@@ -8,6 +8,7 @@ proxies:
   - {name: AWS-BR, server: 54.233.197.247, port: 32070, type: vmess, uuid: 9ea3cded-50a8-4056-9759-21a2fabfb37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CloudCone-US, server: 104.194.226.124, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ColoCrossing-US, server: 192.227.193.113, port: 18043, type: vmess, uuid: 1e1a87a2-b486-4a6f-9349-75211f9d27b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: DMIT-US, server: hjsdj.xhtk.cc, port: 24757, type: vmess, uuid: b4ad8cdb-b851-40fd-9779-9986a71ab5b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -18,7 +19,6 @@ proxies:
   - {name: GCP-US, server: 35.236.28.58, port: 11604, type: vmess, uuid: cf18bccf-2141-481d-e0b5-db69552059b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Hetzner-US, server: 5.161.144.119, port: 33639, type: vmess, uuid: bf3fc083-b40a-468e-a39a-0398c679d7b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: IT7-US, server: 74.121.149.4, port: 41555, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}, udp: true}
-  - {name: Kirino-US, server: humanwig.shop, port: 33619, type: vmess, uuid: 5192301c-8012-493a-8f69-5c854e52bdc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: humanwig.shop, udp: true}
   - {name: Kurun-US, server: 45.155.222.161, port: 10747, type: vmess, uuid: 2b5f9901-a6d0-4ef8-e408-109238cbccd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Linode-CA-优选, server: 23.227.38.216, port: 8080, type: vmess, uuid: dee7b508-4173-48df-d6fd-ea0b78ff70e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172-105-20-207.lzmt.org}}, udp: true}
   - {name: Linode-US, server: 170.187.146.133, port: 5237, type: vmess, uuid: 098271a2-172e-4977-9541-a7b84fc57e5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -42,6 +42,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -52,7 +53,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -75,6 +75,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -85,7 +86,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -109,6 +109,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -119,7 +120,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -155,6 +155,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -165,7 +166,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -193,6 +193,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -203,7 +204,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -226,6 +226,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -236,7 +237,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -260,6 +260,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -270,7 +271,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
@@ -303,6 +303,7 @@ proxy-groups:
       - AWS-BR
       - Azure-CA-优选
       - Catixs-US
+      - CloudCone-US
       - ColoCrossing-US
       - Digitalvirt-US
       - DMIT-US
@@ -313,7 +314,6 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
-      - Kirino-US
       - Kurun-US
       - Linode-CA-优选
       - Linode-US
