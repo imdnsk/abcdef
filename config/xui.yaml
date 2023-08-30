@@ -14,20 +14,22 @@ proxies:
   - {name: AWS-HK, server: 18.162.135.141, port: 47080, type: vmess, uuid: 58d9c9a9-0d10-4f0d-8332-dc258810135e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: AWS-SG, server: li.a88888.top, port: 443, type: vmess, uuid: 0b1fbb30-6bf1-49ff-e93b-054e8dec525d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: li.a88888.top, network: ws, ws-opts: {path: /0b1fbb30-6bf1-49ff-e93b-054e8dec525d, headers: {Host: li.a88888.top}}, udp: true}
   - {name: Azure-AU, server: 20.213.250.56, port: 59592, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-JP, server: go.songyb.top, port: 666, type: trojan, password: !<str> 13626350673, sni: go.songyb.top, skip-cert-verify: true, udp: true}
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-SG, server: test3.lavijiang.club, port: 12371, type: trojan, password: 19MLSpPmNt, sni: test3.lavijiang.club, skip-cert-verify: true, udp: true}
   - {name: CloudCone-AF, server: www.sunnyllguang.top, port: 58487, type: trojan, password: Xjsl4Tzacd, sni: www.sunnyllguang.top, skip-cert-verify: true, udp: true}
   - {name: CloudCone-JP, server: 154.93.3.26, port: 200, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: DMIT-JP, server: 45.88.193.158, port: 19048, type: vmess, uuid: c523b3e1-c4b3-4f3a-82fc-868c2b0dfc4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Digitalvirt-JP, server: 154.40.63.2, port: 25009, type: vmess, uuid: b022ef8c-eacb-4a66-ebce-244003be35da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DMIT-JP-优选, server: 162.159.246.193, port: 8080, type: vmess, uuid: d10b62df-e7be-4536-fe81-dfa1bc491b3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dashdisa, headers: {Host: 45-88-193-158.lzmt.org}}, udp: true}
   - {name: GCP-AU, server: 35.244.78.46, port: 43304, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-JP, server: 34.146.134.106, port: 30327, type: vmess, uuid: ebe6cfc1-e6e1-4631-c5e0-b63e11f33d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: GCP-KR, server: 34.22.72.77, port: 80, type: vmess, uuid: 773021fd-2a01-4598-9ff0-548f4c5a4bf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hg}, udp: true}
   - {name: GCP-TW, server: 34.81.246.34, port: 80, type: vmess, uuid: d4e848ba-710d-4870-8170-54febb6e2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdf}, udp: true}
   - {name: Hytron-HK, server: 89.185.30.51, port: 51029, type: vmess, uuid: 6ff7e28d-7f80-48a8-f8df-f7f1b2879f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Hytron-HK 2, server: 89.185.31.127, port: 40707, type: vmess, uuid: 9d38f814-ef0d-477a-97ba-38cadb61db97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Hytron-HK 3, server: 191.96.242.25, port: 17725, type: vmess, uuid: f39b74e1-6775-41f0-b4c9-e5e6e43a248b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Kaopu-SG, server: 154.90.57.56, port: 35912, type: vmess, uuid: 5074073a-4cea-41a6-fe17-732f7d06957a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xinjiapo1}, udp: true}
+  - {name: Kaopu-SG-优选, server: 162.159.129.217, port: 8080, type: vmess, uuid: 9b5c6f40-9f6d-4245-904a-626fd8f9ad61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdjkas6dsa, headers: {Host: 154-90-57-56.lzmt.org}}, udp: true}
+  - {name: Kirino-HK, server: 185.248.187.249, port: 17299, type: vmess, uuid: f92fef5c-49bd-4793-b729-3f2400700006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Kirino-SG, server: 103.190.178.209, port: 17299, type: vmess, uuid: 1274b148-867d-40fc-d91f-a042e1f4cc5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Kirino-TW, server: 185.248.185.156, port: 36460, type: ss, cipher: aes-256-gcm, password: w2g8TUncaM, udp: true}
+  - {name: Linode-AU, server: 172.105.189.125, port: 23147, type: vmess, uuid: 7f8c5dc9-b428-40c5-fe99-49e9c4a72dba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-AE, server: 38.180.11.133, port: 60635, type: vmess, uuid: 7637688f-08ac-4815-9daa-1506733189d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-JP-优选, server: 162.159.246.193, port: 80, type: vmess, uuid: d615072d-dc26-447c-cc07-855b37548896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d615072d-dc26-447c-cc0, headers: {Host: cf-jp-01.lzmt.org}}, udp: true}
   - {name: M247-SG, server: 193.226.79.28, port: 81, type: vmess, uuid: 7d8600a2-5ed0-4532-e28d-e3eb0c245e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -39,8 +41,6 @@ proxies:
   - {name: Oracle-KR, server: 152.70.89.135, port: 59194, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Oracle-KR 2, server: 140.238.8.36, port: 19220, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b4c91687}, udp: true}
   - {name: Oracle-SG-优选, server: 162.159.129.217, port: 80, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}, udp: true}
-  - {name: SK Broadband-KR, server: kr-05.lzmt.org, port: 13429, type: trojan, password: UPOxy13NcE, sni: kr-05.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: Speedypage-SG, server: 45.146.6.40, port: 16557, type: vmess, uuid: 02c47ea1-29b0-4ea8-e66f-723b271f8874, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-HK, server: 101.32.221.151, port: 14602, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-ID, server: 43.133.138.199, port: 46283, type: vmess, uuid: 0dbcf5dd-5e97-4fc0-bfc5-3187f69c4978, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-SG, server: 43.134.173.48, port: 37787, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -49,17 +49,17 @@ proxies:
   - {name: Vultr-IL, server: run.tclkn.sbs, port: 443, type: vmess, uuid: 8e66d511-011a-44a7-dbf0-86f350a54570, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: run.tclkn.sbs, network: ws, ws-opts: {path: /woainihahahaha, headers: {Host: run.tclkn.sbs}}, udp: true}
   - {name: Vultr-JP, server: 64.176.44.88, port: 38396, type: vmess, uuid: 4632428a-54e1-439f-9ce1-9d34996555c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Zenlayer-PH, server: 156.59.168.242, port: 32306, type: vmess, uuid: 506fac76-d487-4ba8-cae6-a4c6fcf74bf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-DE, server: 3.96.165.81, port: 13016, type: vmess, uuid: f277f563-4256-42b3-dc56-9f40fca84c58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-FR, server: 35.180.203.80, port: 47772, type: vmess, uuid: 7f0ecba5-38a0-4ab0-8345-f0c8bdca5b7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Akari-UK-优选, server: 172.67.223.149, port: 8080, type: vmess, uuid: 071d4b3a-ccfc-43bb-bd10-870662d99bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadas, headers: {Host: 185-212-62-2.lzmt.org}}, udp: true}
   - {name: AWS-UK, server: 18.170.218.44, port: 28595, type: vmess, uuid: 2918df32-2baf-48f9-bd8a-dd40a7829199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-UK, server: 20.90.26.203, port: 44051, type: vmess, uuid: 7918fef3-f3ba-4ade-a4d8-8dd15d230297, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m3u8}, udp: true}
   - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Kirino-UK, server: 185.217.110.23, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.217.110.23}}, udp: true}
+  - {name: Linode-DE-优选, server: 162.159.253.203, port: 80, type: vmess, uuid: e9b7d7d3-2779-4a5c-9588-6db6aaa1576d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsahdsa, headers: {Host: 139-144-183-48.lzmt.org}}, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-IE, server: 38.180.21.78, port: 2095, type: vmess, uuid: 3f13b984-4a01-4aad-c6fb-08772eaec355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
   - {name: M247-NO, server: 83.243.121.19, port: 49810, type: vmess, uuid: bc0b9b47-77ec-4dcd-847d-104c5976320d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bc0b9b47-77ec-4dcd-847d-104c5976320d}, udp: true}
-  - {name: Oracle-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: de9c85fc-2b6b-4a2f-f17e-187e00e0d5c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bjbjhadbshsa, headers: {Host: 152-70-48-177.lzmt.org}}, udp: true}
   - {name: Oracle-UK, server: kjfg.cf, port: 39013, type: vmess, uuid: b25c8828-f305-4455-e14f-245a1251a43b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kjfg.cf}}, udp: true}
   - {name: Vultr-DE, server: www.nutzssr.club, port: 42089, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.nutzssr.club, udp: true}
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
@@ -67,6 +67,7 @@ proxies:
   - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ColoCrossing-US, server: 192.227.193.113, port: 18043, type: vmess, uuid: 1e1a87a2-b486-4a6f-9349-75211f9d27b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: DMIT-US, server: hjsdj.xhtk.cc, port: 24757, type: vmess, uuid: b4ad8cdb-b851-40fd-9779-9986a71ab5b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: DMIT-US 2, server: 154.17.3.74, port: 18422, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: DMIT-US 3, server: timd.semishadow.gq, port: 15143, type: vmess, uuid: fc506bcb-35de-4f64-c18f-0c532d064040, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: timd.semishadow.gq, network: ws, ws-opts: {path: /lululu, headers: {Host: timd.semishadow.gq}}, udp: true}
@@ -75,6 +76,9 @@ proxies:
   - {name: GCP-US, server: 35.236.28.58, port: 11604, type: vmess, uuid: cf18bccf-2141-481d-e0b5-db69552059b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Hetzner-US, server: 5.161.144.119, port: 33639, type: vmess, uuid: bf3fc083-b40a-468e-a39a-0398c679d7b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: IT7-US, server: 74.121.149.4, port: 41555, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}, udp: true}
+  - {name: Kirino-US, server: humanwig.shop, port: 33619, type: vmess, uuid: 5192301c-8012-493a-8f69-5c854e52bdc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: humanwig.shop, udp: true}
+  - {name: Kurun-US, server: 45.155.222.161, port: 10747, type: vmess, uuid: 2b5f9901-a6d0-4ef8-e408-109238cbccd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Linode-CA-优选, server: 23.227.38.216, port: 8080, type: vmess, uuid: dee7b508-4173-48df-d6fd-ea0b78ff70e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172-105-20-207.lzmt.org}}, udp: true}
   - {name: Linode-US, server: 170.187.146.133, port: 5237, type: vmess, uuid: 098271a2-172e-4977-9541-a7b84fc57e5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Linode-US 2, server: 45.79.74.175, port: 25987, type: vmess, uuid: d85f3417-b590-4bee-e378-1f1ae701fd2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-US, server: 91.220.202.69, port: 54068, type: vmess, uuid: a34d852c-038c-4688-bd4f-3dd9e564e7e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -102,20 +106,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -127,8 +133,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -137,17 +141,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -155,6 +159,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -163,6 +168,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -189,20 +197,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -214,8 +224,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -224,17 +232,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -242,6 +250,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -250,6 +259,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -277,20 +289,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -302,8 +316,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -312,17 +324,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -330,6 +342,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -338,6 +351,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -377,20 +393,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -402,8 +420,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -412,17 +428,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -430,6 +446,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -438,6 +455,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -469,20 +489,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -494,8 +516,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -504,17 +524,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -522,6 +542,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -530,6 +551,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -556,20 +580,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -581,8 +607,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -591,17 +615,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -609,6 +633,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -617,6 +642,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -644,20 +672,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -669,8 +699,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -679,17 +707,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -697,6 +725,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -705,6 +734,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
@@ -741,20 +773,22 @@ proxy-groups:
       - AWS-HK
       - AWS-SG
       - Azure-AU
-      - Azure-JP
       - Azure-KR
-      - Azure-SG
       - CloudCone-AF
       - CloudCone-JP
-      - DMIT-JP
+      - Digitalvirt-JP
+      - DMIT-JP-优选
       - GCP-AU
       - GCP-JP
       - GCP-KR
       - GCP-TW
       - Hytron-HK
       - Hytron-HK 2
-      - Hytron-HK 3
-      - Kaopu-SG
+      - Kaopu-SG-优选
+      - Kirino-HK
+      - Kirino-SG
+      - Kirino-TW
+      - Linode-AU
       - M247-AE
       - M247-JP-优选
       - M247-SG
@@ -766,8 +800,6 @@ proxy-groups:
       - Oracle-KR
       - Oracle-KR 2
       - Oracle-SG-优选
-      - SK Broadband-KR
-      - Speedypage-SG
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
@@ -776,17 +808,17 @@ proxy-groups:
       - Vultr-IL
       - Vultr-JP
       - Zenlayer-PH
-      - AWS-DE
-      - AWS-FR
+      - Akari-UK-优选
       - AWS-UK
       - Azure-UK
       - Catixs-UK
       - GCP-UK
+      - Kirino-UK
+      - Linode-DE-优选
       - M247-DE
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-NL-优选
       - Oracle-UK
       - Vultr-DE
       - Vultr-UK
@@ -794,6 +826,7 @@ proxy-groups:
       - Azure-CA-优选
       - Catixs-US
       - ColoCrossing-US
+      - Digitalvirt-US
       - DMIT-US
       - DMIT-US 2
       - DMIT-US 3
@@ -802,6 +835,9 @@ proxy-groups:
       - GCP-US
       - Hetzner-US
       - IT7-US
+      - Kirino-US
+      - Kurun-US
+      - Linode-CA-优选
       - Linode-US
       - Linode-US 2
       - M247-US
