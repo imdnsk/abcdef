@@ -6,6 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Akari-HK, server: 185.248.186.7, port: 18420, type: vmess, uuid: 2e302ff6-13b4-4d4e-a4bf-ed5ca0d27837, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Akari-SG-优选, server: 103-190-178-98.lzmt.org, port: 8080, type: vmess, uuid: d3c0739a-52a2-4b01-a8fd-4b63fbb13099, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazwsxedc, headers: {Host: 103-190-178-98.lzmt.org}}, udp: true}
   - {name: Alibaba-ID, server: ad.jmluo.buzz, port: 35421, type: vmess, uuid: aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ad.jmluo.buzz, network: ws, ws-opts: {path: /aaf70149-2dc6-4ca4-b3af-ea5dfcfc842d, headers: {Host: ad.jmluo.buzz}}, udp: true}
   - {name: Awesomecloud-JP, server: 154.93.3.5, port: 16302, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Awesomecloud-JP 2, server: 154.93.3.250, port: 48710, type: vmess, uuid: 396384c1-16f4-485b-e7fc-a78dfff7c3cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -28,7 +29,7 @@ proxies:
   - {name: GCP-TW, server: 34.81.246.34, port: 80, type: vmess, uuid: d4e848ba-710d-4870-8170-54febb6e2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdf}, udp: true}
   - {name: Hytron-HK, server: 89.185.30.51, port: 51029, type: vmess, uuid: 6ff7e28d-7f80-48a8-f8df-f7f1b2879f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Hytron-HK 2, server: 89.185.31.127, port: 40707, type: vmess, uuid: 9d38f814-ef0d-477a-97ba-38cadb61db97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Kaopu-SG-优选, server: 162.159.129.217, port: 8080, type: vmess, uuid: 9b5c6f40-9f6d-4245-904a-626fd8f9ad61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdjkas6dsa, headers: {Host: 154-90-57-56.lzmt.org}}, udp: true}
+  - {name: Kaopu-SG-优选, server: 154-90-57-56.lzmt.org, port: 8080, type: vmess, uuid: 9b5c6f40-9f6d-4245-904a-626fd8f9ad61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdjkas6dsa, headers: {Host: 154-90-57-56.lzmt.org}}, udp: true}
   - {name: Kirino-HK, server: 185.248.187.249, port: 17299, type: vmess, uuid: f92fef5c-49bd-4793-b729-3f2400700006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-SG, server: 103.190.178.209, port: 17299, type: vmess, uuid: 1274b148-867d-40fc-d91f-a042e1f4cc5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-TW, server: 185.248.185.156, port: 36460, type: ss, cipher: aes-256-gcm, password: w2g8TUncaM, udp: true}
@@ -100,6 +101,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -193,6 +195,7 @@ proxy-groups:
     interval: 300
     proxies:
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -287,6 +290,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -393,6 +397,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -491,6 +496,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -584,6 +590,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -678,6 +685,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
@@ -781,6 +789,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Akari-HK
+      - Akari-SG-优选
       - Alibaba-ID
       - Awesomecloud-JP
       - Awesomecloud-JP 2
