@@ -15,7 +15,6 @@ proxies:
   - {name: M247-IE, server: 38.180.21.78, port: 2095, type: vmess, uuid: 3f13b984-4a01-4aad-c6fb-08772eaec355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
   - {name: M247-NO, server: 83.243.121.19, port: 49810, type: vmess, uuid: bc0b9b47-77ec-4dcd-847d-104c5976320d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bc0b9b47-77ec-4dcd-847d-104c5976320d}, udp: true}
-  - {name: Oracle-UK, server: kjfg.cf, port: 39013, type: vmess, uuid: b25c8828-f305-4455-e14f-245a1251a43b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kjfg.cf}}, udp: true}
   - {name: Vultr-DE, server: www.nutzssr.club, port: 42089, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.nutzssr.club, udp: true}
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -34,7 +33,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: ♻️ 自动选择
@@ -52,7 +50,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: 🎥 NETFLIX
@@ -71,7 +68,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: ⛔️ 广告拦截
@@ -102,7 +98,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: 🌏 国内媒体
@@ -125,7 +120,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: 📲 电报信息
@@ -143,7 +137,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: 🍎 苹果服务
@@ -162,7 +155,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
   - name: 🎯 全球直连
@@ -190,7 +182,6 @@ proxy-groups:
       - M247-IE
       - M247-NL-优选
       - M247-NO
-      - Oracle-UK
       - Vultr-DE
       - Vultr-UK
 rules:

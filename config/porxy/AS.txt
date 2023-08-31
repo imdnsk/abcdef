@@ -11,15 +11,13 @@ proxies:
   - {name: AWS-AS, server: social.starkxstream.shop, port: 36628, type: vmess, uuid: c981af30-a03a-4fdc-b889-1425eb3ecc04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: social.starkxstream.shop, udp: true}
   - {name: AWS-AU, server: 13.236.232.142, port: 443, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: AWS-HK, server: 18.162.135.141, port: 47080, type: vmess, uuid: 58d9c9a9-0d10-4f0d-8332-dc258810135e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS-SG, server: li.a88888.top, port: 443, type: vmess, uuid: 0b1fbb30-6bf1-49ff-e93b-054e8dec525d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: li.a88888.top, network: ws, ws-opts: {path: /0b1fbb30-6bf1-49ff-e93b-054e8dec525d, headers: {Host: li.a88888.top}}, udp: true}
   - {name: Azure-AU, server: 20.213.250.56, port: 59592, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-HK, server: 20.2.66.98, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Azure-IN, server: 20.204.69.193, port: 48483, type: vmess, uuid: eae1c71d-e1f5-4659-cd33-d4d185205e6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-JP, server: 20.210.235.171, port: 80, type: vmess, uuid: 1392eaa3-c0c4-431c-dab5-5d90c192fec8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-SG, server: 4.193.93.185, port: 11284, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
   - {name: CloudCone-JP, server: 154.93.3.26, port: 200, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CloudCone-SG, server: 154.90.57.56, port: 35912, type: vmess, uuid: 5074073a-4cea-41a6-fe17-732f7d06957a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xinjiapo1}, udp: true}
+  - {name: CloudCone-SG-优选, server: 154-90-57-56.lzmt.org, port: 8080, type: vmess, uuid: 9b5c6f40-9f6d-4245-904a-626fd8f9ad61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdjkas6dsa, headers: {Host: 154-90-57-56.lzmt.org}}, udp: true}
   - {name: Digitalvirt-JP, server: 154.40.63.2, port: 25009, type: vmess, uuid: b022ef8c-eacb-4a66-ebce-244003be35da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: DMIT-JP-优选, server: 162.159.246.193, port: 8080, type: vmess, uuid: d10b62df-e7be-4536-fe81-dfa1bc491b3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dashdisa, headers: {Host: 45-88-193-158.lzmt.org}}, udp: true}
   - {name: GCP-AU, server: 35.244.78.46, port: 43304, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -58,15 +56,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -104,15 +100,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -151,15 +145,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -210,15 +202,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -261,15 +251,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -307,15 +295,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -354,15 +340,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
@@ -410,15 +394,13 @@ proxy-groups:
       - AWS-AS
       - AWS-AU
       - AWS-HK
-      - AWS-SG
       - Azure-AU
       - Azure-HK
-      - Azure-IN
       - Azure-JP
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG
+      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
       - GCP-AU
