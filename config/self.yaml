@@ -5,75 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Azure-HK-01-Lite, server: dasbjhads.eastasia.cloudapp.azure.com, port: 30971, type: trojan, password: RCP03e6aLr, sni: dasbjhads.eastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: Azure-HK-01-Pro, server: hzyd.donghui.tech, port: 24604, type: trojan, password: RCP03e6aLr, sni: dasbjhads.eastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: ExtraVM-JP-01-Lite, server: jp-03.lzmt.org, port: 52100, type: trojan, password: aGWl3RD9MQ, sni: jp-03.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: ExtraVM-JP-01-Pro, server: shshcua.fosi.hk, port: 35985, type: trojan, password: aGWl3RD9MQ, sni: jp-extravm-02.ncpd.my.id, skip-cert-verify: true, udp: true}
-  - {name: Oracle-SG-01-Lite, server: sg-03.lzmt.org, port: 25943, type: vmess, uuid: ca630804-2150-4053-968e-e0e3aa010430, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss, headers: {Host: sg-03.lzmt.org}}, udp: true}
-  - {name: Oracle-SG-01-Pro, server: dagebeidale.donghui.tech, port: 60233, type: vmess, uuid: ca630804-2150-4053-968e-e0e3aa010430, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss, headers: {Host: dagebeidale.donghui.tech}}, udp: true}
-  - {name: AWS-SG-02-Lite, server: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, port: 21763, type: trojan, password: AmsKgYnr0P, sni: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: AWS-SG-02-Pro, server: hzyd.donghui.tech, port: 64361, type: trojan, password: AmsKgYnr0P, sni: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: AWS-DE-01-Lite, server: de-01.lzmt.org, port: 40328, type: trojan, password: KalBLSPsrr, sni: de-01.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: AWS-DE-01-Pro, server: bbjcu.donghui.tech, port: 25324, type: trojan, password: KalBLSPsrr, sni: de-01.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: Akile-US-01-Lite, server: us-05.lzmt.org, port: 54177, type: trojan, password: v0ouz8HLjE, skip-cert-verify: true, udp: true}
-  - {name: Iptelecom-US-02-Lite, server: cn2.setsushin.top, port: 443, type: vmess, uuid: f3cfc98b-36e8-4750-d3f4-0f05dfce0da6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path, headers: {Host: cn2.setsushin.top}}, udp: true}
-  - {name: Oracle-BR-01-Lite, server: br-01.lzmt.org, port: 17759, type: trojan, password: t8L3TEiXqH, sni: br-01.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: AWS-DE-优选, server: 18-197-154-169-cf.lzmt.org, port: 8080, type: trojan, password: KalBLSPsrr, sni: 18-197-154-169.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: AWS-DE-Lite, server: 18-197-154-169.lzmt.org, port: 8080, type: trojan, password: KalBLSPsrr, sni: 18-197-154-169.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: AWS-DE-Pro, server: bbjcu.donghui.tech, port: 25324, type: trojan, password: KalBLSPsrr, sni: 18-197-154-169.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: AWS-SG-Lite, server: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, port: 21763, type: trojan, password: AmsKgYnr0P, sni: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: AWS-SG-Pro, server: hzyd.donghui.tech, port: 64361, type: trojan, password: AmsKgYnr0P, sni: ec2-18-141-56-253.ap-southeast-1.compute.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: Azure-HK-Lite, server: 20-189-74-44.lzmt.org, port: 19182, type: trojan, password: 08J4t1GuMV, sni: 20-189-74-44.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: Azure-HK-Pro, server: qqbdgzydb.fosi.hk, port: 24604, type: trojan, password: 08J4t1GuMV, sni: 20-189-74-44.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: ExtraVM-JP-优选, server: 103-214-71-16-cf.lzmt.org, port: 8080, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8080, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: Interserver-US-优选, server: 66-23-234-42-cf.lzmt.org, port: 8080, type: trojan, password: 0tn6gLYhWb, sni: 66-23-234-42-cf.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: Oracle-KR-Lite, server: 152.70.95.0, port: 5303, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss}, udp: true}
+  - {name: Oracle-KR-Pro, server: bbjcu.donghui.tech, port: 45576, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss, headers: {Host: bbjcu.donghui.tech}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,19 +92,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -115,56 +115,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,19 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Azure-HK-01-Lite
-      - Azure-HK-01-Pro
-      - ExtraVM-JP-01-Lite
-      - ExtraVM-JP-01-Pro
-      - Oracle-SG-01-Lite
-      - Oracle-SG-01-Pro
-      - AWS-SG-02-Lite
-      - AWS-SG-02-Pro
-      - AWS-DE-01-Lite
-      - AWS-DE-01-Pro
-      - Akile-US-01-Lite
-      - Iptelecom-US-02-Lite
-      - Oracle-BR-01-Lite
+      - AWS-DE-优选
+      - AWS-DE-Lite
+      - AWS-DE-Pro
+      - AWS-SG-Lite
+      - AWS-SG-Pro
+      - Azure-HK-Lite
+      - Azure-HK-Pro
+      - ExtraVM-JP-优选
+      - ExtraVM-JP-Lite
+      - ExtraVM-JP-Pro
+      - Interserver-US-优选
+      - Oracle-KR-Lite
+      - Oracle-KR-Pro
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
