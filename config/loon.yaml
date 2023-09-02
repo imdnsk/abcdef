@@ -1,0 +1,130 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+Akari-HK = vmess,46.3.241.156,49777,chacha20-ietf-poly1305,"175b782f-60a5-4979-951b-90bbff22f481",over-tls:false,transport:tcp,skip-cert-verify:1
+Awesomecloud-JP = vmess,154.93.3.5,16302,chacha20-ietf-poly1305,"1c819c5e-d85c-4f68-b6b2-57f43c5b7180",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+Awesomecloud-JP 2 = vmess,154.93.3.250,48710,chacha20-ietf-poly1305,"396384c1-16f4-485b-e7fc-a78dfff7c3cf",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+AWS-AS = vmess,social.starkxstream.shop,36628,chacha20-ietf-poly1305,"c981af30-a03a-4fdc-b889-1425eb3ecc04",over-tls:true,tls-name:social.starkxstream.shop,transport:tcp,skip-cert-verify:1
+AWS-AU = vmess,13.236.232.142,443,chacha20-ietf-poly1305,"0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+AWS-HK = vmess,18.162.135.141,47080,chacha20-ietf-poly1305,"58d9c9a9-0d10-4f0d-8332-dc258810135e",over-tls:false,transport:tcp,skip-cert-verify:1
+Azure-AU = vmess,20.213.250.56,59592,chacha20-ietf-poly1305,"2508416f-0db1-4a28-9236-ca81d669a51b",over-tls:false,transport:tcp,skip-cert-verify:1
+Azure-HK = vmess,20.2.66.98,65500,chacha20-ietf-poly1305,"6b2e381c-8214-47c7-aa73-54c803ef1d22",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+Azure-JP = vmess,20.210.235.171,80,chacha20-ietf-poly1305,"1392eaa3-c0c4-431c-dab5-5d90c192fec8",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+Azure-KR = vmess,20.196.226.111,54032,chacha20-ietf-poly1305,"a4ac41c5-0e5c-43e7-88e8-0966dec36734",over-tls:false,transport:tcp,skip-cert-verify:1
+Azure-SG = vmess,4.193.93.185,11284,chacha20-ietf-poly1305,"87c68e7b-20f5-4201-dcca-70095c405fc2",over-tls:true,tls-name:,transport:ws,path:/,host:,skip-cert-verify:1
+CloudCone-JP = vmess,154.93.3.26,200,chacha20-ietf-poly1305,"36e9ece6-7c69-4312-b3fc-ad4b78b32f35",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+CloudCone-SG-优选 = vmess,154-90-57-56.lzmt.org,8080,chacha20-ietf-poly1305,"9b5c6f40-9f6d-4245-904a-626fd8f9ad61",over-tls:false,transport:ws,path:/sdahdjkas6dsa,host:154-90-57-56.lzmt.org,skip-cert-verify:1
+Digitalvirt-JP = vmess,154.40.63.2,25009,chacha20-ietf-poly1305,"b022ef8c-eacb-4a66-ebce-244003be35da",over-tls:false,transport:tcp,skip-cert-verify:1
+DMIT-JP-优选 = vmess,162.159.246.193,8080,chacha20-ietf-poly1305,"d10b62df-e7be-4536-fe81-dfa1bc491b3d",over-tls:false,transport:ws,path:/dashdisa,host:45-88-193-158.lzmt.org,skip-cert-verify:1
+GCP-AU = vmess,35.244.78.46,43304,chacha20-ietf-poly1305,"22ea2f36-a028-464a-f41b-2091cb3cfbb6",over-tls:false,transport:tcp,skip-cert-verify:1
+GCP-JP = vmess,34.146.134.106,30327,chacha20-ietf-poly1305,"ebe6cfc1-e6e1-4631-c5e0-b63e11f33d83",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+GCP-TW = vmess,34.81.246.34,80,chacha20-ietf-poly1305,"d4e848ba-710d-4870-8170-54febb6e2e79",over-tls:false,transport:ws,path:/asdf,host:,skip-cert-verify:1
+Hytron-HK = trojan,hkk.salteddonkey.xyz,54456,AZVDQ88mSe,tls-name:hkk.salteddonkey.xyz,skip-cert-verify:1
+Kirino-SG = vmess,103.190.178.209,17299,chacha20-ietf-poly1305,"1274b148-867d-40fc-d91f-a042e1f4cc5f",over-tls:false,transport:tcp,skip-cert-verify:1
+Kirino-TW = Shadowsocks,185.248.185.156,36460,aes-256-gcm,"w2g8TUncaM"
+Linode-AU = vmess,172.105.189.125,23147,chacha20-ietf-poly1305,"7f8c5dc9-b428-40c5-fe99-49e9c4a72dba",over-tls:false,transport:tcp,skip-cert-verify:1
+M247-JP-优选 = vmess,162.159.246.193,80,chacha20-ietf-poly1305,"d615072d-dc26-447c-cc07-855b37548896",over-tls:false,transport:ws,path:/d615072d-dc26-447c-cc0,host:cf-jp-01.lzmt.org,skip-cert-verify:1
+M247-SG = vmess,193.226.79.28,81,chacha20-ietf-poly1305,"7d8600a2-5ed0-4532-e28d-e3eb0c245e1b",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+Ntte-KR = Shadowsocks,112.196.223.64,55128,aes-256-gcm,"15823asdLa"
+Oracle-AU = vmess,1253.heisigou.eu.org,2083,chacha20-ietf-poly1305,"3ed83f93-a70f-46fd-d44d-f03368bfd6be",over-tls:true,tls-name:1253.heisigou.eu.org,transport:ws,path:/ali,host:1253.heisigou.eu.org,skip-cert-verify:1
+Oracle-JP = vmess,138.2.62.108,43330,chacha20-ietf-poly1305,"7691c693-ddb6-41fb-808d-30243c3ec3a9",over-tls:false,transport:tcp,skip-cert-verify:1
+Oracle-JP-优选 = vmess,162.159.129.217,80,chacha20-ietf-poly1305,"a6824d8a-3112-4123-9344-798112b1a1c3",over-tls:false,transport:ws,path:/dsabhdsa,host:150-230-97-54.lzmt.org,skip-cert-verify:1
+Oracle-KR = vmess,152.70.89.135,59194,chacha20-ietf-poly1305,"58600d1a-e6e6-4d93-c291-13bed353563d",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+Oracle-KR 2 = vmess,140.238.8.36,19220,chacha20-ietf-poly1305,"b4c91687-fae4-46db-bae5-c14e9bdaf04d",over-tls:false,transport:ws,path:/b4c91687,host:,skip-cert-verify:1
+Oracle-SG-优选 = vmess,162.159.129.217,80,chacha20-ietf-poly1305,"93447aef-58ae-45d0-be2a-2aa636c38072",over-tls:false,transport:ws,path:/sa,host:129-150-59-244.lzmt.org,skip-cert-verify:1
+Tencent-HK = vmess,101.32.221.151,14602,chacha20-ietf-poly1305,"4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb",over-tls:false,transport:tcp,skip-cert-verify:1
+Tencent-ID = vmess,43.133.138.199,46283,chacha20-ietf-poly1305,"0dbcf5dd-5e97-4fc0-bfc5-3187f69c4978",over-tls:false,transport:tcp,skip-cert-verify:1
+Tencent-SG = vmess,43.134.173.48,37787,chacha20-ietf-poly1305,"9c0e8629-e25e-4e04-fb8b-64e81d3a60cc",over-tls:false,transport:tcp,skip-cert-verify:1
+Ucloud-PH = vmess,flb6.tcf520.top,45587,chacha20-ietf-poly1305,"256e6d39-42ed-4b8d-952a-dfe0178f9db4",over-tls:true,tls-name:flb6.tcf520.top,transport:ws,path:/,host:flb6.tcf520.top,skip-cert-verify:1
+Vultr-IL = vmess,run.tclkn.sbs,443,chacha20-ietf-poly1305,"8e66d511-011a-44a7-dbf0-86f350a54570",over-tls:true,tls-name:run.tclkn.sbs,transport:ws,path:/woainihahahaha,host:run.tclkn.sbs,skip-cert-verify:1
+Zenlayer-PH = vmess,156.59.168.242,32306,chacha20-ietf-poly1305,"506fac76-d487-4ba8-cae6-a4c6fcf74bf2",over-tls:false,transport:tcp,skip-cert-verify:1
+Akari-UK-优选 = vmess,172.67.223.149,8080,chacha20-ietf-poly1305,"071d4b3a-ccfc-43bb-bd10-870662d99bc8",over-tls:false,transport:ws,path:/sadas,host:185-212-62-2.lzmt.org,skip-cert-verify:1
+AWS-UK = vmess,18.170.218.44,28595,chacha20-ietf-poly1305,"2918df32-2baf-48f9-bd8a-dd40a7829199",over-tls:false,transport:tcp,skip-cert-verify:1
+Catixs-UK = vmess,uk0806.wozuiyouqian.top,443,chacha20-ietf-poly1305,"adfd8463-1221-4b3b-c625-5c808d3cb981",over-tls:true,tls-name:uk0806.wozuiyouqian.top,transport:tcp,skip-cert-verify:1
+GCP-UK = vmess,34.147.176.187,16726,chacha20-ietf-poly1305,"bd83e0e7-541b-4c95-d608-ed93aa1cbac8",over-tls:false,transport:tcp,skip-cert-verify:1
+Kirino-UK = vmess,185.217.110.23,2052,chacha20-ietf-poly1305,"84134d90-e4fe-4a86-c8d6-4d7bedb3c333",over-tls:false,transport:ws,path:/vmess,host:185.217.110.23,skip-cert-verify:1
+M247-DE = vmess,37.120.222.43,56328,chacha20-ietf-poly1305,"9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe",over-tls:false,transport:tcp,skip-cert-verify:1
+M247-IE = vmess,38.180.21.78,2095,chacha20-ietf-poly1305,"3f13b984-4a01-4aad-c6fb-08772eaec355",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+M247-NL-优选 = vmess,162.159.253.203,8080,chacha20-ietf-poly1305,"ac7cdabf-632d-4e3d-c704-d8c55be80fda",over-tls:false,transport:ws,path:/dsabjhiasd,host:86-106-20-135.lzmt.org,skip-cert-verify:1
+M247-NO = vmess,83.243.121.19,49810,chacha20-ietf-poly1305,"bc0b9b47-77ec-4dcd-847d-104c5976320d",over-tls:false,transport:ws,path:/bc0b9b47-77ec-4dcd-847d-104c5976320d,host:,skip-cert-verify:1
+Vultr-DE = vmess,www.nutzssr.club,42089,chacha20-ietf-poly1305,"91fd1f10-a9db-4aa5-e95d-6f39c0310d7e",over-tls:true,tls-name:www.nutzssr.club,transport:tcp,skip-cert-verify:1
+Vultr-UK = trojan,vu0505.f0426.buzz,80,6kMAgprzbH,tls-name:vu0505.f0426.buzz,skip-cert-verify:1
+Azure-CA-优选 = vmess,23.227.38.216,80,chacha20-ietf-poly1305,"fb5cdd89-5465-4190-cc8f-0850f892caf5",over-tls:false,transport:ws,path:/,host:20-151-209-187.lzmt.org,skip-cert-verify:1
+Catixs-US = vmess,37.123.193.127,43320,chacha20-ietf-poly1305,"f9257089-93fc-4edf-e5ec-e479bcbbffe7",over-tls:false,transport:tcp,skip-cert-verify:1
+Digitalvirt-US = vmess,38.47.113.198,31265,chacha20-ietf-poly1305,"1e7e74f9-a692-40ce-b40c-62d713690a25",over-tls:false,transport:ws,path:/dwa,host:,skip-cert-verify:1
+DMIT-US = vmess,hjsdj.xhtk.cc,24757,chacha20-ietf-poly1305,"b4ad8cdb-b851-40fd-9779-9986a71ab5b1",over-tls:true,tls-name:hjsdj.xhtk.cc,transport:tcp,skip-cert-verify:1
+DMIT-US 2 = vmess,154.17.3.74,18422,chacha20-ietf-poly1305,"2cd18b36-d2a0-4301-bc24-4e83f8bc3784",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+DMIT-US 3 = vmess,timd.semishadow.gq,15143,chacha20-ietf-poly1305,"fc506bcb-35de-4f64-c18f-0c532d064040",over-tls:true,tls-name:timd.semishadow.gq,transport:ws,path:/lululu,host:timd.semishadow.gq,skip-cert-verify:1
+DMIT-US 4 = vmess,154.17.1.9,23782,chacha20-ietf-poly1305,"e62ebd11-3b10-4970-cd05-439ce2623576",over-tls:false,transport:ws,path:/e62ebd11-3b10-4970-cd05-439ce2623576,host:,skip-cert-verify:1
+GCP-US = vmess,35.236.28.58,11604,chacha20-ietf-poly1305,"cf18bccf-2141-481d-e0b5-db69552059b1",over-tls:false,transport:tcp,skip-cert-verify:1
+Hetzner-US = vmess,5.161.144.119,33639,chacha20-ietf-poly1305,"bf3fc083-b40a-468e-a39a-0398c679d7b6",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+IT7-US = vmess,74.121.149.4,41555,chacha20-ietf-poly1305,"ec198987-7f25-4381-8898-7d1726d20249",over-tls:false,transport:ws,path:/ec198987-7f25-4381-8898-7d1726d20249,host:,skip-cert-verify:1
+IT7-US 2 = vmess,154.17.17.129,53586,chacha20-ietf-poly1305,"ecec352c-48db-432a-cd8b-cf49ade7316e",over-tls:false,transport:tcp,skip-cert-verify:1
+Kurun-US = vmess,45.155.222.161,10747,chacha20-ietf-poly1305,"2b5f9901-a6d0-4ef8-e408-109238cbccd1",over-tls:false,transport:tcp,skip-cert-verify:1
+Linode-CA-优选 = vmess,23.227.38.216,8080,chacha20-ietf-poly1305,"dee7b508-4173-48df-d6fd-ea0b78ff70e4",over-tls:false,transport:ws,path:/,host:172-105-20-207.lzmt.org,skip-cert-verify:1
+Linode-US = vmess,170.187.146.133,5237,chacha20-ietf-poly1305,"098271a2-172e-4977-9541-a7b84fc57e5b",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+M247-US = vmess,91.220.202.69,54068,chacha20-ietf-poly1305,"a34d852c-038c-4688-bd4f-3dd9e564e7e9",over-tls:false,transport:tcp,skip-cert-verify:1
+Olink-US = vmess,104.160.19.84,12362,chacha20-ietf-poly1305,"9b7bc233-ea07-4a6a-be3b-681578358bd6",over-tls:false,transport:tcp,skip-cert-verify:1
+Oracle-CA = vmess,155.248.227.34,35987,chacha20-ietf-poly1305,"20bf85b4-4703-47d1-fd8e-0fd3e158d8ff",over-tls:false,transport:tcp,skip-cert-verify:1
+Spartanhost-US = vmess,45.156.146.30,22334,chacha20-ietf-poly1305,"a2d374d1-027d-4f46-b595-d1276ac2e37f",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+SpeedyPage-US = vmess,103.163.186.46,35444,chacha20-ietf-poly1305,"f5082e28-cc3f-43f0-f99b-e3148b12eb3f",over-tls:false,transport:tcp,skip-cert-verify:1
+Tencent-US = vmess,43.135.149.62,2501,chacha20-ietf-poly1305,"c2e4cfbe-42c6-4054-8185-d74d54b32fff",over-tls:false,transport:tcp,skip-cert-verify:1
+
+[Remote Proxy]
+
+[Proxy Group]
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+♻️ 自动选择 = url-test,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US,url=http://www.gstatic.com/generate_204,interval=300
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+🎯 全球直连 = select,DIRECT
+🛑 全球拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,Akari-HK,Awesomecloud-JP,Awesomecloud-JP 2,AWS-AS,AWS-AU,AWS-HK,Azure-AU,Azure-HK,Azure-JP,Azure-KR,Azure-SG,CloudCone-JP,CloudCone-SG-优选,Digitalvirt-JP,DMIT-JP-优选,GCP-AU,GCP-JP,GCP-TW,Hytron-HK,Kirino-SG,Kirino-TW,Linode-AU,M247-JP-优选,M247-SG,Ntte-KR,Oracle-AU,Oracle-JP,Oracle-JP-优选,Oracle-KR,Oracle-KR 2,Oracle-SG-优选,Tencent-HK,Tencent-ID,Tencent-SG,Ucloud-PH,Vultr-IL,Zenlayer-PH,Akari-UK-优选,AWS-UK,Catixs-UK,GCP-UK,Kirino-UK,M247-DE,M247-IE,M247-NL-优选,M247-NO,Vultr-DE,Vultr-UK,Azure-CA-优选,Catixs-US,Digitalvirt-US,DMIT-US,DMIT-US 2,DMIT-US 3,DMIT-US 4,GCP-US,Hetzner-US,IT7-US,IT7-US 2,Kurun-US,Linode-CA-优选,Linode-US,M247-US,Olink-US,Oracle-CA,Spartanhost-US,SpeedyPage-US,Tencent-US
+
+[Rule]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[Remote Rule]
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTVNTZXJ2aWNlcy5saXN0,Ⓜ️ 微软服务
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvVW5icmVhay5saXN0,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0,🛑 全球拦截
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR3VhcmQvSGlqYWNraW5nLmxpc3Q,🛑 全球拦截
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvVmlkZW8vTmV0ZmxpeC5saXN0,🎥 NETFLIX
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvU3RyZWFtaW5nLmxpc3Q,🌍 国外媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9CaWxpYmlsaS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9pUWl5aS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9MZXR2Lmxpc3Q,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9NT08ubGlzdA,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9UZW5jZW50IFZpZGVvLmxpc3Q,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9Zb3VrdS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA,📲 电报信息
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR2xvYmFsLmxpc3Q,🔰 节点选择
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvQXBwbGUvQXBwbGUubGlzdA,🍎 苹果服务
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvQ2hpbmEubGlzdA,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q,🎯 全球直连
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+

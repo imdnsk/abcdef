@@ -23,7 +23,7 @@ proxies:
   - {name: GCP-AU, server: 35.244.78.46, port: 43304, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-JP, server: 34.146.134.106, port: 30327, type: vmess, uuid: ebe6cfc1-e6e1-4631-c5e0-b63e11f33d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: GCP-TW, server: 34.81.246.34, port: 80, type: vmess, uuid: d4e848ba-710d-4870-8170-54febb6e2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdf}, udp: true}
-  - {name: Hytron-HK, server: 89.185.31.127, port: 40707, type: vmess, uuid: 9d38f814-ef0d-477a-97ba-38cadb61db97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hytron-HK, server: hkk.salteddonkey.xyz, port: 54456, type: trojan, password: AZVDQ88mSe, sni: hkk.salteddonkey.xyz, skip-cert-verify: true, udp: true}
   - {name: Kirino-SG, server: 103.190.178.209, port: 17299, type: vmess, uuid: 1274b148-867d-40fc-d91f-a042e1f4cc5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-TW, server: 185.248.185.156, port: 36460, type: ss, cipher: aes-256-gcm, password: w2g8TUncaM, udp: true}
   - {name: Linode-AU, server: 172.105.189.125, port: 23147, type: vmess, uuid: 7f8c5dc9-b428-40c5-fe99-49e9c4a72dba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -39,14 +39,11 @@ proxies:
   - {name: Tencent-HK, server: 101.32.221.151, port: 14602, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-ID, server: 43.133.138.199, port: 46283, type: vmess, uuid: 0dbcf5dd-5e97-4fc0-bfc5-3187f69c4978, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-SG, server: 43.134.173.48, port: 37787, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TWNIC-TW, server: 103.150.36.85, port: 42635, type: vmess, uuid: e937f197-45e7-4efb-ac76-4eb1d4fb3d3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ucloud-PH, server: flb6.tcf520.top, port: 45587, type: vmess, uuid: 256e6d39-42ed-4b8d-952a-dfe0178f9db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: flb6.tcf520.top, network: ws, ws-opts: {path: /, headers: {Host: flb6.tcf520.top}}, udp: true}
   - {name: Vultr-IL, server: run.tclkn.sbs, port: 443, type: vmess, uuid: 8e66d511-011a-44a7-dbf0-86f350a54570, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: run.tclkn.sbs, network: ws, ws-opts: {path: /woainihahahaha, headers: {Host: run.tclkn.sbs}}, udp: true}
-  - {name: Vultr-JP, server: 64.176.44.88, port: 38396, type: vmess, uuid: 4632428a-54e1-439f-9ce1-9d34996555c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Zenlayer-PH, server: 156.59.168.242, port: 32306, type: vmess, uuid: 506fac76-d487-4ba8-cae6-a4c6fcf74bf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Akari-UK-优选, server: 172.67.223.149, port: 8080, type: vmess, uuid: 071d4b3a-ccfc-43bb-bd10-870662d99bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadas, headers: {Host: 185-212-62-2.lzmt.org}}, udp: true}
   - {name: AWS-UK, server: 18.170.218.44, port: 28595, type: vmess, uuid: 2918df32-2baf-48f9-bd8a-dd40a7829199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-UK, server: 20.90.26.203, port: 44051, type: vmess, uuid: 7918fef3-f3ba-4ade-a4d8-8dd15d230297, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m3u8}, udp: true}
   - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-UK, server: 185.217.110.23, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.217.110.23}}, udp: true}
@@ -73,9 +70,9 @@ proxies:
   - {name: M247-US, server: 91.220.202.69, port: 54068, type: vmess, uuid: a34d852c-038c-4688-bd4f-3dd9e564e7e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle-CA, server: 155.248.227.34, port: 35987, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Oracle-US, server: 192.18.133.229, port: 16740, type: trojan, password: lx7colKeKe, skip-cert-verify: true, udp: true}
   - {name: Spartanhost-US, server: 45.156.146.30, port: 22334, type: vmess, uuid: a2d374d1-027d-4f46-b595-d1276ac2e37f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: SpeedyPage-US, server: 103.163.186.46, port: 35444, type: vmess, uuid: f5082e28-cc3f-43f0-f99b-e3148b12eb3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tencent-US, server: 43.135.149.62, port: 2501, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -116,14 +113,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -150,9 +144,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -192,14 +186,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -226,9 +217,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -269,14 +260,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -303,9 +291,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -358,14 +346,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -392,9 +377,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -439,14 +424,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -473,9 +455,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: 📲 电报信息
     type: select
     proxies:
@@ -515,14 +497,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -549,9 +528,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -592,14 +571,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -626,9 +602,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -678,14 +654,11 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
       - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
       - Akari-UK-优选
       - AWS-UK
-      - Azure-UK
       - Catixs-UK
       - GCP-UK
       - Kirino-UK
@@ -712,9 +685,9 @@ proxy-groups:
       - M247-US
       - Olink-US
       - Oracle-CA
-      - Oracle-US
       - Spartanhost-US
       - SpeedyPage-US
+      - Tencent-US
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
