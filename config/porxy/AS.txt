@@ -17,18 +17,19 @@ proxies:
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-SG, server: 4.193.93.185, port: 11284, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
   - {name: CloudCone-JP, server: 154.93.3.26, port: 200, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CloudCone-SG-优选, server: 154-90-57-56.lzmt.org, port: 8080, type: vmess, uuid: 9b5c6f40-9f6d-4245-904a-626fd8f9ad61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdjkas6dsa, headers: {Host: 154-90-57-56.lzmt.org}}, udp: true}
-  - {name: Digitalvirt-JP, server: 154.40.63.2, port: 25009, type: vmess, uuid: b022ef8c-eacb-4a66-ebce-244003be35da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Digitalvirt-JP, server: 154.40.63.237, port: 52048, type: vmess, uuid: c357ea04-e3e6-4003-acdd-5b811fdb9633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: DMIT-JP-优选, server: 162.159.246.193, port: 8080, type: vmess, uuid: d10b62df-e7be-4536-fe81-dfa1bc491b3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dashdisa, headers: {Host: 45-88-193-158.lzmt.org}}, udp: true}
+  - {name: EonsData-HK, server: 38.181.76.209, port: 34988, type: vmess, uuid: 1738c0e2-ff74-4dc3-c691-3247ec7b4c26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: GCP-AU, server: 35.244.78.46, port: 43304, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-JP, server: 34.146.134.106, port: 30327, type: vmess, uuid: ebe6cfc1-e6e1-4631-c5e0-b63e11f33d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: GCP-TW, server: 34.81.246.34, port: 80, type: vmess, uuid: d4e848ba-710d-4870-8170-54febb6e2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdf}, udp: true}
-  - {name: Hytron-HK, server: 89.185.31.127, port: 40707, type: vmess, uuid: 9d38f814-ef0d-477a-97ba-38cadb61db97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hytron-HK, server: hkk.salteddonkey.xyz, port: 54456, type: trojan, password: AZVDQ88mSe, sni: hkk.salteddonkey.xyz, skip-cert-verify: true, udp: true}
   - {name: Kirino-SG, server: 103.190.178.209, port: 17299, type: vmess, uuid: 1274b148-867d-40fc-d91f-a042e1f4cc5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Kirino-TW, server: 185.248.185.156, port: 36460, type: ss, cipher: aes-256-gcm, password: w2g8TUncaM, udp: true}
   - {name: Linode-AU, server: 172.105.189.125, port: 23147, type: vmess, uuid: 7f8c5dc9-b428-40c5-fe99-49e9c4a72dba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-JP-优选, server: 162.159.246.193, port: 80, type: vmess, uuid: d615072d-dc26-447c-cc07-855b37548896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d615072d-dc26-447c-cc0, headers: {Host: cf-jp-01.lzmt.org}}, udp: true}
-  - {name: M247-SG, server: 193.226.79.28, port: 81, type: vmess, uuid: 7d8600a2-5ed0-4532-e28d-e3eb0c245e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Nearoute-HK, server: 38.207.142.206, port: 50285, type: vmess, uuid: 20ab75ba-f64f-4dfb-bd7e-577b1c4ecb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Nearoute-JP, server: 38.47.124.143, port: 10458, type: vmess, uuid: 1047fde8-cfef-4da4-bcc4-b2193341f4e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ntte-KR, server: 112.196.223.64, port: 55128, type: ss, cipher: aes-256-gcm, password: 15823asdLa, udp: true}
   - {name: Oracle-AU, server: 1253.heisigou.eu.org, port: 2083, type: vmess, uuid: 3ed83f93-a70f-46fd-d44d-f03368bfd6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1253.heisigou.eu.org, network: ws, ws-opts: {path: /ali, headers: {Host: 1253.heisigou.eu.org}}, udp: true}
   - {name: Oracle-JP, server: 138.2.62.108, port: 43330, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -39,10 +40,7 @@ proxies:
   - {name: Tencent-HK, server: 101.32.221.151, port: 14602, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-ID, server: 43.133.138.199, port: 46283, type: vmess, uuid: 0dbcf5dd-5e97-4fc0-bfc5-3187f69c4978, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Tencent-SG, server: 43.134.173.48, port: 37787, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TWNIC-TW, server: 103.150.36.85, port: 42635, type: vmess, uuid: e937f197-45e7-4efb-ac76-4eb1d4fb3d3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Ucloud-PH, server: flb6.tcf520.top, port: 45587, type: vmess, uuid: 256e6d39-42ed-4b8d-952a-dfe0178f9db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: flb6.tcf520.top, network: ws, ws-opts: {path: /, headers: {Host: flb6.tcf520.top}}, udp: true}
   - {name: Vultr-IL, server: run.tclkn.sbs, port: 443, type: vmess, uuid: 8e66d511-011a-44a7-dbf0-86f350a54570, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: run.tclkn.sbs, network: ws, ws-opts: {path: /woainihahahaha, headers: {Host: run.tclkn.sbs}}, udp: true}
-  - {name: Vultr-JP, server: 64.176.44.88, port: 38396, type: vmess, uuid: 4632428a-54e1-439f-9ce1-9d34996555c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Zenlayer-PH, server: 156.59.168.242, port: 32306, type: vmess, uuid: 506fac76-d487-4ba8-cae6-a4c6fcf74bf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -62,9 +60,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -73,7 +71,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -84,10 +83,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: ♻️ 自动选择
     type: url-test
@@ -106,9 +102,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -117,7 +113,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -128,10 +125,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: 🎥 NETFLIX
     type: select
@@ -151,9 +145,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -162,7 +156,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -173,10 +168,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: ⛔️ 广告拦截
     type: select
@@ -208,9 +200,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -219,7 +211,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -230,10 +223,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: 🌏 国内媒体
     type: select
@@ -257,9 +247,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -268,7 +258,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -279,10 +270,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: 📲 电报信息
     type: select
@@ -301,9 +289,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -312,7 +300,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -323,10 +312,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: 🍎 苹果服务
     type: select
@@ -346,9 +332,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -357,7 +343,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -368,10 +355,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
   - name: 🎯 全球直连
     type: select
@@ -400,9 +384,9 @@ proxy-groups:
       - Azure-KR
       - Azure-SG
       - CloudCone-JP
-      - CloudCone-SG-优选
       - Digitalvirt-JP
       - DMIT-JP-优选
+      - EonsData-HK
       - GCP-AU
       - GCP-JP
       - GCP-TW
@@ -411,7 +395,8 @@ proxy-groups:
       - Kirino-TW
       - Linode-AU
       - M247-JP-优选
-      - M247-SG
+      - Nearoute-HK
+      - Nearoute-JP
       - Ntte-KR
       - Oracle-AU
       - Oracle-JP
@@ -422,10 +407,7 @@ proxy-groups:
       - Tencent-HK
       - Tencent-ID
       - Tencent-SG
-      - TWNIC-TW
-      - Ucloud-PH
       - Vultr-IL
-      - Vultr-JP
       - Zenlayer-PH
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
