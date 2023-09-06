@@ -8,7 +8,6 @@ proxies:
   - {name: Akari-UK-优选, server: 172.67.223.149, port: 8080, type: vmess, uuid: 071d4b3a-ccfc-43bb-bd10-870662d99bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadas, headers: {Host: 185-212-62-2.lzmt.org}}, udp: true}
   - {name: AWS-UK, server: 18.170.218.44, port: 28595, type: vmess, uuid: 2918df32-2baf-48f9-bd8a-dd40a7829199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
-  - {name: Gcore-NL, server: 87.120.167.160, port: 1111, type: ss, cipher: chacha20-poly1305, password: !<str> 123456789, udp: true}
   - {name: GCP-FR, server: 34.155.223.29, port: 2522, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -26,7 +25,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -43,7 +41,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -61,7 +58,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -91,7 +87,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -113,7 +108,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -130,7 +124,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -148,7 +141,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
@@ -175,7 +167,6 @@ proxy-groups:
       - Akari-UK-优选
       - AWS-UK
       - Catixs-UK
-      - Gcore-NL
       - GCP-FR
       - GCP-UK
       - M247-DE
