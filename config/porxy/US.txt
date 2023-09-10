@@ -7,11 +7,11 @@ external-controller: :9090
 proxies:
   - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ColoCrossing-US, server: 172.245.88.218, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: Digitalvirt-US 2, server: 154.40.62.118, port: 23157, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgugh6}, udp: true}
   - {name: DMIT-US, server: 154.17.3.74, port: 18422, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: DMIT-US 2, server: timd.semishadow.gq, port: 15143, type: vmess, uuid: fc506bcb-35de-4f64-c18f-0c532d064040, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: timd.semishadow.gq, network: ws, ws-opts: {path: /lululu, headers: {Host: timd.semishadow.gq}}, udp: true}
-  - {name: DMIT-US 3, server: 154.17.1.9, port: 23782, type: vmess, uuid: e62ebd11-3b10-4970-cd05-439ce2623576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /e62ebd11-3b10-4970-cd05-439ce2623576}, udp: true}
   - {name: Gcore-US, server: 91.199.82.69, port: 38036, type: vmess, uuid: f778fc93-3fdb-41be-8c3a-d6cbd1af9d1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Hetzner-US, server: 5.161.144.119, port: 33639, type: vmess, uuid: bf3fc083-b40a-468e-a39a-0398c679d7b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: IT7-US, server: 74.121.149.4, port: 41555, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}, udp: true}
@@ -31,11 +31,11 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -54,11 +54,11 @@ proxy-groups:
     proxies:
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -78,11 +78,11 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -114,11 +114,11 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -142,11 +142,11 @@ proxy-groups:
       - 🔰 节点选择
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -165,11 +165,11 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -189,11 +189,11 @@ proxy-groups:
       - ♻️ 自动选择
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
@@ -222,11 +222,11 @@ proxy-groups:
       - ♻️ 自动选择
       - Azure-CA-优选
       - Catixs-US
+      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
       - DMIT-US 2
-      - DMIT-US 3
       - Gcore-US
       - Hetzner-US
       - IT7-US
