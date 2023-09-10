@@ -14,7 +14,7 @@ proxies:
   - {name: Azure-AU, server: 20.213.250.56, port: 59592, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-HK, server: 20.2.66.98, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-SG, server: 4.193.93.185, port: 11284, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Azure-SG, server: 4.193.93.185, port: 11282, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
   - {name: CloudCone-JP, server: 154.93.3.26, port: 200, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Digitalvirt-JP, server: 154.40.63.13, port: 32392, type: vmess, uuid: e2267982-7e09-47ef-bdfd-d2ed0d659c65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: EonsData-HK, server: 38.181.78.36, port: 33431, type: vmess, uuid: bffec7c8-cf07-4ea4-e6c3-ebe63886bcd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssss}, udp: true}

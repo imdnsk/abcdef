@@ -7,7 +7,6 @@ external-controller: :9090
 proxies:
   - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ColoCrossing-US, server: 172.245.88.218, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: Digitalvirt-US 2, server: 154.40.62.118, port: 23157, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgugh6}, udp: true}
   - {name: DMIT-US, server: 154.17.3.74, port: 18422, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -31,7 +30,6 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -54,7 +52,6 @@ proxy-groups:
     proxies:
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -78,7 +75,6 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -114,7 +110,6 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -142,7 +137,6 @@ proxy-groups:
       - 🔰 节点选择
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -165,7 +159,6 @@ proxy-groups:
       - 🎯 全球直连
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -189,7 +182,6 @@ proxy-groups:
       - ♻️ 自动选择
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -222,7 +214,6 @@ proxy-groups:
       - ♻️ 自动选择
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
