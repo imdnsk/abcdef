@@ -14,7 +14,7 @@ proxies:
   - {name: Azure-AU, server: 20.213.250.56, port: 59592, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Azure-HK, server: 20.2.66.98, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Azure-KR, server: 20.196.226.111, port: 54032, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Azure-SG, server: 4.193.93.185, port: 11284, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Azure-SG, server: 4.193.93.185, port: 11282, type: vmess, uuid: 87c68e7b-20f5-4201-dcca-70095c405fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /}, udp: true}
   - {name: CloudCone-JP, server: 154.93.3.26, port: 200, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: Digitalvirt-JP, server: 154.40.63.13, port: 32392, type: vmess, uuid: e2267982-7e09-47ef-bdfd-d2ed0d659c65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: EonsData-HK, server: 38.181.78.36, port: 33431, type: vmess, uuid: bffec7c8-cf07-4ea4-e6c3-ebe63886bcd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssss}, udp: true}
@@ -38,10 +38,6 @@ proxies:
   - {name: Tencent-SG, server: 43.134.173.48, port: 37787, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Vultr-IL, server: run.tclkn.sbs, port: 443, type: vmess, uuid: 8e66d511-011a-44a7-dbf0-86f350a54570, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: run.tclkn.sbs, network: ws, ws-opts: {path: /woainihahahaha, headers: {Host: run.tclkn.sbs}}, udp: true}
   - {name: Zenlayer-PH, server: 156.59.168.242, port: 32306, type: vmess, uuid: 506fac76-d487-4ba8-cae6-a4c6fcf74bf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Akari-UK-优选, server: 172.67.223.149, port: 8080, type: vmess, uuid: 071d4b3a-ccfc-43bb-bd10-870662d99bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadas, headers: {Host: 185-212-62-2.lzmt.org}}, udp: true}
-  - {name: AWS-UK, server: 18.170.218.44, port: 28595, type: vmess, uuid: 2918df32-2baf-48f9-bd8a-dd40a7829199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Catixs-UK, server: uk0806.wozuiyouqian.top, port: 443, type: vmess, uuid: adfd8463-1221-4b3b-c625-5c808d3cb981, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk0806.wozuiyouqian.top, udp: true}
-  - {name: GCP-FR, server: 34.155.223.29, port: 2522, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GCP-UK, server: 34.147.176.187, port: 16726, type: vmess, uuid: bd83e0e7-541b-4c95-d608-ed93aa1cbac8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-DE, server: 37.120.222.43, port: 56328, type: vmess, uuid: 9d6a857c-18e7-44d0-bd4e-4b4a84d59cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: M247-NL-优选, server: 162.159.253.203, port: 8080, type: vmess, uuid: ac7cdabf-632d-4e3d-c704-d8c55be80fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dsabjhiasd, headers: {Host: 86-106-20-135.lzmt.org}}, udp: true}
@@ -51,7 +47,6 @@ proxies:
   - {name: Vultr-UK, server: vu0505.f0426.buzz, port: 80, type: trojan, password: 6kMAgprzbH, sni: vu0505.f0426.buzz, skip-cert-verify: true, udp: true}
   - {name: Azure-CA-优选, server: 23.227.38.216, port: 80, type: vmess, uuid: fb5cdd89-5465-4190-cc8f-0850f892caf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20-151-209-187.lzmt.org}}, udp: true}
   - {name: Catixs-US, server: 37.123.193.127, port: 43320, type: vmess, uuid: f9257089-93fc-4edf-e5ec-e479bcbbffe7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ColoCrossing-US, server: 172.245.88.218, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Digitalvirt-US, server: 38.47.113.198, port: 31265, type: vmess, uuid: 1e7e74f9-a692-40ce-b40c-62d713690a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dwa}, udp: true}
   - {name: Digitalvirt-US 2, server: 154.40.62.118, port: 23157, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgugh6}, udp: true}
   - {name: DMIT-US, server: 154.17.3.74, port: 18422, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -106,10 +101,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -119,7 +110,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -173,10 +163,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -186,7 +172,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -241,10 +226,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -254,7 +235,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -321,10 +301,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -334,7 +310,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -393,10 +368,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -406,7 +377,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -460,10 +430,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -473,7 +439,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -528,10 +493,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -541,7 +502,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
@@ -605,10 +565,6 @@ proxy-groups:
       - Tencent-SG
       - Vultr-IL
       - Zenlayer-PH
-      - Akari-UK-优选
-      - AWS-UK
-      - Catixs-UK
-      - GCP-FR
       - GCP-UK
       - M247-DE
       - M247-NL-优选
@@ -618,7 +574,6 @@ proxy-groups:
       - Vultr-UK
       - Azure-CA-优选
       - Catixs-US
-      - ColoCrossing-US
       - Digitalvirt-US
       - Digitalvirt-US 2
       - DMIT-US
