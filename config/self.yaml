@@ -23,6 +23,7 @@ proxies:
   - {name: Hostbrr-DE-Lite-v6 ONLY, server: 94-130-220-166.lzmt.org, port: 54321, type: trojan, password: TlQJYNljAK, sni: 94-130-220-166.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Oracle-KR-Lite, server: 152.70.95.0, port: 5303, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss}, udp: true}
   - {name: Oracle-KR-Pro, server: bbjcu.donghui.tech, port: 45576, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss, headers: {Host: bbjcu.donghui.tech}}, udp: true}
+  - {name: Google One US, server: 162-251-147-138.cloud-xip.com, port: 33991, type: vmess, uuid: 2fadb1be-0a3c-483b-e26c-04f5782c346d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /789456, headers: {Host: 162-251-147-138.cloud-xip.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -47,6 +48,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,6 +72,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -94,6 +97,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -130,6 +134,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -158,6 +163,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: 📲 电报信息
     type: select
     proxies:
@@ -181,6 +187,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -205,6 +212,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,6 +246,7 @@ proxy-groups:
       - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
+      - Google One US
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
