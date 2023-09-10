@@ -7,23 +7,20 @@ external-controller: :9090
 proxies:
   - {name: Alibaba-HK-Lite, server: 8-210-6-182.lzmt.org, port: 56175, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Alibaba-HK-Pro, server: hzyd.donghui.tech, port: 27182, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: AWS-DE-Lite, server: 18-197-154-169.lzmt.org, port: 8080, type: trojan, password: KalBLSPsrr, sni: 18-197-154-169.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: AWS-DE-Pro, server: bbjcu.donghui.tech, port: 25324, type: trojan, password: KalBLSPsrr, sni: 18-197-154-169.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: AWS-SG-Lite, server: ec2-13-215-47-219.ap-southeast-1.compute.amazonaws.com, port: 2095, type: vmess, uuid: 7a712615-5da5-4213-bc0e-38e99c34faed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /7a712615-5da5-4213-bc0e-38e99c34faed, headers: {Host: ec2-13-215-47-219.ap-southeast-1.compute.amazonaws.com}}, udp: true}
   - {name: AWS-SG-Pro, server: hzcu.donghui.tech, port: 59284, type: vmess, uuid: 7a712615-5da5-4213-bc0e-38e99c34faed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /7a712615-5da5-4213-bc0e-38e99c34faed, headers: {Host: hzcu.donghui.tech}}, udp: true}
   - {name: Azure-HK-Lite, server: 20-189-74-44.lzmt.org, port: 45437, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Azure-HK-Pro, server: qqbdgzydb.fosi.hk, port: 24604, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Contabo-US-Pro, server: shdx.donghui.tech, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: Crunchbits-US-Lite, server: 216-181-107-235.lzmt.org, port: 48184, type: trojan, password: wUsiJYQFd0, sni: 216-181-107-235.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: GCP-TW-Lite, server: 104-199-233-86.lzmt.org, port: 35842, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: GCP-TW-Pro, server: qqbdshcm.donghui.tech, port: 31745, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: Hostbrr-DE-Lite-v6 ONLY, server: 94-130-220-166.lzmt.org, port: 54321, type: trojan, password: TlQJYNljAK, sni: 94-130-220-166.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: Oracle-KR-Lite, server: 152.70.95.0, port: 5303, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss}, udp: true}
   - {name: Oracle-KR-Pro, server: bbjcu.donghui.tech, port: 45576, type: vmess, uuid: 6d24d7b9-d7f6-45d6-a65a-1c62268723ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssss, headers: {Host: bbjcu.donghui.tech}}, udp: true}
   - {name: Google One US, server: 162-251-147-138.cloud-xip.com, port: 33991, type: vmess, uuid: 2fadb1be-0a3c-483b-e26c-04f5782c346d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /789456, headers: {Host: 162-251-147-138.cloud-xip.com}}, udp: true}
+  - {name: Google One US-Pro, server: shdx.donghui.tech, port: 15987, type: vmess, uuid: 2fadb1be-0a3c-483b-e26c-04f5782c346d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /789456, headers: {Host: shdx.donghui.tech}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -32,23 +29,20 @@ proxy-groups:
       - 🎯 全球直连
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -56,23 +50,20 @@ proxy-groups:
     proxies:
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -81,23 +72,20 @@ proxy-groups:
       - 🎯 全球直连
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -118,23 +106,20 @@ proxy-groups:
       - 🎯 全球直连
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -147,23 +132,20 @@ proxy-groups:
       - 🔰 节点选择
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: 📲 电报信息
     type: select
     proxies:
@@ -171,23 +153,20 @@ proxy-groups:
       - 🎯 全球直连
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -196,23 +175,20 @@ proxy-groups:
       - ♻️ 自动选择
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,23 +206,20 @@ proxy-groups:
       - ♻️ 自动选择
       - Alibaba-HK-Lite
       - Alibaba-HK-Pro
-      - AWS-DE-Lite
-      - AWS-DE-Pro
       - AWS-SG-Lite
       - AWS-SG-Pro
       - Azure-HK-Lite
       - Azure-HK-Pro
       - Contabo-US-Lite
       - Contabo-US-Pro
-      - Crunchbits-US-Lite
       - ExtraVM-JP-Lite
       - ExtraVM-JP-Pro
       - GCP-TW-Lite
       - GCP-TW-Pro
-      - Hostbrr-DE-Lite-v6 ONLY
       - Oracle-KR-Lite
       - Oracle-KR-Pro
       - Google One US
+      - Google One US-Pro
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
