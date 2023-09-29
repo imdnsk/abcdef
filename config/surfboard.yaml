@@ -11,53 +11,50 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 Akari-HK = vmess, 46.3.241.156, 49777, username=175b782f-60a5-4979-951b-90bbff22f481, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 Akari-HK = vmess, 185.248.187.29, 23981, username=76160ceb-571b-42e6-93fe-d7d9ed8febc4, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 Alibaba-HK = vmess, 8.218.158.168, 6665, username=14ade852-509e-42f3-fcd7-837872db6ef1, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=8.218.158.168, skip-cert-verify=false, tfo=false, udp-relay=false
+🇸🇬 Alibaba-SG = vmess, 47.236.20.150, 19070, username=0c13c13f-3beb-4028-bdad-24a48737f030, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Awesomecloud-JP = vmess, 154.93.3.5, 16302, username=1c819c5e-d85c-4f68-b6b2-57f43c5b7180, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=154.93.3.5, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Awesomecloud-JP 2 = vmess, 154.93.3.250, 48710, username=396384c1-16f4-485b-e7fc-a78dfff7c3cf, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=154.93.3.250, skip-cert-verify=false, tfo=false, udp-relay=false
-AWS-AS = vmess, social.starkxstream.shop, 36628, username=c981af30-a03a-4fdc-b889-1425eb3ecc04, tls=true, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+AWS-AS = vmess, social.starkxstream.shop, 36628, username=c981af30-a03a-4fdc-b889-1425eb3ecc04, tls=true, vmess-aead=true, tls13=false, skip-cert-verify=false, tfo=false, udp-relay=false
 🇦🇺 AWS-AU = vmess, 13.236.232.142, 443, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=13.236.232.142, skip-cert-verify=false, tfo=false, udp-relay=false
 🇦🇺 Azure-AU = vmess, 20.213.250.56, 59592, username=2508416f-0db1-4a28-9236-ca81d669a51b, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇭🇰 Azure-HK = vmess, 20.2.66.98, 65500, username=6b2e381c-8214-47c7-aa73-54c803ef1d22, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=20.2.66.98, skip-cert-verify=false, tfo=false, udp-relay=false
 🇰🇷 Azure-KR = vmess, 20.196.226.111, 54032, username=a4ac41c5-0e5c-43e7-88e8-0966dec36734, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 CloudCone-JP = vmess, 154.93.3.26, 200, username=36e9ece6-7c69-4312-b3fc-ad4b78b32f35, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=154.93.3.26, skip-cert-verify=false, tfo=false, udp-relay=false
 🇦🇺 GCP-AU = vmess, 35.244.78.46, 43304, username=22ea2f36-a028-464a-f41b-2091cb3cfbb6, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇯🇵 GCP-JP = vmess, 34.146.134.106, 30327, username=ebe6cfc1-e6e1-4631-c5e0-b63e11f33d83, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=34.146.134.106, skip-cert-verify=false, tfo=false, udp-relay=false
-🇸🇬 Kirino-SG = vmess, 103.190.178.209, 17299, username=1274b148-867d-40fc-d91f-a042e1f4cc5f, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 Linode-JP = ss, 172.104.87.35, 65482, encrypt-method=aes-256-gcm, password=2XrfZTil8p, tfo=false, udp-relay=false
+🇯🇵 M247-JP = vmess, 194.68.27.69, 60222, username=84134d90-e4fe-4a86-c8d6-4d7bedb3c333, tls=false, vmess-aead=true, ws=true, ws-path=/vmess, sni=194.68.27.69, ws-headers=Host:194.68.27.69, skip-cert-verify=false, tfo=false, udp-relay=false
 🇭🇰 Nearoute-HK = vmess, 38.207.142.206, 50285, username=20ab75ba-f64f-4dfb-bd7e-577b1c4ecb42, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇰🇷 Ntte-KR = ss, 112.196.223.64, 55128, encrypt-method=aes-256-gcm, password=15823asdLa, tfo=false, udp-relay=false
-🇦🇺 Oracle-AU = vmess, 1253.heisigou.eu.org, 2083, username=3ed83f93-a70f-46fd-d44d-f03368bfd6be, tls=true, vmess-aead=true, ws=true, ws-path=/ali, sni=1253.heisigou.eu.org, ws-headers=Host:1253.heisigou.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇦🇺 Oracle-AU = vmess, 1253.heisigou.eu.org, 2083, username=3ed83f93-a70f-46fd-d44d-f03368bfd6be, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/ali, sni=1253.heisigou.eu.org, ws-headers=Host:1253.heisigou.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Oracle-JP = vmess, 138.2.62.108, 43330, username=7691c693-ddb6-41fb-808d-30243c3ec3a9, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 Oracle-JP 2 = vmess, 64.110.103.245, 33079, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Oracle-JP-优选 = vmess, 162.159.129.217, 80, username=a6824d8a-3112-4123-9344-798112b1a1c3, tls=false, vmess-aead=true, ws=true, ws-path=/dsabhdsa, sni=162.159.129.217, ws-headers=Host:150-230-97-54.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇰🇷 Oracle-KR = vmess, 152.70.89.135, 59194, username=58600d1a-e6e6-4d93-c291-13bed353563d, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=152.70.89.135, skip-cert-verify=false, tfo=false, udp-relay=false
 🇰🇷 Oracle-KR 2 = vmess, 140.238.8.36, 19220, username=b4c91687-fae4-46db-bae5-c14e9bdaf04d, tls=false, vmess-aead=true, ws=true, ws-path=/b4c91687, sni=140.238.8.36, skip-cert-verify=false, tfo=false, udp-relay=false
+🇰🇷 Oracle-KR 3 = vmess, 132.226.20.131, 31537, username=4f29a41a-f2b9-494f-a3e0-b2843ed7ee76, tls=false, vmess-aead=true, ws=true, ws-path=/ssss, sni=132.226.20.131, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 Oracle-SG-优选 = vmess, 162.159.129.217, 80, username=93447aef-58ae-45d0-be2a-2aa636c38072, tls=false, vmess-aead=true, ws=true, ws-path=/sa, sni=162.159.129.217, ws-headers=Host:129-150-59-244.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇭🇰 Tencent-HK = vmess, 101.32.221.151, 14602, username=4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 Tencent-SG = vmess, 43.134.173.48, 37787, username=9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇮🇱 Vultr-IL = vmess, run.tclkn.sbs, 443, username=8e66d511-011a-44a7-dbf0-86f350a54570, tls=true, vmess-aead=true, ws=true, ws-path=/woainihahahaha, sni=run.tclkn.sbs, ws-headers=Host:run.tclkn.sbs, skip-cert-verify=false, tfo=false, udp-relay=false
-🇬🇧 GCP-UK = vmess, 34.147.176.187, 16726, username=bd83e0e7-541b-4c95-d608-ed93aa1cbac8, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-M247-NO = vmess, 83.243.121.19, 49810, username=bc0b9b47-77ec-4dcd-847d-104c5976320d, tls=false, vmess-aead=true, ws=true, ws-path=/bc0b9b47-77ec-4dcd-847d-104c5976320d, sni=83.243.121.19, skip-cert-verify=false, tfo=false, udp-relay=false
-🇸🇪 Oracle-SE = vmess, 213.35.113.111, 10264, username=6000ca40-30a4-47dd-f378-e6d382dce39a, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇬🇧 Oracle-UK = vmess, 129.151.70.85, 23638, username=39b074ec-5b4c-4473-a05a-7900048856d6, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇩🇪 Vultr-DE = vmess, www.nutzssr.club, 42089, username=91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, tls=true, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇬🇧 Vultr-UK = trojan, vu0505.f0426.buzz, 80, password=6kMAgprzbH, sni=vu0505.f0426.buzz, skip-cert-verify=false, tfo=false, udp-relay=false
+🇬🇧 Kirino-UK = vmess, 38.59.224.200, 37899, username=7dc4e0d4-58fb-4ee1-bad5-ba831d8e9089, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 Vultr-DE = vmess, www.nutzssr.club, 42089, username=91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, tls=true, vmess-aead=true, tls13=false, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Digitalvirt-US = vmess, 154.40.62.118, 23157, username=e7583efe-47ba-4140-a8f8-a7ca3776218a, tls=false, vmess-aead=true, ws=true, ws-path=/hgugh6, sni=154.40.62.118, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 DMIT-US = vmess, 154.17.3.74, 18422, username=2cd18b36-d2a0-4301-bc24-4e83f8bc3784, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=154.17.3.74, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 DMIT-US 2 = vmess, 174.136.207.179, 44277, username=cdff5c0a-2aa1-4174-8a52-05001dde8da8, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 Gcore-US = vmess, 91.199.82.69, 38036, username=f778fc93-3fdb-41be-8c3a-d6cbd1af9d1c, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 DMIT-US 3 = vmess, 65.75.192.98, 443, username=fb18aee0-ec3c-4990-f1fd-a92dbc712cdc, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Hetzner-US = vmess, 5.161.144.119, 33639, username=bf3fc083-b40a-468e-a39a-0398c679d7b6, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=5.161.144.119, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 IT7-US = vmess, 74.121.149.4, 41555, username=ec198987-7f25-4381-8898-7d1726d20249, tls=false, vmess-aead=true, ws=true, ws-path=/ec198987-7f25-4381-8898-7d1726d20249, sni=74.121.149.4, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Kurun-US = vmess, 45.155.222.161, 10747, username=2b5f9901-a6d0-4ef8-e408-109238cbccd1, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 Linode-US = vmess, 170.187.146.133, 5237, username=098271a2-172e-4977-9541-a7b84fc57e5b, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=170.187.146.133, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 M247-US = vmess, 91.220.202.69, 54068, username=a34d852c-038c-4688-bd4f-3dd9e564e7e9, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Olink-US = vmess, 104.160.19.84, 12362, username=9b7bc233-ea07-4a6a-be3b-681578358bd6, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-Oracle-CA = vmess, 155.248.227.34, 35987, username=20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 Spartanhost-US = vmess, 45.156.146.30, 22334, username=a2d374d1-027d-4f46-b595-d1276ac2e37f, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=45.156.146.30, skip-cert-verify=false, tfo=false, udp-relay=false
+🇨🇦 Oracle-CA = vmess, 155.248.227.34, 35987, username=20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Oracle-US = vmess, 129.153.71.116, 27652, username=e7376974-6a95-43c6-e447-65b76498520f, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 🇨🇳 台湾节点 = direct
 🎥 奈飞节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇭🇰 Akari-HK,🇯🇵 Awesomecloud-JP,🇯🇵 Awesomecloud-JP 2,AWS-AS,🇦🇺 AWS-AU,🇦🇺 Azure-AU,🇭🇰 Azure-HK,🇰🇷 Azure-KR,🇯🇵 CloudCone-JP,🇦🇺 GCP-AU,🇯🇵 GCP-JP,🇸🇬 Kirino-SG,🇭🇰 Nearoute-HK,🇰🇷 Ntte-KR,🇦🇺 Oracle-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP-优选,🇰🇷 Oracle-KR,🇰🇷 Oracle-KR 2,🇸🇬 Oracle-SG-优选,🇭🇰 Tencent-HK,🇸🇬 Tencent-SG,🇮🇱 Vultr-IL,🇬🇧 GCP-UK,M247-NO,🇸🇪 Oracle-SE,🇬🇧 Oracle-UK,🇩🇪 Vultr-DE,🇬🇧 Vultr-UK,🇺🇸 Digitalvirt-US,🇺🇸 DMIT-US,🇺🇸 DMIT-US 2,🇺🇸 Gcore-US,🇺🇸 Hetzner-US,🇺🇸 IT7-US,🇺🇸 Kurun-US,🇺🇸 Linode-US,🇺🇸 M247-US,🇺🇸 Olink-US,Oracle-CA,🇺🇸 Spartanhost-US
+🚀 手动切换 = select,🇭🇰 Akari-HK,🇭🇰 Alibaba-HK,🇸🇬 Alibaba-SG,🇯🇵 Awesomecloud-JP,🇯🇵 Awesomecloud-JP 2,AWS-AS,🇦🇺 AWS-AU,🇦🇺 Azure-AU,🇭🇰 Azure-HK,🇰🇷 Azure-KR,🇯🇵 CloudCone-JP,🇦🇺 GCP-AU,🇯🇵 Linode-JP,🇯🇵 M247-JP,🇭🇰 Nearoute-HK,🇰🇷 Ntte-KR,🇦🇺 Oracle-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP-优选,🇰🇷 Oracle-KR,🇰🇷 Oracle-KR 2,🇰🇷 Oracle-KR 3,🇸🇬 Oracle-SG-优选,🇭🇰 Tencent-HK,🇸🇬 Tencent-SG,🇬🇧 Kirino-UK,🇩🇪 Vultr-DE,🇺🇸 Digitalvirt-US,🇺🇸 DMIT-US,🇺🇸 DMIT-US 2,🇺🇸 DMIT-US 3,🇺🇸 Hetzner-US,🇺🇸 IT7-US,🇺🇸 Kurun-US,🇺🇸 Olink-US,🇨🇦 Oracle-CA,🇺🇸 Oracle-US
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -76,11 +73,11 @@ Oracle-CA = vmess, 155.248.227.34, 35987, username=20bf85b4-4703-47d1-fd8e-0fd3e
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
-🇭🇰 香港节点 = select,🇭🇰 Akari-HK,🇭🇰 Azure-HK,🇭🇰 Nearoute-HK,🇭🇰 Tencent-HK
-🇯🇵 日本节点 = select,🇯🇵 Awesomecloud-JP,🇯🇵 Awesomecloud-JP 2,🇯🇵 CloudCone-JP,🇯🇵 GCP-JP,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP-优选
-🇺🇲 美国节点 = select,🇺🇸 Digitalvirt-US,🇺🇸 DMIT-US,🇺🇸 DMIT-US 2,🇺🇸 Gcore-US,🇺🇸 Hetzner-US,🇺🇸 IT7-US,🇺🇸 Kurun-US,🇺🇸 Linode-US,🇺🇸 M247-US,🇺🇸 Olink-US,🇺🇸 Spartanhost-US
-🇸🇬 狮城节点 = select,🇸🇬 Kirino-SG,🇸🇬 Oracle-SG-优选,🇸🇬 Tencent-SG
-🇰🇷 韩国节点 = select,🇰🇷 Azure-KR,🇰🇷 Ntte-KR,🇰🇷 Oracle-KR,🇰🇷 Oracle-KR 2
+🇭🇰 香港节点 = select,🇭🇰 Akari-HK,🇭🇰 Alibaba-HK,🇭🇰 Azure-HK,🇭🇰 Nearoute-HK,🇭🇰 Tencent-HK
+🇯🇵 日本节点 = select,🇯🇵 Awesomecloud-JP,🇯🇵 Awesomecloud-JP 2,🇯🇵 CloudCone-JP,🇯🇵 Linode-JP,🇯🇵 M247-JP,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP-优选
+🇺🇲 美国节点 = select,🇺🇸 Digitalvirt-US,🇺🇸 DMIT-US,🇺🇸 DMIT-US 2,🇺🇸 DMIT-US 3,🇺🇸 Hetzner-US,🇺🇸 IT7-US,🇺🇸 Kurun-US,🇺🇸 Olink-US,🇺🇸 Oracle-US
+🇸🇬 狮城节点 = select,🇸🇬 Alibaba-SG,🇸🇬 Oracle-SG-优选,🇸🇬 Tencent-SG
+🇰🇷 韩国节点 = select,🇰🇷 Azure-KR,🇰🇷 Ntte-KR,🇰🇷 Oracle-KR,🇰🇷 Oracle-KR 2,🇰🇷 Oracle-KR 3
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
