@@ -25,8 +25,8 @@ proxies:
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, tfo: false, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇹🇼 GCP-TW-Lite, server: 104-199-233-86.lzmt.org, port: 35842, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, tfo: false, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
   - {name: 🇹🇼 GCP-TW-Pro, server: qqbdshcm.donghui.tech, port: 31745, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, tfo: false, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
-  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: trojan, password: de04add9-5c68-8bab-950c-08cd5320df18, tfo: false, sni: considerable-rikki-gakiyukr.koyeb.app, skip-cert-verify: false}
-  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: trojan, password: de04add9-5c68-8bab-950c-08cd5320df18, tfo: false, sni: aesthetic-norine-zfjbkkvsqu.koyeb.app, skip-cert-verify: false}
+  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
+  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
