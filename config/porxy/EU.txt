@@ -16,6 +16,8 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇬🇧 Kirino-UK, server: 38.59.224.200, port: 37899, client-fingerprint: chrome, type: vmess, uuid: 7dc4e0d4-58fb-4ee1-bad5-ba831d8e9089, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇬🇧 M247-UK, server: 45.90.140.150, port: 27713, client-fingerprint: chrome, type: vmess, uuid: 02863ef6-28f0-4ab3-da74-d2561b1fafc2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇫🇷 Oracle-FR, server: 144.24.199.87, port: 51986, client-fingerprint: chrome, type: vmess, uuid: d1b5c4b7-95d1-42ea-d234-9105facb1eb5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇩🇪 Vultr-DE, server: www.nutzssr.club, port: 42089, client-fingerprint: chrome, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: www.nutzssr.club}
 proxy-groups:
   - name: 🚀 节点选择
@@ -33,6 +35,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇬🇧 Kirino-UK
+      - 🇬🇧 M247-UK
+      - 🇫🇷 Oracle-FR
       - 🇩🇪 Vultr-DE
   - name: 📲 电报消息
     type: select

@@ -16,10 +16,8 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇺🇸 Digitalvirt-US, server: 154.40.62.118, port: 23157, client-fingerprint: chrome, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgugh6}}
-  - {name: 🇺🇸 DMIT-US, server: 154.17.3.74, port: 18422, client-fingerprint: chrome, type: vmess, uuid: 2cd18b36-d2a0-4301-bc24-4e83f8bc3784, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 DMIT-US 2, server: 174.136.207.179, port: 44277, client-fingerprint: chrome, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 DMIT-US 3, server: 65.75.192.98, port: 443, client-fingerprint: chrome, type: vmess, uuid: fb18aee0-ec3c-4990-f1fd-a92dbc712cdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Hetzner-US, server: 5.161.144.119, port: 33639, client-fingerprint: chrome, type: vmess, uuid: bf3fc083-b40a-468e-a39a-0398c679d7b6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, client-fingerprint: chrome, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 DMIT-US 2, server: 65.75.192.98, port: 443, client-fingerprint: chrome, type: vmess, uuid: fb18aee0-ec3c-4990-f1fd-a92dbc712cdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 IT7-US, server: 74.121.149.4, port: 41555, client-fingerprint: chrome, type: vmess, uuid: ec198987-7f25-4381-8898-7d1726d20249, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ec198987-7f25-4381-8898-7d1726d20249}}
   - {name: 🇺🇸 Kurun-US, server: 45.155.222.161, port: 10747, client-fingerprint: chrome, type: vmess, uuid: 2b5f9901-a6d0-4ef8-e408-109238cbccd1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, client-fingerprint: chrome, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -43,8 +41,6 @@ proxy-groups:
       - 🇺🇸 Digitalvirt-US
       - 🇺🇸 DMIT-US
       - 🇺🇸 DMIT-US 2
-      - 🇺🇸 DMIT-US 3
-      - 🇺🇸 Hetzner-US
       - 🇺🇸 IT7-US
       - 🇺🇸 Kurun-US
       - 🇺🇸 Olink-US
@@ -239,8 +235,6 @@ proxy-groups:
       - 🇺🇸 Digitalvirt-US
       - 🇺🇸 DMIT-US
       - 🇺🇸 DMIT-US 2
-      - 🇺🇸 DMIT-US 3
-      - 🇺🇸 Hetzner-US
       - 🇺🇸 IT7-US
       - 🇺🇸 Kurun-US
       - 🇺🇸 Olink-US
