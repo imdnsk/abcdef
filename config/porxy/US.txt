@@ -23,6 +23,8 @@ proxies:
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, client-fingerprint: chrome, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇦 Oracle-CA, server: 155.248.227.34, port: 35987, client-fingerprint: chrome, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Oracle-US, server: 129.153.71.116, port: 27652, client-fingerprint: chrome, type: vmess, uuid: e7376974-6a95-43c6-e447-65b76498520f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 RackNerd-US, server: 104.168.43.67, port: 22682, client-fingerprint: chrome, type: vmess, uuid: 1a1c46d5-c41a-4d5b-dff7-ef91b9656ef9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Tencent-US, server: 43.153.43.203, port: 21302, client-fingerprint: chrome, type: vmess, uuid: 0432ade5-ffc4-42f7-e120-a6a3ebb960f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -46,6 +48,8 @@ proxy-groups:
       - 🇺🇸 Olink-US
       - 🇨🇦 Oracle-CA
       - 🇺🇸 Oracle-US
+      - 🇺🇸 RackNerd-US
+      - 🇺🇸 Tencent-US
   - name: 📲 电报消息
     type: select
     proxies:
@@ -239,6 +243,8 @@ proxy-groups:
       - 🇺🇸 Kurun-US
       - 🇺🇸 Olink-US
       - 🇺🇸 Oracle-US
+      - 🇺🇸 RackNerd-US
+      - 🇺🇸 Tencent-US
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
