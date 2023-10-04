@@ -20,17 +20,18 @@ proxies:
   - {name: 🇸🇬 Alibaba-SG, server: 47.236.20.150, port: 19070, client-fingerprint: chrome, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Awesomecloud-JP, server: 154.93.3.5, port: 16302, client-fingerprint: chrome, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Awesomecloud-JP 2, server: 154.93.3.250, port: 48710, client-fingerprint: chrome, type: vmess, uuid: 396384c1-16f4-485b-e7fc-a78dfff7c3cf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇦🇸 AWS-AS, server: social.starkxstream.shop, port: 36628, client-fingerprint: chrome, type: vmess, uuid: c981af30-a03a-4fdc-b889-1425eb3ecc04, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: social.starkxstream.shop}
+  - {name: AWS-AS, server: social.starkxstream.shop, port: 36628, client-fingerprint: chrome, type: vmess, uuid: c981af30-a03a-4fdc-b889-1425eb3ecc04, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: social.starkxstream.shop}
   - {name: 🇦🇺 AWS-AU, server: 13.236.232.142, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇦🇺 Azure-AU, server: 20.213.250.56, port: 59592, client-fingerprint: chrome, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 Azure-HK, server: 20.2.66.98, port: 65500, client-fingerprint: chrome, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 Azure-JP, server: 20.18.32.26, port: 31736, client-fingerprint: chrome, type: vmess, uuid: 378d7f6a-dd87-4a3a-dad8-6382db444d7d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 Azure-KR, server: 20.196.226.111, port: 54032, client-fingerprint: chrome, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 CloudCone-JP, server: 154.93.3.26, port: 200, client-fingerprint: chrome, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 DMIT-JP, server: 141.147.155.45, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 75846f19-4cd0-4035-e5d7-e32dcea375f6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca.xiaoji.pp.ua}}}
+  - {name: 🇯🇵 DMIT-JP, server: 141.147.148.56, port: 14127, client-fingerprint: chrome, type: vmess, uuid: bb3e03a3-9581-46af-f636-cb40472f0ddf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇦🇺 GCP-AU, server: 35.244.78.46, port: 43304, client-fingerprint: chrome, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇹🇼 GCP-TW, server: 34.81.225.109, port: 2522, client-fingerprint: chrome, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Linode-JP, server: 172.104.87.35, port: 65482, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2XrfZTil8p, tfo: false}
   - {name: 🇯🇵 M247-JP, server: 194.68.27.69, port: 60222, client-fingerprint: chrome, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 194.68.27.69}}}
-  - {name: 🇭🇰 Nearoute-HK, server: 38.207.142.206, port: 50285, client-fingerprint: chrome, type: vmess, uuid: 20ab75ba-f64f-4dfb-bd7e-577b1c4ecb42, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇰🇷 Ntte-KR, server: 112.196.223.64, port: 55128, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 15823asdLa, tfo: false}
   - {name: 🇦🇺 Oracle-AU, server: 1253.heisigou.eu.org, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 3ed83f93-a70f-46fd-d44d-f03368bfd6be, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 1253.heisigou.eu.org, network: ws, ws-opts: {path: /ali, headers: {Host: 1253.heisigou.eu.org}}}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, client-fingerprint: chrome, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -42,10 +43,12 @@ proxies:
   - {name: 🇸🇬 Oracle-SG-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}}
   - {name: 🇭🇰 Tencent-HK, server: 101.32.221.151, port: 14602, client-fingerprint: chrome, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 Tencent-SG, server: 43.134.173.48, port: 37787, client-fingerprint: chrome, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇬🇧 Kirino-UK, server: 38.59.224.200, port: 37899, client-fingerprint: chrome, type: vmess, uuid: 7dc4e0d4-58fb-4ee1-bad5-ba831d8e9089, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: AWS-SE, server: 16.171.193.222, port: 80, client-fingerprint: chrome, type: vmess, uuid: b08bd7a1-2644-439d-a434-5f77a7bfdd19, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇬🇧 Linode-UK, server: 139.144.155.12, port: 50174, client-fingerprint: chrome, type: vmess, uuid: 7284d527-50ae-4ba6-c5d4-572e08e37e66, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇬🇧 M247-UK, server: 45.90.140.150, port: 27713, client-fingerprint: chrome, type: vmess, uuid: 02863ef6-28f0-4ab3-da74-d2561b1fafc2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: Oracle-AE, server: 193.123.82.177, port: 49628, client-fingerprint: chrome, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇫🇷 Oracle-FR, server: 144.24.199.87, port: 51986, client-fingerprint: chrome, type: vmess, uuid: d1b5c4b7-95d1-42ea-d234-9105facb1eb5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇩🇪 Vultr-DE, server: www.nutzssr.club, port: 42089, client-fingerprint: chrome, type: vmess, uuid: 91fd1f10-a9db-4aa5-e95d-6f39c0310d7e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: www.nutzssr.club}
+  - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, client-fingerprint: chrome, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Digitalvirt-US, server: 154.40.62.118, port: 23157, client-fingerprint: chrome, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgugh6}}
   - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, client-fingerprint: chrome, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 DMIT-US 2, server: 65.75.192.98, port: 443, client-fingerprint: chrome, type: vmess, uuid: fb18aee0-ec3c-4990-f1fd-a92dbc712cdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -54,6 +57,8 @@ proxies:
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, client-fingerprint: chrome, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇦 Oracle-CA, server: 155.248.227.34, port: 35987, client-fingerprint: chrome, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Oracle-US, server: 129.153.71.116, port: 27652, client-fingerprint: chrome, type: vmess, uuid: e7376974-6a95-43c6-e447-65b76498520f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 RackNerd-US, server: 104.168.43.67, port: 22682, client-fingerprint: chrome, type: vmess, uuid: 1a1c46d5-c41a-4d5b-dff7-ef91b9656ef9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Tencent-US, server: 43.153.43.203, port: 21302, client-fingerprint: chrome, type: vmess, uuid: 0432ade5-ffc4-42f7-e120-a6a3ebb960f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -74,17 +79,18 @@ proxy-groups:
       - 🇸🇬 Alibaba-SG
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
-      - 🇦🇸 AWS-AS
+      - AWS-AS
       - 🇦🇺 AWS-AU
       - 🇦🇺 Azure-AU
       - 🇭🇰 Azure-HK
+      - 🇯🇵 Azure-JP
       - 🇰🇷 Azure-KR
       - 🇯🇵 CloudCone-JP
       - 🇯🇵 DMIT-JP
       - 🇦🇺 GCP-AU
+      - 🇹🇼 GCP-TW
       - 🇯🇵 Linode-JP
       - 🇯🇵 M247-JP
-      - 🇭🇰 Nearoute-HK
       - 🇰🇷 Ntte-KR
       - 🇦🇺 Oracle-AU
       - 🇯🇵 Oracle-JP
@@ -96,10 +102,12 @@ proxy-groups:
       - 🇸🇬 Oracle-SG-优选
       - 🇭🇰 Tencent-HK
       - 🇸🇬 Tencent-SG
-      - 🇬🇧 Kirino-UK
+      - AWS-SE
+      - 🇬🇧 Linode-UK
       - 🇬🇧 M247-UK
+      - Oracle-AE
       - 🇫🇷 Oracle-FR
-      - 🇩🇪 Vultr-DE
+      - 🇬🇧 Oracle-UK
       - 🇺🇸 Digitalvirt-US
       - 🇺🇸 DMIT-US
       - 🇺🇸 DMIT-US 2
@@ -108,6 +116,8 @@ proxy-groups:
       - 🇺🇸 Olink-US
       - 🇨🇦 Oracle-CA
       - 🇺🇸 Oracle-US
+      - 🇺🇸 RackNerd-US
+      - 🇺🇸 Tencent-US
   - name: 📲 电报消息
     type: select
     proxies:
@@ -289,13 +299,13 @@ proxy-groups:
       - 🇭🇰 Akari-HK
       - 🇭🇰 Alibaba-HK
       - 🇭🇰 Azure-HK
-      - 🇭🇰 Nearoute-HK
       - 🇭🇰 Tencent-HK
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
+      - 🇯🇵 Azure-JP
       - 🇯🇵 CloudCone-JP
       - 🇯🇵 DMIT-JP
       - 🇯🇵 Linode-JP
@@ -313,6 +323,8 @@ proxy-groups:
       - 🇺🇸 Kurun-US
       - 🇺🇸 Olink-US
       - 🇺🇸 Oracle-US
+      - 🇺🇸 RackNerd-US
+      - 🇺🇸 Tencent-US
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -323,7 +335,7 @@ proxy-groups:
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇼 GCP-TW
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
