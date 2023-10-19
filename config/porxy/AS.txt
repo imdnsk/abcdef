@@ -15,7 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 Akari-HK, server: 185.248.187.29, port: 23981, client-fingerprint: chrome, type: vmess, uuid: 76160ceb-571b-42e6-93fe-d7d9ed8febc4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 Alibaba-HK, server: 8.218.158.168, port: 6665, client-fingerprint: chrome, type: vmess, uuid: 14ade852-509e-42f3-fcd7-837872db6ef1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 Alibaba-SG, server: 47.236.20.150, port: 19070, client-fingerprint: chrome, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Awesomecloud-JP, server: 154.93.3.5, port: 16302, client-fingerprint: chrome, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
@@ -26,12 +25,7 @@ proxies:
   - {name: 🇭🇰 Azure-HK, server: 20.2.66.98, port: 65500, client-fingerprint: chrome, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Azure-JP, server: 20.18.32.26, port: 31736, client-fingerprint: chrome, type: vmess, uuid: 378d7f6a-dd87-4a3a-dad8-6382db444d7d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 Azure-KR, server: 20.196.226.111, port: 54032, client-fingerprint: chrome, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 CloudCone-JP, server: 154.93.3.26, port: 200, client-fingerprint: chrome, type: vmess, uuid: 36e9ece6-7c69-4312-b3fc-ad4b78b32f35, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 DMIT-JP, server: 141.147.148.56, port: 14127, client-fingerprint: chrome, type: vmess, uuid: bb3e03a3-9581-46af-f636-cb40472f0ddf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇦🇺 GCP-AU, server: 35.244.78.46, port: 43304, client-fingerprint: chrome, type: vmess, uuid: 22ea2f36-a028-464a-f41b-2091cb3cfbb6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 GCP-TW, server: 34.81.225.109, port: 2522, client-fingerprint: chrome, type: vmess, uuid: c2e4cfbe-42c6-4054-8185-d74d54b32fff, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Linode-JP, server: 172.104.87.35, port: 65482, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2XrfZTil8p, tfo: false}
-  - {name: 🇯🇵 M247-JP, server: 194.68.27.69, port: 60222, client-fingerprint: chrome, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 194.68.27.69}}}
   - {name: 🇰🇷 Ntte-KR, server: 112.196.223.64, port: 55128, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 15823asdLa, tfo: false}
   - {name: 🇦🇺 Oracle-AU, server: 1253.heisigou.eu.org, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 3ed83f93-a70f-46fd-d44d-f03368bfd6be, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 1253.heisigou.eu.org, network: ws, ws-opts: {path: /ali, headers: {Host: 1253.heisigou.eu.org}}}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, client-fingerprint: chrome, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -39,9 +33,7 @@ proxies:
   - {name: 🇯🇵 Oracle-JP-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: a6824d8a-3112-4123-9344-798112b1a1c3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dsabhdsa, headers: {Host: 150-230-97-54.lzmt.org}}}
   - {name: 🇰🇷 Oracle-KR, server: 152.70.89.135, port: 59194, client-fingerprint: chrome, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 Oracle-KR 2, server: 140.238.8.36, port: 19220, client-fingerprint: chrome, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /b4c91687}}
-  - {name: 🇸🇬 Oracle-SG, server: 168.138.185.179, port: 19784, client-fingerprint: chrome, type: vmess, uuid: 899f8207-a1d2-4af0-a8bb-1052cda4965e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ssss}}
   - {name: 🇸🇬 Oracle-SG-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}}
-  - {name: 🇭🇰 Tencent-HK, server: 101.32.221.151, port: 14602, client-fingerprint: chrome, type: vmess, uuid: 4ae12ddd-df5c-46a5-fe66-c0c93b51cdcb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 Tencent-SG, server: 43.134.173.48, port: 37787, client-fingerprint: chrome, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -58,7 +50,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇭🇰 Akari-HK
       - 🇭🇰 Alibaba-HK
       - 🇸🇬 Alibaba-SG
       - 🇯🇵 Awesomecloud-JP
@@ -69,12 +60,7 @@ proxy-groups:
       - 🇭🇰 Azure-HK
       - 🇯🇵 Azure-JP
       - 🇰🇷 Azure-KR
-      - 🇯🇵 CloudCone-JP
-      - 🇯🇵 DMIT-JP
-      - 🇦🇺 GCP-AU
-      - 🇹🇼 GCP-TW
       - 🇯🇵 Linode-JP
-      - 🇯🇵 M247-JP
       - 🇰🇷 Ntte-KR
       - 🇦🇺 Oracle-AU
       - 🇯🇵 Oracle-JP
@@ -82,9 +68,7 @@ proxy-groups:
       - 🇯🇵 Oracle-JP-优选
       - 🇰🇷 Oracle-KR
       - 🇰🇷 Oracle-KR 2
-      - 🇸🇬 Oracle-SG
       - 🇸🇬 Oracle-SG-优选
-      - 🇭🇰 Tencent-HK
       - 🇸🇬 Tencent-SG
   - name: 📲 电报消息
     type: select
@@ -264,20 +248,15 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 Akari-HK
       - 🇭🇰 Alibaba-HK
       - 🇭🇰 Azure-HK
-      - 🇭🇰 Tencent-HK
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
       - 🇯🇵 Azure-JP
-      - 🇯🇵 CloudCone-JP
-      - 🇯🇵 DMIT-JP
       - 🇯🇵 Linode-JP
-      - 🇯🇵 M247-JP
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
       - 🇯🇵 Oracle-JP-优选
@@ -289,13 +268,12 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 Alibaba-SG
-      - 🇸🇬 Oracle-SG
       - 🇸🇬 Oracle-SG-优选
       - 🇸🇬 Tencent-SG
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 GCP-TW
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
