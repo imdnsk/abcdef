@@ -15,16 +15,17 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 Alibaba-HK-Lite, server: 8-210-6-182.lzmt.org, port: 56175, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, tfo: false, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Alibaba-HK-Pro, server: hzyd.donghui.tech, port: 27182, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, tfo: false, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Azure-HK-Lite, server: 20-189-74-44.lzmt.org, port: 45437, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, tfo: false, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Azure-HK-Pro, server: qqbdgzydb.fosi.hk, port: 24604, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, tfo: false, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, tfo: false, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Pro, server: shdx.donghui.tech, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, tfo: false, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, tfo: false, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
-  - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, tfo: false, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
-  - {name: 🇹🇼 GCP-TW-Lite, server: 104-199-233-86.lzmt.org, port: 35842, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, tfo: false, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
-  - {name: 🇹🇼 GCP-TW-Pro, server: qqbdshcm.donghui.tech, port: 31745, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, tfo: false, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Alibaba-HK-Games, server: 8-210-6-182.lzmt.org, port: 51816, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Uy1nyf8aq7, tfo: false}
+  - {name: 🇭🇰 Alibaba-HK-Lite, server: 8-210-6-182.lzmt.org, port: 56175, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Alibaba-HK-Pro, server: hzyd.donghui.tech, port: 27182, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Azure-HK-Lite, server: 20-189-74-44.lzmt.org, port: 45437, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Azure-HK-Pro, server: qqbdgzydb.fosi.hk, port: 24604, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Pro, server: shdx.donghui.tech, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
+  - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
+  - {name: 🇹🇼 GCP-TW-Lite, server: 104-199-233-86.lzmt.org, port: 35842, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
+  - {name: 🇹🇼 GCP-TW-Pro, server: qqbdshcm.donghui.tech, port: 31745, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
 proxy-groups:
@@ -42,6 +43,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇭🇰 Alibaba-HK-Games
       - 🇭🇰 Alibaba-HK-Lite
       - 🇭🇰 Alibaba-HK-Pro
       - 🇭🇰 Azure-HK-Lite
@@ -232,6 +234,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - 🇭🇰 Alibaba-HK-Games
       - 🇭🇰 Alibaba-HK-Lite
       - 🇭🇰 Alibaba-HK-Pro
       - 🇭🇰 Azure-HK-Lite
@@ -2865,7 +2868,6 @@ rules:
   - DOMAIN-SUFFIX,6parkbbs.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parker.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parknews.com,🚀 节点选择
-  - DOMAIN-SUFFIX,7-zip.org,🚀 节点选择
   - DOMAIN-SUFFIX,7capture.com,🚀 节点选择
   - DOMAIN-SUFFIX,7cow.com,🚀 节点选择
   - DOMAIN-SUFFIX,8-d.com,🚀 节点选择
@@ -3692,7 +3694,7 @@ rules:
   - DOMAIN-SUFFIX,civiliangunner.com,🚀 节点选择
   - DOMAIN-SUFFIX,civilmedia.tw,🚀 节点选择
   - DOMAIN-SUFFIX,civisec.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cjb.net,🚀 节点选择
+  - DOMAIN-SUFFIX,civitai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ck101.com,🚀 节点选择
   - DOMAIN-SUFFIX,clarionproject.org,🚀 节点选择
   - DOMAIN-SUFFIX,classicalguitarblog.net,🚀 节点选择
@@ -4704,6 +4706,7 @@ rules:
   - DOMAIN-SUFFIX,goagent.biz,🚀 节点选择
   - DOMAIN-SUFFIX,goagentplus.com,🚀 节点选择
   - DOMAIN-SUFFIX,gobet.cc,🚀 节点选择
+  - DOMAIN-SUFFIX,godaddy.com,🚀 节点选择
   - DOMAIN-SUFFIX,godfootsteps.org,🚀 节点选择
   - DOMAIN-SUFFIX,godns.work,🚀 节点选择
   - DOMAIN-SUFFIX,godoc.org,🚀 节点选择
@@ -5476,6 +5479,7 @@ rules:
   - DOMAIN-SUFFIX,israbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,issuu.com,🚀 节点选择
   - DOMAIN-SUFFIX,istars.co.nz,🚀 节点选择
+  - DOMAIN-SUFFIX,istarshine.com,🚀 节点选择
   - DOMAIN-SUFFIX,istef.info,🚀 节点选择
   - DOMAIN-SUFFIX,istiqlalhewer.com,🚀 节点选择
   - DOMAIN-SUFFIX,istockphoto.com,🚀 节点选择
@@ -5771,6 +5775,7 @@ rules:
   - DOMAIN-SUFFIX,lfpcontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,lhakar.org,🚀 节点选择
   - DOMAIN-SUFFIX,lhasocialwork.org,🚀 节点选择
+  - DOMAIN-SUFFIX,li.taipei,🚀 节点选择
   - DOMAIN-SUFFIX,liangyou.net,🚀 节点选择
   - DOMAIN-SUFFIX,liangzhichuanmei.com,🚀 节点选择
   - DOMAIN-SUFFIX,lianyue.net,🚀 节点选择
@@ -6082,6 +6087,7 @@ rules:
   - DOMAIN-SUFFIX,mondex.org,🚀 节点选择
   - DOMAIN-SUFFIX,money-link.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,moneyhome.biz,🚀 节点选择
+  - DOMAIN-SUFFIX,monica.im,🚀 节点选择
   - DOMAIN-SUFFIX,monitorchina.org,🚀 节点选择
   - DOMAIN-SUFFIX,monitorware.com,🚀 节点选择
   - DOMAIN-SUFFIX,monlamit.org,🚀 节点选择
@@ -6554,7 +6560,6 @@ rules:
   - DOMAIN-SUFFIX,page.link,🚀 节点选择
   - DOMAIN-SUFFIX,page.tl,🚀 节点选择
   - DOMAIN-SUFFIX,page2rss.com,🚀 节点选择
-  - DOMAIN-SUFFIX,pages.dev,🚀 节点选择
   - DOMAIN-SUFFIX,pagodabox.com,🚀 节点选择
   - DOMAIN-SUFFIX,palacemoon.com,🚀 节点选择
   - DOMAIN-SUFFIX,paldengyal.com,🚀 节点选择
@@ -7790,7 +7795,6 @@ rules:
   - DOMAIN-SUFFIX,tracfone.com,🚀 节点选择
   - DOMAIN-SUFFIX,tradingview.com,🚀 节点选择
   - DOMAIN-SUFFIX,translate.goog,🚀 节点选择
-  - DOMAIN-SUFFIX,translate.google,🚀 节点选择
   - DOMAIN-SUFFIX,transparency.org,🚀 节点选择
   - DOMAIN-SUFFIX,treemall.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,trendsmap.com,🚀 节点选择
@@ -9129,6 +9133,18 @@ rules:
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -9443,7 +9459,6 @@ rules:
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
   - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
