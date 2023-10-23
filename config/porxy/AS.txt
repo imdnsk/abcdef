@@ -19,15 +19,10 @@ proxies:
   - {name: 🇸🇬 Alibaba-SG, server: 47.236.20.150, port: 19070, client-fingerprint: chrome, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Awesomecloud-JP, server: 154.93.3.5, port: 16302, client-fingerprint: chrome, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Awesomecloud-JP 2, server: 154.93.3.250, port: 48710, client-fingerprint: chrome, type: vmess, uuid: 396384c1-16f4-485b-e7fc-a78dfff7c3cf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: AWS-AS, server: social.starkxstream.shop, port: 36628, client-fingerprint: chrome, type: vmess, uuid: c981af30-a03a-4fdc-b889-1425eb3ecc04, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: social.starkxstream.shop}
   - {name: 🇦🇺 AWS-AU, server: 13.236.232.142, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇦🇺 Azure-AU, server: 20.213.250.56, port: 59592, client-fingerprint: chrome, type: vmess, uuid: 2508416f-0db1-4a28-9236-ca81d669a51b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Azure-HK, server: 20.2.66.98, port: 65500, client-fingerprint: chrome, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 Azure-JP, server: 20.18.32.26, port: 31736, client-fingerprint: chrome, type: vmess, uuid: 378d7f6a-dd87-4a3a-dad8-6382db444d7d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 Azure-KR, server: 20.196.226.111, port: 54032, client-fingerprint: chrome, type: vmess, uuid: a4ac41c5-0e5c-43e7-88e8-0966dec36734, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Linode-JP, server: 172.104.87.35, port: 65482, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2XrfZTil8p, tfo: false}
   - {name: 🇰🇷 Ntte-KR, server: 112.196.223.64, port: 55128, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 15823asdLa, tfo: false}
-  - {name: 🇦🇺 Oracle-AU, server: 1253.heisigou.eu.org, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 3ed83f93-a70f-46fd-d44d-f03368bfd6be, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 1253.heisigou.eu.org, network: ws, ws-opts: {path: /ali, headers: {Host: 1253.heisigou.eu.org}}}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, client-fingerprint: chrome, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Oracle-JP 2, server: 64.110.103.245, port: 33079, client-fingerprint: chrome, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Oracle-JP-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: a6824d8a-3112-4123-9344-798112b1a1c3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dsabhdsa, headers: {Host: 150-230-97-54.lzmt.org}}}
@@ -54,15 +49,10 @@ proxy-groups:
       - 🇸🇬 Alibaba-SG
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
-      - AWS-AS
       - 🇦🇺 AWS-AU
-      - 🇦🇺 Azure-AU
-      - 🇭🇰 Azure-HK
-      - 🇯🇵 Azure-JP
       - 🇰🇷 Azure-KR
       - 🇯🇵 Linode-JP
       - 🇰🇷 Ntte-KR
-      - 🇦🇺 Oracle-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
       - 🇯🇵 Oracle-JP-优选
@@ -249,13 +239,11 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 Alibaba-HK
-      - 🇭🇰 Azure-HK
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
-      - 🇯🇵 Azure-JP
       - 🇯🇵 Linode-JP
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
@@ -2886,7 +2874,6 @@ rules:
   - DOMAIN-SUFFIX,6parkbbs.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parker.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parknews.com,🚀 节点选择
-  - DOMAIN-SUFFIX,7-zip.org,🚀 节点选择
   - DOMAIN-SUFFIX,7capture.com,🚀 节点选择
   - DOMAIN-SUFFIX,7cow.com,🚀 节点选择
   - DOMAIN-SUFFIX,8-d.com,🚀 节点选择
@@ -3713,7 +3700,7 @@ rules:
   - DOMAIN-SUFFIX,civiliangunner.com,🚀 节点选择
   - DOMAIN-SUFFIX,civilmedia.tw,🚀 节点选择
   - DOMAIN-SUFFIX,civisec.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cjb.net,🚀 节点选择
+  - DOMAIN-SUFFIX,civitai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ck101.com,🚀 节点选择
   - DOMAIN-SUFFIX,clarionproject.org,🚀 节点选择
   - DOMAIN-SUFFIX,classicalguitarblog.net,🚀 节点选择
@@ -4725,6 +4712,7 @@ rules:
   - DOMAIN-SUFFIX,goagent.biz,🚀 节点选择
   - DOMAIN-SUFFIX,goagentplus.com,🚀 节点选择
   - DOMAIN-SUFFIX,gobet.cc,🚀 节点选择
+  - DOMAIN-SUFFIX,godaddy.com,🚀 节点选择
   - DOMAIN-SUFFIX,godfootsteps.org,🚀 节点选择
   - DOMAIN-SUFFIX,godns.work,🚀 节点选择
   - DOMAIN-SUFFIX,godoc.org,🚀 节点选择
@@ -5497,6 +5485,7 @@ rules:
   - DOMAIN-SUFFIX,israbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,issuu.com,🚀 节点选择
   - DOMAIN-SUFFIX,istars.co.nz,🚀 节点选择
+  - DOMAIN-SUFFIX,istarshine.com,🚀 节点选择
   - DOMAIN-SUFFIX,istef.info,🚀 节点选择
   - DOMAIN-SUFFIX,istiqlalhewer.com,🚀 节点选择
   - DOMAIN-SUFFIX,istockphoto.com,🚀 节点选择
@@ -5792,6 +5781,7 @@ rules:
   - DOMAIN-SUFFIX,lfpcontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,lhakar.org,🚀 节点选择
   - DOMAIN-SUFFIX,lhasocialwork.org,🚀 节点选择
+  - DOMAIN-SUFFIX,li.taipei,🚀 节点选择
   - DOMAIN-SUFFIX,liangyou.net,🚀 节点选择
   - DOMAIN-SUFFIX,liangzhichuanmei.com,🚀 节点选择
   - DOMAIN-SUFFIX,lianyue.net,🚀 节点选择
@@ -6103,6 +6093,7 @@ rules:
   - DOMAIN-SUFFIX,mondex.org,🚀 节点选择
   - DOMAIN-SUFFIX,money-link.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,moneyhome.biz,🚀 节点选择
+  - DOMAIN-SUFFIX,monica.im,🚀 节点选择
   - DOMAIN-SUFFIX,monitorchina.org,🚀 节点选择
   - DOMAIN-SUFFIX,monitorware.com,🚀 节点选择
   - DOMAIN-SUFFIX,monlamit.org,🚀 节点选择
@@ -6575,7 +6566,6 @@ rules:
   - DOMAIN-SUFFIX,page.link,🚀 节点选择
   - DOMAIN-SUFFIX,page.tl,🚀 节点选择
   - DOMAIN-SUFFIX,page2rss.com,🚀 节点选择
-  - DOMAIN-SUFFIX,pages.dev,🚀 节点选择
   - DOMAIN-SUFFIX,pagodabox.com,🚀 节点选择
   - DOMAIN-SUFFIX,palacemoon.com,🚀 节点选择
   - DOMAIN-SUFFIX,paldengyal.com,🚀 节点选择
@@ -7811,7 +7801,6 @@ rules:
   - DOMAIN-SUFFIX,tracfone.com,🚀 节点选择
   - DOMAIN-SUFFIX,tradingview.com,🚀 节点选择
   - DOMAIN-SUFFIX,translate.goog,🚀 节点选择
-  - DOMAIN-SUFFIX,translate.google,🚀 节点选择
   - DOMAIN-SUFFIX,transparency.org,🚀 节点选择
   - DOMAIN-SUFFIX,treemall.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,trendsmap.com,🚀 节点选择
@@ -9150,6 +9139,18 @@ rules:
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -9464,7 +9465,6 @@ rules:
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
   - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
