@@ -15,8 +15,10 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {name: 🇺🇸 Alibaba-US, server: 47.88.10.46, port: 50646, client-fingerprint: chrome, type: vmess, uuid: 2c8a64ff-e3de-440a-8462-ac117a0140a0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Digitalvirt-US, server: 154.40.62.118, port: 23157, client-fingerprint: chrome, type: vmess, uuid: e7583efe-47ba-4140-a8f8-a7ca3776218a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgugh6}}
   - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, client-fingerprint: chrome, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 DMIT-US 2, server: 154.17.11.176, port: 40517, client-fingerprint: chrome, type: vmess, uuid: f84be62e-3cfb-48e0-b3f3-8402cc95c1d2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 Gcore-US, server: 45.67.211.14, port: 59047, client-fingerprint: chrome, type: vmess, uuid: 30812023-6a6f-4f1b-a1fe-89fc041ff3b0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, client-fingerprint: chrome, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇦 Oracle-CA, server: 155.248.227.34, port: 35987, client-fingerprint: chrome, type: vmess, uuid: 20bf85b4-4703-47d1-fd8e-0fd3e158d8ff, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -35,8 +37,10 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇺🇸 Alibaba-US
       - 🇺🇸 Digitalvirt-US
       - 🇺🇸 DMIT-US
+      - 🇺🇸 DMIT-US 2
       - 🇺🇸 Gcore-US
       - 🇺🇸 Olink-US
       - 🇨🇦 Oracle-CA
@@ -226,8 +230,10 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
+      - 🇺🇸 Alibaba-US
       - 🇺🇸 Digitalvirt-US
       - 🇺🇸 DMIT-US
+      - 🇺🇸 DMIT-US 2
       - 🇺🇸 Gcore-US
       - 🇺🇸 Olink-US
   - name: 🇸🇬 狮城节点

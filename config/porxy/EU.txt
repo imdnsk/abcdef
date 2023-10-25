@@ -15,9 +15,11 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {name: 🇩🇪 Linode-DE, server: 143.42.18.37, port: 51673, client-fingerprint: chrome, type: vmess, uuid: 8d954edc-8ee5-4407-b4af-3f5364e5c532, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇩🇪 M247-DE, server: 37.120.222.47, port: 50506, client-fingerprint: chrome, type: vmess, uuid: 41af9313-f80c-40bc-fcc2-1930b52be2c8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: M247-NO, server: 62.216.73.166, port: 36129, client-fingerprint: chrome, type: vmess, uuid: e91ed1f0-29dc-4b96-8527-c347d53fd2a7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇬🇧 M247-UK, server: 45.90.140.150, port: 27713, client-fingerprint: chrome, type: vmess, uuid: 02863ef6-28f0-4ab3-da74-d2561b1fafc2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: Oracle-AE, server: 193.123.82.177, port: 49628, client-fingerprint: chrome, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇫🇷 Oracle-FR, server: 144.24.199.87, port: 51986, client-fingerprint: chrome, type: vmess, uuid: d1b5c4b7-95d1-42ea-d234-9105facb1eb5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, client-fingerprint: chrome, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -34,9 +36,11 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇩🇪 Linode-DE
+      - 🇩🇪 M247-DE
+      - M247-NO
       - 🇬🇧 M247-UK
       - Oracle-AE
-      - 🇫🇷 Oracle-FR
       - 🇬🇧 Oracle-UK
   - name: 📲 电报消息
     type: select
@@ -2842,7 +2846,6 @@ rules:
   - DOMAIN-SUFFIX,6parkbbs.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parker.com,🚀 节点选择
   - DOMAIN-SUFFIX,6parknews.com,🚀 节点选择
-  - DOMAIN-SUFFIX,7-zip.org,🚀 节点选择
   - DOMAIN-SUFFIX,7capture.com,🚀 节点选择
   - DOMAIN-SUFFIX,7cow.com,🚀 节点选择
   - DOMAIN-SUFFIX,8-d.com,🚀 节点选择
@@ -3669,7 +3672,7 @@ rules:
   - DOMAIN-SUFFIX,civiliangunner.com,🚀 节点选择
   - DOMAIN-SUFFIX,civilmedia.tw,🚀 节点选择
   - DOMAIN-SUFFIX,civisec.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cjb.net,🚀 节点选择
+  - DOMAIN-SUFFIX,civitai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ck101.com,🚀 节点选择
   - DOMAIN-SUFFIX,clarionproject.org,🚀 节点选择
   - DOMAIN-SUFFIX,classicalguitarblog.net,🚀 节点选择
@@ -4681,6 +4684,7 @@ rules:
   - DOMAIN-SUFFIX,goagent.biz,🚀 节点选择
   - DOMAIN-SUFFIX,goagentplus.com,🚀 节点选择
   - DOMAIN-SUFFIX,gobet.cc,🚀 节点选择
+  - DOMAIN-SUFFIX,godaddy.com,🚀 节点选择
   - DOMAIN-SUFFIX,godfootsteps.org,🚀 节点选择
   - DOMAIN-SUFFIX,godns.work,🚀 节点选择
   - DOMAIN-SUFFIX,godoc.org,🚀 节点选择
@@ -5453,6 +5457,7 @@ rules:
   - DOMAIN-SUFFIX,israbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,issuu.com,🚀 节点选择
   - DOMAIN-SUFFIX,istars.co.nz,🚀 节点选择
+  - DOMAIN-SUFFIX,istarshine.com,🚀 节点选择
   - DOMAIN-SUFFIX,istef.info,🚀 节点选择
   - DOMAIN-SUFFIX,istiqlalhewer.com,🚀 节点选择
   - DOMAIN-SUFFIX,istockphoto.com,🚀 节点选择
@@ -5748,6 +5753,7 @@ rules:
   - DOMAIN-SUFFIX,lfpcontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,lhakar.org,🚀 节点选择
   - DOMAIN-SUFFIX,lhasocialwork.org,🚀 节点选择
+  - DOMAIN-SUFFIX,li.taipei,🚀 节点选择
   - DOMAIN-SUFFIX,liangyou.net,🚀 节点选择
   - DOMAIN-SUFFIX,liangzhichuanmei.com,🚀 节点选择
   - DOMAIN-SUFFIX,lianyue.net,🚀 节点选择
@@ -6059,6 +6065,7 @@ rules:
   - DOMAIN-SUFFIX,mondex.org,🚀 节点选择
   - DOMAIN-SUFFIX,money-link.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,moneyhome.biz,🚀 节点选择
+  - DOMAIN-SUFFIX,monica.im,🚀 节点选择
   - DOMAIN-SUFFIX,monitorchina.org,🚀 节点选择
   - DOMAIN-SUFFIX,monitorware.com,🚀 节点选择
   - DOMAIN-SUFFIX,monlamit.org,🚀 节点选择
@@ -6531,7 +6538,6 @@ rules:
   - DOMAIN-SUFFIX,page.link,🚀 节点选择
   - DOMAIN-SUFFIX,page.tl,🚀 节点选择
   - DOMAIN-SUFFIX,page2rss.com,🚀 节点选择
-  - DOMAIN-SUFFIX,pages.dev,🚀 节点选择
   - DOMAIN-SUFFIX,pagodabox.com,🚀 节点选择
   - DOMAIN-SUFFIX,palacemoon.com,🚀 节点选择
   - DOMAIN-SUFFIX,paldengyal.com,🚀 节点选择
@@ -7767,7 +7773,6 @@ rules:
   - DOMAIN-SUFFIX,tracfone.com,🚀 节点选择
   - DOMAIN-SUFFIX,tradingview.com,🚀 节点选择
   - DOMAIN-SUFFIX,translate.goog,🚀 节点选择
-  - DOMAIN-SUFFIX,translate.google,🚀 节点选择
   - DOMAIN-SUFFIX,transparency.org,🚀 节点选择
   - DOMAIN-SUFFIX,treemall.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,trendsmap.com,🚀 节点选择
@@ -9106,6 +9111,18 @@ rules:
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -9420,7 +9437,6 @@ rules:
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
   - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连

@@ -15,7 +15,9 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {name: 🇭🇰 Akari-HK, server: 185.248.187.29, port: 23981, client-fingerprint: chrome, type: vmess, uuid: 76160ceb-571b-42e6-93fe-d7d9ed8febc4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 Alibaba-HK, server: 8.218.158.168, port: 6665, client-fingerprint: chrome, type: vmess, uuid: 14ade852-509e-42f3-fcd7-837872db6ef1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇲🇾 Alibaba-MY, server: 47.254.241.169, port: 15725, client-fingerprint: chrome, type: vmess, uuid: 97ae6e73-a487-41ce-b2dd-bce3b9b664d8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 Alibaba-SG, server: 47.236.20.150, port: 19070, client-fingerprint: chrome, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Awesomecloud-JP, server: 154.93.3.5, port: 16302, client-fingerprint: chrome, type: vmess, uuid: 1c819c5e-d85c-4f68-b6b2-57f43c5b7180, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Awesomecloud-JP 2, server: 154.93.3.250, port: 48710, client-fingerprint: chrome, type: vmess, uuid: 396384c1-16f4-485b-e7fc-a78dfff7c3cf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
@@ -25,9 +27,11 @@ proxies:
   - {name: 🇰🇷 Ntte-KR, server: 112.196.223.64, port: 55128, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 15823asdLa, tfo: false}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, client-fingerprint: chrome, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 Oracle-JP 2, server: 64.110.103.245, port: 33079, client-fingerprint: chrome, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 Oracle-JP 3, server: 152.70.86.154, port: 35176, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: gmBdrz5kBn, tfo: false}
   - {name: 🇯🇵 Oracle-JP-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: a6824d8a-3112-4123-9344-798112b1a1c3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dsabhdsa, headers: {Host: 150-230-97-54.lzmt.org}}}
   - {name: 🇰🇷 Oracle-KR, server: 152.70.89.135, port: 59194, client-fingerprint: chrome, type: vmess, uuid: 58600d1a-e6e6-4d93-c291-13bed353563d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 Oracle-KR 2, server: 140.238.8.36, port: 19220, client-fingerprint: chrome, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /b4c91687}}
+  - {name: 🇰🇷 Oracle-KR 3, server: 130.162.159.77, port: 29746, client-fingerprint: chrome, type: vmess, uuid: ab74e8dc-41b0-491f-d9fc-dd41226f0b36, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 Oracle-SG-优选, server: 162.159.129.217, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}}
   - {name: 🇸🇬 Tencent-SG, server: 43.134.173.48, port: 37787, client-fingerprint: chrome, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
@@ -45,7 +49,9 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇭🇰 Akari-HK
       - 🇭🇰 Alibaba-HK
+      - 🇲🇾 Alibaba-MY
       - 🇸🇬 Alibaba-SG
       - 🇯🇵 Awesomecloud-JP
       - 🇯🇵 Awesomecloud-JP 2
@@ -55,9 +61,11 @@ proxy-groups:
       - 🇰🇷 Ntte-KR
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇯🇵 Oracle-JP 3
       - 🇯🇵 Oracle-JP-优选
       - 🇰🇷 Oracle-KR
       - 🇰🇷 Oracle-KR 2
+      - 🇰🇷 Oracle-KR 3
       - 🇸🇬 Oracle-SG-优选
       - 🇸🇬 Tencent-SG
   - name: 📲 电报消息
@@ -238,6 +246,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - 🇭🇰 Akari-HK
       - 🇭🇰 Alibaba-HK
   - name: 🇯🇵 日本节点
     type: select
@@ -247,6 +256,7 @@ proxy-groups:
       - 🇯🇵 Linode-JP
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇯🇵 Oracle-JP 3
       - 🇯🇵 Oracle-JP-优选
   - name: 🇺🇲 美国节点
     type: select
@@ -269,6 +279,7 @@ proxy-groups:
       - 🇰🇷 Ntte-KR
       - 🇰🇷 Oracle-KR
       - 🇰🇷 Oracle-KR 2
+      - 🇰🇷 Oracle-KR 3
   - name: 🎥 奈飞节点
     type: select
     proxies:

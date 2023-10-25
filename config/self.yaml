@@ -17,17 +17,19 @@ dns:
 proxies:
   - {name: 🇭🇰 Alibaba-HK-Games, server: 8-210-6-182.lzmt.org, port: 51816, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Uy1nyf8aq7, tfo: false}
   - {name: 🇭🇰 Alibaba-HK-Lite, server: 8-210-6-182.lzmt.org, port: 56175, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Alibaba-HK-Pro, server: hzyd.donghui.tech, port: 27182, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Alibaba-HK-Pro, server: dagebeidale.donghui.tech, port: 27182, client-fingerprint: chrome, type: trojan, password: YzvmAawlG7, sni: 8-210-6-182.lzmt.org, skip-cert-verify: false}
   - {name: 🇭🇰 Azure-HK-Lite, server: 20-189-74-44.lzmt.org, port: 45437, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Azure-HK-Pro, server: qqbdgzydb.fosi.hk, port: 24604, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 Azure-HK-Pro, server: hncu.donghui.tech, port: 24604, client-fingerprint: chrome, type: trojan, password: 7p8YOmACSY, sni: 20-189-74-44.lzmt.org, skip-cert-verify: false}
   - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Pro, server: shdx.donghui.tech, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Pro, server: hzcu.donghui.tech, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
   - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
-  - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.fosi.hk, port: 21043, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
+  - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzyd.donghui.tech, port: 21043, client-fingerprint: chrome, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇹🇼 GCP-TW-Lite, server: 104-199-233-86.lzmt.org, port: 35842, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
-  - {name: 🇹🇼 GCP-TW-Pro, server: qqbdshcm.donghui.tech, port: 31745, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
+  - {name: 🇹🇼 GCP-TW-Pro, server: hncub.donghui.tech, port: 31745, client-fingerprint: chrome, type: trojan, password: 5WMKaYTcv6, sni: 104-199-233-86.lzmt.org, skip-cert-verify: false}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
+  - {name: Netcup-AT-Lite, server: 89-58-61-124.lzmt.org, port: 22796, client-fingerprint: chrome, type: trojan, password: s9TQKrCFtO, skip-cert-verify: false}
+  - {name: Netcup-AT-Pro, server: hzcu.donghui.tech, port: 38457, client-fingerprint: chrome, type: trojan, password: s9TQKrCFtO, sni: 89-58-61-124.lzmt.org, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -56,6 +58,8 @@ proxy-groups:
       - 🇹🇼 GCP-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - Netcup-AT-Lite
+      - Netcup-AT-Pro
   - name: 📲 电报消息
     type: select
     proxies:
