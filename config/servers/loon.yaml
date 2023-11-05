@@ -19,13 +19,12 @@ wifi-access-http-port=7222
 wifi-access-socks5-port=7221
 
 [Proxy]
-🇭🇰 Alibaba-HK-Games = Shadowsocks,8-210-6-182.lzmt.org,46521,aes-256-gcm,"Uy1nyf8aq7"
-🇭🇰 Alibaba-HK-Lite = trojan,8-210-6-182.lzmt.org,64120,"YzvmAawlG7",tls-name=8-210-6-182.lzmt.org
-🇭🇰 Alibaba-HK-Pro = trojan,dagebeidale.donghui.tech,27182,"YzvmAawlG7",tls-name=8-210-6-182.lzmt.org
 🇭🇰 Azure-HK-Lite = trojan,20-189-74-44.lzmt.org,45437,"7p8YOmACSY",tls-name=20-189-74-44.lzmt.org
-🇭🇰 Azure-HK-Pro = trojan,hncu.donghui.tech,24604,"7p8YOmACSY",tls-name=20-189-74-44.lzmt.org
+🇭🇰 Azure-HK-Pro = trojan,gddxc.073505.cn,50783,"7p8YOmACSY",tls-name=20-189-74-44.lzmt.org
 🇺🇸 Contabo-US-Lite = trojan,85-239-235-232.lzmt.org,25484,"9awMqCokjg",tls-name=85-239-235-232.lzmt.org
 🇺🇸 Contabo-US-Pro = trojan,hzcu.donghui.tech,50275,"9awMqCokjg",tls-name=85-239-235-232.lzmt.org
+🇺🇸 Crunchbits-US-Lite = trojan,216-181-107-71.lzmt.org,443,"NO5po9RAmkduyU5v",tls-name=216-181-107-71.lzmt.org
+🇺🇸 Crunchbits-US-Pro = trojan,shdx.073505.cn,443,"NO5po9RAmkduyU5v",tls-name=17131
 🇯🇵 ExtraVM-JP-Lite = trojan,103-214-71-16.lzmt.org,8800,"aGWl3RD9MQ",tls-name=103-214-71-16.lzmt.org
 🇯🇵 ExtraVM-JP-Pro = trojan,hzyd.donghui.tech,21043,"aGWl3RD9MQ",tls-name=103-214-71-16.lzmt.org
 🇩🇪 Koyeb-DE = vmess,considerable-rikki-gakiyukr.koyeb.app,443,chacha20-ietf-poly1305,"de04add9-5c68-8bab-950c-08cd5320df18",over-tls=true,tls-name=considerable-rikki-gakiyukr.koyeb.app,transport=ws,path=/vmess,host=considerable-rikki-gakiyukr.koyeb.app
@@ -38,79 +37,37 @@ Netcup-AT-Pro = trojan,hzcu.donghui.tech,38457,"s9TQKrCFtO",tls-name=89-58-61-12
 [Remote Filter]
 
 [Proxy Group]
-Proxies = select,Auto - UrlTest,DIRECT,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Domestic = select,DIRECT,Proxies
-Scholar = select,DIRECT,Proxies,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Others = select,Proxies,DIRECT
-AdBlock = select,REJECT,DIRECT,Proxies
-Apple = select,DIRECT,Proxies
-AsianTV = select,DIRECT,Proxies,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro
-GlobalTV = select,Proxies,DIRECT,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Netflix = select,Proxies,DIRECT,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Spotify = select,Proxies,DIRECT,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Telegram = select,Proxies,DIRECT,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Steam = select,Proxies,DIRECT
-Speedtest = select,Proxies,DIRECT,Domestic,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-PayPal = select,DIRECT,Proxies
-Microsoft = select,Proxies,DIRECT
-Netease Music = select,DIRECT,Proxies
-Auto - UrlTest = url-test,🇭🇰 Alibaba-HK-Games,🇭🇰 Alibaba-HK-Lite,🇭🇰 Alibaba-HK-Pro,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,url=http://cp.cloudflare.com/generate_204,interval=1800
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+♻️ 自动选择 = url-test,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+🍃 应用净化 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [Rule]
-GEOIP,CN,DIRECT
-FINAL,Others
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
 
 [Remote Rule]
-https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list,DIRECT
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Scholar.list,Scholar
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Reject.list,AdBlock
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netflix.list,Netflix
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Spotify.list,Spotify
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Bilibili.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/IQIYI.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Letv.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/MOO.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Youku.list,AsianTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/ABC.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Abema%20TV.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Amazon.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Apple%20News.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Apple%20TV.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Bahamut.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/BBC%20iPlayer.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/DAZN.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Disney%20Plus.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/encoreTVB.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Fox%20Now.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Fox%2B.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/HBO%20Go.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/HBO%20Max.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Hulu%20Japan.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Hulu.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Japonx.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/JOOX.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/KKBOX.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Line%20TV.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/myTV%20SUPER.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netflix.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Pandora.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/PBS.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Pornhub.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Soundcloud.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/ViuTV.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/YouTube%20Music.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/YouTube.list,GlobalTV
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Telegram.list,Telegram
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Steam.list,Steam
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Speedtest.list,Speedtest
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/PayPal.list,PayPal
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Microsoft.list,Microsoft
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list,Netease Music
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Special.list,DIRECT
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list,Proxies
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list,Domestic
-https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Apple.list,Apple
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报信息
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
 
 [Rewrite]
 
