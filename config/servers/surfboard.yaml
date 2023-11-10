@@ -11,31 +11,31 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 Azure-HK-Lite = trojan, 20-189-74-44.lzmt.org, 45437, password=7p8YOmACSY, sni=20-189-74-44.lzmt.org
-🇭🇰 Azure-HK-Pro = trojan, gddxc.073505.cn, 50783, password=7p8YOmACSY, sni=20-189-74-44.lzmt.org
+🇸🇬 Azure-SG-Lite = trojan, tgbbhujmko521.southeastasia.cloudapp.azure.com, 50003, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com
+🇸🇬 Azure-SG-Pro = trojan, gddxa.073505.cn, 17456, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com
 🇺🇸 Contabo-US-Lite = trojan, 85-239-235-232.lzmt.org, 25484, password=9awMqCokjg, sni=85-239-235-232.lzmt.org
 🇺🇸 Contabo-US-Pro = trojan, hzcu.donghui.tech, 50275, password=9awMqCokjg, sni=85-239-235-232.lzmt.org
 🇺🇸 Crunchbits-US-Lite = trojan, 216-181-107-71.lzmt.org, 443, password=NO5po9RAmkduyU5v, sni=216-181-107-71.lzmt.org
-🇺🇸 Crunchbits-US-Pro = trojan, shdx.073505.cn, 443, password=NO5po9RAmkduyU5v, sni=17131
+🇺🇸 Crunchbits-US-Pro = trojan, hzcu.073505.cn, 17131, password=NO5po9RAmkduyU5v, sni=216-181-107-71.lzmt.org
 🇯🇵 ExtraVM-JP-Lite = trojan, 103-214-71-16.lzmt.org, 8800, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org
-🇯🇵 ExtraVM-JP-Pro = trojan, hzyd.donghui.tech, 21043, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org
+🇯🇵 ExtraVM-JP-Pro = trojan, shshcua.073505.cn, 21043, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org
 🇩🇪 Koyeb-DE = vmess, considerable-rikki-gakiyukr.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=considerable-rikki-gakiyukr.koyeb.app, ws-headers=Host:considerable-rikki-gakiyukr.koyeb.app
 🇯🇵 Koyeb-JP = vmess, aesthetic-norine-zfjbkkvsqu.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=aesthetic-norine-zfjbkkvsqu.koyeb.app, ws-headers=Host:aesthetic-norine-zfjbkkvsqu.koyeb.app
 Netcup-AT-Lite = trojan, 89-58-61-124.lzmt.org, 22796, password=s9TQKrCFtO
 Netcup-AT-Pro = trojan, hzcu.donghui.tech, 38457, password=s9TQKrCFtO, sni=89-58-61-124.lzmt.org
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-♻️ 自动选择 = url-test,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+♻️ 自动选择 = url-test,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 Azure-HK-Lite,🇭🇰 Azure-HK-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
