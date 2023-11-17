@@ -15,9 +15,8 @@ DIRECT = direct
 🇦🇺 AWS-AU = vmess, 13.236.232.142, 443, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=13.236.232.142
 🇯🇵 Oracle-JP = vmess, 138.2.62.108, 43330, username=7691c693-ddb6-41fb-808d-30243c3ec3a9, tls=false, vmess-aead=true
 🇯🇵 Oracle-JP 2 = vmess, 64.110.103.245, 33079, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true
-🇯🇵 Oracle-JP 3 = ss, 152.70.86.154, 35176, encrypt-method=aes-256-gcm, password=gmBdrz5kBn
 🇰🇷 Oracle-KR = vmess, 140.238.8.36, 19220, username=b4c91687-fae4-46db-bae5-c14e9bdaf04d, tls=false, vmess-aead=true, ws=true, ws-path=/b4c91687, sni=140.238.8.36
-🇸🇬 Oracle-SG-优选 = vmess, 162.159.129.217, 80, username=93447aef-58ae-45d0-be2a-2aa636c38072, tls=false, vmess-aead=true, ws=true, ws-path=/sa, sni=162.159.129.217, ws-headers=Host:129-150-59-244.lzmt.org
+🇨🇳 Hinet-TW = vmess, hinet.lzmt.org, 64002, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
 🇬🇧 M247-UK = vmess, 45.90.140.150, 27713, username=02863ef6-28f0-4ab3-da74-d2561b1fafc2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=45.90.140.150
 Oracle-AE = vmess, 193.123.82.177, 49628, username=4866c836-5adc-4b52-d408-c76142ceebdf, tls=false, vmess-aead=true
 🇬🇧 Oracle-UK = vmess, 130.162.180.96, 37242, username=4de3e1d2-fd6f-4253-b921-d0db9f32dabd, tls=false, vmess-aead=true
@@ -25,17 +24,17 @@ Oracle-AE = vmess, 193.123.82.177, 49628, username=4866c836-5adc-4b52-d408-c7614
 🇺🇸 Olink-US = vmess, 104.160.19.84, 12362, username=9b7bc233-ea07-4a6a-be3b-681578358bd6, tls=false, vmess-aead=true
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-♻️ 自动选择 = url-test,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+♻️ 自动选择 = url-test,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇯🇵 Oracle-JP 3,🇰🇷 Oracle-KR,🇸🇬 Oracle-SG-优选,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

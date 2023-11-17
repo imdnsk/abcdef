@@ -9,9 +9,8 @@ proxies:
   - {name: 🇦🇺 AWS-AU, server: 13.236.232.142, port: 443, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 Oracle-JP 2, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Oracle-JP 3, server: 152.70.86.154, port: 35176, type: ss, cipher: aes-256-gcm, password: gmBdrz5kBn}
   - {name: 🇰🇷 Oracle-KR, server: 140.238.8.36, port: 19220, type: vmess, uuid: b4c91687-fae4-46db-bae5-c14e9bdaf04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /b4c91687}}
-  - {name: 🇸🇬 Oracle-SG-优选, server: 162.159.129.217, port: 80, type: vmess, uuid: 93447aef-58ae-45d0-be2a-2aa636c38072, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sa, headers: {Host: 129-150-59-244.lzmt.org}}}
+  - {name: 🇨🇳 Hinet-TW, server: hinet.lzmt.org, port: 64002, type: vmess, uuid: 8519482b-3ac3-46ed-e905-9116cefc5d31, alterId: 0, cipher: auto, tls: false}
   - {name: 🇬🇧 M247-UK, server: 45.90.140.150, port: 27713, type: vmess, uuid: 02863ef6-28f0-4ab3-da74-d2561b1fafc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: Oracle-AE, server: 193.123.82.177, port: 49628, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false}
@@ -27,9 +26,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -45,9 +43,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -63,9 +60,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -80,9 +76,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -97,9 +92,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -114,9 +108,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -132,9 +125,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
@@ -166,9 +158,8 @@ proxy-groups:
       - 🇦🇺 AWS-AU
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
-      - 🇯🇵 Oracle-JP 3
       - 🇰🇷 Oracle-KR
-      - 🇸🇬 Oracle-SG-优选
+      - 🇨🇳 Hinet-TW
       - 🇬🇧 M247-UK
       - Oracle-AE
       - 🇬🇧 Oracle-UK
