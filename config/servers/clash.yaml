@@ -16,6 +16,8 @@ proxies:
   - {name: 🇺🇸 Crunchbits-US-Pro, server: hzcu.073505.cn, port: 17131, type: trojan, password: NO5po9RAmkduyU5v, sni: 216-181-107-71.lzmt.org}
   - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org}
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.073505.cn, port: 21043, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org}
+  - {name: 🇨🇳 Hinet-TW-Lite, server: hinet.lzmt.org, port: 64002, type: vmess, uuid: 8519482b-3ac3-46ed-e905-9116cefc5d31, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Hinet-TW-Pro, server: gzydb.073505.cn, port: 16568, type: vmess, uuid: 8519482b-3ac3-46ed-e905-9116cefc5d31, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
   - {name: Netcup-AT-Lite, server: 89-58-61-124.lzmt.org, port: 22796, type: trojan, password: s9TQKrCFtO}
@@ -37,6 +39,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -58,6 +62,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -79,6 +85,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -99,6 +107,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -119,6 +129,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -139,6 +151,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -160,6 +174,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
@@ -197,6 +213,8 @@ proxy-groups:
       - 🇺🇸 Crunchbits-US-Pro
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
+      - 🇨🇳 Hinet-TW-Lite
+      - 🇨🇳 Hinet-TW-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
       - Netcup-AT-Lite
