@@ -5,6 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 Akile-TW-Lite, server: 141-11-86-247.lzmt.org, port: 25380, type: trojan, password: MTDdEJCl6F, sni: 141-11-86-247.lzmt.org}
+  - {name: 🇨🇳 Akile-TW-Pro, server: gzydb.073505.cn, port: 46233, type: trojan, password: MTDdEJCl6F, sni: 141-11-86-247.lzmt.org}
   - {name: 🇭🇰 AperNet-HK-Games, server: gzyda.073505.cn, port: 43328, type: ss, cipher: aes-256-gcm, password: VxvoQLCeXm}
   - {name: 🇭🇰 AperNet-HK-Lite, server: 23-247-139-58.lzmt.org, port: 50311, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
   - {name: 🇭🇰 AperNet-HK-Pro, server: gzyda.073505.cn, port: 61485, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
@@ -28,6 +30,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -51,6 +55,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -74,6 +80,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -96,6 +104,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -118,6 +128,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -140,6 +152,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -163,6 +177,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro
@@ -202,6 +218,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 Akile-TW-Lite
+      - 🇨🇳 Akile-TW-Pro
       - 🇭🇰 AperNet-HK-Games
       - 🇭🇰 AperNet-HK-Lite
       - 🇭🇰 AperNet-HK-Pro

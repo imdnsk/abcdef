@@ -19,13 +19,12 @@ wifi-access-http-port=7222
 wifi-access-socks5-port=7221
 
 [Proxy]
+🇨🇳 Akile-TW = trojan,141-11-86-247.lzmt.org,25380,"MTDdEJCl6F",tls-name=141-11-86-247.lzmt.org
 🇸🇬 Alibaba-SG = vmess,47.236.20.150,19070,chacha20-ietf-poly1305,"0c13c13f-3beb-4028-bdad-24a48737f030",over-tls=false,transport=tcp
 🇦🇺 AWS-AU = vmess,13.236.232.142,443,chacha20-ietf-poly1305,"0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007",over-tls=false,transport=ws,path=/,host=
+🇨🇳 Hinet-TW = vmess,hinet.lzmt.org,64002,chacha20-ietf-poly1305,"8519482b-3ac3-46ed-e905-9116cefc5d31",over-tls=false,transport=tcp
 🇯🇵 Oracle-JP = vmess,138.2.62.108,43330,chacha20-ietf-poly1305,"7691c693-ddb6-41fb-808d-30243c3ec3a9",over-tls=false,transport=tcp
 🇯🇵 Oracle-JP 2 = vmess,64.110.103.245,33079,chacha20-ietf-poly1305,"17906350-6b0a-4623-b4cc-68e3e7469bf4",over-tls=false,transport=tcp
-🇰🇷 Oracle-KR = vmess,140.238.8.36,19220,chacha20-ietf-poly1305,"b4c91687-fae4-46db-bae5-c14e9bdaf04d",over-tls=false,transport=ws,path=/b4c91687,host=
-🇨🇳 Hinet-TW = vmess,hinet.lzmt.org,64002,chacha20-ietf-poly1305,"8519482b-3ac3-46ed-e905-9116cefc5d31",over-tls=false,transport=tcp
-🇬🇧 M247-UK = vmess,45.90.140.150,27713,chacha20-ietf-poly1305,"02863ef6-28f0-4ab3-da74-d2561b1fafc2",over-tls=false,transport=ws,path=/,host=
 Oracle-AE = vmess,193.123.82.177,49628,chacha20-ietf-poly1305,"4866c836-5adc-4b52-d408-c76142ceebdf",over-tls=false,transport=tcp
 🇬🇧 Oracle-UK = vmess,130.162.180.96,37242,chacha20-ietf-poly1305,"4de3e1d2-fd6f-4253-b921-d0db9f32dabd",over-tls=false,transport=tcp
 🇺🇸 DMIT-US = vmess,174.136.207.179,44277,chacha20-ietf-poly1305,"cdff5c0a-2aa1-4174-8a52-05001dde8da8",over-tls=false,transport=tcp
@@ -36,17 +35,17 @@ Oracle-AE = vmess,193.123.82.177,49628,chacha20-ietf-poly1305,"4866c836-5adc-4b5
 [Remote Filter]
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
-♻️ 自动选择 = url-test,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
+♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇰🇷 Oracle-KR,🇨🇳 Hinet-TW,🇬🇧 M247-UK,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Olink-US,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [Rule]
 GEOIP,CN,🎯 全球直连
