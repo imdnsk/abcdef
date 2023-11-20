@@ -14,6 +14,7 @@ proxies:
   - {name: 🇸🇬 Speedypage-SG, server: 103-166-228-66.lzmt.org, port: 12076, type: trojan, password: 79YeGvQ1Ok, sni: 103-166-228-66.lzmt.org}
   - {name: Oracle-AE, server: 193.123.82.177, port: 49628, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇰 Stacket-DK, server: 89-23-86-34.lzmt.org, port: 13978, type: trojan, password: g8JDcc2rUT, sni: 89-23-86-34.lzmt.org}
   - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 Misaka-US, server: 38-175-102-34.lzmt.org, port: 31358, type: trojan, password: XgSpn1eHTv, sni: 38-175-102-34.lzmt.org}
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false}
@@ -32,6 +33,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -50,6 +52,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -68,6 +71,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -85,6 +89,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -102,6 +107,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -119,6 +125,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -137,6 +144,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
@@ -171,6 +179,7 @@ proxy-groups:
       - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
+      - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US

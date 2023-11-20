@@ -13,42 +13,32 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-🇨🇳 Akile-TW-Lite = trojan, 141-11-86-247.lzmt.org, 25380, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
-🇨🇳 Akile-TW-Pro = trojan, gzydb.073505.cn, 46233, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
-🇭🇰 AperNet-HK-Games = ss, gzyda.073505.cn, 43328, encrypt-method=aes-256-gcm, password=VxvoQLCeXm
-🇭🇰 AperNet-HK-Lite = trojan, 23-247-139-58.lzmt.org, 50311, password=mLgIX7VmRH, sni=23-247-139-58.lzmt.org
-🇭🇰 AperNet-HK-Pro = trojan, gzyda.073505.cn, 61485, password=mLgIX7VmRH, sni=23-247-139-58.lzmt.org
-🇸🇬 Azure-SG-Lite = trojan, tgbbhujmko521.southeastasia.cloudapp.azure.com, 50003, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com
-🇸🇬 Azure-SG-Pro = trojan, gddxa.073505.cn, 17456, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com
-🇺🇸 Contabo-US-Lite = trojan, 85-239-235-232.lzmt.org, 25484, password=9awMqCokjg, sni=85-239-235-232.lzmt.org
-🇺🇸 Contabo-US-Pro = trojan, hzcu.donghui.tech, 50275, password=9awMqCokjg, sni=85-239-235-232.lzmt.org
-🇺🇸 Crunchbits-US-Lite = trojan, 216-181-107-71.lzmt.org, 443, password=NO5po9RAmkduyU5v, sni=216-181-107-71.lzmt.org
-🇺🇸 Crunchbits-US-Pro = trojan, hzcu.073505.cn, 17131, password=NO5po9RAmkduyU5v, sni=216-181-107-71.lzmt.org
-🇯🇵 ExtraVM-JP-Lite = trojan, 103-214-71-16.lzmt.org, 8800, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org
-🇯🇵 ExtraVM-JP-Pro = trojan, shshcua.073505.cn, 21043, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org
-🇨🇳 Hinet-TW-Lite = vmess, hinet.lzmt.org, 64002, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
-🇨🇳 Hinet-TW-Pro = vmess, gzydb.073505.cn, 16568, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
-🇩🇪 Koyeb-DE = vmess, considerable-rikki-gakiyukr.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=considerable-rikki-gakiyukr.koyeb.app, ws-headers=Host:considerable-rikki-gakiyukr.koyeb.app
-🇯🇵 Koyeb-JP = vmess, aesthetic-norine-zfjbkkvsqu.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=aesthetic-norine-zfjbkkvsqu.koyeb.app, ws-headers=Host:aesthetic-norine-zfjbkkvsqu.koyeb.app
-Netcup-AT-Lite = trojan, 89-58-61-124.lzmt.org, 22796, password=s9TQKrCFtO
-Netcup-AT-Pro = trojan, hzcu.donghui.tech, 38457, password=s9TQKrCFtO, sni=89-58-61-124.lzmt.org
-🇸🇬 Speedypage-SG-Lite = trojan, 103-166-228-66.lzmt.org, 12076, password=79YeGvQ1Ok, sni=103-166-228-66.lzmt.org
-🇸🇬 Speedypage-SG-Pro = trojan, hndx.073505.cn, 55560, password=79YeGvQ1Ok, sni=103-166-228-66.lzmt.org
-🇺🇸 Misaka-US-Lite = trojan, 38-175-102-34.lzmt.org, 31358, password=XgSpn1eHTv, sni=38-175-102-34.lzmt.org
-🇺🇸 Misaka-US-Pro = trojan, shdx.073505.cn, 63627, password=XgSpn1eHTv, sni=38-175-102-34.lzmt.org
+🇨🇳 Akile-TW = trojan, 141-11-86-247.lzmt.org, 25380, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
+🇸🇬 Alibaba-SG = vmess, 47.236.20.150, 19070, username=0c13c13f-3beb-4028-bdad-24a48737f030, tls=false, vmess-aead=true
+🇦🇺 AWS-AU = vmess, 13.236.232.142, 443, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=13.236.232.142
+🇨🇳 Hinet-TW = vmess, hinet.lzmt.org, 64002, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
+🇯🇵 Oracle-JP = vmess, 138.2.62.108, 43330, username=7691c693-ddb6-41fb-808d-30243c3ec3a9, tls=false, vmess-aead=true
+🇯🇵 Oracle-JP 2 = vmess, 64.110.103.245, 33079, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true
+🇸🇬 Speedypage-SG = trojan, 103-166-228-66.lzmt.org, 12076, password=79YeGvQ1Ok, sni=103-166-228-66.lzmt.org
+Oracle-AE = vmess, 193.123.82.177, 49628, username=4866c836-5adc-4b52-d408-c76142ceebdf, tls=false, vmess-aead=true
+🇬🇧 Oracle-UK = vmess, 130.162.180.96, 37242, username=4de3e1d2-fd6f-4253-b921-d0db9f32dabd, tls=false, vmess-aead=true
+🇩🇰 Stacket-DK = trojan, 89-23-86-34.lzmt.org, 13978, password=g8JDcc2rUT, sni=89-23-86-34.lzmt.org
+🇺🇸 DMIT-US = vmess, 174.136.207.179, 44277, username=cdff5c0a-2aa1-4174-8a52-05001dde8da8, tls=false, vmess-aead=true
+🇺🇸 Misaka-US = trojan, 38-175-102-34.lzmt.org, 31358, password=XgSpn1eHTv, sni=38-175-102-34.lzmt.org
+🇺🇸 Olink-US = vmess, 104.160.19.84, 12362, username=9b7bc233-ea07-4a6a-be3b-681578358bd6, tls=false, vmess-aead=true
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
-♻️ 自动选择 = url-test,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW-Lite,🇨🇳 Akile-TW-Pro,🇭🇰 AperNet-HK-Games,🇭🇰 AperNet-HK-Lite,🇭🇰 AperNet-HK-Pro,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Crunchbits-US-Lite,🇺🇸 Crunchbits-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇨🇳 Hinet-TW-Lite,🇨🇳 Hinet-TW-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,Netcup-AT-Lite,Netcup-AT-Pro,🇸🇬 Speedypage-SG-Lite,🇸🇬 Speedypage-SG-Pro,🇺🇸 Misaka-US-Lite,🇺🇸 Misaka-US-Pro
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
