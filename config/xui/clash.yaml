@@ -11,6 +11,7 @@ proxies:
   - {name: 🇨🇳 Hinet-TW, server: hinet.lzmt.org, port: 64002, type: vmess, uuid: 8519482b-3ac3-46ed-e905-9116cefc5d31, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 Oracle-JP, server: 138.2.62.108, port: 43330, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 Oracle-JP 2, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Speedypage-SG, server: 103-166-228-66.lzmt.org, port: 12076, type: trojan, password: 79YeGvQ1Ok, sni: 103-166-228-66.lzmt.org}
   - {name: Oracle-AE, server: 193.123.82.177, port: 49628, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false}
@@ -27,6 +28,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -43,6 +45,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -59,6 +62,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -74,6 +78,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -89,6 +94,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -104,6 +110,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -120,6 +127,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
@@ -152,6 +160,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - 🇯🇵 Oracle-JP
       - 🇯🇵 Oracle-JP 2
+      - 🇸🇬 Speedypage-SG
       - Oracle-AE
       - 🇬🇧 Oracle-UK
       - 🇺🇸 DMIT-US
