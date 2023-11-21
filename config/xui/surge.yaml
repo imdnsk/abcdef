@@ -13,7 +13,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-🇨🇳 Akile-TW = trojan, 141-11-86-247.lzmt.org, 25380, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
+🇨🇳 Akile-TW = trojan, 141-11-86-247.lzmt.org, 2538, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
 🇸🇬 Alibaba-SG = vmess, 47.236.20.150, 19070, username=0c13c13f-3beb-4028-bdad-24a48737f030, tls=false, vmess-aead=true
 🇦🇺 AWS-AU = vmess, 13.236.232.142, 443, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=13.236.232.142
 🇨🇳 Hinet-TW = vmess, hinet.lzmt.org, 64002, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
@@ -22,22 +22,24 @@ DIRECT = direct
 🇸🇬 Speedypage-SG = trojan, 103-166-228-66.lzmt.org, 12076, password=79YeGvQ1Ok, sni=103-166-228-66.lzmt.org
 Oracle-AE = vmess, 193.123.82.177, 49628, username=4866c836-5adc-4b52-d408-c76142ceebdf, tls=false, vmess-aead=true
 🇬🇧 Oracle-UK = vmess, 130.162.180.96, 37242, username=4de3e1d2-fd6f-4253-b921-d0db9f32dabd, tls=false, vmess-aead=true
+🇩🇰 Stacket-DK = trojan, 89-23-86-34.lzmt.org, 13978, password=g8JDcc2rUT, sni=89-23-86-34.lzmt.org
 🇺🇸 DMIT-US = vmess, 174.136.207.179, 44277, username=cdff5c0a-2aa1-4174-8a52-05001dde8da8, tls=false, vmess-aead=true
+JJSpa-CL = trojan, 200-14-81-246.lzmt.org, 50604, password=RPYKiKotyt, sni=200-14-81-246.lzmt.org
 🇺🇸 Misaka-US = trojan, 38-175-102-34.lzmt.org, 31358, password=XgSpn1eHTv, sni=38-175-102-34.lzmt.org
 🇺🇸 Olink-US = vmess, 104.160.19.84, 12362, username=9b7bc233-ea07-4a6a-be3b-681578358bd6, tls=false, vmess-aead=true
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
-♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
+♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇺🇸 DMIT-US,🇺🇸 Misaka-US,🇺🇸 Olink-US
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 DMIT-US,JJSpa-CL,🇺🇸 Misaka-US,🇺🇸 Olink-US
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400

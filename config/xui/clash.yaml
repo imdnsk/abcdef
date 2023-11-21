@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Akile-TW, server: 141-11-86-247.lzmt.org, port: 25380, type: trojan, password: MTDdEJCl6F, sni: 141-11-86-247.lzmt.org}
+  - {name: 🇨🇳 Akile-TW, server: 141-11-86-247.lzmt.org, port: 2538, type: trojan, password: MTDdEJCl6F, sni: 141-11-86-247.lzmt.org}
   - {name: 🇸🇬 Alibaba-SG, server: 47.236.20.150, port: 19070, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false}
   - {name: 🇦🇺 AWS-AU, server: 13.236.232.142, port: 443, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 Hinet-TW, server: hinet.lzmt.org, port: 64002, type: vmess, uuid: 8519482b-3ac3-46ed-e905-9116cefc5d31, alterId: 0, cipher: auto, tls: false}
@@ -16,6 +16,7 @@ proxies:
   - {name: 🇬🇧 Oracle-UK, server: 130.162.180.96, port: 37242, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇰 Stacket-DK, server: 89-23-86-34.lzmt.org, port: 13978, type: trojan, password: g8JDcc2rUT, sni: 89-23-86-34.lzmt.org}
   - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false}
+  - {name: JJSpa-CL, server: 200-14-81-246.lzmt.org, port: 50604, type: trojan, password: RPYKiKotyt, sni: 200-14-81-246.lzmt.org}
   - {name: 🇺🇸 Misaka-US, server: 38-175-102-34.lzmt.org, port: 31358, type: trojan, password: XgSpn1eHTv, sni: 38-175-102-34.lzmt.org}
   - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
@@ -35,6 +36,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: ♻️ 自动选择
@@ -54,6 +56,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: 🌍 国外媒体
@@ -73,6 +76,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: 📲 电报信息
@@ -91,6 +95,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: Ⓜ️ 微软服务
@@ -109,6 +114,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: 🍎 苹果服务
@@ -127,6 +133,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: 📢 谷歌FCM
@@ -146,6 +153,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
   - name: 🎯 全球直连
@@ -181,6 +189,7 @@ proxy-groups:
       - 🇬🇧 Oracle-UK
       - 🇩🇰 Stacket-DK
       - 🇺🇸 DMIT-US
+      - JJSpa-CL
       - 🇺🇸 Misaka-US
       - 🇺🇸 Olink-US
 rules:
