@@ -5,24 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Akile-TW, server: 183.233.187.244, port: 26169, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
-  - {name: 🇸🇬 Alibaba-SG, server: 111.38.37.15, port: 25445, type: vmess, uuid: 0c13c13f-3beb-4028-bdad-24a48737f030, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 AWS-AU, server: 183.233.187.244, port: 26178, type: vmess, uuid: 0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 Hinet-TW X3, server: 36.139.239.208, port: 25786, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
-  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
-  - {name: 🇰🇷 Moack-KR X3, server: 36.139.239.208, port: 45698, type: vmess, uuid: 62900723-09bf-4d67-984f-7eaf35aa8a48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Oracle-JP D, server: 138.2.62.108, port: 43330, type: vmess, uuid: 7691c693-ddb6-41fb-808d-30243c3ec3a9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Oracle-JP D 2, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 Speedypage-SG, server: 111.38.37.15, port: 25450, type: ss, cipher: aes-256-gcm, password: LHngT5qTKx}
-  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
-  - {name: Oracle-AE D, server: 193.123.82.177, port: 49628, type: vmess, uuid: 4866c836-5adc-4b52-d408-c76142ceebdf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 Oracle-UK D, server: 130.162.180.96, port: 37242, type: vmess, uuid: 4de3e1d2-fd6f-4253-b921-d0db9f32dabd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 Stacket-DK X3, server: 36.139.239.208, port: 45705, type: trojan, password: g8JDcc2rUT, sni: 89-23-86-34.lzmt.org}
-  - {name: Markahost-TR X2, server: 58.242.130.170, port: 35374, type: vmess, uuid: 59dc68d4-9824-4eb2-8a31-ca72ce40b874, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Olink-US, server: 104.160.19.84, port: 12362, type: vmess, uuid: 9b7bc233-ea07-4a6a-be3b-681578358bd6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Misaka-US, server: 38-175-102-34.lzmt.org, port: 31358, type: trojan, password: XgSpn1eHTv, sni: 38-175-102-34.lzmt.org}
-  - {name: JJSpa-CL X2, server: 111.38.37.15, port: 45274, type: vmess, uuid: 10cdf37e-2d67-4ed8-ecc0-c7b81c06fe67, alterId: 0, cipher: auto, tls: true, servername: 200-14-81-246.lzmt.org, network: ws, ws-opts: {path: /8848}}
-  - {name: 🇺🇸 DMIT-US, server: 174.136.207.179, port: 44277, type: vmess, uuid: cdff5c0a-2aa1-4174-8a52-05001dde8da8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
+  - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
+  - {name: 🇨🇦 Gocodeit-CA, server: hk06.wsfsa.top, port: 32202, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
+  - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
+  - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
+  - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
+  - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
+  - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Speedypage-SG, server: hk06.wsfsa.top, port: 32204, type: ss, cipher: aes-256-gcm, password: LHngT5qTKx}
+  - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,23 +22,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -54,23 +38,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -78,92 +54,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -171,23 +115,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,23 +147,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇳 Akile-TW
-      - 🇸🇬 Alibaba-SG
-      - 🇦🇺 AWS-AU
-      - 🇨🇳 Hinet-TW X3
-      - 🇯🇵 Koyeb-JP
-      - 🇰🇷 Moack-KR X3
-      - 🇯🇵 Oracle-JP D
-      - 🇯🇵 Oracle-JP D 2
-      - 🇸🇬 Speedypage-SG
-      - 🇩🇪 Koyeb-DE
-      - Oracle-AE D
-      - 🇬🇧 Oracle-UK D
-      - 🇩🇰 Stacket-DK X3
-      - Markahost-TR X2
-      - 🇺🇸 Olink-US
+      - 🇭🇰 AperNet-HK
+      - 🇨🇦 Gocodeit-CA
+      - 🇨🇳 Hinet-TW
+      - Markahost-TR
       - 🇺🇸 Misaka-US
-      - JJSpa-CL X2
-      - 🇺🇸 DMIT-US
+      - 🇰🇷 Moack-KR
+      - 🇯🇵 Oracle-JP
+      - 🇸🇬 Speedypage-SG
+      - 🇩🇰 Stacket-DK
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
