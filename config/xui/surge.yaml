@@ -13,36 +13,37 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-🇨🇳 Akile-TW = trojan, 141-11-86-247.lzmt.org, 2538, password=MTDdEJCl6F, sni=141-11-86-247.lzmt.org
-🇸🇬 Alibaba-SG-CF = vmess, 47.236.20.150, 39511, username=a6355687-b826-4425-9d89-a354f4c0989a, tls=true, vmess-aead=true, ws=true, ws-path=/736, sni=47.236.20.150
-🇦🇺 AWS-AU = vmess, 13.236.232.142, 443, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=13.236.232.142
-🇨🇳 Hinet-TW = vmess, hinet.lzmt.org, 64002, username=8519482b-3ac3-46ed-e905-9116cefc5d31, tls=false, vmess-aead=true
+🇦🇺 AWS-AU = vmess, 183.233.187.244, 26178, username=0cc17daa-f2ac-4449-e7c8-8d5b9d2bc007, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=183.233.187.244
+🇨🇳 Akile-TW = ss, 183.233.187.244, 26169, encrypt-method=aes-256-gcm, password=loruXwHJVt
+🇸🇬 Alibaba-SG = vmess, 111.38.37.15, 25445, username=0c13c13f-3beb-4028-bdad-24a48737f030, tls=false, vmess-aead=true
+🇨🇳 Hinet-TW X3 = ss, 36.139.239.208, 25786, encrypt-method=aes-256-gcm, password=HXNWNrJwvm
 🇯🇵 Koyeb-JP = vmess, aesthetic-norine-zfjbkkvsqu.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=aesthetic-norine-zfjbkkvsqu.koyeb.app, ws-headers=Host:aesthetic-norine-zfjbkkvsqu.koyeb.app
-🇰🇷 Moack-KR = trojan, 45-93-29-63.lzmt.org, 32657, password=l4xfKfI0tv, sni=45-93-29-63.lzmt.org
-🇯🇵 Oracle-JP = vmess, 138.2.62.108, 43330, username=7691c693-ddb6-41fb-808d-30243c3ec3a9, tls=false, vmess-aead=true
-🇯🇵 Oracle-JP 2 = vmess, 64.110.103.245, 33079, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true
-🇸🇬 Speedypage-SG-CF = vmess, 103-166-228-66.lzmt.org, 56338, username=fc77efeb-7a42-461c-98d6-2c61200ff347, tls=true, vmess-aead=true, ws=true, ws-path=/7894523, sni=103-166-228-66.lzmt.org, ws-headers=Host:103-166-228-66.lzmt.org
+🇰🇷 Moack-KR X3 = vmess, 36.139.239.208, 45698, username=62900723-09bf-4d67-984f-7eaf35aa8a48, tls=false, vmess-aead=true
+🇯🇵 Oracle-JP D = vmess, 138.2.62.108, 43330, username=7691c693-ddb6-41fb-808d-30243c3ec3a9, tls=false, vmess-aead=true
+🇯🇵 Oracle-JP D 2 = vmess, 64.110.103.245, 33079, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true
+🇸🇬 Speedypage-SG = ss, 103-166-228-66.lzmt.org, 12602, encrypt-method=aes-256-gcm, password=LHngT5qTKx
 🇩🇪 Koyeb-DE = vmess, considerable-rikki-gakiyukr.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, ws=true, ws-path=/vmess, sni=considerable-rikki-gakiyukr.koyeb.app, ws-headers=Host:considerable-rikki-gakiyukr.koyeb.app
 Oracle-AE = vmess, 193.123.82.177, 49628, username=4866c836-5adc-4b52-d408-c76142ceebdf, tls=false, vmess-aead=true
 🇬🇧 Oracle-UK = vmess, 130.162.180.96, 37242, username=4de3e1d2-fd6f-4253-b921-d0db9f32dabd, tls=false, vmess-aead=true
 🇩🇰 Stacket-DK = trojan, 89-23-86-34.lzmt.org, 13978, password=g8JDcc2rUT, sni=89-23-86-34.lzmt.org
+Markahost-TR = vmess, 213.238.182.236, 56819, username=59dc68d4-9824-4eb2-8a31-ca72ce40b874, tls=false, vmess-aead=true
 🇺🇸 Olink-US = vmess, 104.160.19.84, 12362, username=9b7bc233-ea07-4a6a-be3b-681578358bd6, tls=false, vmess-aead=true
 🇺🇸 Misaka-US = trojan, 38-175-102-34.lzmt.org, 31358, password=XgSpn1eHTv, sni=38-175-102-34.lzmt.org
 JJSpa-CL-CF = vmess, 200-14-81-246.lzmt.org, 443, username=10cdf37e-2d67-4ed8-ecc0-c7b81c06fe67, tls=true, vmess-aead=true, ws=true, ws-path=/8848, sni=200-14-81-246.lzmt.org, ws-headers=Host:200-14-81-246.lzmt.org
 🇺🇸 DMIT-US = vmess, 174.136.207.179, 44277, username=cdff5c0a-2aa1-4174-8a52-05001dde8da8, tls=false, vmess-aead=true
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
-♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+♻️ 自动选择 = url-test,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG-CF,🇦🇺 AWS-AU,🇨🇳 Hinet-TW,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇯🇵 Oracle-JP 2,🇸🇬 Speedypage-SG-CF,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇦🇺 AWS-AU,🇨🇳 Akile-TW,🇸🇬 Alibaba-SG,🇨🇳 Hinet-TW X3,🇯🇵 Koyeb-JP,🇰🇷 Moack-KR X3,🇯🇵 Oracle-JP D,🇯🇵 Oracle-JP D 2,🇸🇬 Speedypage-SG,🇩🇪 Koyeb-DE,Oracle-AE,🇬🇧 Oracle-UK,🇩🇰 Stacket-DK,Markahost-TR,🇺🇸 Olink-US,🇺🇸 Misaka-US,JJSpa-CL-CF,🇺🇸 DMIT-US
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
