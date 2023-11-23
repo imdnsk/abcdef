@@ -15,27 +15,30 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 DIRECT = direct
 🇨🇳 Akile-TW = ss, tw-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=loruXwHJVt
 🇭🇰 AperNet-HK = trojan, hk-pop-1.ac.laowanxiang.com, 14732, password=mLgIX7VmRH, sni=23-247-139-58.lzmt.org
+🇯🇵 Catixs-JP = ss, jp-2.ac.laowanxiang.com, 14732, encrypt-method=none, password=doub.io
 🇨🇦 Gocodeit-CA = ss, hk06.wsfsa.top, 32202, encrypt-method=aes-256-gcm, password=mMoE4F0N0B
 🇨🇳 Hinet-TW = ss, hk06.wsfsa.top, 32205, encrypt-method=aes-256-gcm, password=HXNWNrJwvm
+JJSpa-CL = ss, sg-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=8MBbKcik1Q
 Markahost-TR = ss, dmit_hk1.qiangdong.xyz, 14732, encrypt-method=aes-256-gcm, password=pIgdtbQ18s
 🇺🇸 Misaka-US = ss, hk06.wsfsa.top, 32203, encrypt-method=aes-256-gcm, password=n1c3uCruks
 🇰🇷 Moack-KR = ss, hk06.wsfsa.top, 32207, encrypt-method=aes-256-gcm, password=BLxDqjZEdd
+🇨🇳 NeroCloud-TW = ss, 183.240.220.206, 14732, encrypt-method=aes-256-gcm, password=AGyfAT72g1
 🇯🇵 Oracle-JP = vmess, jp-1.ac.laowanxiang.com, 14732, username=17906350-6b0a-4623-b4cc-68e3e7469bf4, tls=false, vmess-aead=true
 🇸🇬 Speedypage-SG = ss, hk06.wsfsa.top, 32204, encrypt-method=aes-256-gcm, password=LHngT5qTKx
 🇩🇰 Stacket-DK = ss, hk06.wsfsa.top, 32206, encrypt-method=aes-256-gcm, password=yBlREYCIeX
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
-♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+♻️ 自动选择 = url-test,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇨🇳 Akile-TW,🇭🇰 AperNet-HK,🇯🇵 Catixs-JP,🇨🇦 Gocodeit-CA,🇨🇳 Hinet-TW,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇰🇷 Moack-KR,🇨🇳 NeroCloud-TW,🇯🇵 Oracle-JP,🇸🇬 Speedypage-SG,🇩🇰 Stacket-DK
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400

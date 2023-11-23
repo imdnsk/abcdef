@@ -7,11 +7,14 @@ external-controller: :9090
 proxies:
   - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
   - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
+  - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io}
   - {name: 🇨🇦 Gocodeit-CA, server: hk06.wsfsa.top, port: 32202, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
+  - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
   - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
   - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
+  - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
   - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 Speedypage-SG, server: hk06.wsfsa.top, port: 32204, type: ss, cipher: aes-256-gcm, password: LHngT5qTKx}
   - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
@@ -23,11 +26,14 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -39,11 +45,14 @@ proxy-groups:
     proxies:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -55,11 +64,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -70,11 +82,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -85,11 +100,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -100,11 +118,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -116,11 +137,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
@@ -148,11 +172,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇯🇵 Catixs-JP
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
+      - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
+      - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
