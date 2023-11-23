@@ -12,11 +12,11 @@ proxies:
   - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
   - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
+  - {name: 🇸🇬 Misaka-SG, server: hk06.wsfsa.top, port: 32208, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
   - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
   - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
   - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 Speedypage-SG, server: hk06.wsfsa.top, port: 32204, type: ss, cipher: aes-256-gcm, password: LHngT5qTKx}
   - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
 proxy-groups:
   - name: 🚀 节点选择
@@ -31,11 +31,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: ♻️ 自动选择
     type: url-test
@@ -50,11 +50,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: 🌍 国外媒体
     type: select
@@ -69,11 +69,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: 📲 电报信息
     type: select
@@ -87,11 +87,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: Ⓜ️ 微软服务
     type: select
@@ -105,11 +105,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: 🍎 苹果服务
     type: select
@@ -123,11 +123,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: 📢 谷歌FCM
     type: select
@@ -142,11 +142,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
   - name: 🎯 全球直连
     type: select
@@ -177,11 +177,11 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
-      - 🇸🇬 Speedypage-SG
       - 🇩🇰 Stacket-DK
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
