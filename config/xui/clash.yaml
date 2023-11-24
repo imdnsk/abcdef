@@ -8,11 +8,12 @@ proxies:
   - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
   - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
   - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io}
+  - {name: 🇭🇰 Eons-HK, server: 209.146.125.194, port: 45631, type: ss, cipher: none, password: doub.io}
+  - {name: 🇸🇬 Eons-SG, server: hk06.wsfsa.top, port: 32209, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇨🇦 Gocodeit-CA, server: hk06.wsfsa.top, port: 32202, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
   - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
-  - {name: 🇸🇬 Misaka-SG, server: hk06.wsfsa.top, port: 32208, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
   - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
   - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
@@ -27,11 +28,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -46,11 +48,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -65,11 +68,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -83,11 +87,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -101,11 +106,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -119,11 +125,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -138,11 +145,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -173,11 +181,12 @@ proxy-groups:
       - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
+      - 🇭🇰 Eons-HK
+      - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
-      - 🇸🇬 Misaka-SG
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
