@@ -14,6 +14,7 @@ proxies:
   - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
   - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
+  - {name: Melbikomas-NF, server: hk06.wsfsa.top, port: 32211, type: ss, cipher: aes-256-gcm, password: ebyDpL1eoF}
   - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
   - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
   - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
@@ -34,6 +35,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -54,6 +56,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -74,6 +77,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -93,6 +97,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -112,6 +117,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -131,6 +137,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -151,6 +158,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
@@ -187,6 +195,7 @@ proxy-groups:
       - 🇨🇳 Hinet-TW
       - JJSpa-CL
       - Markahost-TR
+      - Melbikomas-NF
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇨🇳 NeroCloud-TW
