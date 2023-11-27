@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
   - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
+  - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
   - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io}
   - {name: 🇭🇰 Eons-HK, server: 183.240.220.195, port: 14732, type: ss, cipher: none, password: doub.io}
   - {name: 🇸🇬 Eons-SG, server: hk06.wsfsa.top, port: 32209, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
@@ -20,14 +20,15 @@ proxies:
   - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
   - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
+  - {name: 🇰🇷 Vultr-KR, server: 58.242.130.170, port: 35489, type: ss, cipher: aes-256-gcm, password: cnZju2yMye}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -41,14 +42,15 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -62,14 +64,15 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -83,13 +86,14 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -103,13 +107,14 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -123,13 +128,14 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -143,14 +149,15 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -164,6 +171,7 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,8 +194,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Akile-TW
       - 🇭🇰 AperNet-HK
+      - 🇨🇳 Akile-TW
       - 🇯🇵 Catixs-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
@@ -201,6 +209,7 @@ proxy-groups:
       - 🇨🇳 NeroCloud-TW
       - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
+      - 🇰🇷 Vultr-KR
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
