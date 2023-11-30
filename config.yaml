@@ -1,0 +1,53 @@
+proxies:
+  - {name: "🇭🇰 HKG 1 A [0.1x]", server: 121.14.28.133, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 HKG 1 B [0.1x]", server: 157.148.113.133, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 2 A, server: 121.14.28.133, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 2 B, server: 157.148.113.133, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 3 A, server: 121.14.28.133, port: 30056, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 3 B, server: 157.148.113.133, port: 30056, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 4 A, server: 121.14.28.133, port: 30057, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 4 B, server: 157.148.113.133, port: 30057, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 5 A, server: 121.14.28.133, port: 30058, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HKG 5 B, server: 157.148.113.133, port: 30058, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 TWN A, server: 121.14.28.133, port: 30049, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 TWN B, server: 157.148.113.133, port: 30049, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 TWN HiNet A [0.5x]", server: 121.14.28.133, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 TWN HiNet B [0.5x]", server: 157.148.113.133, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "MAC MTel A [10x]", server: 121.14.28.133, port: 30071, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "MAC MTel B [10x]", server: 157.148.113.133, port: 30071, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 USA, server: 116.162.151.112, port: 30051, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 USA 2, server: 116.162.151.112, port: 30052, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 USA 3, server: 116.162.151.112, port: 30053, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: SAM ARG, server: 116.162.151.112, port: 30054, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 JPN 1 A [0.6x]", server: ap-jp-tunnel.292228.xyz, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 JPN 1 B [0.6x]", server: 121.14.28.133, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JPN 2 A, server: ap-jp-tunnel.292228.xyz, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JPN 2 B, server: 121.14.28.133, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 JPN 3 A [0.5x]", server: ap-jp-tunnel.292228.xyz, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 JPN 3 B [0.5x]", server: 121.14.28.133, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JPN 4 A, server: ap-jp-tunnel.292228.xyz, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JPN 4 B, server: 121.14.28.133, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 SGP 2 A [0.1x]", server: ap-sg-tunnel.292228.xyz, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 SGP 2 B [0.1x]", server: 121.14.28.133, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SGP 3 A, server: ap-sg-tunnel.292228.xyz, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SGP 3 B, server: 121.14.28.133, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: NZL, server: 36.133.148.210, port: 30050, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇲🇾 MYS, server: 36.133.148.210, port: 30059, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: PHL, server: 36.133.148.210, port: 30063, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 IND, server: 36.133.148.210, port: 30065, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CAN, server: 36.133.148.210, port: 30064, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 FRA, server: 36.133.148.210, port: 32000, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 GBR, server: 36.133.148.210, port: 30062, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: CHE, server: 36.133.148.210, port: 30061, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: MMR FUN, server: 36.133.148.210, port: 30101, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: DPK FUN, server: 36.133.148.210, port: 30102, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: ATA FUN, server: 36.133.148.210, port: 30103, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: VAT FUN, server: 36.133.148.210, port: 30104, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: CUB FUN, server: 36.133.148.210, port: 30105, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: EGP FUN, server: 36.133.148.210, port: 30106, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: GRC FUN, server: 36.133.148.210, port: 30107, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: GRL FUN, server: 36.133.148.210, port: 30108, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: PAN FUN, server: 36.133.148.210, port: 30109, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: MEX FUN, server: 36.133.148.210, port: 30110, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: TUR FUN, server: 36.133.148.210, port: 30111, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
+  - {name: "LUX BTCPT [0x]", server: direct-relay.292228.xyz, port: 30086, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: eu-lu-bt.292228.xyz}}}
