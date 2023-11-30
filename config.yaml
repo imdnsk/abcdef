@@ -31,23 +31,108 @@ proxies:
   - {name: "🇸🇬 SGP 2 B [0.1x]", server: 121.14.28.133, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 SGP 3 A, server: ap-sg-tunnel.292228.xyz, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 SGP 3 B, server: 121.14.28.133, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: NZL, server: 36.133.148.210, port: 30050, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇲🇾 MYS, server: 36.133.148.210, port: 30059, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: PHL, server: 36.133.148.210, port: 30063, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 IND, server: 36.133.148.210, port: 30065, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 CAN, server: 36.133.148.210, port: 30064, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 FRA, server: 36.133.148.210, port: 32000, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 GBR, server: 36.133.148.210, port: 30062, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: CHE, server: 36.133.148.210, port: 30061, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: MMR FUN, server: 36.133.148.210, port: 30101, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: DPK FUN, server: 36.133.148.210, port: 30102, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: ATA FUN, server: 36.133.148.210, port: 30103, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: VAT FUN, server: 36.133.148.210, port: 30104, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: CUB FUN, server: 36.133.148.210, port: 30105, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: EGP FUN, server: 36.133.148.210, port: 30106, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: GRC FUN, server: 36.133.148.210, port: 30107, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: GRL FUN, server: 36.133.148.210, port: 30108, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: PAN FUN, server: 36.133.148.210, port: 30109, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: MEX FUN, server: 36.133.148.210, port: 30110, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: TUR FUN, server: 36.133.148.210, port: 30111, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
-  - {name: "LUX BTCPT [0x]", server: direct-relay.292228.xyz, port: 30086, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: eu-lu-bt.292228.xyz}}}
+  - {name: 🇭🇰 香港1-🍾椰椰抹茶, server: shcm.motions.top, port: 42455, type: ss, cipher: chacha20-ietf-poly1305, password: 159aedd1-7352-4482-90ee-79ac984394a5}
+  - {name: 🇭🇰 香港2-🍾栀香椰椰, server: shcm.motions.top, port: 30400, type: ss, cipher: chacha20-ietf-poly1305, password: 159aedd1-7352-4482-90ee-79ac984394a5}
+  - {name: 🇭🇰 香港3-🍾栀芝椰椰, server: shcm.motions.top, port: 52511, type: ss, cipher: chacha20-ietf-poly1305, password: 159aedd1-7352-4482-90ee-79ac984394a5}
+  - {name: 🇭🇰 香港4-🍾茉莉奶绿, server: shcm.motions.top, port: 34698, type: ss, cipher: chacha20-ietf-poly1305, password: 159aedd1-7352-4482-90ee-79ac984394a5}
+  - {name: 🏳️‍🌈 HK香港-Unlimited, server: 221.181.75.242, port: 11641, type: ss, cipher: aes-128-gcm, password: e2943988-c9c9-498b-b6cb-82f4974012c2, udp: true}
+  - {name: 🏳️‍🌈 TW台湾-Unlimited, server: relay-hk-neo.292228.xyz, port: 40052, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, udp: true}
+  - {name: 🇺🇸 US美国04-精品直连, server: 103.177.81.131, port: 19412, type: vmess, uuid: 7d565845-c696-4bc1-de8c-5d68deac6631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 JP日本01-IEPL专线, server: e1.getmesl.com, port: 11004, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇯🇵 JP日本02-IEPL专线, server: console.pitv.win, port: 12010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JP日本03-IEPL专线, server: console.pitv.win, port: 12012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK香港01-IEPL专线, server: app-zhihu.zhihu.win, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK香港02-IEPL专线, server: app-zhihu.zhihu.win, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK香港03-IEPL专线, server: app-zhihu.zhihu.win, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇹🇼 TW台湾01-IEPL专线, server: app-zhihu.zhihu.win, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇹🇼 TW台湾02-IEPL专线, server: app-zhihu.zhihu.win, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇹🇼 TW台湾03-IEPL专线, server: app-zhihu.zhihu.win, port: 12306, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡01-IEPL专线, server: app-zhihu.zhihu.win, port: 12000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡02-IEPL专线, server: app-zhihu.zhihu.win, port: 12002, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡03-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11033, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇰🇷 KR韩国01-IEPL专线, server: jp-pop-1.ac.laowanxiang.com, port: 558, type: trojan, password: 6ea7ca8a390406921a3b507888030e8765000.wns.windows.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR韩国02-IEPL专线, type: ss, server: e2.getmesl.com, port: 10000, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, udp: true }
+  - {name: 🇮🇩 ID印度尼西亚-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11073, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇹🇭 TH泰国-IEPL专线, server: s1.getmesl.com, port: 10032, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇻🇳 VN越南-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11075, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇮🇳 IN印度-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11080, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇵🇭 PH菲律宾-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11084, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇲🇾 MY马来西亚01-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11085, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇲🇾 MY马来西亚02-IEPL专线, server: app-zhihu.zhihu.win, port: 12321, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇲🇾 MY马来西亚03-IEPL专线, server: app-zhihu.zhihu.win, port: 20041, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇲🇻 MV马尔代夫-IEPL专线, server: maketion.51ideal.cyou, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇰🇭 KH柬埔寨-IEPL专线, server: app-zhihu.zhihu.win, port: 12701, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇲🇲 MM缅甸-IEPL专线, server: app-zhihu.zhihu.win, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇱🇦 LA老挝-IEPL专线, server: app-zhihu.zhihu.win, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇺🇸 US美国01-IEPL专线, server: e1.getmesl.com, port: 10062, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇺🇸 US美国02-IEPL专线, server: e1.getmesl.com, port: 10063, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇺🇸 US美国03-IEPL专线, server: e1.getmesl.com, port: 10064, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇩🇪 DE德国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11056, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇩🇪 DE德国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11057, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇬🇧 GB英国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11058, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇬🇧 GB英国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11059, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇳🇱 NL荷兰01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11060, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇳🇱 NL荷兰02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11061, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇫🇷 FR法国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11062, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇫🇷 FR法国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11063, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇨🇦 CA加拿大01-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11064, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇨🇦 CA加拿大02-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11065, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇷🇺 RU俄罗斯-IEPL专线, server: n1.getmesl.com, port: 10116, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇹🇷 TR土耳其-IEPL专线, server: maketion.51ideal.cyou, port: 12655, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇪🇬 EG埃及-IEPL专线, server: maketion.51ideal.cyou, port: 12718, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇦🇺 AU澳大利亚-IEPL专线, server: app-zhihu.zhihu.win, port: 12324, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇻🇦 VA梵蒂冈-IEPL专线, server: maketion.51ideal.cyou, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇲🇴 MO澳门-IEPL专线, server: app-zhihu.zhihu.win, port: 19527, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇰🇵 KP朝鲜-IEPL专线, server: s1.getmesl.com, port: 10042, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇦🇶 AQ南极洲-IEPL专线, server: app-zhihu.zhihu.win, port: 20031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK香港01-中转隧道, server: 36.133.180.191, port: 50001, type: ss, cipher: aes-128-gcm, password: 544DC3B9-55E3-52A1-23F5-7689BB06C5BE, tfo: false, udp: true}
+  - {name: 🇭🇰 HK香港02-中转隧道, server: shcm.motions.top, port: 30400, type: ss, cipher: chacha20-ietf-poly1305, password: 7982f43e-a27f-4918-9ff4-6d2d0de36167, udp: true}
+  - {name: 🇭🇰 HK香港03-中转隧道, server: jscm2.r1u.cn, port: 37905, type: ss, cipher: chacha20-ietf-poly1305, password: 7982f43e-a27f-4918-9ff4-6d2d0de36167, udp: true}
+  - {name: 🇯🇵 JP日本01-中转隧道, type: vmess, server: ap-jp-tunnel.292228.xyz, port: 33045, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, udp: true }
+  - {name: 🇯🇵 JP日本02-中转隧道, type: vmess, server: 121.14.28.133, port: 33045, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, udp: true }
+  - {name: 🇯🇵 JP日本03-中转隧道, server: zjcm2.r1u.cn, port: 40409, type: ss, cipher: chacha20-ietf-poly1305, password: 7982f43e-a27f-4918-9ff4-6d2d0de36167, udp: true}
+  - {name: 🇸🇬 SG新加坡01-中转隧道, server: hncu2.r1u.cn, port: 13643, type: ss, cipher: chacha20-ietf-poly1305, password: 7982f43e-a27f-4918-9ff4-6d2d0de36167, udp: true}
+  - {name: 🇸🇬 SG新加坡02-中转隧道, server: 36.133.180.191, port: 50008, type: ss, cipher: aes-128-gcm, password: 544DC3B9-55E3-52A1-23F5-7689BB06C5BE, tfo: false, udp: true}
+  - {name: 🇸🇬 SG新加坡03-中转隧道, server: 36.133.180.191, port: 50009, type: ss, cipher: aes-128-gcm, password: 544DC3B9-55E3-52A1-23F5-7689BB06C5BE, tfo: false, udp: true}
+  - {name: 🇲🇾 MY马来西亚-中转隧道, server: ap-sg-tunnel.292228.xyz, port: 30059, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB英国-中转隧道, server: n1.getmesl.com, port: 10105, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇭🇰 Hong Kong GAME1, server: hk-1.ac.laowanxiang.com, port: 29790, type: ss, cipher: rc4-md5, password: CIIr5d, udp: true}
+  - {name: 🇭🇰 Hong Kong GAME2, server: hk-1.ha.laowanxiang.com, port: 29790, type: ss, cipher: rc4-md5, password: CIIr5d, udp: true}
+  - {name: 🇹🇼 Taiwan GAME, server: tw-1.ac.laowanxiang.com, port: 29790, type: ss, cipher: rc4-md5, password: CIIr5d, udp: true}
+  - {name: 🇯🇵 Japan GAME, server: jp-1.ac.laowanxiang.com, port: 29790, type: ss, cipher: rc4-md5, password: CIIr5d, udp: true}
+  - {name: 🇰🇷 South Korea GAME, server: 113.31.115.170, port: 31007, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, udp: true}
+  - {name: 🇸🇬 Singapore GAME, server: sg-1.ac.laowanxiang.com, port: 29790, type: ss, cipher: rc4-md5, password: CIIr5d, udp: true}
+  - {name: 🇺🇸 United States GAME, server: e1.getmesl.com, port: 10068, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇩🇪 Germany GAME, server: n1.getmesl.com, port: 20033, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, udp: true}
+  - {name: 🇭🇰 Hong Kong 01, server: BLDiPixb.rongkun.xyz, port: 40070, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇭🇰 Hong Kong 02, server: BLDiPixb.rongkun.xyz, port: 41002, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇨🇳 Taiwan 01, server: BLDiPixb.rongkun.xyz, port: 40150, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇨🇳 Taiwan 02, server: BLDiPixb.rongkun.xyz, port: 40101, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇸🇬 Singapore 01, server: BLDiPixb.rongkun.xyz, port: 41300, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇸🇬 Singapore 02, server: BLDiPixb.rongkun.xyz, port: 41301, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇯🇵 Japan 01, server: BLDiPixb.rongkun.xyz, port: 40250, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇯🇵 Japan 02, server: BLDiPixb.rongkun.xyz, port: 40201, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇰🇷 Korea 01, server: BLDiPixb.rongkun.xyz, port: 40900, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇰🇷 Korea 02, server: BLDiPixb.rongkun.xyz, port: 40901, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇺🇸 United States 01, server: BLDiPixb.rongkun.xyz, port: 40410, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇺🇸 United States 02, server: BLDiPixb.rongkun.xyz, port: 40411, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇫🇷 France 01, server: BLDiPixb.rongkun.xyz, port: 40800, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇫🇷 France 02, server: BLDiPixb.rongkun.xyz, port: 40801, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇭🇺 Hungary 01, server: BLDiPixb.rongkun.xyz, port: 40914, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 以下节点为备用, server: BLDiPixb.rongkun.xyz, port: 40914, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
+  - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
+  - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
+  - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io}
+  - {name: 🇭🇰 Eons-HK, server: 183.240.220.195, port: 14732, type: ss, cipher: none, password: doub.io}
+  - {name: 🇸🇬 Eons-SG, server: hk06.wsfsa.top, port: 32209, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
+  - {name: 🇨🇦 Gocodeit-CA, server: hk06.wsfsa.top, port: 32202, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
+  - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
+  - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
+  - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
+  - {name: Melbikomas-NF, server: hk06.wsfsa.top, port: 32211, type: ss, cipher: aes-256-gcm, password: ebyDpL1eoF}
+  - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
+  - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
+  - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
+  - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
+  - {name: 🇰🇷 Vultr-KR, server: 58.242.130.170, port: 35489, type: ss, cipher: aes-256-gcm, password: cnZju2yMye}
