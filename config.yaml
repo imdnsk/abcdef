@@ -148,19 +148,10 @@ proxies:
   - {name: 🇫🇷 France 02, server: BLDiPixb.rongkun.xyz, port: 40801, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
   - {name: 🇭🇺 Hungary 01, server: BLDiPixb.rongkun.xyz, port: 40914, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
   - {name: 以下节点为备用, server: BLDiPixb.rongkun.xyz, port: 40914, type: ss, cipher: aes-256-gcm, password: eeba6e35-ac00-4d8f-8827-f8b51bb647e0}
-  - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
-  - {name: 🇨🇳 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt}
-  - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io}
-  - {name: 🇭🇰 Eons-HK, server: 183.240.220.195, port: 14732, type: ss, cipher: none, password: doub.io}
-  - {name: 🇸🇬 Eons-SG, server: hk06.wsfsa.top, port: 32209, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
-  - {name: 🇨🇦 Gocodeit-CA, server: hk06.wsfsa.top, port: 32202, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
-  - {name: 🇨🇳 Hinet-TW, server: hk06.wsfsa.top, port: 32205, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm}
-  - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
-  - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
-  - {name: Melbikomas-NF, server: hk06.wsfsa.top, port: 32211, type: ss, cipher: aes-256-gcm, password: ebyDpL1eoF}
-  - {name: 🇺🇸 Misaka-US, server: hk06.wsfsa.top, port: 32203, type: ss, cipher: aes-256-gcm, password: n1c3uCruks}
-  - {name: 🇰🇷 Moack-KR, server: hk06.wsfsa.top, port: 32207, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd}
-  - {name: 🇨🇳 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1}
-  - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 Stacket-DK, server: hk06.wsfsa.top, port: 32206, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX}
-  - {name: 🇰🇷 Vultr-KR, server: 58.242.130.170, port: 35489, type: ss, cipher: aes-256-gcm, password: cnZju2yMye}
+  - {name: 🇭🇰 AperNet-HK-Lite, server: 23-247-139-58.lzmt.org, port: 50311, type: trojan, password: mLgIX7VmRH, sni: 23-247-139-58.lzmt.org}
+  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 50003, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org}
+  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org}
+  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
+  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
+  - {name: Netcup-AT-Lite, server: 89-58-61-124.lzmt.org, port: 22796, type: trojan, password: s9TQKrCFtO}
