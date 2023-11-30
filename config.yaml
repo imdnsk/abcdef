@@ -1,4 +1,32 @@
 proxies:
+  - {name: "🇨🇳 TWN Akari ALI IPLC [1x]", server: relay-prem-hk.292228.xyz, port: 31002, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇨🇳 TWN Akari WYN IPLC [1x]", server: relay-prem-hk-2.292228.xyz, port: 31002, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "MAC MTel ALI IPLC [1x]", server: relay-prem-hk.292228.xyz, port: 31009, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "MAC MTel WYN IPLC [1x]", server: relay-prem-hk-2.292228.xyz, port: 31009, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN xTom ALI IPLC [1x]", server: relay-prem-jp.292228.xyz, port: 31003, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN xTom HWA IPLC [1x]", server: relay-prem-jp-2.292228.xyz, port: 31003, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN Misaka ALI IPLC [1x]", server: relay-prem-jp.292228.xyz, port: 31004, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN Misaka HWA IPLC [1x]", server: relay-prem-jp-2.292228.xyz, port: 31004, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN Misaka CTCC IPLC [1x]", server: 43.248.118.244, port: 9035, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN SoftBank ALI IPLC [1x]", server: relay-prem-jp.292228.xyz, port: 31010, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN SoftBank HWA IPLC [1x]", server: relay-prem-jp-2.292228.xyz, port: 31010, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN SoftBank CTCC IPLC [1x]", server: 43.248.118.244, port: 9066, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇸🇬 SGP Akari ALI IPLC [1x]", server: relay-prem-sg.292228.xyz, port: 31005, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇸🇬 SGP Akari WYN IPLC [1x]", server: relay-prem-hk-2.292228.xyz, port: 31005, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇰🇷 KOR UCloud IPLC GAME [5x]", server: 113.31.115.170, port: 31007, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇺🇸 USA Verizon ALI IPLC [1x]", server: relay-prem-us.292228.xyz, port: 31008, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇺🇸 USA Verizon CTCC IPLC [1x]", server: 43.248.118.244, port: 9047, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "CHE Akenes SINNET IPLC [1x]", server: relay-prem-eu-2.292228.xyz, port: 31005, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Aperture QCL IPLC [1x]", server: dualstack-multi-entry.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Aperture KSF IPLC [1x]", server: ks-qc.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Aperture TCT IPLC [1x]", server: tc-dual.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Aperture IEPL [0.6x]", server: relay-hk-neo.292228.xyz, port: 40049, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Jinx IEPL [0.6x]", server: relay-hk-neo.292228.xyz, port: 40050, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG CeRa IEPL [0.6x]", server: relay-hk-neo.292228.xyz, port: 40051, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇭🇰 HKG Kirino IEPL [0.6x]", server: relay-hk-neo.292228.xyz, port: 40052, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇨🇳 TWN Akari IEPL 1 [0.6x]", server: relay-hk-neo.292228.xyz, port: 40053, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇸🇬 SGP Akari IEPL 1 [0.6x]", server: relay-hk-neo.292228.xyz, port: 40054, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
+  - {name: "🇯🇵 JPN Misaka IEPL 1 [0.6x]", server: relay-jp-neo.292228.xyz, port: 40055, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc}
   - {name: "🇭🇰 HKG 1 A [0.1x]", server: 121.14.28.133, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
   - {name: "🇭🇰 HKG 1 B [0.1x]", server: 157.148.113.133, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 HKG 2 A, server: 121.14.28.133, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false}
