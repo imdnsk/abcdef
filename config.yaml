@@ -235,7 +235,6 @@ proxies:
   - {name: 🇺🇸 Misaka-US, server: 58.242.130.170, port: 26244, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
   - {name: 🇰🇷 Moack-KR, server: 36.139.239.208, port: 46252, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd, tfo: false}
   - {name: 🇹🇼 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false}
-  - {name: 🇯🇵 Oracle-JP, server: jp-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇩🇰 Stacket-DK, server: 58.242.130.170, port: 26243, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -472,7 +471,6 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
-      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
   - name: 📲 电报消息
     type: select
@@ -744,7 +742,6 @@ proxy-groups:
       - 🇯🇵 JPN 5 A [0.6x]
       - 🇯🇵 JPN 5 B [0.6x]
       - 🇯🇵 Catixs-JP
-      - 🇯🇵 Oracle-JP
   - name: 🇺🇲 美国节点
     type: select
     proxies:
