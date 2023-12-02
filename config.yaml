@@ -1,4 +1,5 @@
 proxies:
+  - {name: 这是一个Demo, server: 23-247-139-58.lzmt.org, port: 24106, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 AperNet-HK-Lite, server: 23-247-139-58.lzmt.org, port: 24106, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 AperNet-HK-Pro, server: gzydb.073505.cn, port: 61485, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 50003, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
