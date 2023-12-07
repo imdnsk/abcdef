@@ -15,20 +15,20 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇹🇼 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false}
-  - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io, tfo: false}
+  - {name: 🇹🇼 Akile-TW, server: 141.11.86.247, port: 17261, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false}
+  - {name: 🇯🇵 Catixs-JP, server: 144.48.80.33, port: 45695, type: ss, cipher: none, password: doub.io, tfo: false}
   - {name: 🇭🇰 DMIT-HK, server: 183.233.187.244, port: 27357, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false}
-  - {name: 🇭🇰 Eons-HK, server: 183.240.220.195, port: 14732, type: ss, cipher: none, password: doub.io, tfo: false}
+  - {name: 🇭🇰 Eons-HK, server: 178.173.255.20, port: 27093, type: ss, cipher: none, password: doub.io, tfo: false}
   - {name: 🇸🇬 Eons-SG, server: 111.38.37.15, port: 25980, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false}
   - {name: 🇨🇦 Gocodeit-CA, server: 183.233.187.244, port: 27951, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false}
   - {name: 🇹🇼 Hinet-TW, server: 36.139.239.208, port: 25786, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm, tfo: false}
-  - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
-  - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
+  - {name: JJSpa-CL, server: 200.14.81.180, port: 53731, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
+  - {name: Markahost-TR, server: 213.238.182.236, port: 54780, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
   - {name: Melbikomas-NF, server: 36.139.239.208, port: 26424, type: ss, cipher: aes-256-gcm, password: ebyDpL1eoF, tfo: false}
   - {name: 🇺🇸 Misaka-US, server: 58.242.130.170, port: 26244, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
   - {name: 🇰🇷 Moack-KR, server: 36.139.239.208, port: 46252, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd, tfo: false}
-  - {name: 🇹🇼 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false}
+  - {name: 🇹🇼 NeroCloud-TW, server: 209.146.125.194, port: 45631, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false}
+  - {name: 🇯🇵 Oracle-JP, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇩🇰 Stacket-DK, server: 58.242.130.170, port: 26243, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -46,7 +46,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -59,6 +58,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
   - name: 📲 电报消息
     type: select
@@ -238,13 +238,13 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 AperNet-HK
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 Catixs-JP
+      - 🇯🇵 Oracle-JP
   - name: 🇺🇲 美国节点
     type: select
     proxies:

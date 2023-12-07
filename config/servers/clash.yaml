@@ -15,18 +15,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 AperNet-HK-Lite, server: 23-247-139-58.lzmt.org, port: 24106, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 AperNet-HK-Pro, server: gzydb.073505.cn, port: 61485, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 50003, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
-  - {name: 🇸🇬 Azure-SG-Pro, server: gddxa.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25484, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
+  - {name: 🇸🇬 Azure-SG-Pro, server: gddxb.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85.239.235.232, port: 25484, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
   - {name: 🇺🇸 Contabo-US-Pro, server: shdx.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103-214-71-16.lzmt.org, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
+  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.073505.cn, port: 21043, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
-  - {name: Netcup-AT-Lite, server: 89-58-61-124.lzmt.org, port: 22796, type: trojan, password: s9TQKrCFtO, skip-cert-verify: false}
-  - {name: Netcup-AT-Pro, server: bjcu.073505.cn, port: 38457, type: trojan, password: s9TQKrCFtO, sni: 89-58-61-124.lzmt.org, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -42,8 +38,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇭🇰 AperNet-HK-Lite
-      - 🇭🇰 AperNet-HK-Pro
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇺🇸 Contabo-US-Lite
@@ -52,8 +46,6 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
-      - Netcup-AT-Lite
-      - Netcup-AT-Pro
   - name: 📲 电报消息
     type: select
     proxies:
@@ -232,8 +224,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 AperNet-HK-Lite
-      - 🇭🇰 AperNet-HK-Pro
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
