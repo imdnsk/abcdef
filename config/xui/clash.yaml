@@ -15,8 +15,8 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇹🇼 Akile-TW, server: 141.11.86.247, port: 17261, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false}
-  - {name: 🇯🇵 Catixs-JP, server: 144.48.80.33, port: 45695, type: ss, cipher: none, password: doub.io, tfo: false}
+  - {name: 🇹🇼 Akile-TW, server: 111.38.37.15, port: 26782, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false}
+  - {name: 🇯🇵 Catixs-JP, server: 111.38.37.15, port: 46242, type: ss, cipher: none, password: doub.io, tfo: false}
   - {name: 🇭🇰 DMIT-HK, server: 183.233.187.244, port: 27357, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false}
   - {name: 🇭🇰 Eons-HK, server: 178.173.255.20, port: 27093, type: ss, cipher: none, password: doub.io, tfo: false}
   - {name: 🇸🇬 Eons-SG, server: 111.38.37.15, port: 25980, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false}
