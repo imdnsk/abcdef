@@ -15,93 +15,83 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇹🇼 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false, udp: true}
-  - {name: 🇭🇰 AperNet-HK, server: hk-pop-1.ac.laowanxiang.com, port: 14732, type: vmess, uuid: 995f8038-662c-47d3-dbd9-e04acae7b1cb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Catixs-JP, server: jp-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: none, password: doub.io, tfo: false, udp: true}
+  - {name: 🇹🇼 Akile-TW, server: 111.38.37.15, port: 26782, type: ss, cipher: aes-256-gcm, password: loruXwHJVt, tfo: false, udp: true}
+  - {name: 🇯🇵 Catixs-JP, server: 111.38.37.15, port: 46242, type: ss, cipher: none, password: doub.io, tfo: false, udp: true}
   - {name: 🇭🇰 DMIT-HK, server: 183.233.187.244, port: 27357, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false, udp: true}
-  - {name: 🇭🇰 Eons-HK, server: 183.240.220.195, port: 14732, type: ss, cipher: none, password: doub.io, tfo: false, udp: true}
+  - {name: 🇭🇰 Eons-HK, server: 178.173.255.20, port: 27093, type: ss, cipher: none, password: doub.io, tfo: false, udp: true}
   - {name: 🇸🇬 Eons-SG, server: 111.38.37.15, port: 25980, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false, udp: true}
   - {name: 🇨🇦 Gocodeit-CA, server: 183.233.187.244, port: 27951, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false, udp: true}
   - {name: 🇹🇼 Hinet-TW, server: 36.139.239.208, port: 25786, type: ss, cipher: aes-256-gcm, password: HXNWNrJwvm, tfo: false, udp: true}
-  - {name: JJSpa-CL, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false, udp: true}
-  - {name: Markahost-TR, server: dmit_hk1.qiangdong.xyz, port: 14732, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false, udp: true}
+  - {name: JJSpa-CL, server: 200.14.81.180, port: 53731, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false, udp: true}
+  - {name: Markahost-TR, server: 213.238.182.236, port: 54780, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false, udp: true}
   - {name: Melbikomas-NF, server: 36.139.239.208, port: 26424, type: ss, cipher: aes-256-gcm, password: ebyDpL1eoF, tfo: false, udp: true}
   - {name: 🇺🇸 Misaka-US, server: 58.242.130.170, port: 26244, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false, udp: true}
   - {name: 🇰🇷 Moack-KR, server: 36.139.239.208, port: 46252, type: ss, cipher: aes-256-gcm, password: BLxDqjZEdd, tfo: false, udp: true}
-  - {name: 🇹🇼 NeroCloud-TW, server: 183.240.220.206, port: 14732, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false, udp: true}
+  - {name: 🇹🇼 NeroCloud-TW, server: 209.146.125.194, port: 45631, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false, udp: true}
+  - {name: 🇯🇵 Oracle-JP, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇰 Stacket-DK, server: 58.242.130.170, port: 26243, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX, tfo: false, udp: true}
-  - {name: 🇭🇰 ️‍🌈 HK香港-Unlimited, server: 120.232.140.77, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 ️‍🌈 TW台湾-Unlimited, server: relay-hk-neo.292228.xyz, port: 40052, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
-  - {name: 🇺🇸 US美国04-精品直连, server: 103.177.81.131, port: 19412, type: vmess, uuid: 7d565845-c696-4bc1-de8c-5d68deac6631, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 JP日本01-IEPL专线, server: e1.getmesl.com, port: 11004, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇭🇰 ️‍🌈 HK香港-Unlimited, server: gzcmasdjhuiqdhw.dfcloud.xyz, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 ️‍🌈 TW台湾-Unlimited, server: gzcmasdjhuiqdhw.dfcloud.xyz, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国04-精品直连, server: 103.177.81.131, port: 19412, type: vmess, uuid: 7d565845-c696-4bc1-de8c-5d68deac6631, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 JP日本01-IEPL专线, server: e1.getmesl.com, port: 11004, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇯🇵 JP日本02-IEPL专线, server: console.pitv.win, port: 12010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇯🇵 JP日本03-IEPL专线, server: console.pitv.win, port: 12012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JP日本04-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11016, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇯🇵 JP日本05-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11017, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇯🇵 JP日本06-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11014, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇯🇵 JP日本07-IEPL专线, server: e1.getmesl.com, port: 11009, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇯🇵 JP日本08-IEPL专线, server: e1.getmesl.com, port: 10006, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇯🇵 JP日本04-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11016, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇯🇵 JP日本05-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11017, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇯🇵 JP日本06-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11014, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇯🇵 JP日本07-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11018, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇯🇵 JP日本08-IEPL专线, server: e1.getmesl.com, port: 10006, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇭🇰 HK香港01-IEPL专线, server: app-zhihu.zhihu.win, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK香港02-IEPL专线, server: app-zhihu.zhihu.win, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK香港03-IEPL专线, server: app-zhihu.zhihu.win, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK香港04-IEPL专线, server: app-zhihu.zhihu.win, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇭🇰 HK香港05-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11006, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇭🇰 HK香港06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11007, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇭🇰 HK香港07-IEPL专线, server: s2.getmesl.com, port: 20015, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇭🇰 HK香港08-IEPL专线, server: s2.getmesl.com, port: 20016, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇭🇰 HK香港05-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11006, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇭🇰 HK香港06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11007, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇭🇰 HK香港07-IEPL专线, server: s2.getmesl.com, port: 20015, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇭🇰 HK香港08-IEPL专线, server: s2.getmesl.com, port: 20016, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇹🇼 TW台湾01-IEPL专线, server: app-zhihu.zhihu.win, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW台湾02-IEPL专线, server: app-zhihu.zhihu.win, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW台湾03-IEPL专线, server: app-zhihu.zhihu.win, port: 12306, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW台湾04-IEPL专线, server: s2.getmesl.com, port: 20033, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇹🇼 TW台湾05-IEPL专线, server: s2.getmesl.com, port: 20035, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
-  - {name: 🇹🇼 TW台湾06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11042, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇹🇼 TW台湾07-IEPL专线, server: s2.getmesl.com, port: 20027, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇹🇼 TW台湾08-IEPL专线, server: s2.getmesl.com, port: 20029, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇹🇼 TW台湾06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11042, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇹🇼 TW台湾07-IEPL专线, server: s2.getmesl.com, port: 20027, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇹🇼 TW台湾08-IEPL专线, server: s2.getmesl.com, port: 20029, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇸🇬 SG新加坡01-IEPL专线, server: app-zhihu.zhihu.win, port: 12000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇸🇬 SG新加坡02-IEPL专线, server: app-zhihu.zhihu.win, port: 12002, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇸🇬 SG新加坡03-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11033, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇸🇬 SG新加坡04-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11034, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡03-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11033, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡04-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11034, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
   - {name: 🇸🇬 SG新加坡05-IEPL专线, server: s2.getmesl.com, port: 20032, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
-  - {name: 🇸🇬 SG新加坡06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11037, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇸🇬 SG新加坡07-IEPL专线, server: s2.getmesl.com, port: 20021, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇸🇬 SG新加坡08-IEPL专线, server: s2.getmesl.com, port: 20023, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇸🇬 SG新加坡06-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11037, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇸🇬 SG新加坡07-IEPL专线, server: s2.getmesl.com, port: 20021, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇸🇬 SG新加坡08-IEPL专线, server: s2.getmesl.com, port: 20023, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇰🇷 KR韩国01-IEPL专线, server: e2.getmesl.com, port: 10001, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇰🇷 KR韩国02-IEPL专线, server: e2.getmesl.com, port: 10000, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
-  - {name: 🇮🇩 ID印度尼西亚-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11073, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇹🇭 TH泰国-IEPL专线, server: s1.getmesl.com, port: 10032, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇻🇳 VN越南-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11075, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇮🇳 IN印度-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11080, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇵🇭 PH菲律宾-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11084, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇲🇾 MY马来西亚01-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11085, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
+  - {name: 🇹🇭 TH泰国-IEPL专线, server: s1.getmesl.com, port: 10032, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇲🇾 MY马来西亚01-IEPL专线, server: gzdata1.fc-streaming.xyz, port: 11085, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
   - {name: 🇲🇾 MY马来西亚02-IEPL专线, server: s1.getmesl.com, port: 10089, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇲🇾 MY马来西亚03-IEPL专线, server: app-zhihu.zhihu.win, port: 20041, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: MV马尔代夫-IEPL专线, server: maketion.51ideal.cyou, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇰🇭 KH柬埔寨-IEPL专线, server: app-zhihu.zhihu.win, port: 12701, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: MM缅甸-IEPL专线, server: app-zhihu.zhihu.win, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: LA老挝-IEPL专线, server: app-zhihu.zhihu.win, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇺🇸 US美国01-IEPL专线, server: e1.getmesl.com, port: 10062, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇺🇸 US美国02-IEPL专线, server: e1.getmesl.com, port: 10063, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇺🇸 US美国03-IEPL专线, server: e1.getmesl.com, port: 10064, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇺🇸 US美国01-IEPL专线, server: e1.getmesl.com, port: 10062, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇺🇸 US美国02-IEPL专线, server: e1.getmesl.com, port: 10063, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇺🇸 US美国03-IEPL专线, server: e1.getmesl.com, port: 10064, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇺🇸 US美国04-IEPL专线, server: console.pitv.win, port: 13114, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇺🇸 US美国05-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11026, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇺🇸 US美国06-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11022, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇩🇪 DE德国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11056, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇩🇪 DE德国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11057, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇬🇧 GB英国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11058, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇬🇧 GB英国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11059, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇳🇱 NL荷兰01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11060, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇳🇱 NL荷兰02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11061, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇫🇷 FR法国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11062, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇫🇷 FR法国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11063, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇨🇦 CA加拿大01-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11064, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇨🇦 CA加拿大02-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11065, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 47646566cf.douyincdn.com}, udp: true}
-  - {name: 🇷🇺 RU俄罗斯-IEPL专线, server: n1.getmesl.com, port: 10116, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇺🇸 US美国05-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11026, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇺🇸 US美国06-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11022, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇩🇪 DE德国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11056, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇩🇪 DE德国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11057, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇬🇧 GB英国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11058, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇬🇧 GB英国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11059, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇳🇱 NL荷兰01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11060, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇳🇱 NL荷兰02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11061, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇫🇷 FR法国01-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11062, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇫🇷 FR法国02-IEPL专线, server: bjdata1.fc-streaming.xyz, port: 11063, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇨🇦 CA加拿大01-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11064, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇨🇦 CA加拿大02-IEPL专线, server: shdata1.fc-streaming.xyz, port: 11065, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 0cfb52c6ba.douyincdn.com}, udp: true}
+  - {name: 🇷🇺 RU俄罗斯-IEPL专线, server: n1.getmesl.com, port: 10116, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇹🇷 TR土耳其-IEPL专线, server: maketion.51ideal.cyou, port: 12655, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇪🇬 EG埃及-IEPL专线, server: maketion.51ideal.cyou, port: 12718, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇦🇺 AU澳大利亚-IEPL专线, server: app-zhihu.zhihu.win, port: 12324, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: VA梵蒂冈-IEPL专线, server: maketion.51ideal.cyou, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇲🇴 MO澳门-IEPL专线, server: app-zhihu.zhihu.win, port: 19527, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
-  - {name: 🇰🇵 KP朝鲜-IEPL专线, server: s1.getmesl.com, port: 10042, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
   - {name: AQ南极洲-IEPL专线, server: app-zhihu.zhihu.win, port: 20031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 16d975bdb599.microsoft.com}, udp: true}
   - {name: 🇭🇰 Hong Kong GAME1, server: s2.getmesl.com, port: 20010, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: 🇭🇰 Hong Kong GAME2, server: s2.getmesl.com, port: 20011, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
@@ -109,8 +99,8 @@ proxies:
   - {name: 🇯🇵 Japan GAME, server: 43.248.118.244, port: 9035, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: 🇰🇷 South Korea GAME, server: 113.31.115.170, port: 31007, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: 🇸🇬 Singapore GAME, server: relay-prem-hk-2.292228.xyz, port: 31005, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
-  - {name: 🇺🇸 United States GAME, server: e1.getmesl.com, port: 10068, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
-  - {name: 🇩🇪 Germany GAME, server: n1.getmesl.com, port: 20033, type: ss, cipher: aes-128-gcm, password: 2076f059-c332-4ea9-b7b6-7a528abc554c, tfo: false, udp: true}
+  - {name: 🇺🇸 United States GAME, server: e1.getmesl.com, port: 10068, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
+  - {name: 🇩🇪 Germany GAME, server: n1.getmesl.com, port: 20033, type: ss, cipher: aes-128-gcm, password: c96f5a95-d07e-422b-98ae-ff81c6babdcd, tfo: false, udp: true}
   - {name: "🇹🇼 TWN Akari ALI IPLC [1x]", server: relay-prem-hk.292228.xyz, port: 31002, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇹🇼 TWN Akari WYN IPLC [1x]", server: relay-prem-hk-2.292228.xyz, port: 31002, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "MAC MTel ALI IPLC [1x]", server: relay-prem-hk.292228.xyz, port: 31009, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
@@ -128,7 +118,6 @@ proxies:
   - {name: "🇰🇷 KOR UCloud IPLC GAME [5x]", server: 113.31.115.170, port: 31007, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇺🇸 USA Verizon ALI IPLC [1x]", server: relay-prem-us.292228.xyz, port: 31008, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇺🇸 USA Verizon CTCC IPLC [1x]", server: 43.248.118.244, port: 9047, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
-  - {name: "CHE Akenes SINNET IPLC [1x]", server: relay-prem-eu-2.292228.xyz, port: 31005, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇭🇰 HKG Aperture QCL IPLC [1x]", server: dualstack-multi-entry.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇭🇰 HKG Aperture KSF IPLC [1x]", server: ks-qc.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇭🇰 HKG Aperture TCT IPLC [1x]", server: tc-dual.023626.xyz, port: 40048, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
@@ -140,72 +129,48 @@ proxies:
   - {name: "🇸🇬 SGP Akari IEPL 1 [0.6x]", server: relay-hk-neo.292228.xyz, port: 40054, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇯🇵 JPN Misaka IEPL 1 [0.6x]", server: relay-jp-neo.292228.xyz, port: 40055, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
   - {name: "🇺🇸 USA Aperture IEPL 1 [0.6x]", server: relay-jp-neo.292228.xyz, port: 40056, type: ss, cipher: aes-128-gcm, password: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, tfo: false, udp: true}
-  - {name: "🇭🇰 HKG 1 A [0.1x]", server: cmss.zzcloud.top, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 HKG 1 B [0.1x]", server: 120.232.140.77, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 2 A, server: cmss.zzcloud.top, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 2 B, server: 120.232.140.77, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 3 A, server: cmss.zzcloud.top, port: 30056, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 3 B, server: 120.232.140.77, port: 30056, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 4 A, server: cmss.zzcloud.top, port: 30057, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 4 B, server: 120.232.140.77, port: 30057, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 5 A, server: cmss.zzcloud.top, port: 30058, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 5 B, server: 120.232.140.77, port: 30058, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 6 A, server: cmss.zzcloud.top, port: 30079, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 6 B, server: 120.232.140.77, port: 30079, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 7 A, server: cmss.zzcloud.top, port: 30080, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 7 B, server: 120.232.140.77, port: 30080, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 8 A, server: cmss.zzcloud.top, port: 30081, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 8 B, server: 120.232.140.77, port: 30081, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 9 A, server: cmss.zzcloud.top, port: 30082, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 9 B, server: 120.232.140.77, port: 30082, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 10 A, server: cmss.zzcloud.top, port: 30083, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 10 B, server: 120.232.140.77, port: 30083, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 11 A, server: cmss.zzcloud.top, port: 30084, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG 11 B, server: 120.232.140.77, port: 30084, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 TWN A, server: cmss.zzcloud.top, port: 30049, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 TWN B, server: 120.232.140.77, port: 30049, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇹🇼 TWN HiNet A [0.5x]", server: cmss.zzcloud.top, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇹🇼 TWN HiNet B [0.5x]", server: 120.232.140.77, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "MAC MTel A [10x]", server: cmss.zzcloud.top, port: 30071, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "MAC MTel B [10x]", server: 120.232.140.77, port: 30071, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 USA, server: cmss.zzcloud.top, port: 30051, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 USA 2, server: cmss.zzcloud.top, port: 30052, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 USA 3, server: cmss.zzcloud.top, port: 30053, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: SAM ARG, server: cmss.zzcloud.top, port: 30054, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 1 A [0.6x]", server: cmss.zzcloud.top, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 1 B [0.6x]", server: 157.148.113.133, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPN 2 A, server: cmss.zzcloud.top, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPN 2 B, server: 157.148.113.133, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 3 A [0.5x]", server: cmss.zzcloud.top, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 3 B [0.5x]", server: 157.148.113.133, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPN 4 A, server: cmss.zzcloud.top, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPN 4 B, server: 157.148.113.133, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 5 A [0.6x]", server: cmss.zzcloud.top, port: 30076, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JPN 5 B [0.6x]", server: 36.137.177.2220, port: 30076, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 SGP 2 A [0.1x]", server: cmss.zzcloud.top, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 SGP 2 B [0.1x]", server: 157.148.113.133, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SGP 3 A, server: cmss.zzcloud.top, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SGP 3 B, server: 157.148.113.133, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: NZL, server: 157.148.113.133, port: 30050, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 MYS, server: 157.148.113.133, port: 30059, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: PHL, server: 157.148.113.133, port: 30063, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 IND, server: 157.148.113.133, port: 30065, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 CAN, server: 157.148.113.133, port: 30064, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 FRA, server: 157.148.113.133, port: 32000, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 GBR, server: 157.148.113.133, port: 30062, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: CHE, server: 157.148.113.133, port: 30061, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: MMR FUN, server: 157.148.113.133, port: 30101, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: DPK FUN, server: 157.148.113.133, port: 30102, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: ATA FUN, server: cmss.zzcloud.top, port: 30103, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: VAT FUN, server: 157.148.113.133, port: 30104, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: CUB FUN, server: 157.148.113.133, port: 30105, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: EGP FUN, server: 157.148.113.133, port: 30106, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: GRC FUN, server: 157.148.113.133, port: 30107, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: GRL FUN, server: 157.148.113.133, port: 30108, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: PAN FUN, server: 157.148.113.133, port: 30109, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: MEX FUN, server: 157.148.113.133, port: 30110, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: TUR FUN, server: 157.148.113.133, port: 30111, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: "LUX BTCPT [0x]", server: direct-relay.292228.xyz, port: 30086, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: eu-lu-bt.292228.xyz}}, udp: true}
+  - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 TWN A, server: relay-hkg-a.292228.xyz, port: 30049, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇹🇼 TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "MAC MTel A [10x]", server: relay-hkg-a.292228.xyz, port: 30071, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA, server: relay-usa-a.292228.xyz, port: 30051, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 2, server: relay-usa-a.292228.xyz, port: 30052, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 3, server: relay-usa-a.292228.xyz, port: 30053, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 1 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 1 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 2 A, server: relay-jpn-a.292228.xyz, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 2 B, server: relay-jpn-b.292228.xyz, port: 33045, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 3 A [0.5x]", server: relay-jpn-a.292228.xyz, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 3 B [0.5x]", server: relay-jpn-b.292228.xyz, port: 30075, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JPN 5 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30076, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 3 A, server: relay-sgp-a.292228.xyz, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 3 B, server: relay-sgp-b.292228.xyz, port: 30077, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 MYS, server: relay-eur.292228.xyz, port: 30059, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CAN, server: relay-eur.292228.xyz, port: 30064, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FRA, server: relay-eur.292228.xyz, port: 32000, type: vmess, uuid: e1b8059b-1ed2-4a77-aea4-617e4b85d4fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Azure-SG-Pro, server: gddxb.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85.239.235.232, port: 25484, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Contabo-US-Pro, server: shdx.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 8800, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshcua.073505.cn, port: 21043, type: trojan, password: aGWl3RD9MQ, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -213,7 +178,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -226,6 +190,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -264,18 +229,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -294,11 +252,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -325,7 +280,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -338,37 +292,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -383,26 +322,17 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -410,7 +340,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -423,6 +352,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -461,18 +391,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -491,11 +414,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -522,7 +442,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -535,37 +454,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -580,26 +484,17 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -607,7 +502,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -620,6 +514,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -658,18 +553,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -688,11 +576,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -719,7 +604,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -732,37 +616,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -777,33 +646,23 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -816,6 +675,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -854,18 +714,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -884,11 +737,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -915,7 +765,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -928,37 +777,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -973,33 +807,23 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -1012,6 +836,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -1050,18 +875,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -1080,11 +898,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -1111,7 +926,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -1124,37 +938,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -1169,33 +968,23 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -1208,6 +997,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -1246,18 +1036,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -1276,11 +1059,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -1307,7 +1087,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -1320,37 +1099,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -1365,26 +1129,17 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1392,7 +1147,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -1405,6 +1159,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -1443,18 +1198,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -1473,11 +1221,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -1504,7 +1249,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -1517,37 +1261,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -1562,26 +1291,17 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1595,7 +1315,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇹🇼 Akile-TW
-      - 🇭🇰 AperNet-HK
       - 🇯🇵 Catixs-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
@@ -1608,6 +1327,7 @@ proxy-groups:
       - 🇺🇸 Misaka-US
       - 🇰🇷 Moack-KR
       - 🇹🇼 NeroCloud-TW
+      - 🇯🇵 Oracle-JP
       - 🇩🇰 Stacket-DK
       - 🇭🇰 ️‍🌈 HK香港-Unlimited
       - 🇹🇼 ️‍🌈 TW台湾-Unlimited
@@ -1646,18 +1366,11 @@ proxy-groups:
       - 🇸🇬 SG新加坡08-IEPL专线
       - 🇰🇷 KR韩国01-IEPL专线
       - 🇰🇷 KR韩国02-IEPL专线
-      - 🇮🇩 ID印度尼西亚-IEPL专线
       - 🇹🇭 TH泰国-IEPL专线
-      - 🇻🇳 VN越南-IEPL专线
-      - 🇮🇳 IN印度-IEPL专线
-      - 🇵🇭 PH菲律宾-IEPL专线
       - 🇲🇾 MY马来西亚01-IEPL专线
       - 🇲🇾 MY马来西亚02-IEPL专线
       - 🇲🇾 MY马来西亚03-IEPL专线
       - MV马尔代夫-IEPL专线
-      - 🇰🇭 KH柬埔寨-IEPL专线
-      - MM缅甸-IEPL专线
-      - LA老挝-IEPL专线
       - 🇺🇸 US美国01-IEPL专线
       - 🇺🇸 US美国02-IEPL专线
       - 🇺🇸 US美国03-IEPL专线
@@ -1676,11 +1389,8 @@ proxy-groups:
       - 🇨🇦 CA加拿大02-IEPL专线
       - 🇷🇺 RU俄罗斯-IEPL专线
       - 🇹🇷 TR土耳其-IEPL专线
-      - 🇪🇬 EG埃及-IEPL专线
       - 🇦🇺 AU澳大利亚-IEPL专线
-      - VA梵蒂冈-IEPL专线
       - 🇲🇴 MO澳门-IEPL专线
-      - 🇰🇵 KP朝鲜-IEPL专线
       - AQ南极洲-IEPL专线
       - 🇭🇰 Hong Kong GAME1
       - 🇭🇰 Hong Kong GAME2
@@ -1707,7 +1417,6 @@ proxy-groups:
       - 🇰🇷 KOR UCloud IPLC GAME [5x]
       - 🇺🇸 USA Verizon ALI IPLC [1x]
       - 🇺🇸 USA Verizon CTCC IPLC [1x]
-      - CHE Akenes SINNET IPLC [1x]
       - 🇭🇰 HKG Aperture QCL IPLC [1x]
       - 🇭🇰 HKG Aperture KSF IPLC [1x]
       - 🇭🇰 HKG Aperture TCT IPLC [1x]
@@ -1720,37 +1429,22 @@ proxy-groups:
       - 🇯🇵 JPN Misaka IEPL 1 [0.6x]
       - 🇺🇸 USA Aperture IEPL 1 [0.6x]
       - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
       - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
       - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
       - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
       - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
       - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
       - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN A
-      - 🇹🇼 TWN B
       - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
       - MAC MTel A [10x]
-      - MAC MTel B [10x]
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
-      - SAM ARG
       - 🇯🇵 JPN 1 A [0.6x]
       - 🇯🇵 JPN 1 B [0.6x]
       - 🇯🇵 JPN 2 A
@@ -1765,26 +1459,17 @@ proxy-groups:
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
