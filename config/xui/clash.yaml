@@ -14,4 +14,3 @@ proxies:
   - {name: 🇹🇼 NeroCloud-TW, server: 209.146.125.194, port: 45631, type: ss, cipher: aes-256-gcm, password: AGyfAT72g1, tfo: false}
   - {name: 🇯🇵 Oracle-JP, server: 64.110.103.245, port: 33079, type: vmess, uuid: 17906350-6b0a-4623-b4cc-68e3e7469bf4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇩🇰 Stacket-DK, server: 58.242.130.170, port: 26243, type: ss, cipher: aes-256-gcm, password: yBlREYCIeX, tfo: false}
-
