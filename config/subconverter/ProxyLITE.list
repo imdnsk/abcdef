@@ -23,24 +23,6 @@ DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,buzzsprout.com
 
-# 国外域名关键字
-DOMAIN-KEYWORD,abema
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,avtb
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
-
 # Top Blocked Sites
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,a248.e.akamai.net
