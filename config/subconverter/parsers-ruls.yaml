@@ -28,6 +28,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 👆SELECT
@@ -44,6 +46,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🚀URL-TEST
@@ -81,6 +85,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
          
       - name: ⏳YouTube-Url-Test
@@ -107,6 +113,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🤖OpenAI
@@ -117,12 +125,13 @@ parsers: # array
          - 🕹Fallback
          - 👆SELECT
          - DIRECT
-         - 🇭🇰香港
          - 🇹🇼台湾
          - 🇯🇵日本
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🔍Bing
@@ -139,6 +148,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🚅Google
@@ -155,6 +166,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🛀Bilibiliintl
@@ -171,6 +184,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🦤Twitter
@@ -187,6 +202,8 @@ parsers: # array
          - 🇸🇬新加坡
          - 🇰🇷韩国
          - 🇺🇸美国
+         - 🇨🇦加拿大
+         - 🇬🇧英国
          - 👨‍🎤其他
 
       - name: 🚦AD
@@ -225,6 +242,16 @@ parsers: # array
         type: url-test
         url: http://www.google.com/generate_204
         interval: 300
+
+      - name: 🇨🇦加拿大
+        type: url-test
+        url: http://www.google.com/generate_204
+        interval: 300  
+
+      - name: 🇬🇧英国
+        type: url-test
+        url: http://www.google.com/generate_204
+        interval: 300  
       
       - name: 👨‍🎤其他
         type: url-test
@@ -254,7 +281,9 @@ parsers: # array
         - proxy-groups.🇰🇷韩国.proxies=[]proxyNames|韩|韓|韩国|🇰🇷|KR|Korea|KOR|首尔
         - proxy-groups.🇸🇬新加坡.proxies=[]proxyNames|新加坡|🇸🇬|坡|狮城|SG|Singapore
         - proxy-groups.🇺🇸美国.proxies=[]proxyNames|美|美国|🇺🇸|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
-        - proxy-groups.👨‍🎤其他.proxies=[]proxyNames|^[^香日台新韩美]*$ # 这个可以自定义，这个正则的意思是排除节点名字有“香日台新韩美”的节点。
+        - proxy-groups.🇨🇦加拿大.proxies=[]proxyNames|加|加拿大|🇨🇦
+        - proxy-groups.🇬🇧英国.proxies=[]proxyNames|英|英国|🇬🇧
+        - proxy-groups.👨‍🎤其他.proxies=[]proxyNames|^[^香|日|台|新|韩|美|加|英|HK|JP|TW|SG|KR|US|CA|UK]*$ # 这个可以自定义，这个正则的意思是排除节点名字有“香日台新加英”的节点。
         - mixed-port=7890
 
        # 为各个策略组添加一个DIRECT，避免机场节点无法匹配上面的正则筛选而导致配置出错。应该有其他办法避免，但是我不会。
@@ -264,6 +293,8 @@ parsers: # array
         - proxy-groups.🇰🇷韩国.proxies.0+REJECT
         - proxy-groups.🇸🇬新加坡.proxies.0+REJECT
         - proxy-groups.🇺🇸美国.proxies.0+REJECT
+        - proxy-groups.🇨🇦加拿大.proxies.0+REJECT
+        - proxy-groups.🇬🇧英国.proxies.0+REJECT
         - proxy-groups.👨‍🎤其他.proxies.0+REJECT
 
         # - proxy-groups.节点名字.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
@@ -279,6 +310,11 @@ parsers: # array
       prepend-rules: # 规则由上往下遍历，如上面规则已经命中，则不再往下处理
         - DOMAIN-SUFFIX,jdev.tw,🥷PROXY
         - DOMAIN-SUFFIX,omnivore.app,🥷PROXY
+        - DOMAIN,clash.razord.top,DIRECT
+        - DOMAIN,yacd.haishan.me,DIRECT
+        - DOMAIN-SUFFIX,wise.com,🇨🇦加拿大
+        - DOMAIN-SUFFIX,uphold.com,🇬🇧英国
+        - DOMAIN-SUFFIX,ip.sb,🇬🇧英国
         - RULE-SET,youtube,🎎YouTube
         - RULE-SET,netflix,📽Netflix
         - RULE-SET,openai,🤖OpenAI
@@ -287,11 +323,9 @@ parsers: # array
         - RULE-SET,twitter,🦤Twitter
         - RULE-SET,github,🥷PROXY
         - RULE-SET,applications,DIRECT
-        - DOMAIN,clash.razord.top,DIRECT
-        - DOMAIN,yacd.haishan.me,DIRECT
         - RULE-SET,private,DIRECT
         - RULE-SET,reject,🚦AD
-        - RULE-SET,icloud,DIRECT #
+        - RULE-SET,icloud,🥷PROXY #
         - RULE-SET,apple,DIRECT # 这三个为国内可直连地址，如果希望走代理改为🥷PROXY
         - RULE-SET,google,🚅Google # 
         - RULE-SET,googledrive,🚅Google # 
@@ -300,12 +334,13 @@ parsers: # array
         - RULE-SET,gfw,🥷PROXY
         - RULE-SET,greatfire,🥷PROXY
         - RULE-SET,telegramcidr,🥷PROXY
+        - RULE-SET,Binance,🇹🇼台湾
         - RULE-SET,lancidr,DIRECT
         - RULE-SET,cncidr,DIRECT
-        - GEOIP,,DIRECT
-        - GEOIP,CN,DIRECT
         - RULE-SET,direct,DIRECT
         - RULE-SET,proxy,🥷PROXY
+        - GEOIP,,DIRECT
+        - GEOIP,CN,DIRECT
         - MATCH,👆SELECT # ⭐️⭐️规则之外的，在这里来修改是白名单模式还是黑名单模式，具体在“👆SELECT”选择代理或直连。
 
       # 添加规则集
@@ -483,3 +518,10 @@ parsers: # array
           url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml"
           path: ./ruleset/github.yaml
           interval: 86400    
+
+        Binance: # Binance 交易所的分流规则
+          type: http
+          behavior: classical
+          url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Binance/Binance.yaml"
+          path: ./ruleset/Binance.yaml
+          interval: 86400     
