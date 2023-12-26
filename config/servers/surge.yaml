@@ -1,4 +1,5 @@
-#!MANAGED-CONFIG https://api.d1.mk/sub?target=surge&ver=4&url=trojan%3A%2F%2FjOdJ5zI24c%40tgbbhujmko521.southeastasia.cloudapp.azure.com%3A65402%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Lite%7Ctrojan%3A%2F%2FjOdJ5zI24c%40gddxb.073505.cn%3A17456%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIkNsb3VkZmxhcmUtTU8iLA0KICAiYWRkIjogIlNJTkdBUE9SRS5DT00iLA0KICAicG9ydCI6ICI4ODgwIiwNCiAgImlkIjogIjgwNDI3YjMzLTI0M2QtNDA2ZS04ZjFlLTc1MTI4MmU3MWFmMyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiaG1hLmtleWxvbC5saW5rIiwNCiAgInBhdGgiOiAiL2t5b21hP2VkPTIwNDgiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Ctrojan%3A%2F%2F9awMqCokjg%4085.239.235.232%3A25484%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Lite%7Ctrojan%3A%2F%2F9awMqCokjg%40shdx.073505.cn%3A50275%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Pro%7Ctrojan%3A%2F%2FaGWl3RD9MQ%40103.214.71.16%3A8800%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Lite%7Ctrojan%3A%2F%2FaGWl3RD9MQ%40shshcua.073505.cn%3A21043%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLURFIiwNCiAgImFkZCI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY29uc2lkZXJhYmxlLXJpa2tpLWdha2l5dWtyLmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLUpQIiwNCiAgImFkZCI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWVzdGhldGljLW5vcmluZS16Zmpia2t2c3F1LmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7C&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false interval=86400 strict=false 
+#!MANAGED-CONFIG https://api.d1.mk/sub?target=surge&ver=4&url=vmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1KUC1MaXRlIiwNCiAgImFkZCI6ICI0My4yMDcuMTcyLjI1MCIsDQogICJwb3J0IjogIjMwMTA3IiwNCiAgImlkIjogImFkNWQ4ZDA0LTlhZDQtNDUyZS1mOWM2LWQyMTZjOWI5MmViMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Ctrojan%3A%2F%2FjOdJ5zI24c%40tgbbhujmko521.southeastasia.cloudapp.azure.com%3A65402%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Lite%7Ctrojan%3A%2F%2FjOdJ5zI24c%40gddxb.073505.cn%3A17456%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIkNsb3VkZmxhcmUtTU8iLA0KICAiYWRkIjogIlNJTkdBUE9SRS5DT00iLA0KICAicG9ydCI6ICI4ODgwIiwNCiAgImlkIjogIjgwNDI3YjMzLTI0M2QtNDA2ZS04ZjFlLTc1MTI4MmU3MWFmMyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiaG1hLmtleWxvbC5saW5rIiwNCiAgInBhdGgiOiAiL2t5b21hP2VkPTIwNDgiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Ctrojan%3A%2F%2F9awMqCokjg%4085-239-235-232.lzmt.org%3A25477%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Lite%7Ctrojan%3A%2F%2F9awMqCokjg%40shdx.073505.cn%3A50275%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Pro%7Ctrojan%3A%2F%2FCrJHHyCSBL%40103.214.71.16%3A33377%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Lite%7Ctrojan%3A%2F%2FCrJHHyCSBL%40shshyd.073505.cn%3A21043%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLURFIiwNCiAgImFkZCI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY29uc2lkZXJhYmxlLXJpa2tpLWdha2l5dWtyLmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLUpQIiwNCiAgImFkZCI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWVzdGhldGljLW5vcmluZS16Zmpia2t2c3F1LmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIlRlbmNlbnQtVVMtTGl0ZSIsDQogICJhZGQiOiAiNDkuNTEuMjMyLjI0OCIsDQogICJwb3J0IjogIjMwMzA0IiwNCiAgImlkIjogImYzZmU4NzEwLTExZTAtNDNjZS1kNWRiLTQwYjVlNjIyMGFhNCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7C&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false interval=86400 strict=false
+
 [General]
 loglevel = notify
 bypass-system = true
@@ -15,27 +16,32 @@ allow-wifi-access = true
 http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
 wifi-access-http-port = 6152
-wifi-access-socks5-port = 6153 
+wifi-access-socks5-port = 6153
+
 [Script]
-http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js 
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
 [Proxy]
 DIRECT = direct
+🇯🇵 AWS-JP-Lite = vmess, 43.207.172.250, 30107, username=ad5d8d04-9ad4-452e-f9c6-d216c9b92eb2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=43.207.172.250, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 Azure-SG-Lite = trojan, tgbbhujmko521.southeastasia.cloudapp.azure.com, 65402, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 Azure-SG-Pro = trojan, gddxb.073505.cn, 17456, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify=false, tfo=false, udp-relay=false
 Cloudflare-MO = vmess, SINGAPORE.COM, 8880, username=80427b33-243d-406e-8f1e-751282e71af3, tls=false, vmess-aead=true, ws=true, ws-path=/kyoma?ed=2048, sni=SINGAPORE.COM, ws-headers=Host:hma.keylol.link, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 Contabo-US-Lite = trojan, 85.239.235.232, 25484, password=9awMqCokjg, sni=85-239-235-232.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Contabo-US-Lite = trojan, 85-239-235-232.lzmt.org, 25477, password=9awMqCokjg, sni=85-239-235-232.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Contabo-US-Pro = trojan, shdx.073505.cn, 50275, password=9awMqCokjg, sni=85-239-235-232.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
-🇯🇵 ExtraVM-JP-Lite = trojan, 103.214.71.16, 8800, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
-🇯🇵 ExtraVM-JP-Pro = trojan, shshcua.073505.cn, 21043, password=aGWl3RD9MQ, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 ExtraVM-JP-Lite = trojan, 103.214.71.16, 33377, password=CrJHHyCSBL, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 ExtraVM-JP-Pro = trojan, shshyd.073505.cn, 21043, password=CrJHHyCSBL, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇩🇪 Koyeb-DE = vmess, considerable-rikki-gakiyukr.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/vmess, sni=considerable-rikki-gakiyukr.koyeb.app, ws-headers=Host:considerable-rikki-gakiyukr.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Koyeb-JP = vmess, aesthetic-norine-zfjbkkvsqu.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/vmess, sni=aesthetic-norine-zfjbkkvsqu.koyeb.app, ws-headers=Host:aesthetic-norine-zfjbkkvsqu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Tencent-US-Lite = vmess, 49.51.232.248, 30304, username=f3fe8710-11e0-43ce-d5db-40b5e6220aa4, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=49.51.232.248, skip-cert-verify=false, tfo=false, udp-relay=false
 🇭🇰 香港节点 = direct
 🇨🇳 台湾节点 = direct
 🇰🇷 韩国节点 = direct
-🎥 奈飞节点 = direct 
+🎥 奈飞节点 = direct
+
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,Cloudflare-MO,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP
+🚀 手动切换 = select,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,Cloudflare-MO,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇺🇸 Tencent-US-Lite
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -55,9 +61,10 @@ Cloudflare-MO = vmess, SINGAPORE.COM, 8880, username=80427b33-243d-406e-8f1e-751
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
-🇯🇵 日本节点 = select,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇯🇵 Koyeb-JP
-🇺🇲 美国节点 = select,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro
-🇸🇬 狮城节点 = select,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro 
+🇯🇵 日本节点 = select,🇯🇵 AWS-JP-Lite,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇯🇵 Koyeb-JP
+🇺🇲 美国节点 = select,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Tencent-US-Lite
+🇸🇬 狮城节点 = select,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro
+
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
@@ -90,5 +97,6 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 全球直连,update-interval=86400
 GEOIP,CN,🎯 全球直连
-FINAL,🐟 漏网之鱼 
+FINAL,🐟 漏网之鱼
+
 
