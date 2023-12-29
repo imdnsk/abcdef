@@ -21,6 +21,7 @@ proxies:
   - {name: 🇯🇵 Eons-JP, server: 58.242.130.170, port: 37400, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false}
   - {name: 🇸🇬 Eons-SG, server: sg-1.ac.laowanxiang.com, port: 14732, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false}
   - {name: 🇨🇦 Gocodeit-CA, server: 36.139.239.208, port: 46729, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false}
+  - {name: Grupo ZGH SPA-CL, server: 203.156.198.92, port: 14732, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, tfo: false}
   - {name: JJSpa-CL, server: 58.242.130.170, port: 37410, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
   - {name: Markahost-TR, server: 36.139.239.208, port: 26861, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
   - {name: 🇺🇸 Misaka-US, server: 36.139.239.208, port: 46726, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
@@ -45,6 +46,7 @@ proxy-groups:
       - 🇯🇵 Eons-JP
       - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
+      - Grupo ZGH SPA-CL
       - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
