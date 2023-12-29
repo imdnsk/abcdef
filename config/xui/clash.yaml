@@ -16,6 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇹🇼 Akile-TW, server: tw-1.ac.laowanxiang.com, port: 14732, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, tfo: false}
+  - {name: 🇯🇵 Catxis-JP, server: 203.156.198.88, port: 14732, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b84905067e81aca2, tfo: false}
   - {name: 🇭🇰 DMIT-HK, server: 58.242.130.170, port: 26795, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false}
   - {name: 🇭🇰 Eons-HK, server: 58.242.130.170, port: 26796, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, tfo: false}
   - {name: 🇯🇵 Eons-JP, server: 58.242.130.170, port: 37400, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false}
@@ -41,6 +42,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 Akile-TW
+      - 🇯🇵 Catxis-JP
       - 🇭🇰 DMIT-HK
       - 🇭🇰 Eons-HK
       - 🇯🇵 Eons-JP
@@ -245,6 +247,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: select
     proxies:
+      - 🇯🇵 Catxis-JP
       - 🇯🇵 Eons-JP
   - name: 🇺🇲 美国节点
     type: select
