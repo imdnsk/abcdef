@@ -1,1 +1,3 @@
-1
+proxies:
+  - {name: GPT Plus, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  
