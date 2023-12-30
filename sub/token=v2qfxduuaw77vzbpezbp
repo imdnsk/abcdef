@@ -1,0 +1,2 @@
+proxies:
+  - {name: "", server: 176.122.187.108, port: 34003, type: vmess, uuid: 64834ab6-7af8-46db-f347-8513da32965f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
