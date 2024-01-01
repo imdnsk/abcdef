@@ -113,10 +113,30 @@ proxies:
   - {name: 🇯🇵 JPN 11 B, server: relay-jpn-b.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 12 B, server: relay-jpn-b.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 13 B, server: relay-jpn-b.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 3 A, server: relay-sgp-a.292228.xyz, port: 30077, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 3 B, server: relay-sgp-b.292228.xyz, port: 30077, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 7 A, server: relay-sgp-a.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 8 A, server: relay-sgp-a.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 10 A, server: relay-sgp-a.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 11 A, server: relay-sgp-a.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 12 A, server: relay-sgp-a.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 4 B, server: relay-sgp-b.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 5 B, server: relay-sgp-b.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 6 B, server: relay-sgp-b.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 7 B, server: relay-sgp-b.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -234,10 +254,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -355,10 +395,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -476,10 +536,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -596,10 +676,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -716,10 +816,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -836,10 +956,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -957,10 +1097,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
@@ -1084,10 +1244,30 @@ proxy-groups:
       - 🇯🇵 JPN 11 B
       - 🇯🇵 JPN 12 B
       - 🇯🇵 JPN 13 B
+      - 🇸🇬 SGP 1 A
+      - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
       - 🇸🇬 SGP 3 A
       - 🇸🇬 SGP 3 B
+      - 🇸🇬 SGP 4 A
+      - 🇸🇬 SGP 5 A
+      - 🇸🇬 SGP 6 A
+      - 🇸🇬 SGP 7 A
+      - 🇸🇬 SGP 8 A
+      - 🇸🇬 SGP 9 A
+      - 🇸🇬 SGP 10 A
+      - 🇸🇬 SGP 11 A
+      - 🇸🇬 SGP 12 A
+      - 🇸🇬 SGP 4 B
+      - 🇸🇬 SGP 5 B
+      - 🇸🇬 SGP 6 B
+      - 🇸🇬 SGP 7 B
+      - 🇸🇬 SGP 8 B
+      - 🇸🇬 SGP 9 B
+      - 🇸🇬 SGP 10 B
+      - 🇸🇬 SGP 11 B
+      - 🇸🇬 SGP 12 B
       - 🇲🇾 MYS
       - 🇨🇦 CAN
       - 🇫🇷 FRA
