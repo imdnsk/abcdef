@@ -26,15 +26,17 @@ proxies:
   - {name: JJSpa-CL, server: 58.242.130.170, port: 37410, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false, udp: true}
   - {name: Markahost-TR, server: 36.139.239.208, port: 26861, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false, udp: true}
   - {name: 🇺🇸 Misaka-US, server: 36.139.239.208, port: 46726, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false, udp: true}
-  - {name: 🇹🇼 Akile-TW 2, server: hk001.wsfsa.top, port: 44001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, tfo: false, udp: true}
-  - {name: 🇭🇰 DMIT-HK 2, server: hk001.wsfsa.top, port: 44002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false, udp: true}
-  - {name: 🇭🇰 Eons-HK 2, server: hk001.wsfsa.top, port: 44003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, tfo: false, udp: true}
-  - {name: 🇯🇵 Eons-JP 2, server: hk001.wsfsa.top, port: 44004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false, udp: true}
-  - {name: 🇸🇬 Eons-SG 2, server: hk001.wsfsa.top, port: 44005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false, udp: true}
-  - {name: 🇨🇦 Gocodeit-CA 2, server: hk001.wsfsa.top, port: 44006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false, udp: true}
-  - {name: JJSpa-CL 2, server: hk001.wsfsa.top, port: 44007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false, udp: true}
-  - {name: Markahost-TR 2, server: hk001.wsfsa.top, port: 44008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false, udp: true}
-  - {name: 🇺🇸 Misaka-US 2, server: hk001.wsfsa.top, port: 44009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false, udp: true}
+  - {name: 🇹🇼 Akile-TW 2, server: sh-ct.gou.wtf, port: 44001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, tfo: false, udp: true}
+  - {name: 🇯🇵 Catxis-JP 2, server: sh-ct.gou.wtf, port: 44010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b84905067e81aca2, tfo: false, udp: true}
+  - {name: 🇭🇰 DMIT-HK 2, server: sh-ct.gou.wtf, port: 44002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false, udp: true}
+  - {name: 🇭🇰 Eons-HK 2, server: sh-ct.gou.wtf, port: 44003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, tfo: false, udp: true}
+  - {name: 🇯🇵 Eons-JP 2, server: sh-ct.gou.wtf, port: 44004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false, udp: true}
+  - {name: 🇸🇬 Eons-SG 2, server: sh-ct.gou.wtf, port: 44005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false, udp: true}
+  - {name: 🇨🇦 Gocodeit-CA 2, server: sh-ct.gou.wtf, port: 44006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false, udp: true}
+  - {name: Grupo ZGH SPA-CL 2, server: sh-ct.gou.wtf, port: 44011, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, tfo: false, udp: true}
+  - {name: JJSpa-CL 2, server: sh-ct.gou.wtf, port: 44007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false, udp: true}
+  - {name: Markahost-TR 2, server: sh-ct.gou.wtf, port: 44008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false, udp: true}
+  - {name: 🇺🇸 Misaka-US 2, server: sh-ct.gou.wtf, port: 44009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false, udp: true}
   - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -168,11 +170,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -309,11 +313,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -450,11 +456,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -590,11 +598,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -730,11 +740,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -870,11 +882,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -1011,11 +1025,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
@@ -1158,11 +1174,13 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - 🇹🇼 Akile-TW 2
+      - 🇯🇵 Catxis-JP 2
       - 🇭🇰 DMIT-HK 2
       - 🇭🇰 Eons-HK 2
       - 🇯🇵 Eons-JP 2
       - 🇸🇬 Eons-SG 2
       - 🇨🇦 Gocodeit-CA 2
+      - Grupo ZGH SPA-CL 2
       - JJSpa-CL 2
       - Markahost-TR 2
       - 🇺🇸 Misaka-US 2
