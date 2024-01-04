@@ -26,17 +26,17 @@ proxies:
   - {name: JJSpa-CL, server: 58.242.130.170, port: 37410, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
   - {name: Markahost-TR, server: 36.139.239.208, port: 26861, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
   - {name: 🇺🇸 Misaka-US, server: 36.139.239.208, port: 46726, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
-  - {name: 🇹🇼 Akile-TW 2, server: sh-ct.gou.wtf, port: 44001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, tfo: false}
-  - {name: 🇯🇵 Catxis-JP 2, server: sh-ct.gou.wtf, port: 44010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b84905067e81aca2, tfo: false}
-  - {name: 🇭🇰 DMIT-HK 2, server: sh-ct.gou.wtf, port: 44002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false}
-  - {name: 🇭🇰 Eons-HK 2, server: sh-ct.gou.wtf, port: 44003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, tfo: false}
-  - {name: 🇯🇵 Eons-JP 2, server: sh-ct.gou.wtf, port: 44004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false}
-  - {name: 🇸🇬 Eons-SG 2, server: sh-ct.gou.wtf, port: 44005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false}
-  - {name: 🇨🇦 Gocodeit-CA 2, server: sh-ct.gou.wtf, port: 44006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false}
-  - {name: Grupo ZGH SPA-CL 2, server: sh-ct.gou.wtf, port: 44011, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, tfo: false}
-  - {name: JJSpa-CL 2, server: sh-ct.gou.wtf, port: 44007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
-  - {name: Markahost-TR 2, server: sh-ct.gou.wtf, port: 44008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
-  - {name: 🇺🇸 Misaka-US 2, server: sh-ct.gou.wtf, port: 44009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
+  - {name: 🇹🇼 Akile-TW 2, server: qq.888888.wtf, port: 44001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, tfo: false}
+  - {name: 🇯🇵 Catxis-JP 2, server: qq.888888.wtf, port: 44010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b84905067e81aca2, tfo: false}
+  - {name: 🇭🇰 DMIT-HK 2, server: qq.888888.wtf, port: 44002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dYnbeKMpPd, tfo: false}
+  - {name: 🇭🇰 Eons-HK 2, server: qq.888888.wtf, port: 44003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, tfo: false}
+  - {name: 🇯🇵 Eons-JP 2, server: qq.888888.wtf, port: 44004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig, tfo: false}
+  - {name: 🇸🇬 Eons-SG 2, server: qq.888888.wtf, port: 44005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, tfo: false}
+  - {name: 🇨🇦 Gocodeit-CA 2, server: qq.888888.wtf, port: 44006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, tfo: false}
+  - {name: Grupo ZGH SPA-CL 2, server: qq.888888.wtf, port: 44011, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, tfo: false}
+  - {name: JJSpa-CL 2, server: qq.888888.wtf, port: 44007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q, tfo: false}
+  - {name: Markahost-TR 2, server: qq.888888.wtf, port: 44008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, tfo: false}
+  - {name: 🇺🇸 Misaka-US 2, server: qq.888888.wtf, port: 44009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: n1c3uCruks, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
