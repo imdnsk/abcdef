@@ -20,6 +20,9 @@ proxies:
   - {name: 🇸🇬 Azure-SG-Pro, server: gddxb.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
   - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
   - {name: 🇺🇸 Contabo-US-Pro, server: shdx.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇭🇰 DMIT-HK-Pro, server: 36.133.182.9, port: 25557, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: doki, tfo: false}
+  - {name: 🇭🇰 Eons-HK-IEPL, server: 120.233.45.130, port: 28089, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: dokidoki, tfo: false}
+  - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: dokidoki, tfo: false}
   - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: shshyd.073505.cn, port: 21043, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
@@ -45,6 +48,9 @@ proxy-groups:
       - 🇸🇬 Azure-SG-Pro
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 DMIT-HK-Pro
+      - 🇭🇰 Eons-HK-IEPL
+      - 🇭🇰 Eons-HK-IPLC
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
@@ -240,7 +246,9 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 DMIT-HK-Pro
+      - 🇭🇰 Eons-HK-IEPL
+      - 🇭🇰 Eons-HK-IPLC
   - name: 🇯🇵 日本节点
     type: select
     proxies:
