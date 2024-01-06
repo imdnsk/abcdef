@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://api.v1.mk/sub?config=https%3A%2F%2Fsubapi.v1.mk%2Fremoteconfig%2F2024%2F01%2F0106%2F56a6a8828da130d0b4f1ec64a9da02c7.ini&emoji=true&expand=true&fdn=false&insert=false&list=false&scv=false&target=surge&tfo=false&udp=false&url=vmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1KUC1MaXRlIiwNCiAgImFkZCI6ICI0My4yMDcuMTcyLjI1MCIsDQogICJwb3J0IjogIjMwMTA3IiwNCiAgImlkIjogImFkNWQ4ZDA0LTlhZDQtNDUyZS1mOWM2LWQyMTZjOWI5MmViMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Ctrojan%3A%2F%2FjOdJ5zI24c%40tgbbhujmko521.southeastasia.cloudapp.azure.com%3A65402%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Lite%7Ctrojan%3A%2F%2FjOdJ5zI24c%40hndx.073505.cn%3A17456%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Pro%7Ctrojan%3A%2F%2F9awMqCokjg%4085-239-235-232.lzmt.org%3A25477%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Lite%7Ctrojan%3A%2F%2F9awMqCokjg%40bjcu.073505.cn%3A50275%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Pro%7Css%3A%2F%2FYWVzLTI1Ni1nY206ZG9raQ%3D%3D%4036.133.182.9%3A25557%23DMIT-HK-Pro%7Css%3A%2F%2FYWVzLTEyOC1nY206ZG9raWRva2k%3D%40120.233.45.130%3A28089%23Eons-HK-IEPL%7Css%3A%2F%2FYWVzLTEyOC1nY206ZG9raWRva2k%3D%40bgp.gg.bbcc.cyou%3A30683%23Eons-HK-IPLC%7Ctrojan%3A%2F%2FCrJHHyCSBL%40103.214.71.16%3A33377%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Lite%7Ctrojan%3A%2F%2FCrJHHyCSBL%40hzcm.mmt.donghui.tech%3A21043%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLURFIiwNCiAgImFkZCI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY29uc2lkZXJhYmxlLXJpa2tpLWdha2l5dWtyLmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLUpQIiwNCiAgImFkZCI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWVzdGhldGljLW5vcmluZS16Zmpia2t2c3F1LmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Css%3A%2F%2FYWVzLTEyOC1nY206N2UxNWZkMTktMTg4Yi00MmMyLWJlNTgtMDc0MDZiOGFjZmYz%40152.67.221.167%3A21512%23Oracle-KR-Lite%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIlRlbmNlbnQtVVMtTGl0ZSIsDQogICJhZGQiOiAiNDkuNTEuMjMyLjI0OCIsDQogICJwb3J0IjogIjMwMzA0IiwNCiAgImlkIjogImYzZmU4NzEwLTExZTAtNDNjZS1kNWRiLTQwYjVlNjIyMGFhNCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7C&ver=4&xudp=false interval=86400 strict=false
+#!MANAGED-CONFIG https://api.v1.mk/sub?config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&expand=true&fdn=false&insert=false&list=false&scv=false&target=surge&tfo=false&udp=false&url=vmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1KUC1MaXRlIiwNCiAgImFkZCI6ICI0My4yMDcuMTcyLjI1MCIsDQogICJwb3J0IjogIjMwMTA3IiwNCiAgImlkIjogImFkNWQ4ZDA0LTlhZDQtNDUyZS1mOWM2LWQyMTZjOWI5MmViMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Ctrojan%3A%2F%2FjOdJ5zI24c%40tgbbhujmko521.southeastasia.cloudapp.azure.com%3A65402%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Lite%7Ctrojan%3A%2F%2FjOdJ5zI24c%40hndx.073505.cn%3A17456%3Fsecurity%3Dtls%26sni%3Dtgbbhujmko521.southeastasia.cloudapp.azure.com%26type%3Dtcp%26headerType%3Dnone%23Azure-SG-Pro%7Ctrojan%3A%2F%2F9awMqCokjg%4085-239-235-232.lzmt.org%3A25477%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Lite%7Ctrojan%3A%2F%2F9awMqCokjg%40bjcu.073505.cn%3A50275%3Fsecurity%3Dtls%26sni%3D85-239-235-232.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23Contabo-US-Pro%7Css%3A%2F%2FYWVzLTI1Ni1nY206ZG9raQ%3D%3D%4036.133.182.9%3A25557%23DMIT-HK-Pro%7Css%3A%2F%2FYWVzLTEyOC1nY206ZG9raWRva2k%3D%40bgp.gg.bbcc.cyou%3A30683%23Eons-HK-IPLC%7Ctrojan%3A%2F%2FCrJHHyCSBL%40103.214.71.16%3A33377%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Lite%7Ctrojan%3A%2F%2FCrJHHyCSBL%40hzcm.mmt.donghui.tech%3A21043%3Fsecurity%3Dtls%26sni%3D103-214-71-16.lzmt.org%26type%3Dtcp%26headerType%3Dnone%23ExtraVM-JP-Pro%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLURFIiwNCiAgImFkZCI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY29uc2lkZXJhYmxlLXJpa2tpLWdha2l5dWtyLmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjb25zaWRlcmFibGUtcmlra2ktZ2FraXl1a3Iua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIktveWViLUpQIiwNCiAgImFkZCI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImRlMDRhZGQ5LTVjNjgtOGJhYi05NTBjLTA4Y2Q1MzIwZGYxOCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWVzdGhldGljLW5vcmluZS16Zmpia2t2c3F1LmtveWViLmFwcCIsDQogICJwYXRoIjogIi92bWVzcyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJhZXN0aGV0aWMtbm9yaW5lLXpmamJra3ZzcXUua295ZWIuYXBwIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7Css%3A%2F%2FYWVzLTEyOC1nY206N2UxNWZkMTktMTg4Yi00MmMyLWJlNTgtMDc0MDZiOGFjZmYz%40152.67.221.167%3A21512%23Oracle-KR-Lite%7Ctrojan%3A%2F%2FKuR1Xa45Fi%4043.228.147.52%3A42192%3Fsecurity%3Dtls%26type%3Dtcp%26headerType%3Dnone%23Sharon-HK-Lite%7Cvmess%3A%2F%2Few0KICAidiI6ICIyIiwNCiAgInBzIjogIlRlbmNlbnQtVVMtTGl0ZSIsDQogICJhZGQiOiAiNDkuNTEuMjMyLjI0OCIsDQogICJwb3J0IjogIjMwMzA0IiwNCiAgImlkIjogImYzZmU4NzEwLTExZTAtNDNjZS1kNWRiLTQwYjVlNjIyMGFhNCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ%3D%3D%7C&ver=4&xudp=false interval=86400 strict=false
 
 [General]
 loglevel = notify
@@ -29,59 +29,77 @@ DIRECT = direct
 🇺🇸 Contabo-US-Lite = trojan, 85-239-235-232.lzmt.org, 25477, password=9awMqCokjg, sni=85-239-235-232.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Contabo-US-Pro = trojan, bjcu.073505.cn, 50275, password=9awMqCokjg, sni=85-239-235-232.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇭🇰 DMIT-HK-Pro = ss, 36.133.182.9, 25557, encrypt-method=aes-256-gcm, password=doki, tfo=false, udp-relay=false
-🇭🇰 Eons-HK-IEPL = ss, 120.233.45.130, 28089, encrypt-method=aes-128-gcm, password=dokidoki, tfo=false, udp-relay=false
 🇭🇰 Eons-HK-IPLC = ss, bgp.gg.bbcc.cyou, 30683, encrypt-method=aes-128-gcm, password=dokidoki, tfo=false, udp-relay=false
 🇯🇵 ExtraVM-JP-Lite = trojan, 103.214.71.16, 33377, password=CrJHHyCSBL, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 ExtraVM-JP-Pro = trojan, hzcm.mmt.donghui.tech, 21043, password=CrJHHyCSBL, sni=103-214-71-16.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 🇩🇪 Koyeb-DE = vmess, considerable-rikki-gakiyukr.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/vmess, sni=considerable-rikki-gakiyukr.koyeb.app, ws-headers=Host:considerable-rikki-gakiyukr.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
 🇯🇵 Koyeb-JP = vmess, aesthetic-norine-zfjbkkvsqu.koyeb.app, 443, username=de04add9-5c68-8bab-950c-08cd5320df18, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/vmess, sni=aesthetic-norine-zfjbkkvsqu.koyeb.app, ws-headers=Host:aesthetic-norine-zfjbkkvsqu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
 🇰🇷 Oracle-KR-Lite = ss, 152.67.221.167, 21512, encrypt-method=aes-128-gcm, password=7e15fd19-188b-42c2-be58-07406b8acff3, tfo=false, udp-relay=false
+🇭🇰 Sharon-HK-Lite = trojan, 43.228.147.52, 42192, password=KuR1Xa45Fi, skip-cert-verify=false, tfo=false, udp-relay=false
 🇺🇸 Tencent-US-Lite = vmess, 49.51.232.248, 30304, username=f3fe8710-11e0-43ce-d5db-40b5e6220aa4, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=49.51.232.248, skip-cert-verify=false, tfo=false, udp-relay=false
-加密货币 = direct
+🇨🇳 台湾节点 = direct
+🎥 奈飞节点 = direct
 
 [Proxy Group]
-自动选择 = url-test,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-节点选择 = select,自动选择,DIRECT,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-Google = select,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-Microsoft = select,全球直连,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-Apple = select,全球直连,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-OpenAI = select,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-TikTok = select,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-TelegramNL = select,🇩🇪 Koyeb-DE
-TelegramSG = select,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro
-PayPal = select,DIRECT,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-Media = select,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-ProxyWeb = select,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-Google One = select,🇯🇵 AWS-JP-Lite,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-漏网之鱼 = select,全球直连,节点选择,自动选择,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IEPL,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇺🇸 Tencent-US-Lite
-全球直连 = select,DIRECT,REJECT
-全球拦截 = select,DIRECT,REJECT
-应用净化 = select,DIRECT,REJECT
+🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🚀 手动切换 = select,🇯🇵 AWS-JP-Lite,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IPLC,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇩🇪 Koyeb-DE,🇯🇵 Koyeb-JP,🇰🇷 Oracle-KR-Lite,🇭🇰 Sharon-HK-Lite,🇺🇸 Tencent-US-Lite
+📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🎥 奈飞视频 = select,🎥 奈飞节点,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+📺 巴哈姆特 = select,🇨🇳 台湾节点,🚀 节点选择,🚀 手动切换,DIRECT
+📺 哔哩哔哩 = select,🎯 全球直连,🇨🇳 台湾节点,🇭🇰 香港节点
+🌍 国外媒体 = select,🚀 节点选择,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🌏 国内媒体 = select,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🚀 手动切换
+📢 谷歌FCM = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+Ⓜ️ 微软Bing = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+Ⓜ️ 微软云盘 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+Ⓜ️ 微软服务 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🍎 苹果服务 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🎮 游戏平台 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🎶 网易音乐 = select,DIRECT,🚀 节点选择
+🎯 全球直连 = select,DIRECT,🚀 节点选择
+🛑 广告拦截 = select,REJECT,DIRECT
+🍃 应用净化 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
+🇭🇰 香港节点 = select,🇭🇰 DMIT-HK-Pro,🇭🇰 Eons-HK-IPLC,🇭🇰 Sharon-HK-Lite
+🇯🇵 日本节点 = select,🇯🇵 AWS-JP-Lite,🇯🇵 ExtraVM-JP-Lite,🇯🇵 ExtraVM-JP-Pro,🇯🇵 Koyeb-JP
+🇺🇲 美国节点 = select,🇺🇸 Contabo-US-Lite,🇺🇸 Contabo-US-Pro,🇺🇸 Tencent-US-Lite
+🇸🇬 狮城节点 = select,🇸🇬 Azure-SG-Lite,🇸🇬 Azure-SG-Pro
+🇰🇷 韩国节点 = select,🇰🇷 Oracle-KR-Lite
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/gakiyukr/Porxy_for_Yaml/main/config/subconverter/direct.list,全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,全球拦截,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,应用净化,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,节点选择,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/gakiyukr/Porxy_for_Yaml/main/config/ruls/btc.list,加密货币,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Microsoft,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,Apple,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,Media,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramNL/TelegramNL.list,TelegramNL,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramNL/TelegramSG.list,TelegramSG,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/gakiyukr/Porxy_for_Yaml/main/config/subconverter/one.list,Google One,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml,Google,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list,TikTok,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list,OpenAI,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list,PayPal,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spark/Spark.list,ProxyWeb,update-interval=86400
-GEOIP,CN,全球直连
-FINAL,漏网之鱼
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list,Ⓜ️ 微软Bing,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list,Ⓜ️ 微软云盘,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报消息,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list,💬 OpenAi,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list,🎶 网易音乐,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 油管视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 奈飞视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,📺 巴哈姆特,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
 
 
