@@ -1,0 +1,149 @@
+[General]
+# General
+external-controller-access = qcfy1204@0.0.0.0:6170
+internet-test-url = http://1.1.1.1/generate_204
+proxy-test-url = http://1.1.1.1/generate_204
+test-timeout = 3
+ipv6 = true
+show-error-page-for-reject = true
+dns-server = 223.6.6.6, 119.28.28.28, 199.85.127.10, system
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com
+# Advanced
+exclude-simple-hostnames = true
+use-default-policy-if-wifi-not-primary = false
+allow-wifi-access = true
+# Others
+b# network-framework = true
+http-listen = 0.0.0.0
+socks5-listen = 0.0.0.0
+geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+udp-priority = true
+allow-hotspot-access = true
+http-api-web-dashboard = true
+ipv6-vif = auto
+
+[Proxy]
+直连 = direct
+Warp = wireguard, section-name=GetSomeCats, underlying-proxy=🆘 Warp, test-url=http://cp.cloudflare.com/generate_204
+
+[Proxy Group]
+ImmTelecom = select, update-interval=43200, no-alert=0, hidden=0, include-all-proxies=0, policy-path=https://pixepf.sbs/?L1N1YnNjcmlwdGlvbi9TdXJnZT9zaWQ9NjUwOSZ0b2tlbj1ReDhETXVucTJuRCZtbT0xNjU5NSYyNmU2ZTEfUxrwmdUanzZMuoSRHWTxVjbnLVthuEU=
+EdNovas云 = select, policy-path=https://cdn.ednovas.world/api/v1/client/subscribe?token=b44733d8fabdb9ff3c16e2d01411c16d, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+🍎 Apple = select, 直连, ImmTelecom, EdNovas云, Warp, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=ImmTelecom
+🌐 Google = select, ImmTelecom, EdNovas云, Warp, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=ImmTelecom
+🖥 Microsoft = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🍎 Apple
+😍 Meta = select, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🌐 OpenAI = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🌐 Paypal = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🎬 YouTube = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🎵 Tiktok = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📺 Netflix = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📺 Disney = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📺 Emby = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🎵 Spotify = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📽 GlobalMedia = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📲 WeChat = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🍎 Apple
+📲 Telegram = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📟 Twitter = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+📡 Global = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌐 Google
+🆘 Warp = select, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🍎 Apple
+
+[Rule]
+DOMAIN-KEYWORD,duolingo,直连 // 中国区多邻国走直连，如果您是海外账户，请进用或删除此规则
+DOMAIN-SUFFIX,zsfjro.sbs,直连 // ImmTelecom 订阅走直连。
+# > Client
+# > Proxy app
+PROCESS-NAME,v2ray,直连
+PROCESS-NAME,ss-local,直连
+PROCESS-NAME,UUBooster,直连
+# > Download
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Download/Download.list,直连
+# > Mail
+RULE-SET,https://raw.githubusercontent.com/yuehun1224/ios_rule_script/master/rule/Surge/Mail/Mail.list,Warp
+# ------Rulesets (分流规则集）------
+# > WeChat
+RULE-SET,https://raw.githubusercontent.com/yuehun1224/ios_rule_script/master/rule/Surge/WeChat/WeChat.list,📲 WeChat
+# > Apple
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list,🍎 Apple
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_Domain.list,🍎 Apple
+# > Emby
+RULE-SET,https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Emby/Emby.list,📺 Emby
+# > TikTok
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list,🎵 Tiktok
+# > Spotify
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list,🎵 Spotify
+# > YouTube Music
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list,🎬 YouTube
+# > YouTube
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,🎬 YouTube
+# > Disney
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list,📺 Disney
+# > Netflix
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,📺 Netflix
+# > GlobalMedia
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list,📽 GlobalMedia
+# > Google
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,🌐 Google
+# > OpenAI
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list,🌐 OpenAI
+# > Microsoft
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list,🖥 Microsoft
+# > Paypal
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list,🌐 Paypal
+# > WhatsApp
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Whatsapp/Whatsapp.list,😍 Meta
+# > Instagram
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list,😍 Meta
+# > Facebook
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list,😍 Meta
+# > Twitter
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list,📟 Twitter
+# > Telegram
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,📲 Telegram
+# > Global
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list,📡 Global
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Domain.list,📡 Global
+# > China
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list,直连
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_Domain.list,直连
+# > Local Area Network 局域网
+RULE-SET,https://raw.githubusercontent.com/yuehun1224/ios_rule_script/master/rule/Surge/Lan/Lan.list,直连
+# > ChinaIP
+GEOIP,CN,直连
+# > DNS 查询失败走 Final 规则
+FINAL,📡 Global,dns-failed
+
+[Host]
+# > 该段定义本地 DNS 记录
+# > 该功能等同于 /etc/hosts，加上了泛解析和别名支持。
+# > Firebase Cloud Messaging
+mtalk.google.com = 108.177.125.188
+
+[URL Rewrite]
+# > Redirect Google Search Service
+^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 302
+# Redirect HTTP to HTTPS
+^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
+^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
+^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
+^https?:\/\/(www.)?yhd\.com https://yhd.com/ 302
+# ===============================================================================
+
+[MITM]
+skip-server-cert-verify = true
+hostname = www.google.cn, www.g.cn
+ca-passphrase = ImmTelecom
+ca-p12 = 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
+
+[WireGuard GetSomeCats]
+private-key = CLQJ+u6DuD/Y4/OpB6AzEOZCQERrNVcRhPkI+i21dkw=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8ea9:642c:49bc:17f3:b85
+prefer-ipv6 = true
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.8:2408, keepalive = 45, client-id = 207/13/73)
+
