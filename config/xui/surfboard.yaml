@@ -38,7 +38,7 @@ DIRECT = direct
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇹🇼 Akile-TW,🇯🇵 Catxis-JP,🇭🇰 DMIT-HK,🇭🇰 Eons-HK,🇯🇵 Eons-JP,🇸🇬 Eons-SG,🇨🇦 Gocodeit-CA,Grupo ZGH SPA-CL,JJSpa-CL,Markahost-TR,🇺🇸 Misaka-US,🇹🇼 Akile-TW 2,🇯🇵 Catxis-JP 2,🇭🇰 DMIT-HK 2,🇭🇰 Eons-HK 2,🇯🇵 Eons-JP 2,🇸🇬 Eons-SG 2,🇨🇦 Gocodeit-CA 2,Grupo ZGH SPA-CL 2,JJSpa-CL 2,Markahost-TR 2,🇺🇸 Misaka-US 2
+🚀 手动切换 = select,🇹🇼 Akile-TW,🇯🇵 Catxis-JP,🇭🇰 DMIT-HK,🇭🇰 Eons-HK,🇯🇵 Eons-JP,🇸🇬 Eons-SG,🇨🇦 Gocodeit-CA,🇨🇱 Grupo ZGH SPA-CL,🇨🇱 JJSpa-CL 2,🇹🇷 Markahost-TR,🇺🇸 Misaka-US,🇹🇼 Akile-TW 2,🇯🇵 Catxis-JP 2,🇭🇰 DMIT-HK 2,🇭🇰 Eons-HK 2,🇯🇵 Eons-JP 2,🇸🇬 Eons-SG 2,🇨🇦 Gocodeit-CA 2,🇨🇱 Grupo ZGH SPA-CL 2,🇨🇱 JJSpa-CL 2 2,🇹🇷 Markahost-TR 2,🇺🇸 Misaka-US 2
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
