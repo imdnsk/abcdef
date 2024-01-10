@@ -22,6 +22,7 @@ proxies:
   - {name: 🇭🇰 Eons-HK, server: dcq.showsion.shop, port: 41336, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇯🇵 Eons-JP, server: zoda.showsion.shop, port: 27040, type: ss, cipher: aes-256-gcm, password: sniuRn9Hig}
   - {name: 🇸🇬 Eons-SG, server: dcq.showsion.shop, port: 10860, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
+  - {name: 🇹🇼 Extra Lan-TW, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: 🇨🇦 Gocodeit-CA, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: Grupo ZGH SPA-CL, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
   - {name: JJSpa-CL, server: zoda.showsion.shop, port: 44002, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
@@ -55,6 +56,7 @@ proxy-groups:
       - 🇭🇰 Eons-HK
       - 🇯🇵 Eons-JP
       - 🇸🇬 Eons-SG
+      - 🇹🇼 Extra Lan-TW
       - 🇨🇦 Gocodeit-CA
       - Grupo ZGH SPA-CL
       - JJSpa-CL
@@ -281,6 +283,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 Akile-TW
+      - 🇹🇼 Extra Lan-TW
       - 🇹🇼 Akile-TW 2
   - name: 🇰🇷 韩国节点
     type: select
