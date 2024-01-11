@@ -22,7 +22,7 @@ proxies:
   - {name: 🇸🇬 Eons-SG, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 10860, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇨🇦 Gocodeit-CA, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: Grupo ZGH SPA-CL, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
-  - {name: 🇭🇰 HGC-HK, server: zoda.showsion.shop, port: 21253, type: ss, cipher: aes-256-gcm, password: nMTGcSprxY}
+  - {name: 🇭🇰 HKT-HK, server: zoda.showsion.shop, port: 21253, type: ss, cipher: aes-256-gcm, password: nMTGcSprxY}
   - {name: JJSpa-CL, server: zoda.showsion.shop, port: 44002, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
   - {name: 🇺🇸 Misaka-US, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
@@ -34,6 +34,7 @@ proxies:
   - {name: 🇸🇬 Eons-SG 2, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇹🇼 Extra Lan-TW, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: SK-ISP 限量 2, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: SK-ISP 限量-Seoul, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -56,7 +57,7 @@ proxy-groups:
       - 🇸🇬 Eons-SG
       - 🇨🇦 Gocodeit-CA
       - Grupo ZGH SPA-CL
-      - 🇭🇰 HGC-HK
+      - 🇭🇰 HKT-HK
       - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
@@ -68,6 +69,7 @@ proxy-groups:
       - 🇸🇬 Eons-SG 2
       - 🇹🇼 Extra Lan-TW
       - SK-ISP 限量 2
+      - SK-ISP 限量-Seoul
   - name: 📲 电报消息
     type: select
     proxies:
@@ -259,7 +261,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 Eons-HK
-      - 🇭🇰 HGC-HK
+      - 🇭🇰 HKT-HK
       - 🇭🇰 Eons-HK 2
   - name: 🇯🇵 日本节点
     type: select
