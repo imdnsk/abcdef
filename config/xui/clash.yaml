@@ -15,11 +15,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇹🇼 Akile-TW, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 16250, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
+  - {name: 🇹🇼 Akile-TW, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇯🇵 Catxis-JP, server: zoda.showsion.shop, port: 24223, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik}
   - {name: 🇯🇵 Dodo-JP, server: aizai798.infois.top, port: 17237, type: ss, cipher: aes-256-gcm, password: XqrFHx6JlI}
   - {name: 🇭🇰 Eons-HK, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 41336, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇸🇬 Eons-SG, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 10860, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
+  - {name: 🇹🇼 Extra Lan-TW, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: 🇨🇦 Gocodeit-CA, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: Grupo ZGH SPA-CL, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
   - {name: 🇭🇰 HKT-HK, server: zoda.showsion.shop, port: 21253, type: ss, cipher: aes-256-gcm, password: nMTGcSprxY}
@@ -27,14 +28,14 @@ proxies:
   - {name: Markahost-TR, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
   - {name: 🇺🇸 Misaka-US, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
   - {name: SK-ISP 限量, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: SK-ISP 限量-Seoul, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 以下是墙洞, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇹🇼 Akile-TW 2, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇸🇬 Azure-SG, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
   - {name: 🇯🇵 Catxis-JP 2, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik}
   - {name: 🇭🇰 Eons-HK 2, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇸🇬 Eons-SG 2, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
-  - {name: 🇹🇼 Extra Lan-TW, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: SK-ISP 限量 2, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: SK-ISP 限量-Seoul, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,6 +56,7 @@ proxy-groups:
       - 🇯🇵 Dodo-JP
       - 🇭🇰 Eons-HK
       - 🇸🇬 Eons-SG
+      - 🇹🇼 Extra Lan-TW
       - 🇨🇦 Gocodeit-CA
       - Grupo ZGH SPA-CL
       - 🇭🇰 HKT-HK
@@ -62,14 +64,14 @@ proxy-groups:
       - Markahost-TR
       - 🇺🇸 Misaka-US
       - SK-ISP 限量
+      - SK-ISP 限量-Seoul
+      - 以下是墙洞
       - 🇹🇼 Akile-TW 2
       - 🇸🇬 Azure-SG
       - 🇯🇵 Catxis-JP 2
       - 🇭🇰 Eons-HK 2
       - 🇸🇬 Eons-SG 2
-      - 🇹🇼 Extra Lan-TW
       - SK-ISP 限量 2
-      - SK-ISP 限量-Seoul
   - name: 📲 电报消息
     type: select
     proxies:
@@ -283,8 +285,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 Akile-TW
-      - 🇹🇼 Akile-TW 2
       - 🇹🇼 Extra Lan-TW
+      - 🇹🇼 Akile-TW 2
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
