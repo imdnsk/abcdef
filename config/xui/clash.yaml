@@ -27,16 +27,17 @@ proxies:
   - {name: JJSpa-CL, server: zoda.showsion.shop, port: 44002, type: ss, cipher: aes-256-gcm, password: 8MBbKcik1Q}
   - {name: Markahost-TR, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
   - {name: 🇺🇸 Misaka-US, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
-  - {name: SK-ISP 限量, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: SK-ISP 限量-Seoul, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: 🇯🇵 SK-ISP 限量-JP, server: zoda.showsion.shop, port: 44440, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: 🇯🇵 KDDI-JP 限量, server: zoda.showsion.shop, port: 45612, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
   - {name: 以下是墙洞, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇹🇼 Akile-TW 2, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇸🇬 Azure-SG, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
   - {name: 🇯🇵 Catxis-JP 2, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik}
   - {name: 🇭🇰 Eons-HK 2, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇸🇬 Eons-SG 2, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
+  - {name: 🏳️‍🌈 以下是 AWS 家宽，请勿大流量, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
+  - {name: 🇯🇵 KDDI-JP 限量, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 15373, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
+  - {name: SK-ISP 限量, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 🇯🇵 SK-ISP 限量-JP, server: zoda.showsion.shop, port: 44440, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: SK-ISP 限量-Seoul, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
   - {name: SK-ISP 限量-IPLE, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
 proxy-groups:
   - name: 🚀 节点选择
@@ -65,16 +66,17 @@ proxy-groups:
       - JJSpa-CL
       - Markahost-TR
       - 🇺🇸 Misaka-US
-      - SK-ISP 限量
-      - SK-ISP 限量-Seoul
-      - 🇯🇵 SK-ISP 限量-JP
-      - 🇯🇵 KDDI-JP 限量
       - 以下是墙洞
       - 🇹🇼 Akile-TW 2
       - 🇸🇬 Azure-SG
       - 🇯🇵 Catxis-JP 2
       - 🇭🇰 Eons-HK 2
       - 🇸🇬 Eons-SG 2
+      - 🏳️‍🌈 以下是 AWS 家宽，请勿大流量
+      - 🇯🇵 KDDI-JP 限量
+      - SK-ISP 限量
+      - 🇯🇵 SK-ISP 限量-JP
+      - SK-ISP 限量-Seoul
       - SK-ISP 限量-IPLE
   - name: 📲 电报消息
     type: select
@@ -274,9 +276,9 @@ proxy-groups:
     proxies:
       - 🇯🇵 Catxis-JP
       - 🇯🇵 Dodo-JP
-      - 🇯🇵 SK-ISP 限量-JP
-      - 🇯🇵 KDDI-JP 限量
       - 🇯🇵 Catxis-JP 2
+      - 🇯🇵 KDDI-JP 限量
+      - 🇯🇵 SK-ISP 限量-JP
   - name: 🇺🇲 美国节点
     type: select
     proxies:
