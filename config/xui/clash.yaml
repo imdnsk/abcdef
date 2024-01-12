@@ -34,6 +34,7 @@ proxies:
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
   - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
+  - {name: 🇹🇼 TW Hinet动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 50316, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
   - {name: 🇹🇼 TW Hinet动态家宽 IPLC, server: 183.240.187.175, port: 14732, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
   - {name: 🇹🇼 TW TFN静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
@@ -71,6 +72,7 @@ proxy-groups:
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇹🇼 TW Akile IPLC
+      - 🇹🇼 TW Hinet动态家宽
       - 🇹🇼 TW Hinet动态家宽 IPLC
       - 🇹🇼 TW TFN静态家宽
       - 🇺🇸 US Misaka
@@ -290,6 +292,7 @@ proxy-groups:
     proxies:
       - 🇹🇼 TW Akile
       - 🇹🇼 TW Akile IPLC
+      - 🇹🇼 TW Hinet动态家宽
       - 🇹🇼 TW Hinet动态家宽 IPLC
       - 🇹🇼 TW TFN静态家宽
   - name: 🇰🇷 韩国节点
