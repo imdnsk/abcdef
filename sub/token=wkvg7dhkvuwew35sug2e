@@ -15,142 +15,20 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: "🇭🇰 [SS]香港 01", server: 36.141.40.20, port: 37291, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 02", server: 36.141.40.20, port: 37292, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 03", server: 36.141.40.20, port: 37293, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 04", server: 36.141.40.20, port: 37294, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 05", server: 36.141.40.20, port: 37295, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 06", server: 36.141.40.20, port: 37296, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 07", server: 36.141.40.20, port: 37297, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 08", server: 36.141.40.20, port: 37298, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 09", server: 36.141.40.20, port: 37299, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 10", server: 36.141.40.20, port: 37299, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 11", server: 36.141.40.20, port: 37191, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 12", server: 36.141.40.20, port: 37192, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 13", server: 36.141.40.20, port: 37191, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 14", server: 36.141.40.20, port: 37194, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 01B", server: 36.141.40.20, port: 37291, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 02B", server: 36.141.40.20, port: 37292, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 03B", server: 36.141.40.20, port: 37293, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 04B", server: 36.141.40.20, port: 37294, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 05B", server: 36.141.40.20, port: 37295, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 06B", server: 36.141.40.20, port: 37296, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 07B", server: 36.141.40.20, port: 37297, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 08B", server: 36.141.40.20, port: 37298, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 09B", server: 36.141.40.20, port: 37299, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 10B", server: 36.141.40.20, port: 37299, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 11B", server: 36.141.40.20, port: 37191, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 12B", server: 36.141.40.20, port: 37192, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 13B", server: 36.141.40.20, port: 37193, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 14B", server: 36.141.40.20, port: 37194, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 15B", server: 36.141.40.20, port: 37195, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 16B", server: 36.141.40.20, port: 37196, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 17B", server: 36.141.40.20, port: 37197, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 18B", server: 36.141.40.20, port: 37198, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 19B", server: 36.141.40.20, port: 37199, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 20B", server: 36.141.40.20, port: 37199, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 21B", server: 36.141.40.20, port: 37091, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 22B", server: 36.141.40.20, port: 37092, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 23B", server: 36.141.40.20, port: 37093, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 24B", server: 36.141.40.20, port: 37094, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 25B", server: 36.141.40.20, port: 37095, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 26B", server: 36.141.40.20, port: 37096, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 27B", server: 36.141.40.20, port: 37097, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 28B", server: 36.141.40.20, port: 37098, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 29B", server: 36.141.40.20, port: 37099, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 30B", server: 36.141.40.20, port: 36991, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 31B", server: 36.141.40.20, port: 36991, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 32B", server: 36.141.40.20, port: 36992, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 33B", server: 36.141.40.20, port: 36993, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 34B", server: 36.141.40.20, port: 36994, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇭🇰 [SS]香港 35B", server: 36.141.40.20, port: 36995, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 01", server: 36.141.40.20, port: 37391, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 02", server: 36.141.40.20, port: 37392, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 03", server: 36.141.40.20, port: 37393, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 04", server: 36.141.40.20, port: 37394, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 05", server: 36.141.40.20, port: 37395, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 06", server: 36.141.40.20, port: 37396, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 07", server: 36.141.40.20, port: 37397, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 08", server: 36.141.40.20, port: 37398, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇻🇳 [SS]越南 09", server: 36.141.40.20, port: 37399, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 01", server: 36.141.40.20, port: 37491, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 02", server: 36.141.40.20, port: 37492, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 03", server: 36.141.40.20, port: 37493, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 04", server: 36.141.40.20, port: 37494, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 05", server: 36.141.40.20, port: 37495, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 06", server: 36.141.40.20, port: 37496, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 07", server: 36.141.40.20, port: 37497, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 08", server: 36.141.40.20, port: 37498, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇺🇸 [SS]美國 09", server: 36.141.40.20, port: 37499, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇯🇵 [SS]日本 01", server: 36.141.40.20, port: 37591, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇯🇵 [SS]日本 02", server: 36.141.40.20, port: 37592, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇯🇵 [SS]日本 03", server: 36.141.40.20, port: 37593, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇯🇵 [SS]日本 04", server: 36.141.40.20, port: 37594, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇹🇼 [SS]台灣 01", server: 36.141.40.20, port: 37691, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇸🇬 [SS]新加坡 01", server: 36.141.40.20, port: 37791, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇸🇬 [SS]新加坡 02", server: 36.141.40.20, port: 37792, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: "🇸🇬 [SS]新加坡 03", server: 36.141.40.20, port: 37793, type: ss, cipher: aes-256-gcm, password: 964b9824-3ece-4095-ad68-563c49802d32, udp: true}
-  - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇬 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA Cocodeit, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, udp: true}
+  - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, udp: true}
+  - {name: 🇭🇰 HK Eons, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 41336, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
+  - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
+  - {name: 🇯🇵 JP Catxis, server: zoda.showsion.shop, port: 24223, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
+  - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
+  - {name: 🇯🇵 JP Dodo, server: aizai798.infois.top, port: 17237, type: ss, cipher: aes-256-gcm, password: XqrFHx6JlI, udp: true}
+  - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG Eons, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 10860, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
+  - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
+  - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, udp: true}
+  - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
+  - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
+  - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH, udp: true}
   - {name: 🇹🇼 TWN 1 A, server: relay-hkg-a.292228.xyz, port: 30049, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 1 B, server: relay-hkg-b.292228.xyz, port: 30049, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -260,148 +138,65 @@ proxies:
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇬 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -511,148 +306,65 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -762,148 +474,65 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1013,147 +642,64 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1263,147 +809,64 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1513,147 +976,64 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1763,148 +1143,65 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -2014,6 +1311,45 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2026,142 +1362,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [SS]香港 01
-      - 🇭🇰 [SS]香港 02
-      - 🇭🇰 [SS]香港 03
-      - 🇭🇰 [SS]香港 04
-      - 🇭🇰 [SS]香港 05
-      - 🇭🇰 [SS]香港 06
-      - 🇭🇰 [SS]香港 07
-      - 🇭🇰 [SS]香港 08
-      - 🇭🇰 [SS]香港 09
-      - 🇭🇰 [SS]香港 10
-      - 🇭🇰 [SS]香港 11
-      - 🇭🇰 [SS]香港 12
-      - 🇭🇰 [SS]香港 13
-      - 🇭🇰 [SS]香港 14
-      - 🇭🇰 [SS]香港 01B
-      - 🇭🇰 [SS]香港 02B
-      - 🇭🇰 [SS]香港 03B
-      - 🇭🇰 [SS]香港 04B
-      - 🇭🇰 [SS]香港 05B
-      - 🇭🇰 [SS]香港 06B
-      - 🇭🇰 [SS]香港 07B
-      - 🇭🇰 [SS]香港 08B
-      - 🇭🇰 [SS]香港 09B
-      - 🇭🇰 [SS]香港 10B
-      - 🇭🇰 [SS]香港 11B
-      - 🇭🇰 [SS]香港 12B
-      - 🇭🇰 [SS]香港 13B
-      - 🇭🇰 [SS]香港 14B
-      - 🇭🇰 [SS]香港 15B
-      - 🇭🇰 [SS]香港 16B
-      - 🇭🇰 [SS]香港 17B
-      - 🇭🇰 [SS]香港 18B
-      - 🇭🇰 [SS]香港 19B
-      - 🇭🇰 [SS]香港 20B
-      - 🇭🇰 [SS]香港 21B
-      - 🇭🇰 [SS]香港 22B
-      - 🇭🇰 [SS]香港 23B
-      - 🇭🇰 [SS]香港 24B
-      - 🇭🇰 [SS]香港 25B
-      - 🇭🇰 [SS]香港 26B
-      - 🇭🇰 [SS]香港 27B
-      - 🇭🇰 [SS]香港 28B
-      - 🇭🇰 [SS]香港 29B
-      - 🇭🇰 [SS]香港 30B
-      - 🇭🇰 [SS]香港 31B
-      - 🇭🇰 [SS]香港 32B
-      - 🇭🇰 [SS]香港 33B
-      - 🇭🇰 [SS]香港 34B
-      - 🇭🇰 [SS]香港 35B
-      - 🇻🇳 [SS]越南 01
-      - 🇻🇳 [SS]越南 02
-      - 🇻🇳 [SS]越南 03
-      - 🇻🇳 [SS]越南 04
-      - 🇻🇳 [SS]越南 05
-      - 🇻🇳 [SS]越南 06
-      - 🇻🇳 [SS]越南 07
-      - 🇻🇳 [SS]越南 08
-      - 🇻🇳 [SS]越南 09
-      - 🇺🇸 [SS]美國 01
-      - 🇺🇸 [SS]美國 02
-      - 🇺🇸 [SS]美國 03
-      - 🇺🇸 [SS]美國 04
-      - 🇺🇸 [SS]美國 05
-      - 🇺🇸 [SS]美國 06
-      - 🇺🇸 [SS]美國 07
-      - 🇺🇸 [SS]美國 08
-      - 🇺🇸 [SS]美國 09
-      - 🇯🇵 [SS]日本 01
-      - 🇯🇵 [SS]日本 02
-      - 🇯🇵 [SS]日本 03
-      - 🇯🇵 [SS]日本 04
-      - 🇹🇼 [SS]台灣 01
-      - 🇸🇬 [SS]新加坡 01
-      - 🇸🇬 [SS]新加坡 02
-      - 🇸🇬 [SS]新加坡 03
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
+      - 🇨🇦 CA Cocodeit
+      - CL GZS
+      - 🇭🇰 HK Eons
+      - 🇭🇰 HK Eons IPLC
+      - 🇯🇵 JP Catxis
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Dodo
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons
+      - 🇸🇬 SG Eons IPLC
+      - TR Markahost
+      - 🇹🇼 TW Akile
+      - 🇹🇼 TW Akile IPLC
+      - 🇺🇸 US Misaka
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -2271,6 +1485,45 @@ proxy-groups:
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇩🇪 德国-广东专线 BGP
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇦🇷 阿根廷-广东专线 DonWeb
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇺🇦 乌克兰-广东专线 Vik
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
