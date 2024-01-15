@@ -19,26 +19,25 @@ CL GZS = ss, zoda.showsion.shop, 44001, encrypt-method=aes-256-gcm, password=gR9
 🇯🇵 JP Catxis = ss, zoda.showsion.shop, 24223, encrypt-method=aes-256-gcm, password=cA6avdR9Ik, tfo=false, udp-relay=false
 🇯🇵 JP Catxis IPLC = ss, 183.134.21.38, 14732, encrypt-method=aes-256-gcm, password=cA6avdR9Ik, tfo=false, udp-relay=false
 🇯🇵 JP Dodo = ss, aizai798.infois.top, 17237, encrypt-method=aes-256-gcm, password=XqrFHx6JlI, tfo=false, udp-relay=false
-🇯🇵 JP KDDI静态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 15373, encrypt-method=aes-256-gcm, password=VkcwuMVAUm, tfo=false, udp-relay=false
 🇰🇷 KR SKT静态家宽 = ss, zoda.showsion.shop, 11424, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
-🇯🇵 KR SKT静态家宽 日本中转 = ss, zoda.showsion.shop, 44440, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
 🇰🇷 KR SKT静态家宽 游戏优化 = ss, bjcu.073505.cn, 13122, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
 🇰🇷 KR SKT静态家宽 IPLC = ss, 183.134.21.41, 14732, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
+NG Suburbank静态家宽 = ss, zoda.showsion.shop, 41078, encrypt-method=aes-256-gcm, password=SAOkMaXDej, tfo=false, udp-relay=false
 🇸🇬 SG Azure IPLC = trojan, 183.240.187.172, 14732, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 SG Eons = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 10860, encrypt-method=aes-256-gcm, password=Pr4J6CLkJd, tfo=false, udp-relay=false
 🇸🇬 SG Eons IPLC = ss, sg-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=Pr4J6CLkJd, tfo=false, udp-relay=false
 TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, password=pIgdtbQ18s, tfo=false, udp-relay=false
-🇹🇼 TW Akile = ss, zoda.showsion.shop, 31736, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
-🇹🇼 TW Akile IPLC = ss, tw-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
-🇹🇼 TW Hinet动态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 50316, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
-🇹🇼 TW Hinet动态家宽 IPLC = ss, 183.240.187.175, 14732, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
-🇹🇼 TW TFN静态家宽 = ss, zoda.showsion.shop, 26929, encrypt-method=aes-256-gcm, password=1bXQQF5Sk3, tfo=false, udp-relay=false
+🇨🇳 TW Akile = ss, zoda.showsion.shop, 31736, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
+🇨🇳 TW Akile IPLC = ss, tw-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
+🇨🇳 TW Hinet动态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 50316, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
+🇨🇳 TW Hinet动态家宽 IPLC = ss, 183.240.187.175, 14732, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
+🇨🇳 TW TFN静态家宽 = ss, zoda.showsion.shop, 26929, encrypt-method=aes-256-gcm, password=1bXQQF5Sk3, tfo=false, udp-relay=false
 🇺🇸 US Misaka = ss, zoda.showsion.shop, 44004, encrypt-method=aes-256-gcm, password=cMmWxpNtUH, tfo=false, udp-relay=false
 🎥 奈飞节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK Eons,🇭🇰 HK Eons IPLC,🇭🇰 HK HKT动态家宽,🇯🇵 JP Catxis,🇯🇵 JP Catxis IPLC,🇯🇵 JP Dodo,🇯🇵 JP KDDI静态家宽,🇰🇷 KR SKT静态家宽,🇯🇵 KR SKT静态家宽 日本中转,🇰🇷 KR SKT静态家宽 游戏优化,🇰🇷 KR SKT静态家宽 IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons,🇸🇬 SG Eons IPLC,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽,🇹🇼 TW Hinet动态家宽 IPLC,🇹🇼 TW TFN静态家宽,🇺🇸 US Misaka
+🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK Eons,🇭🇰 HK Eons IPLC,🇭🇰 HK HKT动态家宽,🇯🇵 JP Catxis,🇯🇵 JP Catxis IPLC,🇯🇵 JP Dodo,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,🇰🇷 KR SKT静态家宽 IPLC,NG Suburbank静态家宽,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons,🇸🇬 SG Eons IPLC,TR Markahost,🇨🇳 TW Akile,🇨🇳 TW Akile IPLC,🇨🇳 TW Hinet动态家宽,🇨🇳 TW Hinet动态家宽 IPLC,🇨🇳 TW TFN静态家宽,🇺🇸 US Misaka
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -59,11 +58,11 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
 🇭🇰 香港节点 = select,🇭🇰 HK Eons,🇭🇰 HK Eons IPLC,🇭🇰 HK HKT动态家宽
-🇯🇵 日本节点 = select,🇯🇵 JP Catxis,🇯🇵 JP Catxis IPLC,🇯🇵 JP Dodo,🇯🇵 JP KDDI静态家宽,🇯🇵 KR SKT静态家宽 日本中转
+🇯🇵 日本节点 = select,🇯🇵 JP Catxis,🇯🇵 JP Catxis IPLC,🇯🇵 JP Dodo
 🇺🇲 美国节点 = select,🇺🇸 US Misaka
 🇸🇬 狮城节点 = select,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons,🇸🇬 SG Eons IPLC
-🇨🇳 台湾节点 = select,🇹🇼 TW Akile,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽,🇹🇼 TW Hinet动态家宽 IPLC,🇹🇼 TW TFN静态家宽
-🇰🇷 韩国节点 = select,🇰🇷 KR SKT静态家宽,🇯🇵 KR SKT静态家宽 日本中转,🇰🇷 KR SKT静态家宽 游戏优化,🇰🇷 KR SKT静态家宽 IPLC
+🇨🇳 台湾节点 = select,🇨🇳 TW Akile,🇨🇳 TW Akile IPLC,🇨🇳 TW Hinet动态家宽,🇨🇳 TW Hinet动态家宽 IPLC,🇨🇳 TW TFN静态家宽
+🇰🇷 韩国节点 = select,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,🇰🇷 KR SKT静态家宽 IPLC
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
