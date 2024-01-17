@@ -13,7 +13,6 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦 CA Cocodeit = ss, aizai798.infois.top, 27945, encrypt-method=aes-256-gcm, password=mMoE4F0N0B, tfo=false, udp-relay=false
 CL GZS = ss, zoda.showsion.shop, 44001, encrypt-method=aes-256-gcm, password=gR93hTpYcq, tfo=false, udp-relay=false
-🇭🇰 HK Eons = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 41336, encrypt-method=aes-256-gcm, password=yIwJDCY7uM, tfo=false, udp-relay=false
 🇭🇰 HK HKT动态家宽 = ss, zoda.showsion.shop, 21253, encrypt-method=aes-256-gcm, password=nMTGcSprxY, tfo=false, udp-relay=false
 🇭🇰 HK Polonetwork 流媒体解锁 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 17173, encrypt-method=aes-256-gcm, password=7oJSTp91Q7, tfo=false, udp-relay=false
 🇯🇵 JP KDDI静态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 15373, encrypt-method=aes-256-gcm, password=VkcwuMVAUm, tfo=false, udp-relay=false
@@ -22,15 +21,17 @@ CL GZS = ss, zoda.showsion.shop, 44001, encrypt-method=aes-256-gcm, password=gR9
 🇰🇷 KR SKT静态家宽 游戏优化 = ss, bjcu.073505.cn, 13122, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
 NG Suburbank静态家宽 = ss, zoda.showsion.shop, 41078, encrypt-method=aes-256-gcm, password=SAOkMaXDej, tfo=false, udp-relay=false
 🇸🇬 SG Akari 流媒体解锁 = ss, zoda.showsion.shop, 40531, encrypt-method=aes-256-gcm, password=9WDXxG4xq8, tfo=false, udp-relay=false
-🇸🇬 SG Eons = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 10860, encrypt-method=aes-256-gcm, password=Pr4J6CLkJd, tfo=false, udp-relay=false
-TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, password=pIgdtbQ18s, tfo=false, udp-relay=false
+TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, password=imHEw11W0z, tfo=false, udp-relay=false
 🇹🇼 TW Akile = ss, zoda.showsion.shop, 31736, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
 🇹🇼 TW Hinet动态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 50316, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
 🇹🇼 TW TFN静态家宽 = ss, zoda.showsion.shop, 26929, encrypt-method=aes-256-gcm, password=1bXQQF5Sk3, tfo=false, udp-relay=false
 🇺🇸 US Misaka = ss, zoda.showsion.shop, 44004, encrypt-method=aes-256-gcm, password=cMmWxpNtUH, tfo=false, udp-relay=false
 🇭🇰 HK Eons IPLC = ss, hk-2.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=yIwJDCY7uM, tfo=false, udp-relay=false
+🇭🇰 HK Polonetwork IPLC = ss, 183.240.187.169, 14732, encrypt-method=aes-256-gcm, password=7oJSTp91Q7, tfo=false, udp-relay=false
 🇯🇵 JP Catxis IPLC = ss, 183.134.21.38, 14732, encrypt-method=aes-256-gcm, password=cA6avdR9Ik, tfo=false, udp-relay=false
+🇯🇵 JP Tanaka IPLC = ss, 183.134.21.36, 14732, encrypt-method=aes-256-gcm, password=KgfPeVv0rV, tfo=false, udp-relay=false
 🇰🇷 KR SKT静态家宽 IPLC = ss, 183.134.21.41, 14732, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
+🇸🇬 SG Akari IPLC = ss, 183.240.187.173, 14732, encrypt-method=aes-256-gcm, password=9WDXxG4xq8, tfo=false, udp-relay=false
 🇸🇬 SG Azure IPLC = trojan, 183.240.187.172, 14732, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify=false, tfo=false, udp-relay=false
 🇸🇬 SG Eons IPLC = ss, sg-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=Pr4J6CLkJd, tfo=false, udp-relay=false
 🇹🇼 TW Akile IPLC = ss, tw-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
@@ -38,7 +39,7 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK Eons,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,NG Suburbank静态家宽,🇸🇬 SG Akari 流媒体解锁,🇸🇬 SG Eons,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW Hinet动态家宽,🇹🇼 TW TFN静态家宽,🇺🇸 US Misaka,🇭🇰 HK Eons IPLC,🇯🇵 JP Catxis IPLC,🇰🇷 KR SKT静态家宽 IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽 IPLC
+🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,NG Suburbank静态家宽,🇸🇬 SG Akari 流媒体解锁,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW Hinet动态家宽,🇹🇼 TW TFN静态家宽,🇺🇸 US Misaka,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC,🇰🇷 KR SKT静态家宽 IPLC,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽 IPLC
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -58,10 +59,10 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
-🇭🇰 香港节点 = select,🇭🇰 HK Eons,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇭🇰 HK Eons IPLC
-🇯🇵 日本节点 = select,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇯🇵 JP Catxis IPLC
+🇭🇰 香港节点 = select,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC
+🇯🇵 日本节点 = select,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC
 🇺🇲 美国节点 = select,🇺🇸 US Misaka
-🇸🇬 狮城节点 = select,🇸🇬 SG Akari 流媒体解锁,🇸🇬 SG Eons,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC
+🇸🇬 狮城节点 = select,🇸🇬 SG Akari 流媒体解锁,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC
 🇨🇳 台湾节点 = select,🇹🇼 TW Akile,🇹🇼 TW Hinet动态家宽,🇹🇼 TW TFN静态家宽,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽 IPLC
 🇰🇷 韩国节点 = select,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,🇰🇷 KR SKT静态家宽 IPLC
 🎥 奈飞节点 = select,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP Tanaka 流媒体解锁,🇸🇬 SG Akari 流媒体解锁
