@@ -17,18 +17,42 @@ dns:
 proxies:
   - {name: 🇨🇦 CA Cocodeit, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, udp: true}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, udp: true}
-  - {name: 🇭🇰 HK Eons, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 41336, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
-  - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
-  - {name: 🇯🇵 JP Catxis, server: zoda.showsion.shop, port: 24223, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
-  - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
-  - {name: 🇯🇵 JP Dodo, server: aizai798.infois.top, port: 17237, type: ss, cipher: aes-256-gcm, password: XqrFHx6JlI, udp: true}
-  - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG Eons, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 10860, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
-  - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
-  - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: pIgdtbQ18s, udp: true}
+  - {name: 🇭🇰 HK Polonetwork 流媒体解锁, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 17173, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7, udp: true}
+  - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV, udp: true}
+  - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8, udp: true}
+  - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z, udp: true}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
-  - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH, udp: true}
+  - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
+  - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7, udp: true}
+  - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
+  - {name: 🇯🇵 JP Tanaka IPLC, server: 183.134.21.36, port: 14732, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV, udp: true}
+  - {name: 🇸🇬 SG Akari IPLC, server: 183.240.187.173, port: 14732, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8, udp: true}
+  - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
+  - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
+  - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 1 A, server: relay-hkg-a.292228.xyz, port: 30049, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 1 B, server: relay-hkg-b.292228.xyz, port: 30049, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -109,35 +133,9 @@ proxies:
   - {name: 🇸🇬 SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NZL, server: relay-eur.292228.xyz, port: 30050, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: relay-eur.292228.xyz, port: 30059, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PHL, server: relay-eur.292228.xyz, port: 30063, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IND, server: relay-eur.292228.xyz, port: 30065, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CAN, server: relay-eur.292228.xyz, port: 30064, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FRA, server: relay-eur.292228.xyz, port: 32000, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR, server: relay-eur.292228.xyz, port: 30062, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CHE, server: relay-eur.292228.xyz, port: 30061, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: MMR FUN, server: relay-fun.292228.xyz, port: 30101, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: DPK FUN, server: relay-fun.292228.xyz, port: 30102, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ATA FUN, server: relay-fun.292228.xyz, port: 30103, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VAT FUN, server: relay-fun.292228.xyz, port: 30104, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CUB FUN, server: relay-fun.292228.xyz, port: 30105, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: EGP FUN, server: relay-fun.292228.xyz, port: 30106, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GRC FUN, server: relay-fun.292228.xyz, port: 30107, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GRL FUN, server: relay-fun.292228.xyz, port: 30108, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PAN FUN, server: relay-fun.292228.xyz, port: 30109, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: MEX FUN, server: relay-fun.292228.xyz, port: 30110, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TUR FUN, server: relay-fun.292228.xyz, port: 30111, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "LUX BTCPT [0x]", server: direct-relay.292228.xyz, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filetransfer, headers: {Host: eu-lu-bt.292228.xyz}}, udp: true}
-  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, type: ss, cipher: aes-128-gcm, password: dokidoki, udp: true}
-  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
-  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
   - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -165,8 +163,6 @@ proxies:
   - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -174,9 +170,16 @@ proxies:
   - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇧🇷 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, type: ss, cipher: aes-128-gcm, password: dokidoki, udp: true}
+  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -185,18 +188,42 @@ proxy-groups:
       - DIRECT
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -277,35 +304,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -333,8 +334,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -342,9 +341,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -353,18 +359,42 @@ proxy-groups:
     proxies:
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -445,35 +475,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -501,8 +505,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -510,9 +512,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -521,18 +530,42 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -613,35 +646,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -669,8 +676,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -678,9 +683,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -688,18 +700,42 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -780,35 +816,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -836,8 +846,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -845,9 +853,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -855,18 +870,42 @@ proxy-groups:
       - 🚀 节点选择
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -947,35 +986,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -1003,8 +1016,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -1012,9 +1023,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1022,18 +1040,42 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1114,35 +1156,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -1170,8 +1186,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -1179,9 +1193,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1190,18 +1211,42 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1282,35 +1327,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -1338,8 +1357,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -1347,9 +1364,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1364,18 +1388,42 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK Eons
-      - 🇭🇰 HK Eons IPLC
-      - 🇯🇵 JP Catxis
-      - 🇯🇵 JP Catxis IPLC
-      - 🇯🇵 JP Dodo
-      - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons
-      - 🇸🇬 SG Eons IPLC
+      - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Akile IPLC
       - 🇺🇸 US Misaka
+      - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Catxis IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇸🇬 SG Eons IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇭🇰 HKG 1 A [0.1x]
+      - 🇭🇰 HKG 1 B [0.1x]
+      - 🇭🇰 HKG 2 A
+      - 🇭🇰 HKG 2 B
+      - 🇭🇰 HKG 3 A
+      - 🇭🇰 HKG 3 B
+      - 🇭🇰 HKG 4 A
+      - 🇭🇰 HKG 4 B
+      - 🇭🇰 HKG 5 A
+      - 🇭🇰 HKG 5 B
+      - 🇭🇰 HKG 6 A
+      - 🇭🇰 HKG 6 B
+      - 🇭🇰 HKG 7 A
+      - 🇭🇰 HKG 7 B
+      - 🇭🇰 HKG 8 A
+      - 🇭🇰 HKG 8 B
+      - 🇭🇰 HKG 9 A
+      - 🇭🇰 HKG 9 B
+      - 🇭🇰 HKG 10 A
+      - 🇭🇰 HKG 10 B
+      - 🇭🇰 HKG 11 A
+      - 🇭🇰 HKG 11 B
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
@@ -1456,35 +1504,9 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - NZL
       - 🇲🇾 MYS
-      - PHL
-      - 🇮🇳 IND
       - 🇨🇦 CAN
       - 🇫🇷 FRA
-      - 🇬🇧 GBR
-      - CHE
-      - MMR FUN
-      - DPK FUN
-      - ATA FUN
-      - VAT FUN
-      - CUB FUN
-      - EGP FUN
-      - GRC FUN
-      - GRL FUN
-      - PAN FUN
-      - MEX FUN
-      - TUR FUN
-      - LUX BTCPT [0x]
-      - 🇸🇬 Azure-SG-Lite
-      - 🇸🇬 Azure-SG-Pro
-      - 🇺🇸 Contabo-US-Lite
-      - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
-      - 🇩🇪 Koyeb-DE
-      - 🇯🇵 Koyeb-JP
       - 🇭🇰 香港-广东专线 BGP 1
       - 🇭🇰 香港-广东专线 BGP 2
       - 🇭🇰 香港-广东专线 Akari
@@ -1512,8 +1534,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-广东专线 VUAU
       - 🇦🇺 澳大利亚-广东专线 GCore
       - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
       - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇷 土耳其-广东专线 GCore
       - 🇦🇷 阿根廷-广东专线 DonWeb
@@ -1521,9 +1541,16 @@ proxy-groups:
       - 🇺🇦 乌克兰-广东专线 Vik
       - 🇧🇷 巴西-广东专线 GCore 1
       - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
+      - 🇸🇬 Azure-SG-Lite
+      - 🇸🇬 Azure-SG-Pro
+      - 🇺🇸 Contabo-US-Lite
+      - 🇺🇸 Contabo-US-Pro
+      - 🇭🇰 Eons-HK-IPLC
+      - 🇯🇵 ExtraVM-JP-Lite
+      - 🇯🇵 ExtraVM-JP-Pro
+      - 🇩🇪 Koyeb-DE
+      - 🇯🇵 Koyeb-JP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3333,4 +3360,3 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-      
