@@ -13,6 +13,7 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦 CA Cocodeit = ss, aizai798.infois.top, 27945, encrypt-method=aes-256-gcm, password=mMoE4F0N0B, tfo=false, udp-relay=false
 CL GZS = ss, zoda.showsion.shop, 44001, encrypt-method=aes-256-gcm, password=gR93hTpYcq, tfo=false, udp-relay=false
+🇭🇰 HK HKBN 动态家宽 = ss, aizai798.infois.top, 56191, encrypt-method=chacha20-ietf-poly1305, password=2fb87e1fb3a21172, tfo=false, udp-relay=false
 🇭🇰 HK HKT动态家宽 = ss, zoda.showsion.shop, 21253, encrypt-method=aes-256-gcm, password=nMTGcSprxY, tfo=false, udp-relay=false
 🇭🇰 HK Polonetwork 流媒体解锁 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 17173, encrypt-method=aes-256-gcm, password=7oJSTp91Q7, tfo=false, udp-relay=false
 🇯🇵 JP KDDI静态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 15373, encrypt-method=aes-256-gcm, password=VkcwuMVAUm, tfo=false, udp-relay=false
@@ -39,7 +40,7 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,NG Suburbank静态家宽,🇸🇬 SG Akari 流媒体解锁,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW Hinet动态家宽,🇹🇼 TW TFN静态家宽,🇺🇸 US Misaka,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC,🇰🇷 KR SKT静态家宽 IPLC,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽 IPLC
+🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT静态家宽,🇰🇷 KR SKT静态家宽 游戏优化,NG Suburbank静态家宽,🇸🇬 SG Akari 流媒体解锁,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW Hinet动态家宽,🇹🇼 TW TFN静态家宽,🇺🇸 US Misaka,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC,🇰🇷 KR SKT静态家宽 IPLC,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet动态家宽 IPLC
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -59,7 +60,7 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
-🇭🇰 香港节点 = select,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC
+🇭🇰 香港节点 = select,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇭🇰 HK Eons IPLC,🇭🇰 HK Polonetwork IPLC
 🇯🇵 日本节点 = select,🇯🇵 JP KDDI静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC
 🇺🇲 美国节点 = select,🇺🇸 US Misaka
 🇸🇬 狮城节点 = select,🇸🇬 SG Akari 流媒体解锁,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC
