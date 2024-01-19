@@ -17,9 +17,7 @@ dns:
 proxies:
   - {name: 🇨🇦 CA Cocodeit, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
-  - {name: 🇭🇰 HK HKBN 动态家宽, server: aizai798.infois.top, port: 56191, type: ss, cipher: chacha20-ietf-poly1305, password: 2fb87e1fb3a21172}
   - {name: 🇭🇰 HK HKT 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 57081, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
-  - {name: 🇭🇰 HK HGC 动态家宽, server: zoda.showsion.shop, port: 21253, type: ss, cipher: aes-256-gcm, password: nMTGcSprxY}
   - {name: 🇭🇰 HK Polonetwork 流媒体解锁, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 17173, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
   - {name: 🇯🇵 JP KDDI静态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 15373, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
   - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
@@ -60,9 +58,7 @@ proxy-groups:
     proxies:
       - 🇨🇦 CA Cocodeit
       - CL GZS
-      - 🇭🇰 HK HKBN 动态家宽
       - 🇭🇰 HK HKT 动态家宽
-      - 🇭🇰 HK HGC 动态家宽
       - 🇭🇰 HK Polonetwork 流媒体解锁
       - 🇯🇵 JP KDDI静态家宽
       - 🇯🇵 JP Tanaka 流媒体解锁
@@ -279,9 +275,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 HK HKBN 动态家宽
       - 🇭🇰 HK HKT 动态家宽
-      - 🇭🇰 HK HGC 动态家宽
       - 🇭🇰 HK Polonetwork 流媒体解锁
       - 🇭🇰 HK Eons IPLC
       - 🇭🇰 HK Polonetwork IPLC
