@@ -29,6 +29,7 @@ proxies:
   - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
+  - {name: 🇹🇼 TW APOL 动态家宽, server: zoda.showsion.shop, port: 50597, type: ss, cipher: aes-256-gcm, password: NFaE0F9vPY}
   - {name: 🇹🇼 TW Hinet 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 50316, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
   - {name: 🇹🇼 TW Pacific 动态家宽, server: zoda.showsion.shop, port: 50597, type: ss, cipher: aes-256-gcm, password: NFaE0F9vPY}
   - {name: 🇹🇼 TW TFN 静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
@@ -74,6 +75,7 @@ proxy-groups:
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
+      - 🇹🇼 TW APOL 动态家宽
       - 🇹🇼 TW Hinet 动态家宽
       - 🇹🇼 TW Pacific 动态家宽
       - 🇹🇼 TW TFN 静态家宽
@@ -314,6 +316,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 TW Akile
+      - 🇹🇼 TW APOL 动态家宽
       - 🇹🇼 TW Hinet 动态家宽
       - 🇹🇼 TW Pacific 动态家宽
       - 🇹🇼 TW TFN 静态家宽
