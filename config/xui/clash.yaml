@@ -17,30 +17,35 @@ dns:
 proxies:
   - {name: 🇨🇦 CA Cocodeit, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
+  - {name: 🇭🇰 HK HKBN 动态家宽, server: aizai798.infois.top, port: 56191, type: ss, cipher: chacha20-ietf-poly1305, password: 2fb87e1fb3a21172}
   - {name: 🇭🇰 HK HKT 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 57081, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
   - {name: 🇭🇰 HK Polonetwork 流媒体解锁, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 17173, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
-  - {name: 🇯🇵 JP KDDI静态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 15373, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
+  - {name: 🇯🇵 JP KDDI 静态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 15373, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
+  - {name: 🇯🇵 JP Sony 静态家宽, server: zoda.showsion.shop, port: 19710, type: ss, cipher: aes-256-gcm, password: 0e09bc841fe6506e}
   - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
-  - {name: 🇰🇷 KR SKT静态家宽, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: 🇰🇷 KR SKT静态家宽 游戏优化, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: NG Suburbank静态家宽, server: zoda.showsion.shop, port: 41078, type: ss, cipher: aes-256-gcm, password: SAOkMaXDej}
+  - {name: 🇰🇷 KR SKT 静态家宽, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 🇰🇷 KR SKT 静态家宽 游戏优化, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: NG 静态家宽, server: zoda.showsion.shop, port: 41078, type: ss, cipher: aes-256-gcm, password: SAOkMaXDej}
   - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
-  - {name: 🇹🇼 TW Hinet动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 50316, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
-  - {name: 🇹🇼 TW APOL 动态家宽, server: zoda.showsion.shop, port: 50597, type: ss, cipher: aes-256-gcm, password: NFaE0F9vPY}
-  - {name: 🇹🇼 TW TFN静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
+  - {name: 🇹🇼 TW Hinet 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 50316, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
+  - {name: 🇹🇼 TW Pacific 动态家宽, server: zoda.showsion.shop, port: 50597, type: ss, cipher: aes-256-gcm, password: NFaE0F9vPY}
+  - {name: 🇹🇼 TW TFN 静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
+  - {name: 🇺🇸 US Cogent, server: aizai798.infois.top, port: 59149, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
   - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
+  - {name: 🇭🇰 HK HKT IPLC, server: 183.240.187.168, port: 14732, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
   - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
   - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik}
   - {name: 🇯🇵 JP Tanaka IPLC, server: 183.134.21.36, port: 14732, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
-  - {name: 🇰🇷 KR SKT静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 🇯🇵 JP KDDI 静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
+  - {name: 🇰🇷 KR SKT 静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
   - {name: 🇸🇬 SG Akari IPLC, server: 183.240.187.173, port: 14732, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
   - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
   - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
-  - {name: 🇹🇼 TW Hinet动态家宽 IPLC, server: 183.240.187.175, port: 14732, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
+  - {name: 🇹🇼 TW Hinet 动态家宽 IPLC, server: 183.240.187.175, port: 14732, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -58,30 +63,35 @@ proxy-groups:
     proxies:
       - 🇨🇦 CA Cocodeit
       - CL GZS
+      - 🇭🇰 HK HKBN 动态家宽
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP KDDI静态家宽
+      - 🇯🇵 JP KDDI 静态家宽
+      - 🇯🇵 JP Sony 静态家宽
       - 🇯🇵 JP Tanaka 流媒体解锁
-      - 🇰🇷 KR SKT静态家宽
-      - 🇰🇷 KR SKT静态家宽 游戏优化
-      - NG Suburbank静态家宽
+      - 🇰🇷 KR SKT 静态家宽
+      - 🇰🇷 KR SKT 静态家宽 游戏优化
+      - NG 静态家宽
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Hinet动态家宽
-      - 🇹🇼 TW APOL 动态家宽
-      - 🇹🇼 TW TFN静态家宽
+      - 🇹🇼 TW Hinet 动态家宽
+      - 🇹🇼 TW Pacific 动态家宽
+      - 🇹🇼 TW TFN 静态家宽
+      - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
       - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
       - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
-      - 🇰🇷 KR SKT静态家宽 IPLC
+      - 🇯🇵 JP KDDI 静态家宽 IPLC
+      - 🇰🇷 KR SKT 静态家宽 IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
       - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
-      - 🇹🇼 TW Hinet动态家宽 IPLC
+      - 🇹🇼 TW Hinet 动态家宽 IPLC
   - name: 📲 电报消息
     type: select
     proxies:
@@ -275,20 +285,25 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - 🇭🇰 HK HKBN 动态家宽
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK Polonetwork 流媒体解锁
       - 🇭🇰 HK Eons IPLC
+      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 JP KDDI静态家宽
+      - 🇯🇵 JP KDDI 静态家宽
+      - 🇯🇵 JP Sony 静态家宽
       - 🇯🇵 JP Tanaka 流媒体解锁
       - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
+      - 🇯🇵 JP KDDI 静态家宽 IPLC
   - name: 🇺🇲 美国节点
     type: select
     proxies:
+      - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
   - name: 🇸🇬 狮城节点
     type: select
@@ -301,17 +316,17 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 TW Akile
-      - 🇹🇼 TW Hinet动态家宽
-      - 🇹🇼 TW APOL 动态家宽
-      - 🇹🇼 TW TFN静态家宽
+      - 🇹🇼 TW Hinet 动态家宽
+      - 🇹🇼 TW Pacific 动态家宽
+      - 🇹🇼 TW TFN 静态家宽
       - 🇹🇼 TW Akile IPLC
-      - 🇹🇼 TW Hinet动态家宽 IPLC
+      - 🇹🇼 TW Hinet 动态家宽 IPLC
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 KR SKT静态家宽
-      - 🇰🇷 KR SKT静态家宽 游戏优化
-      - 🇰🇷 KR SKT静态家宽 IPLC
+      - 🇰🇷 KR SKT 静态家宽
+      - 🇰🇷 KR SKT 静态家宽 游戏优化
+      - 🇰🇷 KR SKT 静态家宽 IPLC
   - name: 🎥 奈飞节点
     type: select
     proxies:
