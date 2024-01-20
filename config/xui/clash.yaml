@@ -40,7 +40,6 @@ proxies:
   - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik}
   - {name: 🇯🇵 JP Tanaka IPLC, server: 183.134.21.36, port: 14732, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
   - {name: 🇯🇵 JP KDDI 静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: VkcwuMVAUm}
-  - {name: 🇰🇷 KR SKT 静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
   - {name: 🇸🇬 SG Akari IPLC, server: 183.240.187.173, port: 14732, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
   - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd}
@@ -86,7 +85,6 @@ proxy-groups:
       - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇯🇵 JP KDDI 静态家宽 IPLC
-      - 🇰🇷 KR SKT 静态家宽 IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
       - 🇸🇬 SG Eons IPLC
@@ -326,7 +324,6 @@ proxy-groups:
     proxies:
       - 🇰🇷 KR SKT 静态家宽
       - 🇰🇷 KR SKT 静态家宽 游戏优化
-      - 🇰🇷 KR SKT 静态家宽 IPLC
   - name: 🎥 奈飞节点
     type: select
     proxies:
