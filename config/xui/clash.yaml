@@ -35,6 +35,7 @@ proxies:
   - {name: 🇹🇼 TW TFN 静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
   - {name: 🇺🇸 US Cogent, server: aizai798.infois.top, port: 59149, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
+  - {name: 🇺🇸 US Verizon 动态家宽, server: aizai798.infois.top, port: 28146, type: ss, cipher: aes-256-gcm, password: qg0aHSAjra}
   - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇭🇰 HK HKT IPLC, server: 183.240.187.168, port: 14732, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
   - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
@@ -81,6 +82,7 @@ proxy-groups:
       - 🇹🇼 TW TFN 静态家宽
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
+      - 🇺🇸 US Verizon 动态家宽
       - 🇭🇰 HK Eons IPLC
       - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
@@ -305,6 +307,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
+      - 🇺🇸 US Verizon 动态家宽
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
