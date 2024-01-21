@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇦 CA Cocodeit, server: aizai798.infois.top, port: 27945, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
+  - {name: 🇨🇦 CA Cocodeit, server: zoda.showsion.shop, port: 22942, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
   - {name: 🇭🇰 HK HKBN 动态家宽, server: aizai798.infois.top, port: 56191, type: ss, cipher: chacha20-ietf-poly1305, password: 2fb87e1fb3a21172}
   - {name: 🇭🇰 HK HKT 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 57081, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
@@ -33,9 +33,9 @@ proxies:
   - {name: 🇹🇼 TW Hinet 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 50316, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
   - {name: 🇹🇼 TW Pacific 动态家宽, server: zoda.showsion.shop, port: 50597, type: ss, cipher: aes-256-gcm, password: NFaE0F9vPY}
   - {name: 🇹🇼 TW TFN 静态家宽, server: zoda.showsion.shop, port: 26929, type: ss, cipher: aes-256-gcm, password: 1bXQQF5Sk3}
-  - {name: 🇺🇸 US Cogent, server: aizai798.infois.top, port: 59149, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ}
+  - {name: 🇺🇸 US Cogent, server: zoda.showsion.shop, port: 14324, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
-  - {name: 🇺🇸 US Verizon 动态家宽, server: aizai798.infois.top, port: 28146, type: ss, cipher: aes-256-gcm, password: qg0aHSAjra}
+  - {name: 🇺🇸 US Verizon 动态家宽, server: zoda.showsion.shop, port: 18118, type: ss, cipher: aes-256-gcm, password: qg0aHSAjra}
   - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM}
   - {name: 🇭🇰 HK HKT IPLC, server: 183.240.187.168, port: 14732, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
   - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
