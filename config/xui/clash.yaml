@@ -25,7 +25,6 @@ proxies:
   - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
   - {name: 🇰🇷 KR SKT 静态家宽, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
   - {name: 🇰🇷 KR SKT 静态家宽 游戏优化, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
-  - {name: 🏳️‍🌈 LU BuyVM 无限流量, server: lu.lzmt.org, port: 8080, type: vmess, uuid: d3e2fa4e-2284-4c64-aac7-5e32c61f36b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /DE0jo3Wl/, headers: {Host: lu.lzmt.org}}}
   - {name: NG 静态家宽, server: zoda.showsion.shop, port: 41078, type: ss, cipher: aes-256-gcm, password: SAOkMaXDej}
   - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z}
@@ -36,6 +35,14 @@ proxies:
   - {name: 🇺🇸 US Cogent, server: zoda.showsion.shop, port: 14324, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH}
   - {name: 🇺🇸 US Verizon 动态家宽, server: zoda.showsion.shop, port: 18118, type: ss, cipher: aes-256-gcm, password: qg0aHSAjra}
+  - {name: 🇭🇰 HK HKT 动态家宽 IPLC, server: 183.240.187.168, port: 14732, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
+  - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
+  - {name: 🇯🇵 JP Tanaka IPLC, server: 183.134.21.36, port: 14732, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
+  - {name: 🇰🇷 KR SKT 静态家宽 IPLC, server: 183.134.21.41, port: 14732, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 🇸🇬 SG Akari IPLC, server: 183.240.187.173, port: 14732, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
+  - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
+  - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
+  - {name: 🇹🇼 TW Hinet 动态家宽 IPLC, server: 183.240.187.175, port: 14732, type: ss, cipher: aes-256-gcm, password: bGLcuShJ3G}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,7 +68,6 @@ proxy-groups:
       - 🇯🇵 JP Tanaka 流媒体解锁
       - 🇰🇷 KR SKT 静态家宽
       - 🇰🇷 KR SKT 静态家宽 游戏优化
-      - 🏳️‍🌈 LU BuyVM 无限流量
       - NG 静态家宽
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
@@ -72,6 +78,14 @@ proxy-groups:
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
       - 🇺🇸 US Verizon 动态家宽
+      - 🇭🇰 HK HKT 动态家宽 IPLC
+      - 🇭🇰 HK Polonetwork IPLC
+      - 🇯🇵 JP Tanaka IPLC
+      - 🇰🇷 KR SKT 静态家宽 IPLC
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
+      - 🇹🇼 TW Akile IPLC
+      - 🇹🇼 TW Hinet 动态家宽 IPLC
   - name: 📲 电报消息
     type: select
     proxies:
@@ -268,11 +282,14 @@ proxy-groups:
       - 🇭🇰 HK HKBN 动态家宽
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK Polonetwork 流媒体解锁
+      - 🇭🇰 HK HKT 动态家宽 IPLC
+      - 🇭🇰 HK Polonetwork IPLC
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 JP So-net 静态家宽
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🇯🇵 JP Tanaka IPLC
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -283,6 +300,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 SG Akari 流媒体解锁
+      - 🇸🇬 SG Akari IPLC
+      - 🇸🇬 SG Azure IPLC
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -290,11 +309,14 @@ proxy-groups:
       - 🇹🇼 TW APOL 动态家宽
       - 🇹🇼 TW Hinet 动态家宽
       - 🇹🇼 TW TFN 静态家宽
+      - 🇹🇼 TW Akile IPLC
+      - 🇹🇼 TW Hinet 动态家宽 IPLC
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
       - 🇰🇷 KR SKT 静态家宽
       - 🇰🇷 KR SKT 静态家宽 游戏优化
+      - 🇰🇷 KR SKT 静态家宽 IPLC
   - name: 🎥 奈飞节点
     type: select
     proxies:
