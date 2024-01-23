@@ -17,11 +17,11 @@ CL GZS = ss, zoda.showsion.shop, 44001, encrypt-method=aes-256-gcm, password=gR9
 🇭🇰 HK HKBN 动态家宽 = ss, aizai798.infois.top, 56191, encrypt-method=chacha20-ietf-poly1305, password=2fb87e1fb3a21172, tfo=false, udp-relay=false
 🇭🇰 HK HKT 动态家宽 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 57081, encrypt-method=aes-256-gcm, password=pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs, tfo=false, udp-relay=false
 🇭🇰 HK Polonetwork 流媒体解锁 = ss, q23uasdhjwqeqwe.sadjhazco23.xyz, 17173, encrypt-method=aes-256-gcm, password=7oJSTp91Q7, tfo=false, udp-relay=false
-🇯🇵 JP Dodo 实验性 = ss, zoda.showsion.shop, 47387, encrypt-method=aes-256-gcm, password=CrSRksMcQfB0wayN, tfo=false, udp-relay=false
-🇯🇵 JP Sony 静态家宽 = ss, zoda.showsion.shop, 19710, encrypt-method=aes-256-gcm, password=0e09bc841fe6506e, tfo=false, udp-relay=false
+🇯🇵 JP So-net 静态家宽 = ss, shshcub.073505.cn, 52287, encrypt-method=aes-256-gcm, password=0e09bc841fe6506e, tfo=false, udp-relay=false
 🇯🇵 JP Tanaka 流媒体解锁 = ss, zoda.showsion.shop, 39879, encrypt-method=aes-256-gcm, password=KgfPeVv0rV, tfo=false, udp-relay=false
 🇰🇷 KR SKT 静态家宽 = ss, zoda.showsion.shop, 11424, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
 🇰🇷 KR SKT 静态家宽 游戏优化 = ss, bjcu.073505.cn, 13122, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
+🏳️‍🌈 LU BuyVM 无限流量 = vmess, lu.lzmt.org, 8080, username=d3e2fa4e-2284-4c64-aac7-5e32c61f36b2, tls=false, vmess-aead=true, ws=true, ws-path=/DE0jo3Wl/, sni=lu.lzmt.org, ws-headers=Host:lu.lzmt.org, skip-cert-verify=false, tfo=false, udp-relay=false
 NG 静态家宽 = ss, zoda.showsion.shop, 41078, encrypt-method=aes-256-gcm, password=SAOkMaXDej, tfo=false, udp-relay=false
 🇸🇬 SG Akari 流媒体解锁 = ss, zoda.showsion.shop, 40531, encrypt-method=aes-256-gcm, password=9WDXxG4xq8, tfo=false, udp-relay=false
 TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, password=imHEw11W0z, tfo=false, udp-relay=false
@@ -32,21 +32,10 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 🇺🇸 US Cogent = ss, zoda.showsion.shop, 14324, encrypt-method=aes-256-gcm, password=4h9pT5IAYJ, tfo=false, udp-relay=false
 🇺🇸 US Misaka = ss, zoda.showsion.shop, 44004, encrypt-method=aes-256-gcm, password=cMmWxpNtUH, tfo=false, udp-relay=false
 🇺🇸 US Verizon 动态家宽 = ss, zoda.showsion.shop, 18118, encrypt-method=aes-256-gcm, password=qg0aHSAjra, tfo=false, udp-relay=false
-🇭🇰 HK Eons IPLC = ss, hk-2.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=yIwJDCY7uM, tfo=false, udp-relay=false
-🇭🇰 HK HKT IPLC = ss, 183.240.187.168, 14732, encrypt-method=aes-256-gcm, password=pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs, tfo=false, udp-relay=false
-🇭🇰 HK Polonetwork IPLC = ss, 183.240.187.169, 14732, encrypt-method=aes-256-gcm, password=7oJSTp91Q7, tfo=false, udp-relay=false
-🇯🇵 JP Catxis IPLC = ss, 183.134.21.38, 14732, encrypt-method=aes-256-gcm, password=cA6avdR9Ik, tfo=false, udp-relay=false
-🇯🇵 JP Tanaka IPLC = ss, 183.134.21.36, 14732, encrypt-method=aes-256-gcm, password=KgfPeVv0rV, tfo=false, udp-relay=false
-🇰🇷 KR SKT 静态家宽 IPLC = ss, 183.134.21.41, 14732, encrypt-method=aes-256-gcm, password=tPu9kL1t18, tfo=false, udp-relay=false
-🇸🇬 SG Akari IPLC = ss, 183.240.187.173, 14732, encrypt-method=aes-256-gcm, password=9WDXxG4xq8, tfo=false, udp-relay=false
-🇸🇬 SG Azure IPLC = trojan, 183.240.187.172, 14732, password=jOdJ5zI24c, sni=tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify=false, tfo=false, udp-relay=false
-🇸🇬 SG Eons IPLC = ss, sg-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=Pr4J6CLkJd, tfo=false, udp-relay=false
-🇹🇼 TW Akile IPLC = ss, tw-1.ac.laowanxiang.com, 14732, encrypt-method=aes-256-gcm, password=hWRx1m0hLc, tfo=false, udp-relay=false
-🇹🇼 TW Hinet 动态家宽 IPLC = ss, 183.240.187.175, 14732, encrypt-method=aes-256-gcm, password=bGLcuShJ3G, tfo=false, udp-relay=false
 
 [Proxy Group]
 🚀 节点选择 = select,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇬🇧 UK BT 静态家宽,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT 动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP Dodo 实验性,🇯🇵 JP Sony 静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT 静态家宽,🇰🇷 KR SKT 静态家宽 游戏优化,NG 静态家宽,🇸🇬 SG Akari 流媒体解锁,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW APOL 动态家宽,🇹🇼 TW Hinet 动态家宽,🇹🇼 TW TFN 静态家宽,🇺🇸 US Cogent,🇺🇸 US Misaka,🇺🇸 US Verizon 动态家宽,🇭🇰 HK Eons IPLC,🇭🇰 HK HKT IPLC,🇭🇰 HK Polonetwork IPLC,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC,🇰🇷 KR SKT 静态家宽 IPLC,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet 动态家宽 IPLC
+🚀 手动切换 = select,🇨🇦 CA Cocodeit,CL GZS,🇬🇧 UK BT 静态家宽,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT 动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP So-net 静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇰🇷 KR SKT 静态家宽,🇰🇷 KR SKT 静态家宽 游戏优化,🏳️‍🌈 LU BuyVM 无限流量,NG 静态家宽,🇸🇬 SG Akari 流媒体解锁,TR Markahost,🇹🇼 TW Akile,🇹🇼 TW APOL 动态家宽,🇹🇼 TW Hinet 动态家宽,🇹🇼 TW TFN 静态家宽,🇺🇸 US Cogent,🇺🇸 US Misaka,🇺🇸 US Verizon 动态家宽
 📲 电报消息 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 💬 OpenAi = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
 📹 油管视频 = select,🚀 节点选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
@@ -66,12 +55,12 @@ TR Markahost = ss, zoda.showsion.shop, 44003, encrypt-method=aes-256-gcm, passwo
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
-🇭🇰 香港节点 = select,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT 动态家宽,🇭🇰 HK Polonetwork 流媒体解锁,🇭🇰 HK Eons IPLC,🇭🇰 HK HKT IPLC,🇭🇰 HK Polonetwork IPLC
-🇯🇵 日本节点 = select,🇯🇵 JP Dodo 实验性,🇯🇵 JP Sony 静态家宽,🇯🇵 JP Tanaka 流媒体解锁,🇯🇵 JP Catxis IPLC,🇯🇵 JP Tanaka IPLC
+🇭🇰 香港节点 = select,🇭🇰 HK HKBN 动态家宽,🇭🇰 HK HKT 动态家宽,🇭🇰 HK Polonetwork 流媒体解锁
+🇯🇵 日本节点 = select,🇯🇵 JP So-net 静态家宽,🇯🇵 JP Tanaka 流媒体解锁
 🇺🇲 美国节点 = select,🇺🇸 US Cogent,🇺🇸 US Misaka,🇺🇸 US Verizon 动态家宽
-🇸🇬 狮城节点 = select,🇸🇬 SG Akari 流媒体解锁,🇸🇬 SG Akari IPLC,🇸🇬 SG Azure IPLC,🇸🇬 SG Eons IPLC
-🇨🇳 台湾节点 = select,🇹🇼 TW Akile,🇹🇼 TW APOL 动态家宽,🇹🇼 TW Hinet 动态家宽,🇹🇼 TW TFN 静态家宽,🇹🇼 TW Akile IPLC,🇹🇼 TW Hinet 动态家宽 IPLC
-🇰🇷 韩国节点 = select,🇰🇷 KR SKT 静态家宽,🇰🇷 KR SKT 静态家宽 游戏优化,🇰🇷 KR SKT 静态家宽 IPLC
+🇸🇬 狮城节点 = select,🇸🇬 SG Akari 流媒体解锁
+🇨🇳 台湾节点 = select,🇹🇼 TW Akile,🇹🇼 TW APOL 动态家宽,🇹🇼 TW Hinet 动态家宽,🇹🇼 TW TFN 静态家宽
+🇰🇷 韩国节点 = select,🇰🇷 KR SKT 静态家宽,🇰🇷 KR SKT 静态家宽 游戏优化
 🎥 奈飞节点 = select,🇭🇰 HK Polonetwork 流媒体解锁,🇯🇵 JP Tanaka 流媒体解锁,🇸🇬 SG Akari 流媒体解锁
 
 [Rule]
@@ -2152,10 +2141,12 @@ DOMAIN-SUFFIX,bigfun.cn,📺 哔哩哔哩
 DOMAIN-SUFFIX,bigfunapp.cn,📺 哔哩哔哩
 DOMAIN-SUFFIX,biliapi.com,📺 哔哩哔哩
 DOMAIN-SUFFIX,biliapi.net,📺 哔哩哔哩
+DOMAIN-SUFFIX,bilibili.co,📺 哔哩哔哩
 DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
 DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
 DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
 DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
+DOMAIN-SUFFIX,biliintl.co,📺 哔哩哔哩
 DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
 DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
 DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
@@ -2255,6 +2246,9 @@ DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
 DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
 DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
 DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+DOMAIN-SUFFIX,bilibili.tv,🌍 国外媒体
+DOMAIN-SUFFIX,bstarstatic.com,🌍 国外媒体
+DOMAIN,pic-bstarstatic.akamaized.net,🌍 国外媒体
 DOMAIN-KEYWORD,voddazn,🌍 国外媒体
 DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2304,7 +2298,6 @@ DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
 DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
 DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3287,6 +3280,7 @@ DOMAIN-SUFFIX,cahr.org.tw,🚀 节点选择
 DOMAIN-SUFFIX,caijinglengyan.com,🚀 节点选择
 DOMAIN-SUFFIX,calameo.com,🚀 节点选择
 DOMAIN-SUFFIX,calebelston.com,🚀 节点选择
+DOMAIN-SUFFIX,calendarz.com,🚀 节点选择
 DOMAIN-SUFFIX,calgarychinese.ca,🚀 节点选择
 DOMAIN-SUFFIX,calgarychinese.com,🚀 节点选择
 DOMAIN-SUFFIX,calgarychinese.net,🚀 节点选择
@@ -3356,6 +3350,7 @@ DOMAIN-SUFFIX,cdcparty.com,🚀 节点选择
 DOMAIN-SUFFIX,cdef.org,🚀 节点选择
 DOMAIN-SUFFIX,cdig.info,🚀 节点选择
 DOMAIN-SUFFIX,cdjp.org,🚀 节点选择
+DOMAIN-SUFFIX,cdn-telegram.org,🚀 节点选择
 DOMAIN-SUFFIX,cdnews.com.tw,🚀 节点选择
 DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
 DOMAIN-SUFFIX,cdp1989.org,🚀 节点选择
@@ -3584,6 +3579,7 @@ DOMAIN-SUFFIX,comefromchina.com,🚀 节点选择
 DOMAIN-SUFFIX,comic-mega.me,🚀 节点选择
 DOMAIN-SUFFIX,comico.tw,🚀 节点选择
 DOMAIN-SUFFIX,commandarms.com,🚀 节点选择
+DOMAIN-SUFFIX,comments.app,🚀 节点选择
 DOMAIN-SUFFIX,commentshk.com,🚀 节点选择
 DOMAIN-SUFFIX,communistcrimes.org,🚀 节点选择
 DOMAIN-SUFFIX,communitychoicecu.com,🚀 节点选择
@@ -4436,6 +4432,7 @@ DOMAIN-SUFFIX,geekerhome.com,🚀 节点选择
 DOMAIN-SUFFIX,geekheart.info,🚀 节点选择
 DOMAIN-SUFFIX,gekikame.com,🚀 节点选择
 DOMAIN-SUFFIX,gelbooru.com,🚀 节点选择
+DOMAIN-SUFFIX,generated.photos,🚀 节点选择
 DOMAIN-SUFFIX,genius.com,🚀 节点选择
 DOMAIN-SUFFIX,geocities.co.jp,🚀 节点选择
 DOMAIN-SUFFIX,geocities.com,🚀 节点选择
@@ -4809,10 +4806,10 @@ DOMAIN-SUFFIX,gradconnection.com,🚀 节点选择
 DOMAIN-SUFFIX,grammaly.com,🚀 节点选择
 DOMAIN-SUFFIX,grandtrial.org,🚀 节点选择
 DOMAIN-SUFFIX,grangorz.org,🚀 节点选择
+DOMAIN-SUFFIX,graph.org,🚀 节点选择
 DOMAIN-SUFFIX,graphis.ne.jp,🚀 节点选择
 DOMAIN-SUFFIX,graphql.org,🚀 节点选择
 DOMAIN-SUFFIX,gravatar.com,🚀 节点选择
-DOMAIN-SUFFIX,greasespot.net,🚀 节点选择
 DOMAIN-SUFFIX,great-firewall.com,🚀 节点选择
 DOMAIN-SUFFIX,great-roc.org,🚀 节点选择
 DOMAIN-SUFFIX,greatfire.org,🚀 节点选择
@@ -5102,6 +5099,8 @@ DOMAIN-SUFFIX,huayuworld.org,🚀 节点选择
 DOMAIN-SUFFIX,hudatoriq.web.id,🚀 节点选择
 DOMAIN-SUFFIX,hudson.org,🚀 节点选择
 DOMAIN-SUFFIX,huffingtonpost.com,🚀 节点选择
+DOMAIN-SUFFIX,huffpost.com,🚀 节点选择
+DOMAIN-SUFFIX,huggingface.co,🚀 节点选择
 DOMAIN-SUFFIX,hugoroy.eu,🚀 节点选择
 DOMAIN-SUFFIX,huhaitai.com,🚀 节点选择
 DOMAIN-SUFFIX,huhamhire.com,🚀 节点选择
@@ -6251,6 +6250,7 @@ DOMAIN-SUFFIX,oann.com,🚀 节点选择
 DOMAIN-SUFFIX,oauth.net,🚀 节点选择
 DOMAIN-SUFFIX,observechina.net,🚀 节点选择
 DOMAIN-SUFFIX,obutu.com,🚀 节点选择
+DOMAIN-SUFFIX,obyte.org,🚀 节点选择
 DOMAIN-SUFFIX,ocaspro.com,🚀 节点选择
 DOMAIN-SUFFIX,occupytiananmen.com,🚀 节点选择
 DOMAIN-SUFFIX,oclp.hk,🚀 节点选择
@@ -6616,6 +6616,7 @@ DOMAIN-SUFFIX,pshvpn.com,🚀 节点选择
 DOMAIN-SUFFIX,psiphon.ca,🚀 节点选择
 DOMAIN-SUFFIX,psiphon3.com,🚀 节点选择
 DOMAIN-SUFFIX,psiphontoday.com,🚀 节点选择
+DOMAIN-SUFFIX,pstatic.net,🚀 节点选择
 DOMAIN-SUFFIX,pt.im,🚀 节点选择
 DOMAIN-SUFFIX,pts.org.tw,🚀 节点选择
 DOMAIN-SUFFIX,ptt.cc,🚀 节点选择
@@ -6674,6 +6675,7 @@ DOMAIN-SUFFIX,quantumbooter.net,🚀 节点选择
 DOMAIN-SUFFIX,questvisual.com,🚀 节点选择
 DOMAIN-SUFFIX,quitccp.net,🚀 节点选择
 DOMAIN-SUFFIX,quitccp.org,🚀 节点选择
+DOMAIN-SUFFIX,quiz.directory,🚀 节点选择
 DOMAIN-SUFFIX,quora.com,🚀 节点选择
 DOMAIN-SUFFIX,quoracdn.net,🚀 节点选择
 DOMAIN-SUFFIX,quran.com,🚀 节点选择
@@ -7372,9 +7374,11 @@ DOMAIN-SUFFIX,teensinasia.com,🚀 节点选择
 DOMAIN-SUFFIX,tehrantimes.com,🚀 节点选择
 DOMAIN-SUFFIX,telecomspace.com,🚀 节点选择
 DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
+DOMAIN-SUFFIX,telegram-cdn.org,🚀 节点选择
 DOMAIN-SUFFIX,telegram.dog,🚀 节点选择
 DOMAIN-SUFFIX,telegram.me,🚀 节点选择
 DOMAIN-SUFFIX,telegram.org,🚀 节点选择
+DOMAIN-SUFFIX,telegram.space,🚀 节点选择
 DOMAIN-SUFFIX,telegramdownload.com,🚀 节点选择
 DOMAIN-SUFFIX,telegraph.co.uk,🚀 节点选择
 DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
@@ -7443,6 +7447,7 @@ DOMAIN-SUFFIX,thlib.org,🚀 节点选择
 DOMAIN-SUFFIX,thomasbernhard.org,🚀 节点选择
 DOMAIN-SUFFIX,thongdreams.com,🚀 节点选择
 DOMAIN-SUFFIX,threadreaderapp.com,🚀 节点选择
+DOMAIN-SUFFIX,threads.net,🚀 节点选择
 DOMAIN-SUFFIX,threatchaos.com,🚀 节点选择
 DOMAIN-SUFFIX,throughnightsfire.com,🚀 节点选择
 DOMAIN-SUFFIX,thumbzilla.com,🚀 节点选择
@@ -8069,6 +8074,7 @@ DOMAIN-SUFFIX,wattpad.com,🚀 节点选择
 DOMAIN-SUFFIX,wav.tv,🚀 节点选择
 DOMAIN-SUFFIX,waveprotocol.org,🚀 节点选择
 DOMAIN-SUFFIX,waymo.com,🚀 节点选择
+DOMAIN-SUFFIX,wd.bible,🚀 节点选择
 DOMAIN-SUFFIX,wda.gov.tw,🚀 节点选择
 DOMAIN-SUFFIX,wdf5.com,🚀 节点选择
 DOMAIN-SUFFIX,wealth.com.tw,🚀 节点选择
@@ -8184,12 +8190,12 @@ DOMAIN-SUFFIX,witnessleeteaching.com,🚀 节点选择
 DOMAIN-SUFFIX,witopia.net,🚀 节点选择
 DOMAIN-SUFFIX,wizcrafts.net,🚀 节点选择
 DOMAIN-SUFFIX,wjbk.org,🚀 节点选择
+DOMAIN-SUFFIX,wmflabs.org,🚀 节点选择
 DOMAIN-SUFFIX,wn.com,🚀 节点选择
 DOMAIN-SUFFIX,wnacg.com,🚀 节点选择
 DOMAIN-SUFFIX,wnacg.org,🚀 节点选择
 DOMAIN-SUFFIX,wo.tc,🚀 节点选择
 DOMAIN-SUFFIX,woeser.com,🚀 节点选择
-DOMAIN-SUFFIX,woesermiddle-way.net,🚀 节点选择
 DOMAIN-SUFFIX,wokar.org,🚀 节点选择
 DOMAIN-SUFFIX,wolfax.com,🚀 节点选择
 DOMAIN-SUFFIX,wombo.ai,🚀 节点选择
@@ -8347,6 +8353,7 @@ DOMAIN-SUFFIX,yam.com,🚀 节点选择
 DOMAIN-SUFFIX,yam.org.tw,🚀 节点选择
 DOMAIN-SUFFIX,yande.re,🚀 节点选择
 DOMAIN-SUFFIX,yandex.com,🚀 节点选择
+DOMAIN-SUFFIX,yandex.ru,🚀 节点选择
 DOMAIN-SUFFIX,yanghengjun.com,🚀 节点选择
 DOMAIN-SUFFIX,yangjianli.com,🚀 节点选择
 DOMAIN-SUFFIX,yasni.co.uk,🚀 节点选择
@@ -8877,6 +8884,8 @@ DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
 DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
 DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
 DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
 DOMAIN-SUFFIX,biligame.com,🎯 全球直连
 DOMAIN-SUFFIX,biligame.net,🎯 全球直连
 DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
