@@ -18,14 +18,16 @@ proxies:
   - {name: 🇨🇦 CA Cocodeit, server: zoda.showsion.shop, port: 22942, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq}
   - {name: 🇬🇧 UK BT 静态家宽, server: zoda.showsion.shop, port: 13071, type: ss, cipher: aes-256-gcm, password: lDaGLOFgsL}
-  - {name: 🇭🇰 HK HKBN 动态家宽, server: aizai798.infois.top, port: 56191, type: ss, cipher: chacha20-ietf-poly1305, password: 2fb87e1fb3a21172}
+  - {name: 🇭🇰 HK HKBN 动态家宽, server: aizai798.infois.top, port: 56191, type: ss, cipher: aes-256-gcm, password: 2fb87e1fb3a21172}
   - {name: 🇭🇰 HK HKT 动态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 57081, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs}
   - {name: 🇭🇰 HK Polonetwork 流媒体解锁, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 17173, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7}
   - {name: 🇯🇵 JP So-net 静态家宽, server: shshcub.073505.cn, port: 52287, type: ss, cipher: aes-256-gcm, password: 0e09bc841fe6506e}
   - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV}
   - {name: 🇰🇷 KR SKT 静态家宽, server: zoda.showsion.shop, port: 11424, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
   - {name: 🇰🇷 KR SKT 静态家宽 游戏优化, server: bjcu.073505.cn, port: 13122, type: ss, cipher: aes-256-gcm, password: tPu9kL1t18}
+  - {name: 🏳️‍🌈 LU BuyVM 无限流量, server: lu.lzmt.org, port: 8080, type: vmess, uuid: d3e2fa4e-2284-4c64-aac7-5e32c61f36b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /DE0jo3Wl/, headers: {Host: lu.lzmt.org}}}
   - {name: NG 静态家宽, server: zoda.showsion.shop, port: 41078, type: ss, cipher: aes-256-gcm, password: SAOkMaXDej}
+  - {name: PH EdgeCloud 静态家宽, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 23439, type: ss, cipher: aes-256-gcm, password: 6fde86261233706b}
   - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8}
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc}
@@ -68,7 +70,9 @@ proxy-groups:
       - 🇯🇵 JP Tanaka 流媒体解锁
       - 🇰🇷 KR SKT 静态家宽
       - 🇰🇷 KR SKT 静态家宽 游戏优化
+      - 🏳️‍🌈 LU BuyVM 无限流量
       - NG 静态家宽
+      - PH EdgeCloud 静态家宽
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
