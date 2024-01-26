@@ -18,21 +18,17 @@ proxies:
   - {name: 🇨🇦 CA Cocodeit, server: zoda.showsion.shop, port: 22942, type: ss, cipher: aes-256-gcm, password: mMoE4F0N0B, udp: true}
   - {name: CL GZS, server: zoda.showsion.shop, port: 44001, type: ss, cipher: aes-256-gcm, password: gR93hTpYcq, udp: true}
   - {name: 🇭🇰 HK Polonetwork 流媒体解锁, server: q23uasdhjwqeqwe.sadjhazco23.xyz, port: 17173, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7, udp: true}
-  - {name: 🇯🇵 JP Dodo 实验性, server: zoda.showsion.shop, port: 47387, type: ss, cipher: aes-256-gcm, password: CrSRksMcQfB0wayN, udp: true}
   - {name: 🇯🇵 JP Tanaka 流媒体解锁, server: zoda.showsion.shop, port: 39879, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV, udp: true}
+  - {name: 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量, server: lu.lzmt.org, port: 8080, type: vmess, uuid: d3e2fa4e-2284-4c64-aac7-5e32c61f36b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DE0jo3Wl/, headers: {Host: lu.lzmt.org}}, udp: true}
   - {name: 🇸🇬 SG Akari 流媒体解锁, server: zoda.showsion.shop, port: 40531, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8, udp: true}
   - {name: TR Markahost, server: zoda.showsion.shop, port: 44003, type: ss, cipher: aes-256-gcm, password: imHEw11W0z, udp: true}
   - {name: 🇹🇼 TW Akile, server: zoda.showsion.shop, port: 31736, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
   - {name: 🇺🇸 US Cogent, server: zoda.showsion.shop, port: 14324, type: ss, cipher: aes-256-gcm, password: 4h9pT5IAYJ, udp: true}
   - {name: 🇺🇸 US Misaka, server: zoda.showsion.shop, port: 44004, type: ss, cipher: aes-256-gcm, password: cMmWxpNtUH, udp: true}
-  - {name: 🇭🇰 HK Eons IPLC, server: hk-2.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: yIwJDCY7uM, udp: true}
-  - {name: 🇭🇰 HK HKT IPLC, server: 183.240.187.168, port: 14732, type: ss, cipher: aes-256-gcm, password: pGHnUgKzXFBRP6Z1rsc5R7cg2wR6O60PWXqUy4ZQsFJs, udp: true}
   - {name: 🇭🇰 HK Polonetwork IPLC, server: 183.240.187.169, port: 14732, type: ss, cipher: aes-256-gcm, password: 7oJSTp91Q7, udp: true}
-  - {name: 🇯🇵 JP Catxis IPLC, server: 183.134.21.38, port: 14732, type: ss, cipher: aes-256-gcm, password: cA6avdR9Ik, udp: true}
   - {name: 🇯🇵 JP Tanaka IPLC, server: 183.134.21.36, port: 14732, type: ss, cipher: aes-256-gcm, password: KgfPeVv0rV, udp: true}
   - {name: 🇸🇬 SG Akari IPLC, server: 183.240.187.173, port: 14732, type: ss, cipher: aes-256-gcm, password: 9WDXxG4xq8, udp: true}
   - {name: 🇸🇬 SG Azure IPLC, server: 183.240.187.172, port: 14732, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG Eons IPLC, server: sg-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: Pr4J6CLkJd, udp: true}
   - {name: 🇹🇼 TW Akile IPLC, server: tw-1.ac.laowanxiang.com, port: 14732, type: ss, cipher: aes-256-gcm, password: hWRx1m0hLc, udp: true}
   - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -194,21 +190,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -370,21 +362,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -546,21 +534,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -721,21 +705,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -896,21 +876,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -1071,21 +1047,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -1247,21 +1219,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -1429,21 +1397,17 @@ proxy-groups:
       - 🇨🇦 CA Cocodeit
       - CL GZS
       - 🇭🇰 HK Polonetwork 流媒体解锁
-      - 🇯🇵 JP Dodo 实验性
       - 🇯🇵 JP Tanaka 流媒体解锁
+      - 🏳️‍🌈 ️‍🌈 LU BuyVM 无限流量
       - 🇸🇬 SG Akari 流媒体解锁
       - TR Markahost
       - 🇹🇼 TW Akile
       - 🇺🇸 US Cogent
       - 🇺🇸 US Misaka
-      - 🇭🇰 HK Eons IPLC
-      - 🇭🇰 HK HKT IPLC
       - 🇭🇰 HK Polonetwork IPLC
-      - 🇯🇵 JP Catxis IPLC
       - 🇯🇵 JP Tanaka IPLC
       - 🇸🇬 SG Akari IPLC
       - 🇸🇬 SG Azure IPLC
-      - 🇸🇬 SG Eons IPLC
       - 🇹🇼 TW Akile IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -1889,6 +1853,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,bilibili.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,bstarstatic.com,🌍 国外媒体
+  - DOMAIN,pic-bstarstatic.akamaized.net,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -1938,7 +1905,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2683,6 +2649,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
