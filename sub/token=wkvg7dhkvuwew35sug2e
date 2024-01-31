@@ -23,11 +23,21 @@ proxies:
   - {name: PHL, server: relay-eur.292228.xyz, port: 30063, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: TUR FUN, server: relay-fun.292228.xyz, port: 30111, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: VAT FUN, server: relay-fun.292228.xyz, port: 30104, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AUS, server: relay-hkg-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 南极-广东专线 WARP, server: lbhk.bnnodeservice.com, port: 32041, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: 🇩🇪 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR, server: relay-eur.292228.xyz, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: dokidoki, tfo: false, udp: true}
   - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -51,7 +61,17 @@ proxies:
   - {name: 🇭🇰 HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 IND, server: relay-eur.292228.xyz, port: 30065, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -81,7 +101,17 @@ proxies:
   - {name: 🇯🇵 JPN 9 A, server: relay-jpn-a.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 9 B, server: relay-jpn-b.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: 🇯🇵 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇬 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -108,6 +138,9 @@ proxies:
   - {name: 🇸🇬 SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 1 A, server: relay-hkg-a.292228.xyz, port: 30049, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 1 B, server: relay-hkg-b.292228.xyz, port: 30049, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 10 A, server: relay-hkg-a.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -132,11 +165,18 @@ proxies:
   - {name: 🇹🇼 TWN 9 B, server: relay-hkg-b.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇹🇼 TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇹🇼 TWN HiNet B [0.5x]", server: relay-hkg-b.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA, server: relay-usa-a.292228.xyz, port: 30051, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 2, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 3, server: relay-usa-a.292228.xyz, port: 30053, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -151,11 +191,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -179,7 +229,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -209,7 +269,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -236,6 +306,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -260,11 +333,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -279,11 +359,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -307,7 +397,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -337,7 +437,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -364,6 +474,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -388,11 +501,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -407,11 +527,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -435,7 +565,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -465,7 +605,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -492,6 +642,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -516,11 +669,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: 📲 电报信息
     type: select
     proxies:
@@ -534,11 +694,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -562,7 +732,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -592,7 +772,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -619,6 +809,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -643,11 +836,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -661,11 +861,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -689,7 +899,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -719,7 +939,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -746,6 +976,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -770,11 +1003,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -788,11 +1028,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -816,7 +1066,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -846,7 +1106,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -873,6 +1143,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -897,11 +1170,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -916,11 +1196,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -944,7 +1234,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -974,7 +1274,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -1001,6 +1311,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -1025,11 +1338,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1050,11 +1370,21 @@ proxy-groups:
       - PHL
       - TUR FUN
       - VAT FUN
+      - 🇦🇷 阿根廷-广东专线 DonWeb
       - 🇦🇺 AUS
+      - 🇦🇺 澳大利亚-广东专线 GCore
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇧🇷 巴西-广东专线 GCore 1
+      - 🇧🇷 巴西-广东专线 GCore 2
       - 🇨🇦 CAN
+      - 🇨🇦 加拿大-广东专线 BGP
+      - 🇨🇳 南极-广东专线 WARP
       - 🇩🇪 Koyeb-DE
+      - 🇩🇪 德国-广东专线 BGP
       - 🇫🇷 FRA
+      - 🇫🇷 法国-广东专线 BGP
       - 🇬🇧 GBR
+      - 🇬🇧 英国-广东专线 BGP
       - 🇭🇰 Eons-HK-IPLC
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
@@ -1078,7 +1408,17 @@ proxy-groups:
       - 🇭🇰 HKG 8 B
       - 🇭🇰 HKG 9 A
       - 🇭🇰 HKG 9 B
+      - 🇭🇰 香港-广东专线 Akari
+      - 🇭🇰 香港-广东专线 BGP 1
+      - 🇭🇰 香港-广东专线 BGP 2
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 香港-广东专线 HKBN 1
+      - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HKT
+      - 🇭🇰 香港-广东专线 NeaRoute
       - 🇮🇳 IND
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇮🇳 印度-广东专线 GCore
       - 🇯🇵 ExtraVM-JP-Lite
       - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 JPN 1 A
@@ -1108,7 +1448,17 @@ proxy-groups:
       - 🇯🇵 JPN 9 A
       - 🇯🇵 JPN 9 B
       - 🇯🇵 Koyeb-JP
+      - 🇯🇵 日本-广东专线 Akari
+      - 🇯🇵 日本-广东专线 BGP
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇰🇷 韩国-广东专线 VUKR
       - 🇲🇾 MYS
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇳🇬 尼日利亚-广东专线 Melbicom
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇷🇺 俄罗斯-广东专线 PQ
+      - 🇸🇦 沙特-广东专线 STC
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
       - 🇸🇬 SGP 1 A
@@ -1135,6 +1485,9 @@ proxy-groups:
       - 🇸🇬 SGP 8 B
       - 🇸🇬 SGP 9 A
       - 🇸🇬 SGP 9 B
+      - 🇸🇬 新加坡-广东专线 BGP
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇹🇷 土耳其-广东专线 Kapteyan
       - 🇹🇼 TWN 1 A
       - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 10 A
@@ -1159,11 +1512,18 @@ proxy-groups:
       - 🇹🇼 TWN 9 B
       - 🇹🇼 TWN HiNet A [0.5x]
       - 🇹🇼 TWN HiNet B [0.5x]
+      - 🇹🇼 台湾-广东专线 NeaRoute
+      - 🇹🇼 台湾-广东专线 STUIX
+      - 🇺🇦 乌克兰-广东专线 Vik
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
       - 🇺🇸 USA
       - 🇺🇸 USA 2
       - 🇺🇸 USA 3
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 美国-广东专线 GCore
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
