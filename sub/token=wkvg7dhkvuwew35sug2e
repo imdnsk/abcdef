@@ -77,8 +77,6 @@ proxies:
   - {name: 🇭🇰 HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 1 A, server: relay-hkg-a.292228.xyz, port: 30049, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 1 B, server: relay-hkg-b.292228.xyz, port: 30049, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 3 A, server: relay-hkg-a.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TWN 4 A, server: relay-hkg-a.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -106,10 +104,6 @@ proxies:
   - {name: ARG, server: relay-usa-a.292228.xyz, port: 30054, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 1 B, server: relay-jpn-b.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 2 A, server: relay-jpn-a.292228.xyz, port: 33045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 2 B, server: relay-jpn-b.292228.xyz, port: 33045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 3 A [0.5x]", server: relay-jpn-a.292228.xyz, port: 30075, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 3 B [0.5x]", server: relay-jpn-b.292228.xyz, port: 30075, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -134,8 +128,6 @@ proxies:
   - {name: 🇸🇬 SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 3 A, server: relay-sgp-a.292228.xyz, port: 30077, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 3 B, server: relay-sgp-b.292228.xyz, port: 30077, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -275,8 +267,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -304,10 +294,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -332,8 +318,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -473,8 +457,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -502,10 +484,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -530,8 +508,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -671,8 +647,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -700,10 +674,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -728,8 +698,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -868,8 +836,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -897,10 +863,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -925,8 +887,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -1065,8 +1025,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -1094,10 +1052,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -1122,8 +1076,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -1262,8 +1214,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -1291,10 +1241,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -1319,8 +1265,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -1460,8 +1404,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -1489,10 +1431,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -1517,8 +1455,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -1664,8 +1600,6 @@ proxy-groups:
       - 🇭🇰 HKG 10 B
       - 🇭🇰 HKG 11 A
       - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 1 A
-      - 🇹🇼 TWN 1 B
       - 🇹🇼 TWN 2 A
       - 🇹🇼 TWN 3 A
       - 🇹🇼 TWN 4 A
@@ -1693,10 +1627,6 @@ proxy-groups:
       - ARG
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 2 A
-      - 🇯🇵 JPN 2 B
-      - 🇯🇵 JPN 3 A [0.5x]
-      - 🇯🇵 JPN 3 B [0.5x]
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
       - 🇯🇵 JPN 5 A [0.6x]
@@ -1721,8 +1651,6 @@ proxy-groups:
       - 🇸🇬 SGP 1 B
       - 🇸🇬 SGP 2 A [0.1x]
       - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 3 A
-      - 🇸🇬 SGP 3 B
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
