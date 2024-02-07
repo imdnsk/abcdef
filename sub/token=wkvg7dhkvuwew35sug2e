@@ -192,13 +192,12 @@ proxies:
   - {name: TUR FUN, server: relay-fun.292228.xyz, port: 30111, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 Chunghwa Telecom-TW-Lite, server: 203.66.14.48, port: 45116, client-fingerprint: chrome, type: vmess, uuid: 2179f179-5360-4bc0-9bca-ffd540363e4a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: dokidoki, tfo: false, udp: true}
-  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, client-fingerprint: chrome, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
   - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: 🇸🇬 Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -382,13 +381,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -572,13 +570,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -762,13 +759,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 📲 电报信息
     type: select
     proxies:
@@ -951,13 +947,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1140,13 +1135,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1329,13 +1323,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1519,13 +1512,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1715,13 +1707,12 @@ proxy-groups:
       - TUR FUN
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
