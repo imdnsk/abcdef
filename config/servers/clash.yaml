@@ -15,15 +15,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
-  - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
-  - {name: 🇭🇰 Eons-HK-IPLC, server: bgp.gg.bbcc.cyou, port: 30683, type: ss, cipher: aes-128-gcm, password: dokidoki}
-  - {name: 🇯🇵 ExtraVM-JP-Lite, server: 103.214.71.16, port: 33377, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
-  - {name: 🇯🇵 ExtraVM-JP-Pro, server: hzcm.mmt.donghui.tech, port: 21043, type: trojan, password: CrJHHyCSBL, sni: 103-214-71-16.lzmt.org, skip-cert-verify: false}
-  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
-  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
+  - {name: 🇸🇬 Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
+  - {name: 🇸🇬 Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false}
+  - {name: 🇹🇼 Chunghwa Telecom-TW-Lite, server: 203.66.14.48, port: 45116, client-fingerprint: chrome, type: vmess, uuid: 2179f179-5360-4bc0-9bca-ffd540363e4a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇺🇸 Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false}
+  - {name: 🇩🇪 Koyeb-DE, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}}
+  - {name: 🇯🇵 Koyeb-JP, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}}
+  - {name: 🇸🇬 Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,13 +40,12 @@ proxy-groups:
     proxies:
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
       - 🇺🇸 Contabo-US-Lite
       - 🇺🇸 Contabo-US-Pro
-      - 🇭🇰 Eons-HK-IPLC
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇩🇪 Koyeb-DE
       - 🇯🇵 Koyeb-JP
+      - 🇸🇬 Vultr-SG-Lite
   - name: 📲 电报消息
     type: select
     proxies:
@@ -238,12 +236,10 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 Eons-HK-IPLC
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 ExtraVM-JP-Lite
-      - 🇯🇵 ExtraVM-JP-Pro
       - 🇯🇵 Koyeb-JP
   - name: 🇺🇲 美国节点
     type: select
@@ -255,10 +251,11 @@ proxy-groups:
     proxies:
       - 🇸🇬 Azure-SG-Lite
       - 🇸🇬 Azure-SG-Pro
+      - 🇸🇬 Vultr-SG-Lite
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇼 Chunghwa Telecom-TW-Lite
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -2345,10 +2342,12 @@ rules:
   - DOMAIN-SUFFIX,bigfunapp.cn,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biliapi.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biliapi.net,📺 哔哩哔哩
+  - DOMAIN-SUFFIX,bilibili.co,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
+  - DOMAIN-SUFFIX,biliintl.co,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
@@ -2448,6 +2447,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,bilibili.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,bstarstatic.com,🌍 国外媒体
+  - DOMAIN,pic-bstarstatic.akamaized.net,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2497,7 +2499,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3480,6 +3481,7 @@ rules:
   - DOMAIN-SUFFIX,caijinglengyan.com,🚀 节点选择
   - DOMAIN-SUFFIX,calameo.com,🚀 节点选择
   - DOMAIN-SUFFIX,calebelston.com,🚀 节点选择
+  - DOMAIN-SUFFIX,calendarz.com,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.ca,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.com,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.net,🚀 节点选择
@@ -3549,6 +3551,7 @@ rules:
   - DOMAIN-SUFFIX,cdef.org,🚀 节点选择
   - DOMAIN-SUFFIX,cdig.info,🚀 节点选择
   - DOMAIN-SUFFIX,cdjp.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cdn-telegram.org,🚀 节点选择
   - DOMAIN-SUFFIX,cdnews.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,cdp1989.org,🚀 节点选择
@@ -3777,6 +3780,7 @@ rules:
   - DOMAIN-SUFFIX,comic-mega.me,🚀 节点选择
   - DOMAIN-SUFFIX,comico.tw,🚀 节点选择
   - DOMAIN-SUFFIX,commandarms.com,🚀 节点选择
+  - DOMAIN-SUFFIX,comments.app,🚀 节点选择
   - DOMAIN-SUFFIX,commentshk.com,🚀 节点选择
   - DOMAIN-SUFFIX,communistcrimes.org,🚀 节点选择
   - DOMAIN-SUFFIX,communitychoicecu.com,🚀 节点选择
@@ -4629,6 +4633,7 @@ rules:
   - DOMAIN-SUFFIX,geekheart.info,🚀 节点选择
   - DOMAIN-SUFFIX,gekikame.com,🚀 节点选择
   - DOMAIN-SUFFIX,gelbooru.com,🚀 节点选择
+  - DOMAIN-SUFFIX,generated.photos,🚀 节点选择
   - DOMAIN-SUFFIX,genius.com,🚀 节点选择
   - DOMAIN-SUFFIX,geocities.co.jp,🚀 节点选择
   - DOMAIN-SUFFIX,geocities.com,🚀 节点选择
@@ -5002,10 +5007,10 @@ rules:
   - DOMAIN-SUFFIX,grammaly.com,🚀 节点选择
   - DOMAIN-SUFFIX,grandtrial.org,🚀 节点选择
   - DOMAIN-SUFFIX,grangorz.org,🚀 节点选择
+  - DOMAIN-SUFFIX,graph.org,🚀 节点选择
   - DOMAIN-SUFFIX,graphis.ne.jp,🚀 节点选择
   - DOMAIN-SUFFIX,graphql.org,🚀 节点选择
   - DOMAIN-SUFFIX,gravatar.com,🚀 节点选择
-  - DOMAIN-SUFFIX,greasespot.net,🚀 节点选择
   - DOMAIN-SUFFIX,great-firewall.com,🚀 节点选择
   - DOMAIN-SUFFIX,great-roc.org,🚀 节点选择
   - DOMAIN-SUFFIX,greatfire.org,🚀 节点选择
@@ -5295,6 +5300,8 @@ rules:
   - DOMAIN-SUFFIX,hudatoriq.web.id,🚀 节点选择
   - DOMAIN-SUFFIX,hudson.org,🚀 节点选择
   - DOMAIN-SUFFIX,huffingtonpost.com,🚀 节点选择
+  - DOMAIN-SUFFIX,huffpost.com,🚀 节点选择
+  - DOMAIN-SUFFIX,huggingface.co,🚀 节点选择
   - DOMAIN-SUFFIX,hugoroy.eu,🚀 节点选择
   - DOMAIN-SUFFIX,huhaitai.com,🚀 节点选择
   - DOMAIN-SUFFIX,huhamhire.com,🚀 节点选择
@@ -6444,6 +6451,7 @@ rules:
   - DOMAIN-SUFFIX,oauth.net,🚀 节点选择
   - DOMAIN-SUFFIX,observechina.net,🚀 节点选择
   - DOMAIN-SUFFIX,obutu.com,🚀 节点选择
+  - DOMAIN-SUFFIX,obyte.org,🚀 节点选择
   - DOMAIN-SUFFIX,ocaspro.com,🚀 节点选择
   - DOMAIN-SUFFIX,occupytiananmen.com,🚀 节点选择
   - DOMAIN-SUFFIX,oclp.hk,🚀 节点选择
@@ -6809,6 +6817,7 @@ rules:
   - DOMAIN-SUFFIX,psiphon.ca,🚀 节点选择
   - DOMAIN-SUFFIX,psiphon3.com,🚀 节点选择
   - DOMAIN-SUFFIX,psiphontoday.com,🚀 节点选择
+  - DOMAIN-SUFFIX,pstatic.net,🚀 节点选择
   - DOMAIN-SUFFIX,pt.im,🚀 节点选择
   - DOMAIN-SUFFIX,pts.org.tw,🚀 节点选择
   - DOMAIN-SUFFIX,ptt.cc,🚀 节点选择
@@ -6867,6 +6876,7 @@ rules:
   - DOMAIN-SUFFIX,questvisual.com,🚀 节点选择
   - DOMAIN-SUFFIX,quitccp.net,🚀 节点选择
   - DOMAIN-SUFFIX,quitccp.org,🚀 节点选择
+  - DOMAIN-SUFFIX,quiz.directory,🚀 节点选择
   - DOMAIN-SUFFIX,quora.com,🚀 节点选择
   - DOMAIN-SUFFIX,quoracdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,quran.com,🚀 节点选择
@@ -7565,9 +7575,11 @@ rules:
   - DOMAIN-SUFFIX,tehrantimes.com,🚀 节点选择
   - DOMAIN-SUFFIX,telecomspace.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
+  - DOMAIN-SUFFIX,telegram-cdn.org,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.dog,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.me,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
+  - DOMAIN-SUFFIX,telegram.space,🚀 节点选择
   - DOMAIN-SUFFIX,telegramdownload.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegraph.co.uk,🚀 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
@@ -7636,6 +7648,7 @@ rules:
   - DOMAIN-SUFFIX,thomasbernhard.org,🚀 节点选择
   - DOMAIN-SUFFIX,thongdreams.com,🚀 节点选择
   - DOMAIN-SUFFIX,threadreaderapp.com,🚀 节点选择
+  - DOMAIN-SUFFIX,threads.net,🚀 节点选择
   - DOMAIN-SUFFIX,threatchaos.com,🚀 节点选择
   - DOMAIN-SUFFIX,throughnightsfire.com,🚀 节点选择
   - DOMAIN-SUFFIX,thumbzilla.com,🚀 节点选择
@@ -8262,6 +8275,7 @@ rules:
   - DOMAIN-SUFFIX,wav.tv,🚀 节点选择
   - DOMAIN-SUFFIX,waveprotocol.org,🚀 节点选择
   - DOMAIN-SUFFIX,waymo.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wd.bible,🚀 节点选择
   - DOMAIN-SUFFIX,wda.gov.tw,🚀 节点选择
   - DOMAIN-SUFFIX,wdf5.com,🚀 节点选择
   - DOMAIN-SUFFIX,wealth.com.tw,🚀 节点选择
@@ -8377,12 +8391,12 @@ rules:
   - DOMAIN-SUFFIX,witopia.net,🚀 节点选择
   - DOMAIN-SUFFIX,wizcrafts.net,🚀 节点选择
   - DOMAIN-SUFFIX,wjbk.org,🚀 节点选择
+  - DOMAIN-SUFFIX,wmflabs.org,🚀 节点选择
   - DOMAIN-SUFFIX,wn.com,🚀 节点选择
   - DOMAIN-SUFFIX,wnacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,wnacg.org,🚀 节点选择
   - DOMAIN-SUFFIX,wo.tc,🚀 节点选择
   - DOMAIN-SUFFIX,woeser.com,🚀 节点选择
-  - DOMAIN-SUFFIX,woesermiddle-way.net,🚀 节点选择
   - DOMAIN-SUFFIX,wokar.org,🚀 节点选择
   - DOMAIN-SUFFIX,wolfax.com,🚀 节点选择
   - DOMAIN-SUFFIX,wombo.ai,🚀 节点选择
@@ -8540,6 +8554,7 @@ rules:
   - DOMAIN-SUFFIX,yam.org.tw,🚀 节点选择
   - DOMAIN-SUFFIX,yande.re,🚀 节点选择
   - DOMAIN-SUFFIX,yandex.com,🚀 节点选择
+  - DOMAIN-SUFFIX,yandex.ru,🚀 节点选择
   - DOMAIN-SUFFIX,yanghengjun.com,🚀 节点选择
   - DOMAIN-SUFFIX,yangjianli.com,🚀 节点选择
   - DOMAIN-SUFFIX,yasni.co.uk,🚀 节点选择
@@ -9070,6 +9085,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -9807,4 +9824,5 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+︽
 
