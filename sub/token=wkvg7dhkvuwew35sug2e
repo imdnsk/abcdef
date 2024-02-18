@@ -21,6 +21,7 @@ proxies:
   - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HGC, server: lbhk.bnnodeservice.com, port: 32042, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -55,6 +56,8 @@ proxies:
   - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 南极-广东专线 WARP, server: lbhk.bnnodeservice.com, port: 32041, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: "🇬🇧 Traffic Remain: 7639.4 GB", server: us-east-1.292228.xyz, port: 34052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-east-1.292228.xyz}}, udp: true}
+  - {name: "Valid Until: Traffic Billing", server: us-east-1.292228.xyz, port: 34052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-east-1.292228.xyz}}, udp: true}
   - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -146,9 +149,7 @@ proxies:
   - {name: 🇸🇬 SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 1 A, server: relay-usa-a.292228.xyz, port: 30051, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 2 A, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 3 A, server: relay-usa-a.292228.xyz, port: 30053, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 4 A, server: relay-usa-a.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 5 A, server: relay-usa-a.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 6 A, server: relay-usa-a.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -210,6 +211,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -244,6 +246,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -335,9 +339,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -399,6 +401,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -433,6 +436,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -524,9 +529,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -588,6 +591,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -622,6 +626,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -713,9 +719,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -776,6 +780,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -810,6 +815,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -901,9 +908,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -964,6 +969,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -998,6 +1004,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -1089,9 +1097,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -1152,6 +1158,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -1186,6 +1193,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -1277,9 +1286,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -1341,6 +1348,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -1375,6 +1383,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -1466,9 +1476,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
@@ -1536,6 +1544,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -1570,6 +1579,8 @@ proxy-groups:
       - 🇮🇳 印度-广东专线 GCore
       - 🇸🇦 沙特-广东专线 STC
       - 🇨🇳 南极-广东专线 WARP
+      - "🇬🇧 Traffic Remain: 7639.4 GB"
+      - "Valid Until: Traffic Billing"
       - 🇭🇰 HKG 1 A [0.1x]
       - 🇭🇰 HKG 1 B [0.1x]
       - 🇭🇰 HKG 2 A
@@ -1661,9 +1672,7 @@ proxy-groups:
       - 🇸🇬 SGP 10 B
       - 🇸🇬 SGP 11 B
       - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 1 A
       - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 3 A
       - 🇺🇸 USA 4 A
       - 🇺🇸 USA 5 A
       - 🇺🇸 USA 6 A
