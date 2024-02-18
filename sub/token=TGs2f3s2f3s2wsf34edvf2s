@@ -29,6 +29,7 @@ proxies:
   - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-广东专线 HGC, server: lbhk.bnnodeservice.com, port: 32042, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -83,6 +84,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -137,6 +139,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -191,6 +194,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -244,6 +248,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -297,6 +302,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -350,6 +356,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -404,6 +411,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
@@ -464,6 +472,7 @@ proxy-groups:
       - 🇭🇰 香港-广东专线 NeaRoute
       - 🇭🇰 香港-广东专线 HKBN 1
       - 🇭🇰 香港-广东专线 HKBN 2
+      - 🇭🇰 香港-广东专线 HGC
       - 🇭🇰 香港-广东专线 HKT
       - 🇭🇰 香港-广东专线 GCore
       - 🇺🇸 美国-广东专线 BGP 1
