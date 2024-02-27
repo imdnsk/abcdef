@@ -154,9 +154,7 @@ proxies:
   - {name: 🇺🇸 USA 10 A, server: relay-usa-a.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 11 A, server: relay-usa-a.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 12 A, server: relay-usa-a.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 1 B, server: relay-usa-b.292228.xyz, port: 30051, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 2 B, server: relay-usa-b.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 3 B, server: relay-usa-b.292228.xyz, port: 30053, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 4 B, server: relay-usa-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 5 B, server: relay-usa-b.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 USA 6 B, server: relay-usa-b.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -316,9 +314,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -478,9 +474,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -640,9 +634,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -801,9 +793,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -962,9 +952,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -1123,9 +1111,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -1285,9 +1271,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
@@ -1453,9 +1437,7 @@ proxy-groups:
       - 🇺🇸 USA 10 A
       - 🇺🇸 USA 11 A
       - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 1 B
       - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 3 B
       - 🇺🇸 USA 4 B
       - 🇺🇸 USA 5 B
       - 🇺🇸 USA 6 B
