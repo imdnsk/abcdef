@@ -1,82 +1,78 @@
-mixed-port: 7890
-allow-lan: false
+port: 7890
+socks-port: 7891
+allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
-clash-for-android:
-  append-system-dns: false
-hosts:
-  mtalk.google.com: 108.177.125.188
+external-controller: :9090
 dns:
-  enable: true
-  listen: 127.0.0.1:5335
-  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
-  ipv6: true
-  use-hosts: true
-  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
-  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
-  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
-  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
-  - {name: Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
-  - {name: Azure-SG-Pro, server: hndx.073505.cn, port: 17456, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
-  - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
-  - {name: Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
-  - {name: DE-01, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
-  - {name: JP-01, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
-  - {name: ️‍🌈 LU 无限流量 优选, server: lu.lzmt.org, port: 2052, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
-  - {name: ️‍🌈 RU 无限流量 优选, server: ru-cdn.lzmt.org, port: 8880, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
-  - {name: SG-01, server: 210.87.110.240, port: 41855, type: vmess, uuid: 1cb05e1a-124c-4322-9251-cf6c3c270f51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerasdf}, udp: true}
-  - {name: SG-02, server: 66.42.62.27, port: 52746, type: vmess, uuid: 7f43ff41-d0cf-4f23-9e6e-ed747115f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhjasd}, udp: true}
-  - {name: TR-01, server: 213.238.182.236, port: 33816, type: vmess, uuid: 6f964481-21a5-4ad5-db9c-387cb83aba4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /loqpr}, udp: true}
-  - {name: TW-01, server: 166.0.199.223, port: 26169, type: vmess, uuid: d12b8207-268a-4a2e-abe6-ef4eba4ef356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbijasd}, udp: true}
-  - {name: TW-02, server: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com, port: 44854, type: vmess, uuid: 83682fb7-7f76-4b64-a8a4-87e1b50a4cc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wqbidusad, headers: {Host: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com}}, udp: true}
-  - {name: TW-03 优选, server: 203-66-14-48.lzmt.org, port: 2052, type: vmess, uuid: bc4d34df-0615-4967-e1a8-592995bd814b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sdahdasdas, headers: {Host: 203-66-14-48.lzmt.org}}, udp: true}
-  - {name: US-01, server: 154.29.159.225, port: 35741, type: vmess, uuid: 992f6eb2-9419-4f64-897d-8270e8f079f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadhijsad}, udp: true}
-  - {name: US-02, server: 38.175.98.34, port: 15593, type: vmess, uuid: a1bbae88-7305-4eec-cb32-653f6bf81d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhsad}, udp: true}
-  - {name: Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 HGC, server: lbhk.bnnodeservice.com, port: 32042, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
-  - {name: 南极-广东专线 WARP, server: lbhk.bnnodeservice.com, port: 32041, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
+  - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: DE-01, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: JP-01, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: ️‍🌈 LU 无限流量 CF, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
+  - {name: ️‍🌈 RU 无限流量 CF, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
+  - {name: SG-01, server: 210.87.110.240, port: 41855, client-fingerprint: chrome, type: vmess, uuid: 1cb05e1a-124c-4322-9251-cf6c3c270f51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwerasdf}, udp: true}
+  - {name: SG-02, server: 66.42.62.27, port: 52746, client-fingerprint: chrome, type: vmess, uuid: 7f43ff41-d0cf-4f23-9e6e-ed747115f616, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbhjasd}, udp: true}
+  - {name: TR-01, server: 213.238.182.236, port: 33816, client-fingerprint: chrome, type: vmess, uuid: 6f964481-21a5-4ad5-db9c-387cb83aba4d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /loqpr}, udp: true}
+  - {name: TW-01, server: 166.0.199.223, port: 26169, client-fingerprint: chrome, type: vmess, uuid: d12b8207-268a-4a2e-abe6-ef4eba4ef356, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbijasd}, udp: true}
+  - {name: TW-02, server: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com, port: 44854, client-fingerprint: chrome, type: vmess, uuid: 83682fb7-7f76-4b64-a8a4-87e1b50a4cc0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wqbidusad, headers: {Host: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com}}, udp: true}
+  - {name: TW-03 CF, server: 203-66-14-48.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: bc4d34df-0615-4967-e1a8-592995bd814b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdasdas, headers: {Host: 203-66-14-48.lzmt.org}}, udp: true}
+  - {name: US-01, server: 154.29.159.225, port: 35741, client-fingerprint: chrome, type: vmess, uuid: 992f6eb2-9419-4f64-897d-8270e8f079f1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadhijsad}, udp: true}
+  - {name: US-02, server: 38.175.98.34, port: 15593, client-fingerprint: chrome, type: vmess, uuid: a1bbae88-7305-4eec-cb32-653f6bf81d3a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbhsad}, udp: true}
+  - {name: Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 HGC, server: lbhk.bnnodeservice.com, port: 32042, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 南极-广东专线 WARP, server: lbhk.bnnodeservice.com, port: 32041, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -89,14 +85,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -153,14 +149,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -217,14 +213,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -280,14 +276,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -343,14 +339,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -406,14 +402,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -470,14 +466,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
@@ -540,14 +536,14 @@ proxy-groups:
       - Contabo-US-Pro
       - DE-01
       - JP-01
-      - ️‍🌈 LU 无限流量 优选
-      - ️‍🌈 RU 无限流量 优选
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
       - SG-01
       - SG-02
       - TR-01
       - TW-01
       - TW-02
-      - TW-03 优选
+      - TW-03 CF
       - US-01
       - US-02
       - Vultr-SG-Lite
