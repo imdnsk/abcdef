@@ -15,1277 +15,1085 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32443, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32445, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32037, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKBN 1, server: lbhk.bnnodeservice.com, port: 32000, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKBN 2, server: lbhk.bnnodeservice.com, port: 32032, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HGC, server: lbhk.bnnodeservice.com, port: 32042, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 HKT, server: lbhk.bnnodeservice.com, port: 32033, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32027, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbhk.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbhk.bnnodeservice.com, port: 32031, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32003, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾-广东专线 STUIX, server: lbhk.bnnodeservice.com, port: 32040, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32004, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 Akari, server: lbhk.bnnodeservice.com, port: 32036, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbhk.bnnodeservice.com, port: 32005, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32007, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯-广东专线 PQ, server: lbhk.bnnodeservice.com, port: 32008, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32010, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32039, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32011, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32023, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbhk.bnnodeservice.com, port: 32038, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbhk.bnnodeservice.com, port: 32013, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbhk.bnnodeservice.com, port: 32014, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32026, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbhk.bnnodeservice.com, port: 32015, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇬 尼日利亚-广东专线 Melbicom, server: lbhk.bnnodeservice.com, port: 32034, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbhk.bnnodeservice.com, port: 32019, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西-广东专线 GCore 2, server: lbhk.bnnodeservice.com, port: 32025, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbhk.bnnodeservice.com, port: 32017, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32024, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇦 沙特-广东专线 STC, server: lbhk.bnnodeservice.com, port: 32035, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 南极-广东专线 WARP, server: lbhk.bnnodeservice.com, port: 32041, client-fingerprint: chrome, type: trojan, password: f23d63c4-58b5-4142-98e0-dcd79305f0bd, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 3 A, server: relay-hkg-a.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 4 A, server: relay-hkg-a.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 5 A, server: relay-hkg-a.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 6 A, server: relay-hkg-a.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 7 A, server: relay-hkg-a.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 8 A, server: relay-hkg-a.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 9 A, server: relay-hkg-a.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 10 A, server: relay-hkg-a.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 11 A, server: relay-hkg-a.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 2 B, server: relay-hkg-b.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 3 B, server: relay-hkg-b.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 4 B, server: relay-hkg-b.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 5 B, server: relay-hkg-b.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 6 B, server: relay-hkg-b.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 7 B, server: relay-hkg-b.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 8 B, server: relay-hkg-b.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 9 B, server: relay-hkg-b.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 10 B, server: relay-hkg-b.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWN 11 B, server: relay-hkg-b.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇼 TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇼 TWN HiNet B [0.5x]", server: relay-hkg-b.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 1 B, server: relay-jpn-b.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 5 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 6 A, server: relay-jpn-a.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 7 A, server: relay-jpn-a.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 8 A, server: relay-jpn-a.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 9 A, server: relay-jpn-a.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 10 A, server: relay-jpn-a.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 11 A, server: relay-jpn-a.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 12 A, server: relay-jpn-a.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 13 A, server: relay-jpn-a.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 6 B, server: relay-jpn-b.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 7 B, server: relay-jpn-b.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 8 B, server: relay-jpn-b.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 9 B, server: relay-jpn-b.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 10 B, server: relay-jpn-b.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 11 B, server: relay-jpn-b.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 12 B, server: relay-jpn-b.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 13 B, server: relay-jpn-b.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 7 A, server: relay-sgp-a.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 8 A, server: relay-sgp-a.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 10 A, server: relay-sgp-a.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 11 A, server: relay-sgp-a.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 12 A, server: relay-sgp-a.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 4 B, server: relay-sgp-b.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 5 B, server: relay-sgp-b.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 6 B, server: relay-sgp-b.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 7 B, server: relay-sgp-b.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 2 A, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 4 A, server: relay-usa-a.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 5 A, server: relay-usa-a.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 6 A, server: relay-usa-a.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 7 A, server: relay-usa-a.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 8 A, server: relay-usa-a.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 9 A, server: relay-usa-a.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 10 A, server: relay-usa-a.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 11 A, server: relay-usa-a.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 12 A, server: relay-usa-a.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 2 B, server: relay-usa-b.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 4 B, server: relay-usa-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 5 B, server: relay-usa-b.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 6 B, server: relay-usa-b.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 7 B, server: relay-usa-b.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 8 B, server: relay-usa-b.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 9 B, server: relay-usa-b.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 10 B, server: relay-usa-b.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 11 B, server: relay-usa-b.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 12 B, server: relay-usa-b.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AUS, server: relay-hkg-b.292228.xyz, port: 30418, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR, server: relay-eur.292228.xyz, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 3 A, server: relay-hkg-a.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 4 A, server: relay-hkg-a.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 5 A, server: relay-hkg-a.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 6 A, server: relay-hkg-a.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 7 A, server: relay-hkg-a.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 8 A, server: relay-hkg-a.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 9 A, server: relay-hkg-a.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 10 A, server: relay-hkg-a.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 11 A, server: relay-hkg-a.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 2 B, server: relay-hkg-b.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 3 B, server: relay-hkg-b.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 4 B, server: relay-hkg-b.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 5 B, server: relay-hkg-b.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 6 B, server: relay-hkg-b.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 7 B, server: relay-hkg-b.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 8 B, server: relay-hkg-b.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 9 B, server: relay-hkg-b.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 10 B, server: relay-hkg-b.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 11 B, server: relay-hkg-b.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "TWN HiNet B [0.5x]", server: relay-hkg-b.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 1 B, server: relay-jpn-b.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "JPN 5 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 6 A, server: relay-jpn-a.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 7 A, server: relay-jpn-a.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 8 A, server: relay-jpn-a.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 9 A, server: relay-jpn-a.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 10 A, server: relay-jpn-a.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 11 A, server: relay-jpn-a.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 12 A, server: relay-jpn-a.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 13 A, server: relay-jpn-a.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 6 B, server: relay-jpn-b.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 7 B, server: relay-jpn-b.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 8 B, server: relay-jpn-b.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 9 B, server: relay-jpn-b.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 10 B, server: relay-jpn-b.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 11 B, server: relay-jpn-b.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 12 B, server: relay-jpn-b.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 13 B, server: relay-jpn-b.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 7 A, server: relay-sgp-a.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 8 A, server: relay-sgp-a.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 10 A, server: relay-sgp-a.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 11 A, server: relay-sgp-a.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 12 A, server: relay-sgp-a.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 4 B, server: relay-sgp-b.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 5 B, server: relay-sgp-b.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 6 B, server: relay-sgp-b.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 7 B, server: relay-sgp-b.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 2 A, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 4 A, server: relay-usa-a.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 5 A, server: relay-usa-a.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 6 A, server: relay-usa-a.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 7 A, server: relay-usa-a.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 8 A, server: relay-usa-a.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 9 A, server: relay-usa-a.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 10 A, server: relay-usa-a.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 11 A, server: relay-usa-a.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 12 A, server: relay-usa-a.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 2 B, server: relay-usa-b.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 4 B, server: relay-usa-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 5 B, server: relay-usa-b.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 6 B, server: relay-usa-b.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 7 B, server: relay-usa-b.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 8 B, server: relay-usa-b.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 9 B, server: relay-usa-b.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 10 B, server: relay-usa-b.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 11 B, server: relay-usa-b.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 12 B, server: relay-usa-b.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: AUS, server: relay-hkg-b.292228.xyz, port: 30418, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: GBR, server: relay-eur.292228.xyz, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
+  - {name: Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
+  - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
+  - {name: Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
+  - {name: DE-01, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: JP-01, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: ️‍🌈 LU 无限流量 CF, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
+  - {name: ️‍🌈 RU 无限流量 CF, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
+  - {name: SG-01, server: 210.87.110.240, port: 41855, client-fingerprint: chrome, type: vmess, uuid: 1cb05e1a-124c-4322-9251-cf6c3c270f51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerasdf}, udp: true}
+  - {name: SG-02, server: 66.42.62.27, port: 52746, client-fingerprint: chrome, type: vmess, uuid: 7f43ff41-d0cf-4f23-9e6e-ed747115f616, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhjasd}, udp: true}
+  - {name: TR-01, server: 213.238.182.236, port: 33816, client-fingerprint: chrome, type: vmess, uuid: 6f964481-21a5-4ad5-db9c-387cb83aba4d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /loqpr}, udp: true}
+  - {name: TW-01, server: 166.0.199.223, port: 26169, client-fingerprint: chrome, type: vmess, uuid: d12b8207-268a-4a2e-abe6-ef4eba4ef356, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbijasd}, udp: true}
+  - {name: TW-02, server: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com, port: 44854, client-fingerprint: chrome, type: vmess, uuid: 83682fb7-7f76-4b64-a8a4-87e1b50a4cc0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wqbidusad, headers: {Host: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com}}, udp: true}
+  - {name: TW-03 CF, server: 203-66-14-48.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: bc4d34df-0615-4967-e1a8-592995bd814b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sdahdasdas, headers: {Host: 203-66-14-48.lzmt.org}}, udp: true}
+  - {name: US-01, server: 154.29.159.225, port: 35741, client-fingerprint: chrome, type: vmess, uuid: 992f6eb2-9419-4f64-897d-8270e8f079f1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadhijsad}, udp: true}
+  - {name: US-02, server: 38.175.98.34, port: 15593, client-fingerprint: chrome, type: vmess, uuid: a1bbae88-7305-4eec-cb32-653f6bf81d3a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhsad}, udp: true}
+  - {name: Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1298,160 +1106,136 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港-广东专线 BGP 1
-      - 🇭🇰 香港-广东专线 BGP 2
-      - 🇭🇰 香港-广东专线 Akari
-      - 🇭🇰 香港-广东专线 NeaRoute
-      - 🇭🇰 香港-广东专线 HKBN 1
-      - 🇭🇰 香港-广东专线 HKBN 2
-      - 🇭🇰 香港-广东专线 HGC
-      - 🇭🇰 香港-广东专线 HKT
-      - 🇭🇰 香港-广东专线 GCore
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 美国-广东专线 GCore
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇹🇼 台湾-广东专线 STUIX
-      - 🇯🇵 日本-广东专线 BGP
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇰🇷 韩国-广东专线 VUKR
-      - 🇸🇬 新加坡-广东专线 BGP
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇦🇺 澳大利亚-广东专线 GCore
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇧🇷 巴西-广东专线 GCore 2
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇮🇳 印度-广东专线 GCore
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇨🇳 南极-广东专线 WARP
-      - 🇭🇰 HKG 1 A [0.1x]
-      - 🇭🇰 HKG 1 B [0.1x]
-      - 🇭🇰 HKG 2 A
-      - 🇭🇰 HKG 2 B
-      - 🇭🇰 HKG 3 A
-      - 🇭🇰 HKG 3 B
-      - 🇭🇰 HKG 4 A
-      - 🇭🇰 HKG 4 B
-      - 🇭🇰 HKG 5 A
-      - 🇭🇰 HKG 5 B
-      - 🇭🇰 HKG 6 A
-      - 🇭🇰 HKG 6 B
-      - 🇭🇰 HKG 7 A
-      - 🇭🇰 HKG 7 B
-      - 🇭🇰 HKG 8 A
-      - 🇭🇰 HKG 8 B
-      - 🇭🇰 HKG 9 A
-      - 🇭🇰 HKG 9 B
-      - 🇭🇰 HKG 10 A
-      - 🇭🇰 HKG 10 B
-      - 🇭🇰 HKG 11 A
-      - 🇭🇰 HKG 11 B
-      - 🇹🇼 TWN 2 A
-      - 🇹🇼 TWN 3 A
-      - 🇹🇼 TWN 4 A
-      - 🇹🇼 TWN 5 A
-      - 🇹🇼 TWN 6 A
-      - 🇹🇼 TWN 7 A
-      - 🇹🇼 TWN 8 A
-      - 🇹🇼 TWN 9 A
-      - 🇹🇼 TWN 10 A
-      - 🇹🇼 TWN 11 A
-      - 🇹🇼 TWN 2 B
-      - 🇹🇼 TWN 3 B
-      - 🇹🇼 TWN 4 B
-      - 🇹🇼 TWN 5 B
-      - 🇹🇼 TWN 6 B
-      - 🇹🇼 TWN 7 B
-      - 🇹🇼 TWN 8 B
-      - 🇹🇼 TWN 9 B
-      - 🇹🇼 TWN 10 B
-      - 🇹🇼 TWN 11 B
-      - 🇹🇼 TWN HiNet A [0.5x]
-      - 🇹🇼 TWN HiNet B [0.5x]
-      - 🇯🇵 JPN 1 A
-      - 🇯🇵 JPN 1 B
-      - 🇯🇵 JPN 4 A
-      - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6x]
-      - 🇯🇵 JPN 5 B [0.6x]
-      - 🇯🇵 JPN 6 A
-      - 🇯🇵 JPN 7 A
-      - 🇯🇵 JPN 8 A
-      - 🇯🇵 JPN 9 A
-      - 🇯🇵 JPN 10 A
-      - 🇯🇵 JPN 11 A
-      - 🇯🇵 JPN 12 A
-      - 🇯🇵 JPN 13 A
-      - 🇯🇵 JPN 6 B
-      - 🇯🇵 JPN 7 B
-      - 🇯🇵 JPN 8 B
-      - 🇯🇵 JPN 9 B
-      - 🇯🇵 JPN 10 B
-      - 🇯🇵 JPN 11 B
-      - 🇯🇵 JPN 12 B
-      - 🇯🇵 JPN 13 B
-      - 🇸🇬 SGP 1 A
-      - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1x]
-      - 🇸🇬 SGP 2 B [0.1x]
-      - 🇸🇬 SGP 4 A
-      - 🇸🇬 SGP 5 A
-      - 🇸🇬 SGP 6 A
-      - 🇸🇬 SGP 7 A
-      - 🇸🇬 SGP 8 A
-      - 🇸🇬 SGP 9 A
-      - 🇸🇬 SGP 10 A
-      - 🇸🇬 SGP 11 A
-      - 🇸🇬 SGP 12 A
-      - 🇸🇬 SGP 4 B
-      - 🇸🇬 SGP 5 B
-      - 🇸🇬 SGP 6 B
-      - 🇸🇬 SGP 7 B
-      - 🇸🇬 SGP 8 B
-      - 🇸🇬 SGP 9 B
-      - 🇸🇬 SGP 10 B
-      - 🇸🇬 SGP 11 B
-      - 🇸🇬 SGP 12 B
-      - 🇺🇸 USA 2 A
-      - 🇺🇸 USA 4 A
-      - 🇺🇸 USA 5 A
-      - 🇺🇸 USA 6 A
-      - 🇺🇸 USA 7 A
-      - 🇺🇸 USA 8 A
-      - 🇺🇸 USA 9 A
-      - 🇺🇸 USA 10 A
-      - 🇺🇸 USA 11 A
-      - 🇺🇸 USA 12 A
-      - 🇺🇸 USA 2 B
-      - 🇺🇸 USA 4 B
-      - 🇺🇸 USA 5 B
-      - 🇺🇸 USA 6 B
-      - 🇺🇸 USA 7 B
-      - 🇺🇸 USA 8 B
-      - 🇺🇸 USA 9 B
-      - 🇺🇸 USA 10 B
-      - 🇺🇸 USA 11 B
-      - 🇺🇸 USA 12 B
-      - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
-      - 🇬🇧 GBR
+      - HKG 1 A [0.1x]
+      - HKG 1 B [0.1x]
+      - HKG 2 A
+      - HKG 2 B
+      - HKG 3 A
+      - HKG 3 B
+      - HKG 4 A
+      - HKG 4 B
+      - HKG 5 A
+      - HKG 5 B
+      - HKG 6 A
+      - HKG 6 B
+      - HKG 7 A
+      - HKG 7 B
+      - HKG 8 A
+      - HKG 8 B
+      - HKG 9 A
+      - HKG 9 B
+      - HKG 10 A
+      - HKG 10 B
+      - HKG 11 A
+      - HKG 11 B
+      - TWN 2 A
+      - TWN 3 A
+      - TWN 4 A
+      - TWN 5 A
+      - TWN 6 A
+      - TWN 7 A
+      - TWN 8 A
+      - TWN 9 A
+      - TWN 10 A
+      - TWN 11 A
+      - TWN 2 B
+      - TWN 3 B
+      - TWN 4 B
+      - TWN 5 B
+      - TWN 6 B
+      - TWN 7 B
+      - TWN 8 B
+      - TWN 9 B
+      - TWN 10 B
+      - TWN 11 B
+      - TWN HiNet A [0.5x]
+      - TWN HiNet B [0.5x]
+      - JPN 1 A
+      - JPN 1 B
+      - JPN 4 A
+      - JPN 4 B
+      - JPN 5 A [0.6x]
+      - JPN 5 B [0.6x]
+      - JPN 6 A
+      - JPN 7 A
+      - JPN 8 A
+      - JPN 9 A
+      - JPN 10 A
+      - JPN 11 A
+      - JPN 12 A
+      - JPN 13 A
+      - JPN 6 B
+      - JPN 7 B
+      - JPN 8 B
+      - JPN 9 B
+      - JPN 10 B
+      - JPN 11 B
+      - JPN 12 B
+      - JPN 13 B
+      - SGP 1 A
+      - SGP 1 B
+      - SGP 2 A [0.1x]
+      - SGP 2 B [0.1x]
+      - SGP 4 A
+      - SGP 5 A
+      - SGP 6 A
+      - SGP 7 A
+      - SGP 8 A
+      - SGP 9 A
+      - SGP 10 A
+      - SGP 11 A
+      - SGP 12 A
+      - SGP 4 B
+      - SGP 5 B
+      - SGP 6 B
+      - SGP 7 B
+      - SGP 8 B
+      - SGP 9 B
+      - SGP 10 B
+      - SGP 11 B
+      - SGP 12 B
+      - USA 2 A
+      - USA 4 A
+      - USA 5 A
+      - USA 6 A
+      - USA 7 A
+      - USA 8 A
+      - USA 9 A
+      - USA 10 A
+      - USA 11 A
+      - USA 12 A
+      - USA 2 B
+      - USA 4 B
+      - USA 5 B
+      - USA 6 B
+      - USA 7 B
+      - USA 8 B
+      - USA 9 B
+      - USA 10 B
+      - USA 11 B
+      - USA 12 B
+      - MYS
+      - AUS
+      - CAN
+      - FRA
+      - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
