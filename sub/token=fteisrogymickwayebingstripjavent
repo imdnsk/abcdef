@@ -15,159 +15,142 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: true, udp: true}
-  - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: DE-01, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
-  - {name: JP-01, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
-  - {name: ️‍🌈 LU 无限流量 CF, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
-  - {name: ️‍🌈 RU 无限流量 CF, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
-  - {name: SG-01, server: 210.87.110.240, port: 41855, client-fingerprint: chrome, type: vmess, uuid: 1cb05e1a-124c-4322-9251-cf6c3c270f51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwerasdf}, udp: true}
-  - {name: SG-02, server: 66.42.62.27, port: 52746, client-fingerprint: chrome, type: vmess, uuid: 7f43ff41-d0cf-4f23-9e6e-ed747115f616, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbhjasd}, udp: true}
-  - {name: TR-01, server: 213.238.182.236, port: 33816, client-fingerprint: chrome, type: vmess, uuid: 6f964481-21a5-4ad5-db9c-387cb83aba4d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /loqpr}, udp: true}
-  - {name: TW-01, server: 166.0.199.223, port: 26169, client-fingerprint: chrome, type: vmess, uuid: d12b8207-268a-4a2e-abe6-ef4eba4ef356, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbijasd}, udp: true}
-  - {name: TW-02, server: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com, port: 44854, client-fingerprint: chrome, type: vmess, uuid: 83682fb7-7f76-4b64-a8a4-87e1b50a4cc0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wqbidusad, headers: {Host: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com}}, udp: true}
-  - {name: TW-03 CF, server: 203-66-14-48.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: bc4d34df-0615-4967-e1a8-592995bd814b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sdahdasdas, headers: {Host: 203-66-14-48.lzmt.org}}, udp: true}
-  - {name: US-01, server: 154.29.159.225, port: 35741, client-fingerprint: chrome, type: vmess, uuid: 992f6eb2-9419-4f64-897d-8270e8f079f1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadhijsad}, udp: true}
-  - {name: US-02, server: 38.175.98.34, port: 15593, client-fingerprint: chrome, type: vmess, uuid: a1bbae88-7305-4eec-cb32-653f6bf81d3a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sadbhsad}, udp: true}
-  - {name: Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: true, udp: true}
-  - {name: "HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 3 A, server: relay-hkg-a.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 4 A, server: relay-hkg-a.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 5 A, server: relay-hkg-a.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 6 A, server: relay-hkg-a.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 7 A, server: relay-hkg-a.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 8 A, server: relay-hkg-a.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 9 A, server: relay-hkg-a.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 10 A, server: relay-hkg-a.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 11 A, server: relay-hkg-a.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 2 B, server: relay-hkg-b.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 3 B, server: relay-hkg-b.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 4 B, server: relay-hkg-b.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 5 B, server: relay-hkg-b.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 6 B, server: relay-hkg-b.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 7 B, server: relay-hkg-b.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 8 B, server: relay-hkg-b.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 9 B, server: relay-hkg-b.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 10 B, server: relay-hkg-b.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: TWN 11 B, server: relay-hkg-b.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "TWN HiNet B [0.5x]", server: relay-hkg-b.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 1 B, server: relay-jpn-b.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "JPN 5 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 6 A, server: relay-jpn-a.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 7 A, server: relay-jpn-a.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 8 A, server: relay-jpn-a.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 9 A, server: relay-jpn-a.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 10 A, server: relay-jpn-a.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 11 A, server: relay-jpn-a.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 12 A, server: relay-jpn-a.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 13 A, server: relay-jpn-a.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 6 B, server: relay-jpn-b.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 7 B, server: relay-jpn-b.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 8 B, server: relay-jpn-b.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 9 B, server: relay-jpn-b.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 10 B, server: relay-jpn-b.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 11 B, server: relay-jpn-b.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 12 B, server: relay-jpn-b.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: JPN 13 B, server: relay-jpn-b.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 7 A, server: relay-sgp-a.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 8 A, server: relay-sgp-a.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 10 A, server: relay-sgp-a.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 11 A, server: relay-sgp-a.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 12 A, server: relay-sgp-a.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 4 B, server: relay-sgp-b.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 5 B, server: relay-sgp-b.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 6 B, server: relay-sgp-b.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 7 B, server: relay-sgp-b.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 2 A, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 4 A, server: relay-usa-a.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 5 A, server: relay-usa-a.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 6 A, server: relay-usa-a.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 7 A, server: relay-usa-a.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 8 A, server: relay-usa-a.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 9 A, server: relay-usa-a.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 10 A, server: relay-usa-a.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 11 A, server: relay-usa-a.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 12 A, server: relay-usa-a.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 2 B, server: relay-usa-b.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 4 B, server: relay-usa-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 5 B, server: relay-usa-b.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 6 B, server: relay-usa-b.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 7 B, server: relay-usa-b.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 8 B, server: relay-usa-b.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 9 B, server: relay-usa-b.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 10 B, server: relay-usa-b.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 11 B, server: relay-usa-b.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: USA 12 B, server: relay-usa-b.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: AUS, server: relay-hkg-b.292228.xyz, port: 30418, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: GBR, server: relay-eur.292228.xyz, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "HKG 1 A [0.1x]", server: relay-hkg-a.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "HKG 1 B [0.1x]", server: relay-hkg-b.292228.xyz, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 2 A, server: relay-hkg-a.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 2 B, server: relay-hkg-b.292228.xyz, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 3 A, server: relay-hkg-a.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 3 B, server: relay-hkg-b.292228.xyz, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 4 A, server: relay-hkg-a.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 4 B, server: relay-hkg-b.292228.xyz, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 5 A, server: relay-hkg-a.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 5 B, server: relay-hkg-b.292228.xyz, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 6 A, server: relay-hkg-a.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 6 B, server: relay-hkg-b.292228.xyz, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 7 A, server: relay-hkg-a.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 7 B, server: relay-hkg-b.292228.xyz, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 8 A, server: relay-hkg-a.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 8 B, server: relay-hkg-b.292228.xyz, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 9 A, server: relay-hkg-a.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 9 B, server: relay-hkg-b.292228.xyz, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 10 A, server: relay-hkg-a.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 10 B, server: relay-hkg-b.292228.xyz, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 11 A, server: relay-hkg-a.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: HKG 11 B, server: relay-hkg-b.292228.xyz, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 2 A, server: relay-hkg-a.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 3 A, server: relay-hkg-a.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 4 A, server: relay-hkg-a.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 5 A, server: relay-hkg-a.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 6 A, server: relay-hkg-a.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 7 A, server: relay-hkg-a.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 8 A, server: relay-hkg-a.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 9 A, server: relay-hkg-a.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 10 A, server: relay-hkg-a.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 11 A, server: relay-hkg-a.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 2 B, server: relay-hkg-b.292228.xyz, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 3 B, server: relay-hkg-b.292228.xyz, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 4 B, server: relay-hkg-b.292228.xyz, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 5 B, server: relay-hkg-b.292228.xyz, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 6 B, server: relay-hkg-b.292228.xyz, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 7 B, server: relay-hkg-b.292228.xyz, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 8 B, server: relay-hkg-b.292228.xyz, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 9 B, server: relay-hkg-b.292228.xyz, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 10 B, server: relay-hkg-b.292228.xyz, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: TWN 11 B, server: relay-hkg-b.292228.xyz, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "TWN HiNet A [0.5x]", server: relay-hkg-a.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "TWN HiNet B [0.5x]", server: relay-hkg-b.292228.xyz, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 1 A, server: relay-jpn-a.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 1 B, server: relay-jpn-b.292228.xyz, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 4 A, server: relay-jpn-a.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 4 B, server: relay-jpn-b.292228.xyz, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "JPN 5 A [0.6x]", server: relay-jpn-a.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "JPN 5 B [0.6x]", server: relay-jpn-b.292228.xyz, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 6 A, server: relay-jpn-a.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 7 A, server: relay-jpn-a.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 8 A, server: relay-jpn-a.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 9 A, server: relay-jpn-a.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 10 A, server: relay-jpn-a.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 11 A, server: relay-jpn-a.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 12 A, server: relay-jpn-a.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 13 A, server: relay-jpn-a.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 6 B, server: relay-jpn-b.292228.xyz, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 7 B, server: relay-jpn-b.292228.xyz, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 8 B, server: relay-jpn-b.292228.xyz, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 9 B, server: relay-jpn-b.292228.xyz, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 10 B, server: relay-jpn-b.292228.xyz, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 11 B, server: relay-jpn-b.292228.xyz, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 12 B, server: relay-jpn-b.292228.xyz, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPN 13 B, server: relay-jpn-b.292228.xyz, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 1 A, server: relay-sgp-a.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 1 B, server: relay-sgp-b.292228.xyz, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "SGP 2 A [0.1x]", server: relay-sgp-a.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: "SGP 2 B [0.1x]", server: relay-sgp-b.292228.xyz, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 4 A, server: relay-sgp-a.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 5 A, server: relay-sgp-a.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 6 A, server: relay-sgp-a.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 7 A, server: relay-sgp-a.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 8 A, server: relay-sgp-a.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 9 A, server: relay-sgp-a.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 10 A, server: relay-sgp-a.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 11 A, server: relay-sgp-a.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 12 A, server: relay-sgp-a.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 4 B, server: relay-sgp-b.292228.xyz, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 5 B, server: relay-sgp-b.292228.xyz, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 6 B, server: relay-sgp-b.292228.xyz, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 7 B, server: relay-sgp-b.292228.xyz, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 8 B, server: relay-sgp-b.292228.xyz, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 9 B, server: relay-sgp-b.292228.xyz, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 10 B, server: relay-sgp-b.292228.xyz, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 11 B, server: relay-sgp-b.292228.xyz, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: SGP 12 B, server: relay-sgp-b.292228.xyz, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 2 A, server: relay-usa-a.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 4 A, server: relay-usa-a.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 5 A, server: relay-usa-a.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 6 A, server: relay-usa-a.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 7 A, server: relay-usa-a.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 8 A, server: relay-usa-a.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 9 A, server: relay-usa-a.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 10 A, server: relay-usa-a.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 11 A, server: relay-usa-a.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 12 A, server: relay-usa-a.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 2 B, server: relay-usa-b.292228.xyz, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 4 B, server: relay-usa-b.292228.xyz, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 5 B, server: relay-usa-b.292228.xyz, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 6 B, server: relay-usa-b.292228.xyz, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 7 B, server: relay-usa-b.292228.xyz, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 8 B, server: relay-usa-b.292228.xyz, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 9 B, server: relay-usa-b.292228.xyz, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 10 B, server: relay-usa-b.292228.xyz, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 11 B, server: relay-usa-b.292228.xyz, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: USA 12 B, server: relay-usa-b.292228.xyz, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: MYS, server: relay-eur.292228.xyz, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: AUS, server: relay-hkg-b.292228.xyz, port: 30418, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: CAN, server: relay-eur.292228.xyz, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: FRA, server: relay-eur.292228.xyz, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: GBR, server: relay-eur.292228.xyz, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: Azure-SG-Lite, server: tgbbhujmko521.southeastasia.cloudapp.azure.com, port: 65402, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
+  - {name: Azure-SG-Pro, server: hndx.073505.cn, port: 17456, client-fingerprint: chrome, type: trojan, password: jOdJ5zI24c, sni: tgbbhujmko521.southeastasia.cloudapp.azure.com, skip-cert-verify: false, udp: true}
+  - {name: Contabo-US-Lite, server: 85-239-235-232.lzmt.org, port: 25477, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
+  - {name: Contabo-US-Pro, server: bjcu.073505.cn, port: 50275, client-fingerprint: chrome, type: trojan, password: 9awMqCokjg, sni: 85-239-235-232.lzmt.org, skip-cert-verify: false, udp: true}
+  - {name: DE-01, server: considerable-rikki-gakiyukr.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: considerable-rikki-gakiyukr.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: considerable-rikki-gakiyukr.koyeb.app}}, udp: true}
+  - {name: JP-01, server: aesthetic-norine-zfjbkkvsqu.koyeb.app, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: aesthetic-norine-zfjbkkvsqu.koyeb.app, network: ws, ws-opts: {path: /vmess, headers: {Host: aesthetic-norine-zfjbkkvsqu.koyeb.app}}, udp: true}
+  - {name: ️‍🌈 LU 无限流量 CF, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
+  - {name: ️‍🌈 RU 无限流量 CF, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
+  - {name: SG-01, server: 210.87.110.240, port: 41855, client-fingerprint: chrome, type: vmess, uuid: 1cb05e1a-124c-4322-9251-cf6c3c270f51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerasdf}, udp: true}
+  - {name: SG-02, server: 66.42.62.27, port: 52746, client-fingerprint: chrome, type: vmess, uuid: 7f43ff41-d0cf-4f23-9e6e-ed747115f616, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhjasd}, udp: true}
+  - {name: TR-01, server: 213.238.182.236, port: 33816, client-fingerprint: chrome, type: vmess, uuid: 6f964481-21a5-4ad5-db9c-387cb83aba4d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /loqpr}, udp: true}
+  - {name: TW-01, server: 166.0.199.223, port: 26169, client-fingerprint: chrome, type: vmess, uuid: d12b8207-268a-4a2e-abe6-ef4eba4ef356, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbijasd}, udp: true}
+  - {name: TW-02, server: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com, port: 44854, client-fingerprint: chrome, type: vmess, uuid: 83682fb7-7f76-4b64-a8a4-87e1b50a4cc0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wqbidusad, headers: {Host: 7bc57268-d1cd-4b0a-9c6d-e20852da65de.moonddns.com}}, udp: true}
+  - {name: TW-03 CF, server: 203-66-14-48.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: bc4d34df-0615-4967-e1a8-592995bd814b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sdahdasdas, headers: {Host: 203-66-14-48.lzmt.org}}, udp: true}
+  - {name: US-01, server: 154.29.159.225, port: 35741, client-fingerprint: chrome, type: vmess, uuid: 992f6eb2-9419-4f64-897d-8270e8f079f1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadhijsad}, udp: true}
+  - {name: US-02, server: 38.175.98.34, port: 15593, client-fingerprint: chrome, type: vmess, uuid: a1bbae88-7305-4eec-cb32-653f6bf81d3a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sadbhsad}, udp: true}
+  - {name: Vultr-SG-Lite, server: 66-42-62-27.lzmt.org, port: 30933, client-fingerprint: chrome, type: trojan, password: 16sJ1IMyUH, sni: 66-42-62-27.lzmt.org, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -281,29 +264,29 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -417,29 +400,29 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -553,28 +536,28 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -688,28 +671,28 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -823,28 +806,28 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -958,29 +941,29 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -1094,6 +1077,23 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1106,23 +1106,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Azure-SG-Lite
-      - Azure-SG-Pro
-      - Contabo-US-Lite
-      - Contabo-US-Pro
-      - DE-01
-      - JP-01
-      - ️‍🌈 LU 无限流量 CF
-      - ️‍🌈 RU 无限流量 CF
-      - SG-01
-      - SG-02
-      - TR-01
-      - TW-01
-      - TW-02
-      - TW-03 CF
-      - US-01
-      - US-02
-      - Vultr-SG-Lite
       - HKG 1 A [0.1x]
       - HKG 1 B [0.1x]
       - HKG 2 A
@@ -1236,6 +1219,23 @@ proxy-groups:
       - CAN
       - FRA
       - GBR
+      - Azure-SG-Lite
+      - Azure-SG-Pro
+      - Contabo-US-Lite
+      - Contabo-US-Pro
+      - DE-01
+      - JP-01
+      - ️‍🌈 LU 无限流量 CF
+      - ️‍🌈 RU 无限流量 CF
+      - SG-01
+      - SG-02
+      - TR-01
+      - TW-01
+      - TW-02
+      - TW-03 CF
+      - US-01
+      - US-02
+      - Vultr-SG-Lite
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
