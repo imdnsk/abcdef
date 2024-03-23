@@ -15,19 +15,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇰🇷 KR, server: qwe.gbhy.xyz, port: 25300, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR, server: bjcu.kd69.vip, port: 20830, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇯🇵 JP Azure 2X, server: shcua.kd69.vip, port: 32510, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 JP, server: jpazure.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpazure.lzmt.org}}, udp: true}
-  - {name: 🇸🇬 SG 0.1X, server: qwe.gbhy.xyz, port: 54023, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG 0.1X, server: xxyd.kd69.vip, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG CF CDN 0.01X, server: 66-42-62-27.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 66-42-62-27.lzmt.org}}, udp: true}
-  - {name: 🇹🇼 TW, server: qwe.gbhy.xyz, port: 11341, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 TW CF CDN, server: 166.0.199.223, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CO, server: qwe.gbhy.xyz, port: 34683, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CL, server: qwe.gbhy.xyz, port: 42051, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: EG, server: qwe.gbhy.xyz, port: 50483, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: FI, server: qwe.gbhy.xyz, port: 54266, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: PK, server: qwe.gbhy.xyz, port: 18999, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: AR, server: qwe.gbhy.xyz, port: 50151, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: SE 2X, server: qwe.gbhy.xyz, port: 33878, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇺🇸 US DMIT, server: hzcu.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CO, server: bjcu.kd69.vip, port: 25886, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CL, server: hzyd.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇪🇬 EG LinkEgypt, server: gya.kd69.vip, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: FI, server: bjcu.kd69.vip, port: 30937, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: PK, server: hzyd.kd69.vip, port: 58966, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇷🇺 RU不限量 0.01X, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
   - {name: LU不限量 0.01X, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
   - {name: "🇭🇰 HK 1 A [0.1X]", server: 111.38.53.83, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -151,18 +150,17 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -286,18 +284,17 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -421,18 +418,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -555,18 +551,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -689,18 +684,17 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -823,18 +817,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -958,18 +951,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -1099,18 +1091,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 KR
+      - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
       - 🇸🇬 SG CF CDN 0.01X
-      - 🇹🇼 TW
-      - 🇹🇼 TW CF CDN
+      - 🇺🇸 US DMIT
       - CO
       - CL
-      - EG
+      - 🇪🇬 EG LinkEgypt
       - FI
       - PK
       - AR
-      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
