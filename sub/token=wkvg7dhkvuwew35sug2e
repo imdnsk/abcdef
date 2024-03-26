@@ -15,7 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇰🇷 KR, server: bjcu.kd69.vip, port: 20830, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 JP Azure 2X, server: shcua.kd69.vip, port: 32510, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 JP, server: jpazure.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpazure.lzmt.org}}, udp: true}
   - {name: 🇸🇬 SG 0.1X, server: xxyd.kd69.vip, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
@@ -24,9 +23,10 @@ proxies:
   - {name: CO, server: bjcu.kd69.vip, port: 25886, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: CL, server: hzyd.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇪🇬 EG LinkEgypt, server: gya.kd69.vip, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: FI, server: bjcu.kd69.vip, port: 30937, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇵🇱 PL Korbank, server: hzyd.kd69.vip, port: 29226, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: PK, server: hzyd.kd69.vip, port: 58966, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: SE 2X, server: qwe.gbhy.xyz, port: 33878, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇷🇺 RU不限量 0.01X, server: ru-cdn.lzmt.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru-cdn.lzmt.org}}, udp: true}
   - {name: LU不限量 0.01X, server: lu.lzmt.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.lzmt.org}}, udp: true}
   - {name: "🇭🇰 HK 1 A [0.1X]", server: 111.38.53.83, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -149,7 +149,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -158,9 +157,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -283,7 +283,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -292,9 +291,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -417,7 +417,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -426,9 +425,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -550,7 +550,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -559,9 +558,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -683,7 +683,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -692,9 +691,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -816,7 +816,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -825,9 +824,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -950,7 +950,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -959,9 +958,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
@@ -1090,7 +1090,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR
       - 🇯🇵 JP Azure 2X
       - 🇯🇵 JP
       - 🇸🇬 SG 0.1X
@@ -1099,9 +1098,10 @@ proxy-groups:
       - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - FI
+      - 🇵🇱 PL Korbank
       - PK
       - AR
+      - SE 2X
       - 🇷🇺 RU不限量 0.01X
       - LU不限量 0.01X
       - 🇭🇰 HK 1 A [0.1X]
