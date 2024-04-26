@@ -132,9 +132,6 @@ proxies:
   - {name: 🇺🇸 US 11 B, server: 117.149.198.43, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 12 B, server: 117.149.198.43, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: 117.149.198.43, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AUS, server: 117.149.198.43, port: 30418, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CAN, server: 117.149.198.43, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FRA, server: 117.149.198.43, port: 32000, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR, server: 117.149.198.43, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: NGA FUN, server: 117.149.198.43, port: 30068, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -260,9 +257,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: ♻️ 自动选择
@@ -388,9 +382,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: 🌍 国外媒体
@@ -516,9 +507,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: 📲 电报信息
@@ -643,9 +631,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: Ⓜ️ 微软服务
@@ -770,9 +755,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: 🍎 苹果服务
@@ -897,9 +879,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: 📢 谷歌FCM
@@ -1025,9 +1004,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
   - name: 🎯 全球直连
@@ -1159,9 +1135,6 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇦🇺 AUS
-      - 🇨🇦 CAN
-      - 🇫🇷 FRA
       - 🇬🇧 GBR
       - NGA FUN
 rules:
