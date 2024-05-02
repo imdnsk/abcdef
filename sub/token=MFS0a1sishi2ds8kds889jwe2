@@ -15,32 +15,27 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 香港家宽, server: qwe.gbhy.xyz, port: 42132, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇭🇰 HK HKT 动态家宽 IEPL 5X, server: 120.233.27.59, port: 21001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇲🇴 澳门家宽 2X, server: qwe.gbhy.xyz, port: 58816, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇭🇰 HK HKT 动态家宽, server: qwe.gbhy.xyz, port: 30280, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇲🇴 MO CTM 动态家宽 2X, server: qwe.gbhy.xyz, port: 58816, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 日本家宽01 2X, server: qwe.gbhy.xyz, port: 12332, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 日本家宽02 5X, server: qwe.gbhy.xyz, port: 51468, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG 0.1X, server: qwe.gbhy.xyz, port: 46352, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 台湾家宽01, server: qwe.gbhy.xyz, port: 18364, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 台湾家宽01 IPEL 5X, server: 120.233.27.59, port: 21003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾家宽02, server: qwe.gbhy.xyz, port: 56842, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾家宽02 IEPL 5X, server: 120.233.27.59, port: 21004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇺🇸 美国家宽01, server: shcub.kd69.vip, port: 63646, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 美国家宽02, server: qwe.gbhy.xyz, port: 18262, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US DMIT, server: qwe.gbhy.xyz, port: 58148, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇲🇾 马来西亚家宽 3X, server: gyb.kd69.vip, port: 55734, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇩🇪 德国家宽 3X, server: gyc.kd69.vip, port: 28534, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇷 土耳其家宽 3X, server: bjcu.kd69.vip, port: 17089, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇵🇭 菲律宾家宽 10X, server: xxyd.kd69.vip, port: 35883, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇵🇭 菲律宾家宽 10X, server: gyb.kd69.vip, port: 35883, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇦🇺 澳大利亚家宽, server: gzdxb.kd69.vip, port: 10302, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇳🇿 新西兰家宽, server: gzdxb.kd69.vip, port: 63459, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇵🇪 Red Cientifica Peruana, server: qwe.gbhy.xyz, port: 24477, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CO, server: bjcu.kd69.vip, port: 25886, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CL, server: hzyd.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CL, server: shcub.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇪🇬 EG LinkEgypt, server: gya.kd69.vip, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇵🇱 PL Korbank, server: hzyd.kd69.vip, port: 29226, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇨🇦 加拿大家宽 10X, server: shcub.kd69.vip, port: 33607, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇬🇧 英国家宽 0.1X, server: bjcu.kd69.vip, port: 12537, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: "🇭🇰 HK 1 A [0.1X]", server: 117.149.198.46, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 1 B [0.1X]", server: 117.149.198.43, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2 A, server: 117.149.198.46, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -157,16 +152,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -176,13 +169,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -299,16 +289,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -318,13 +306,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -441,16 +426,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -460,13 +443,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -582,16 +562,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -601,13 +579,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -723,16 +698,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -742,13 +715,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -864,16 +834,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -883,13 +851,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -1006,16 +971,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -1025,13 +988,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -1154,16 +1114,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港家宽
-      - 🇭🇰 HK HKT 动态家宽 IEPL 5X
-      - 🇲🇴 澳门家宽 2X
+      - 🇭🇰 HK HKT 动态家宽
+      - 🇲🇴 MO CTM 动态家宽 2X
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 日本家宽02 5X
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
-      - 🇹🇼 台湾家宽02
-      - 🇹🇼 台湾家宽02 IEPL 5X
+      - 🇺🇸 美国家宽01
       - 🇺🇸 美国家宽02
       - 🇺🇸 US DMIT
       - 🇲🇾 马来西亚家宽 3X
@@ -1173,13 +1131,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇨🇦 加拿大家宽 10X
-      - 🇬🇧 英国家宽 0.1X
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
