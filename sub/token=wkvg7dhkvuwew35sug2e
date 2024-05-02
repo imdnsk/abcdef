@@ -18,10 +18,8 @@ proxies:
   - {name: 🇸🇬 SG 0.1X, server: qwe.gbhy.xyz, port: 46352, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US DMIT, server: qwe.gbhy.xyz, port: 58148, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇵🇪 Red Cientifica Peruana, server: qwe.gbhy.xyz, port: 24477, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CO, server: bjcu.kd69.vip, port: 25886, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CL, server: hzyd.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CL, server: shcub.kd69.vip, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇪🇬 EG LinkEgypt, server: gya.kd69.vip, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇵🇱 PL Korbank, server: hzyd.kd69.vip, port: 29226, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: "🇭🇰 HK 1 A [0.1X]", server: 117.149.198.46, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 1 B [0.1X]", server: 117.149.198.43, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -143,10 +141,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -268,10 +264,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -393,10 +387,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -517,10 +509,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -641,10 +631,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -765,10 +753,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -890,10 +876,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
@@ -1021,10 +1005,8 @@ proxy-groups:
       - 🇸🇬 SG 0.1X
       - 🇺🇸 US DMIT
       - 🇵🇪 Red Cientifica Peruana
-      - CO
       - CL
       - 🇪🇬 EG LinkEgypt
-      - 🇵🇱 PL Korbank
       - AR
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
