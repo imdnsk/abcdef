@@ -15,23 +15,32 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 HK HKT 动态家宽, server: gyd.donghui.tech, port: 46055, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇭🇰 HK HKT 动态家宽, server: hzyd.la-chinata.hk, port: 46055, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇭🇰 HK HKT 动态家宽 IEPL 5X, server: 120.233.27.227, port: 21001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇲🇴 MO CTM 动态家宽 2X, server: gyc.donghui.tech, port: 40246, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇭🇰 HK Google Cloud, server: shyd.donghui.tech, port: 16120, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇲🇴 MO CTM 动态家宽 2X, server: hzyd.la-chinata.hk, port: 40246, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR Google Cloud, server: bjcu.donghui.tech, port: 39405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 日本家宽01 2X, server: shcua.donghui.tech, port: 31308, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG DigitalOcean, server: hzyd.la-chinata.hk, port: 56902, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG 0.1X, server: bjcu.donghui.tech, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾家宽01, server: hzyd.donghui.tech, port: 38810, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾家宽01, server: hzyd.la-chinata.hk, port: 38810, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 台湾家宽01 IPEL 5X, server: 120.233.27.227, port: 21005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 TW Google Cloud, server: hzyd.la-chinata.hk, port: 50793, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇺🇸 美国家宽01, server: bjcu.donghui.tech, port: 13182, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Madcity Servers, server: hzcu.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇲🇾 马来西亚家宽 3X, server: gyb.donghui.tech, port: 55734, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇲🇾 马来西亚家宽 3X, server: hzyd.la-chinata.hk, port: 55734, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇬🇧 GB Akile 2X, server: bjcu.donghui.tech, port: 25203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇵🇭 菲律宾家宽 10X, server: gyb.donghui.tech, port: 35883, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇩🇪 DE Google Cloud, server: bjcu.donghui.tech, port: 49647, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: IT Google Cloud, server: shdx.kd69.vip, port: 33607, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇨🇦 CA DigitalOcean, server: shcub.donghui.tech, port: 52689, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇵🇭 菲律宾家宽 10X, server: hzyd.la-chinata.hk, port: 35883, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇦🇺 澳大利亚家宽, server: shdx.kd69.vip, port: 10302, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇳🇿 新西兰家宽, server: mmtgzdxb.kd69.vip, port: 63459, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: FI, server: bjcu.donghui.tech, port: 40164, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CL, server: gyc.donghui.tech, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇪🇬 EG LinkEgypt, server: gyb.donghui.tech, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CL, server: shcub.donghui.tech, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇪🇬 EG LinkEgypt, server: hzyd.la-chinata.hk, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: NG Cloudflare WARP, server: hzyd.la-chinata.hk, port: 14836, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: "🇭🇰 HK 1 A [0.1X]", server: 120.232.161.251, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 1 B [0.1X]", server: 120.232.161.251, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2 A, server: 120.232.161.251, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -150,14 +159,22 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -165,6 +182,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -283,14 +301,22 @@ proxy-groups:
     proxies:
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -298,6 +324,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -416,14 +443,22 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -431,6 +466,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -548,14 +584,22 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -563,6 +607,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -680,14 +725,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -695,6 +748,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -812,14 +866,22 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -827,6 +889,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -945,14 +1008,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -960,6 +1031,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
@@ -1084,14 +1156,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 HK HKT 动态家宽
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
+      - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR Google Cloud
       - 🇯🇵 日本家宽01 2X
+      - 🇸🇬 SG DigitalOcean
       - 🇸🇬 SG 0.1X
       - 🇹🇼 台湾家宽01
       - 🇹🇼 台湾家宽01 IPEL 5X
+      - 🇹🇼 TW Google Cloud
+      - 🇺🇸 美国家宽01
       - 🇺🇸 US Madcity Servers
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
@@ -1099,6 +1179,7 @@ proxy-groups:
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
+      - NG Cloudflare WARP
       - 🇭🇰 HK 1 A [0.1X]
       - 🇭🇰 HK 1 B [0.1X]
       - 🇭🇰 HK 2 A
