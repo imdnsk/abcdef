@@ -15,989 +15,237 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇸🇬 SG 0.1X, server: bjcu.donghui.tech, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇭🇰 HK Google Cloud, server: shyd.donghui.tech, port: 16120, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR Google Cloud, server: bjcu.donghui.tech, port: 39405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG DigitalOcean, server: hzyd.la-chinata.hk, port: 56902, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG Vultr 0.1x, server: bjcu.donghui.tech, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 TW Google Cloud, server: hzyd.la-chinata.hk, port: 50793, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Madcity Servers, server: hzcu.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇬🇧 GB Akile 2X, server: bjcu.donghui.tech, port: 25203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: FI, server: bjcu.donghui.tech, port: 40164, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: CL, server: gyc.donghui.tech, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇪🇬 EG LinkEgypt, server: gyb.donghui.tech, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: "🇭🇰 HK 1 A [0.1X]", server: 120.232.161.251, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HK 1 B [0.1X]", server: 120.232.161.251, port: 30048, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 2 A, server: 120.232.161.251, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 2 B, server: 120.232.161.251, port: 30055, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3 A, server: 120.232.161.251, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3 B, server: 120.232.161.251, port: 30056, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4 A, server: 120.232.161.251, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4 B, server: 120.232.161.251, port: 30057, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5 A, server: 120.232.161.251, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5 B, server: 120.232.161.251, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 6 A, server: 120.232.161.251, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 6 B, server: 120.232.161.251, port: 30079, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 7 A, server: 120.232.161.251, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 7 B, server: 120.232.161.251, port: 30080, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 8 A, server: 120.232.161.251, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 8 B, server: 120.232.161.251, port: 30081, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 9 A, server: 120.232.161.251, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 9 B, server: 120.232.161.251, port: 30082, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 10 A, server: 120.232.161.251, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 10 B, server: 120.232.161.251, port: 30083, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 11 A, server: 120.232.161.251, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 11 B, server: 120.232.161.251, port: 30084, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 2 A, server: 120.232.161.251, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 3 A, server: 120.232.161.251, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 4 A, server: 120.232.161.251, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 5 A, server: 120.232.161.251, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 6 A, server: 120.232.161.251, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 7 A, server: 120.232.161.251, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 8 A, server: 120.232.161.251, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 9 A, server: 120.232.161.251, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 10 A, server: 120.232.161.251, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 11 A, server: 120.232.161.251, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 2 B, server: 120.232.161.251, port: 30086, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 3 B, server: 120.232.161.251, port: 30087, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 4 B, server: 120.232.161.251, port: 30088, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 5 B, server: 120.232.161.251, port: 30089, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 6 B, server: 120.232.161.251, port: 30090, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 7 B, server: 120.232.161.251, port: 30091, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 8 B, server: 120.232.161.251, port: 30092, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 9 B, server: 120.232.161.251, port: 30093, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 10 B, server: 120.232.161.251, port: 30094, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TW 11 B, server: 120.232.161.251, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇼 TW HiNet A [0.5X]", server: 120.232.161.251, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇼 TW HiNet B [0.5X]", server: 120.232.161.251, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 A, server: 54.223.68.86, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 B, server: 120.232.161.251, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4 A, server: 54.223.68.86, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4 B, server: 120.232.161.251, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JP 5 A [0.6X]", server: 54.223.68.86, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JP 5 B [0.6X]", server: 120.232.161.251, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6 A, server: 54.223.68.86, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 7 A, server: 54.223.68.86, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 8 A, server: 54.223.68.86, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 9 A, server: 54.223.68.86, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 10 A, server: 54.223.68.86, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 11 A, server: 54.223.68.86, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 12 A, server: 54.223.68.86, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 13 A, server: 54.223.68.86, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6 B, server: 120.232.161.251, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 7 B, server: 120.232.161.251, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 8 B, server: 120.232.161.251, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 9 B, server: 120.232.161.251, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 10 B, server: 120.232.161.251, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 11 B, server: 120.232.161.251, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 12 B, server: 120.232.161.251, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 13 B, server: 120.232.161.251, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1 A, server: 54.223.68.86, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1 B, server: 120.232.161.251, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SG 2 A [0.1X]", server: 54.223.68.86, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SG 2 B [0.1X]", server: 120.232.161.251, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4 A, server: 54.223.68.86, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5 A, server: 54.223.68.86, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6 A, server: 54.223.68.86, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 7 A, server: 54.223.68.86, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 8 A, server: 54.223.68.86, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 9 A, server: 54.223.68.86, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 10 A, server: 54.223.68.86, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 11 A, server: 54.223.68.86, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 12 A, server: 54.223.68.86, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4 B, server: 120.232.161.251, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5 B, server: 120.232.161.251, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6 B, server: 120.232.161.251, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 7 B, server: 120.232.161.251, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 8 B, server: 120.232.161.251, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 9 B, server: 120.232.161.251, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 10 B, server: 120.232.161.251, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 11 B, server: 120.232.161.251, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 12 B, server: 120.232.161.251, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 A, server: 54.223.68.86, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 A, server: 54.223.68.86, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 A, server: 54.223.68.86, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 A, server: 54.223.68.86, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 A, server: 54.223.68.86, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8 A, server: 54.223.68.86, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9 A, server: 54.223.68.86, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10 A, server: 54.223.68.86, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11 A, server: 54.223.68.86, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12 A, server: 54.223.68.86, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 B, server: 120.232.161.251, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 B, server: 120.232.161.251, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 B, server: 120.232.161.251, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 B, server: 120.232.161.251, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 B, server: 120.232.161.251, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8 B, server: 120.232.161.251, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9 B, server: 120.232.161.251, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10 B, server: 120.232.161.251, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11 B, server: 120.232.161.251, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12 B, server: 120.232.161.251, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 MYS, server: 117.149.198.43, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR, server: 117.149.198.43, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: NGA FUN, server: 120.232.161.251, port: 30068, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB Akile 2x, server: bjcu.donghui.tech, port: 25203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇩🇪 DE Google Cloud, server: bjcu.donghui.tech, port: 49647, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: IT Google Cloud, server: shdx.kd69.vip, port: 33607, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇨🇦 CA DigitalOcean, server: shcub.donghui.tech, port: 52689, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: FI Hetzner, server: bjcu.donghui.tech, port: 40164, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: CL GZS 静态商宽, server: shcub.donghui.tech, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇪🇬 EG LinkEgypt, server: hzyd.la-chinata.hk, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: AR ALKON 静态商宽, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: NG Cloudflare WARP, server: hzyd.la-chinata.hk, port: 14836, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇭🇰 CN-HK-WAP, server: gd.bjnetwork.cyou, port: 36602, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, udp: true}
+  - {name: 🇹🇼 CN-TW-WAP-GPT, server: gd.bjnetwork.cyou, port: 36104, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, udp: true}
+  - {name: 🇸🇬 CN-SG-IEPL-GPT, server: gd.bjnetwork.cyou, port: 36604, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, udp: true}
+  - {name: 🇯🇵 CN-JP-IEPL-GPT, server: gd.bjnetwork.cyou, port: 36609, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 2e12cb8779952b581949908c527e25d6.baidu.com}, udp: true}
+  - {name: 🇺🇸 CN-US-IEPL-GPT, server: gd.bjnetwork.cyou, port: 36608, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 2e12cb8779952b581949908c527e25d6.baidu.com}, udp: true}
+  - {name: 🇯🇵 CN-JP-IEPL2-GPT, server: sh.bjnetwork.cyou, port: 36612, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 2e12cb8779952b581949908c527e25d6.baidu.com}, udp: true}
+  - {name: 🇺🇸 CN-US-IEPL2-GPT, server: sh.bjnetwork.cyou, port: 36608, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 2e12cb8779952b581949908c527e25d6.baidu.com}, udp: true}
+  - {name: 🇨🇳 CN-KH-IEPL, server: gd.bjnetwork.cyou, port: 36605, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, udp: true}
+  - {name: 🇩🇪 CN-DE-IEPL, server: gd.bjnetwork.cyou, port: 36611, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: bd363052-292a-45d8-ae86-c3f6289e4b41, tfo: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1010,124 +258,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG 0.1X
+      - 🇭🇰 HK Google Cloud
+      - 🇰🇷 KR Google Cloud
+      - 🇸🇬 SG DigitalOcean
+      - 🇸🇬 SG Vultr 0.1x
+      - 🇹🇼 TW Google Cloud
       - 🇺🇸 US Madcity Servers
-      - 🇬🇧 GB Akile 2X
-      - FI
-      - CL
+      - 🇬🇧 GB Akile 2x
+      - 🇩🇪 DE Google Cloud
+      - IT Google Cloud
+      - 🇨🇦 CA DigitalOcean
+      - FI Hetzner
+      - CL GZS 静态商宽
       - 🇪🇬 EG LinkEgypt
-      - AR
-      - 🇭🇰 HK 1 A [0.1X]
-      - 🇭🇰 HK 1 B [0.1X]
-      - 🇭🇰 HK 2 A
-      - 🇭🇰 HK 2 B
-      - 🇭🇰 HK 3 A
-      - 🇭🇰 HK 3 B
-      - 🇭🇰 HK 4 A
-      - 🇭🇰 HK 4 B
-      - 🇭🇰 HK 5 A
-      - 🇭🇰 HK 5 B
-      - 🇭🇰 HK 6 A
-      - 🇭🇰 HK 6 B
-      - 🇭🇰 HK 7 A
-      - 🇭🇰 HK 7 B
-      - 🇭🇰 HK 8 A
-      - 🇭🇰 HK 8 B
-      - 🇭🇰 HK 9 A
-      - 🇭🇰 HK 9 B
-      - 🇭🇰 HK 10 A
-      - 🇭🇰 HK 10 B
-      - 🇭🇰 HK 11 A
-      - 🇭🇰 HK 11 B
-      - 🇹🇼 TW 2 A
-      - 🇹🇼 TW 3 A
-      - 🇹🇼 TW 4 A
-      - 🇹🇼 TW 5 A
-      - 🇹🇼 TW 6 A
-      - 🇹🇼 TW 7 A
-      - 🇹🇼 TW 8 A
-      - 🇹🇼 TW 9 A
-      - 🇹🇼 TW 10 A
-      - 🇹🇼 TW 11 A
-      - 🇹🇼 TW 2 B
-      - 🇹🇼 TW 3 B
-      - 🇹🇼 TW 4 B
-      - 🇹🇼 TW 5 B
-      - 🇹🇼 TW 6 B
-      - 🇹🇼 TW 7 B
-      - 🇹🇼 TW 8 B
-      - 🇹🇼 TW 9 B
-      - 🇹🇼 TW 10 B
-      - 🇹🇼 TW 11 B
-      - 🇹🇼 TW HiNet A [0.5X]
-      - 🇹🇼 TW HiNet B [0.5X]
-      - 🇯🇵 JP 1 A
-      - 🇯🇵 JP 1 B
-      - 🇯🇵 JP 4 A
-      - 🇯🇵 JP 4 B
-      - 🇯🇵 JP 5 A [0.6X]
-      - 🇯🇵 JP 5 B [0.6X]
-      - 🇯🇵 JP 6 A
-      - 🇯🇵 JP 7 A
-      - 🇯🇵 JP 8 A
-      - 🇯🇵 JP 9 A
-      - 🇯🇵 JP 10 A
-      - 🇯🇵 JP 11 A
-      - 🇯🇵 JP 12 A
-      - 🇯🇵 JP 13 A
-      - 🇯🇵 JP 6 B
-      - 🇯🇵 JP 7 B
-      - 🇯🇵 JP 8 B
-      - 🇯🇵 JP 9 B
-      - 🇯🇵 JP 10 B
-      - 🇯🇵 JP 11 B
-      - 🇯🇵 JP 12 B
-      - 🇯🇵 JP 13 B
-      - 🇸🇬 SG 1 A
-      - 🇸🇬 SG 1 B
-      - 🇸🇬 SG 2 A [0.1X]
-      - 🇸🇬 SG 2 B [0.1X]
-      - 🇸🇬 SG 4 A
-      - 🇸🇬 SG 5 A
-      - 🇸🇬 SG 6 A
-      - 🇸🇬 SG 7 A
-      - 🇸🇬 SG 8 A
-      - 🇸🇬 SG 9 A
-      - 🇸🇬 SG 10 A
-      - 🇸🇬 SG 11 A
-      - 🇸🇬 SG 12 A
-      - 🇸🇬 SG 4 B
-      - 🇸🇬 SG 5 B
-      - 🇸🇬 SG 6 B
-      - 🇸🇬 SG 7 B
-      - 🇸🇬 SG 8 B
-      - 🇸🇬 SG 9 B
-      - 🇸🇬 SG 10 B
-      - 🇸🇬 SG 11 B
-      - 🇸🇬 SG 12 B
-      - 🇺🇸 US 2 A
-      - 🇺🇸 US 4 A
-      - 🇺🇸 US 5 A
-      - 🇺🇸 US 6 A
-      - 🇺🇸 US 7 A
-      - 🇺🇸 US 8 A
-      - 🇺🇸 US 9 A
-      - 🇺🇸 US 10 A
-      - 🇺🇸 US 11 A
-      - 🇺🇸 US 12 A
-      - 🇺🇸 US 2 B
-      - 🇺🇸 US 4 B
-      - 🇺🇸 US 5 B
-      - 🇺🇸 US 6 B
-      - 🇺🇸 US 7 B
-      - 🇺🇸 US 8 B
-      - 🇺🇸 US 9 B
-      - 🇺🇸 US 10 B
-      - 🇺🇸 US 11 B
-      - 🇺🇸 US 12 B
-      - 🇲🇾 MYS
-      - 🇬🇧 GBR
-      - NGA FUN
+      - AR ALKON 静态商宽
+      - NG Cloudflare WARP
+      - 🇭🇰 CN-HK-WAP
+      - 🇹🇼 CN-TW-WAP-GPT
+      - 🇸🇬 CN-SG-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL-GPT
+      - 🇺🇸 CN-US-IEPL-GPT
+      - 🇯🇵 CN-JP-IEPL2-GPT
+      - 🇺🇸 CN-US-IEPL2-GPT
+      - 🇨🇳 CN-KH-IEPL
+      - 🇩🇪 CN-DE-IEPL
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
