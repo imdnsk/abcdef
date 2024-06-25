@@ -19,25 +19,27 @@ proxies:
   - {name: 🇭🇰 HK HKT 动态家宽 IEPL 5X, server: 120.233.27.227, port: 21001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇭🇰 HK Google Cloud, server: mmt-hzyd.zhangwei.li, port: 16120, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇲🇴 MO CTM 动态家宽 2X, server: mmt-hzyd.zhangwei.li, port: 40246, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR LG, server: shcub.donghui.tech, port: 39189, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇰🇷 KR Google Cloud, server: bjcu.donghui.tech, port: 39405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇰🇷 KR Moack, server: bjcu.donghui.tech, port: 65253, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 日本家宽01 2X, server: shcua.donghui.tech, port: 31308, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 JP Google Cloud, server: shcub.donghui.tech, port: 14950, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇸🇬 SG 0.1X, server: bjcu.donghui.tech, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇯🇵 JP Softbank, server: shcua.donghui.tech, port: 47408, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG GCI, server: bjcu.donghui.tech, port: 15153, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG DigitalOcean, server: mmt-hzyd.zhangwei.li, port: 56902, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 台湾家宽01, server: mmt-hzyd.zhangwei.li, port: 38810, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾家宽01 IPEL 5X, server: 120.233.27.227, port: 21005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 TW Google Cloud, server: mmt-hzyd.zhangwei.li, port: 50793, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 TW APOL, server: mmt-hzyd.zhangwei.li, port: 17434, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Polocloud, server: shdx.kd69.vip, port: 13182, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Madcity Servers, server: hzcu.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇺🇸 US FCA, server: hzcu.kd69.vip, port: 14535, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇲🇾 马来西亚家宽 3X, server: mmt-hzyd.zhangwei.li, port: 55734, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇬🇧 GB Akile 2X, server: bjcu.donghui.tech, port: 25203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇩🇪 DE Google Cloud, server: bjcu.donghui.tech, port: 49647, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇨🇦 CA DigitalOcean, server: shcub.donghui.tech, port: 52689, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇵🇭 菲律宾家宽 10X, server: mmt-hzyd.zhangwei.li, port: 35883, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇦🇺 澳大利亚家宽, server: shdx.kd69.vip, port: 10302, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇳🇿 新西兰家宽, server: gzdxbb.mt.la-chinata.hk, port: 63459, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: FI, server: bjcu.donghui.tech, port: 40164, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇳🇿 新西兰家宽, server: gzdxmmbb.la-chinata.hk, port: 63459, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: CL, server: shcub.donghui.tech, port: 15419, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇪🇬 EG LinkEgypt, server: mmt-hzyd.zhangwei.li, port: 32887, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: AR, server: hzcu.kd69.vip, port: 32284, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
@@ -86,20 +88,20 @@ proxies:
   - {name: 🇹🇼 TW 11 B, server: 120.233.42.138, port: 30095, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇹🇼 TW HiNet A [0.5X]", server: 120.233.42.140, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇹🇼 TW HiNet B [0.5X]", server: 120.233.42.138, port: 30072, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 A, server: 54.222.217.201, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1 A, server: 54.223.151.178, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 B, server: 120.233.42.138, port: 30045, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4 A, server: 54.222.217.201, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 4 A, server: 54.223.151.178, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 4 B, server: 120.233.42.138, port: 30078, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JP 5 A [0.6X]", server: 54.222.217.201, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 JP 5 A [0.6X]", server: 54.223.151.178, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 JP 5 B [0.6X]", server: 120.233.42.138, port: 30076, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6 A, server: 54.222.217.201, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 7 A, server: 54.222.217.201, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 8 A, server: 54.222.217.201, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 9 A, server: 54.222.217.201, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 10 A, server: 54.222.217.201, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 11 A, server: 54.222.217.201, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 12 A, server: 54.222.217.201, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 13 A, server: 54.222.217.201, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 6 A, server: 54.223.151.178, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 7 A, server: 54.223.151.178, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 8 A, server: 54.223.151.178, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 9 A, server: 54.223.151.178, port: 30203, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 10 A, server: 54.223.151.178, port: 30204, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 11 A, server: 54.223.151.178, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 12 A, server: 54.223.151.178, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 13 A, server: 54.223.151.178, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 6 B, server: 120.233.42.138, port: 30200, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 7 B, server: 120.233.42.138, port: 30201, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 8 B, server: 120.233.42.138, port: 30202, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -108,19 +110,19 @@ proxies:
   - {name: 🇯🇵 JP 11 B, server: 120.233.42.138, port: 30205, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 12 B, server: 120.233.42.138, port: 30206, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 13 B, server: 120.233.42.138, port: 30207, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1 A, server: 54.222.217.201, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 1 A, server: 54.223.151.178, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1 B, server: 120.233.42.138, port: 30046, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SG 2 A [0.1X]", server: 54.222.217.201, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 SG 2 A [0.1X]", server: 54.223.151.178, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SG 2 B [0.1X]", server: 120.233.42.138, port: 30074, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4 A, server: 54.222.217.201, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5 A, server: 54.222.217.201, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6 A, server: 54.222.217.201, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 7 A, server: 54.222.217.201, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 8 A, server: 54.222.217.201, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 9 A, server: 54.222.217.201, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 10 A, server: 54.222.217.201, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 11 A, server: 54.222.217.201, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 12 A, server: 54.222.217.201, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 4 A, server: 54.223.151.178, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 5 A, server: 54.223.151.178, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 6 A, server: 54.223.151.178, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 7 A, server: 54.223.151.178, port: 30211, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 8 A, server: 54.223.151.178, port: 30212, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 9 A, server: 54.223.151.178, port: 30213, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 10 A, server: 54.223.151.178, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 11 A, server: 54.223.151.178, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 12 A, server: 54.223.151.178, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 4 B, server: 120.233.42.138, port: 30208, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 5 B, server: 120.233.42.138, port: 30209, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 6 B, server: 120.233.42.138, port: 30210, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -130,16 +132,16 @@ proxies:
   - {name: 🇸🇬 SG 10 B, server: 120.233.42.138, port: 30214, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 11 B, server: 120.233.42.138, port: 30215, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 12 B, server: 120.233.42.138, port: 30216, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 A, server: 54.222.217.201, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 A, server: 54.222.217.201, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 A, server: 54.222.217.201, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 A, server: 54.222.217.201, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 A, server: 54.222.217.201, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8 A, server: 54.222.217.201, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9 A, server: 54.222.217.201, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10 A, server: 54.222.217.201, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11 A, server: 54.222.217.201, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12 A, server: 54.222.217.201, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 A, server: 54.223.151.178, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4 A, server: 54.223.151.178, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 A, server: 54.223.151.178, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6 A, server: 54.223.151.178, port: 30220, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7 A, server: 54.223.151.178, port: 30221, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8 A, server: 54.223.151.178, port: 30222, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9 A, server: 54.223.151.178, port: 30223, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10 A, server: 54.223.151.178, port: 30224, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11 A, server: 54.223.151.178, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12 A, server: 54.223.151.178, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2 B, server: 120.233.42.138, port: 30052, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 B, server: 120.233.42.138, port: 30218, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 5 B, server: 120.233.42.138, port: 30219, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -151,7 +153,18 @@ proxies:
   - {name: 🇺🇸 US 11 B, server: 120.233.42.138, port: 30225, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 12 B, server: 120.233.42.138, port: 30226, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: 120.233.42.138, port: 30059, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR, server: 120.233.42.138, port: 30062, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 1 A, server: 54.223.151.178, port: 30227, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 2 A, server: 54.223.151.178, port: 30228, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 3 A, server: 54.223.151.178, port: 30229, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 4 A, server: 54.223.151.178, port: 30230, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 5 A, server: 54.223.151.178, port: 30231, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 6 A, server: 54.223.151.178, port: 30232, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 1 B, server: 54.223.182.189, port: 30227, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 2 B, server: 54.223.182.189, port: 30228, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 3 B, server: 54.223.182.189, port: 30229, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 4 B, server: 54.223.182.189, port: 30230, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 5 B, server: 54.223.182.189, port: 30231, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 6 B, server: 54.223.182.189, port: 30232, client-fingerprint: chrome, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -162,17 +175,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -180,7 +196,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -294,7 +309,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -305,17 +331,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -323,7 +352,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -437,7 +465,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -448,17 +487,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -466,7 +508,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -580,7 +621,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: 📲 电报信息
     type: select
     proxies:
@@ -590,17 +642,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -608,7 +663,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -722,7 +776,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -732,17 +797,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -750,7 +818,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -864,7 +931,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -874,17 +952,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -892,7 +973,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -1006,7 +1086,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1017,17 +1108,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -1035,7 +1129,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -1149,7 +1242,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1166,17 +1270,20 @@ proxy-groups:
       - 🇭🇰 HK HKT 动态家宽 IEPL 5X
       - 🇭🇰 HK Google Cloud
       - 🇲🇴 MO CTM 动态家宽 2X
+      - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
       - 🇰🇷 KR Moack
       - 🇯🇵 日本家宽01 2X
       - 🇯🇵 JP Google Cloud
-      - 🇸🇬 SG 0.1X
+      - 🇯🇵 JP Softbank
+      - 🇸🇬 SG GCI
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
-      - 🇹🇼 台湾家宽01 IPEL 5X
       - 🇹🇼 TW Google Cloud
+      - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
+      - 🇺🇸 US FCA
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -1184,7 +1291,6 @@ proxy-groups:
       - 🇵🇭 菲律宾家宽 10X
       - 🇦🇺 澳大利亚家宽
       - 🇳🇿 新西兰家宽
-      - FI
       - CL
       - 🇪🇬 EG LinkEgypt
       - AR
@@ -1298,7 +1404,18 @@ proxy-groups:
       - 🇺🇸 US 11 B
       - 🇺🇸 US 12 B
       - 🇲🇾 MYS
-      - 🇬🇧 GBR
+      - 🇬🇧 GBR 1 A
+      - 🇬🇧 GBR 2 A
+      - 🇬🇧 GBR 3 A
+      - 🇬🇧 GBR 4 A
+      - 🇬🇧 GBR 5 A
+      - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 1 B
+      - 🇬🇧 GBR 2 B
+      - 🇬🇧 GBR 3 B
+      - 🇬🇧 GBR 4 B
+      - 🇬🇧 GBR 5 B
+      - 🇬🇧 GBR 6 B
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
