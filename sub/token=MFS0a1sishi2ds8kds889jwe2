@@ -21,18 +21,27 @@ proxies:
   - {name: 🇲🇴 MO CTM 动态家宽 2X, server: mmt-hzyd.zhangwei.li, port: 40246, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇰🇷 KR LG, server: shcub.donghui.tech, port: 39189, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇰🇷 KR Google Cloud, server: bjcu.donghui.tech, port: 39405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR Google Cloud IEPL 5X, server: 120.233.27.227, port: 21003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇰🇷 KR Moack, server: bjcu.donghui.tech, port: 65253, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR KT 动态家宽, server: bjcu.donghui.tech, port: 38380, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇰🇷 KR KT 动态家宽 IEPL 5X, server: 120.233.27.227, port: 21002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 日本家宽01 2X, server: shcua.donghui.tech, port: 31308, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇯🇵 JP Yuwan, server: hzcu.kd69.vip, port: 47328, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇯🇵 JP Google Cloud, server: shcub.donghui.tech, port: 14950, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇯🇵 JP Softbank, server: shcua.donghui.tech, port: 47408, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇯🇵 JP Google Cloud IEPL 5X, server: 120.233.27.227, port: 20004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG 0.1X, server: bjcu.donghui.tech, port: 36610, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG GCI, server: bjcu.donghui.tech, port: 15153, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇸🇬 SG GCI IEPL 5X, server: 120.233.27.227, port: 20006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇸🇬 SG DigitalOcean, server: mmt-hzyd.zhangwei.li, port: 56902, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾家宽01, server: mmt-hzyd.zhangwei.li, port: 38810, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾家宽01, server: shcua.donghui.tech, port: 33193, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾家宽01 IEPL 5X, server: 120.233.27.227, port: 20007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇹🇼 TW Hinet 2, server: hzcu.kd69.vip, port: 29691, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 TW Google Cloud, server: mmt-hzyd.zhangwei.li, port: 50793, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇹🇼 TW APOL, server: mmt-hzyd.zhangwei.li, port: 17434, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Polocloud, server: shdx.kd69.vip, port: 13182, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US Madcity Servers, server: hzcu.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇺🇸 US FCA, server: hzcu.kd69.vip, port: 14535, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
+  - {name: 🇺🇸 US Atlas, server: shdx.kd69.vip, port: 38160, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇲🇾 马来西亚家宽 3X, server: mmt-hzyd.zhangwei.li, port: 55734, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇬🇧 GB Akile 2X, server: bjcu.donghui.tech, port: 25203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
   - {name: 🇩🇪 DE Google Cloud, server: bjcu.donghui.tech, port: 49647, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0, tfo: false, udp: true}
@@ -177,18 +186,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -333,18 +351,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -489,18 +516,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -644,18 +680,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -799,18 +844,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -954,18 +1008,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -1110,18 +1173,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -1272,18 +1344,27 @@ proxy-groups:
       - 🇲🇴 MO CTM 动态家宽 2X
       - 🇰🇷 KR LG
       - 🇰🇷 KR Google Cloud
+      - 🇰🇷 KR Google Cloud IEPL 5X
       - 🇰🇷 KR Moack
+      - 🇰🇷 KR KT 动态家宽
+      - 🇰🇷 KR KT 动态家宽 IEPL 5X
       - 🇯🇵 日本家宽01 2X
+      - 🇯🇵 JP Yuwan
       - 🇯🇵 JP Google Cloud
-      - 🇯🇵 JP Softbank
+      - 🇯🇵 JP Google Cloud IEPL 5X
+      - 🇸🇬 SG 0.1X
       - 🇸🇬 SG GCI
+      - 🇸🇬 SG GCI IEPL 5X
       - 🇸🇬 SG DigitalOcean
       - 🇹🇼 台湾家宽01
+      - 🇹🇼 台湾家宽01 IEPL 5X
+      - 🇹🇼 TW Hinet 2
       - 🇹🇼 TW Google Cloud
       - 🇹🇼 TW APOL
       - 🇺🇸 US Polocloud
       - 🇺🇸 US Madcity Servers
       - 🇺🇸 US FCA
+      - 🇺🇸 US Atlas
       - 🇲🇾 马来西亚家宽 3X
       - 🇬🇧 GB Akile 2X
       - 🇩🇪 DE Google Cloud
@@ -1655,13 +1736,10 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
-  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
-  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2161,6 +2239,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
