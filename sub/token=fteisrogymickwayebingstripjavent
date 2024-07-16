@@ -20,128 +20,136 @@ proxies:
   - {name: 🇭🇰 cm-hk-2-3, server: 172.67.81.88, port: 8443, type: vmess, uuid: a30c6668-be15-4d68-9837-6b454daa1cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk01.leleles.us, network: ws, ws-opts: {path: /, headers: {Host: hk01.leleles.us}}, udp: true}
   - {name: 🇭🇰 ct-hk-2-1, server: 104.17.67.213, port: 8443, type: vmess, uuid: a30c6668-be15-4d68-9837-6b454daa1cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk01.leleles.us, network: ws, ws-opts: {path: /, headers: {Host: hk01.leleles.us}}, udp: true}
   - {name: 🇭🇰 ct-hk-2-3, server: 104.19.88.15, port: 8443, type: vmess, uuid: a30c6668-be15-4d68-9837-6b454daa1cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk01.leleles.us, network: ws, ws-opts: {path: /, headers: {Host: hk01.leleles.us}}, udp: true}
-  - {name: "🇭🇰 HKG 1 A [0.1X]", server: 120.233.42.140, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 1 B [0.1X]", server: 120.233.42.138, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 A, server: 120.233.42.140, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 2 B, server: 120.233.42.138, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 A, server: 120.233.42.140, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 3 B, server: 120.233.42.138, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 A, server: 120.233.42.140, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 4 B, server: 120.233.42.138, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 A, server: 120.233.42.140, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 5 B, server: 120.233.42.138, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 A, server: 120.233.42.140, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 6 B, server: 120.233.42.138, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 A, server: 120.233.42.140, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 7 B, server: 120.233.42.138, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 A, server: 120.233.42.140, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 8 B, server: 120.233.42.138, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 A, server: 120.233.42.140, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 9 B, server: 120.233.42.138, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 A, server: 120.233.42.140, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 10 B, server: 120.233.42.138, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 A, server: 120.233.42.140, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG 11 B, server: 120.233.42.138, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 2 A, server: 120.233.42.140, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 3 A, server: 120.233.42.140, port: 30087, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 4 A, server: 120.233.42.140, port: 30088, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 5 A, server: 120.233.42.140, port: 30089, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 6 A, server: 120.233.42.140, port: 30090, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 7 A, server: 120.233.42.140, port: 30091, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 8 A, server: 120.233.42.140, port: 30092, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 9 A, server: 120.233.42.140, port: 30093, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 10 A, server: 120.233.42.140, port: 30094, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 11 A, server: 120.233.42.140, port: 30095, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 2 B, server: 120.233.42.138, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 3 B, server: 120.233.42.138, port: 30087, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 4 B, server: 120.233.42.138, port: 30088, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 5 B, server: 120.233.42.138, port: 30089, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 6 B, server: 120.233.42.138, port: 30090, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 7 B, server: 120.233.42.138, port: 30091, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 8 B, server: 120.233.42.138, port: 30092, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 9 B, server: 120.233.42.138, port: 30093, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 10 B, server: 120.233.42.138, port: 30094, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 11 B, server: 120.233.42.138, port: 30095, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 TWN HiNet A [0.5X]", server: 120.233.42.140, port: 30072, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 TWN HiNet B [0.5X]", server: 120.233.42.138, port: 30072, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 1 A, server: 54.223.151.178, port: 30045, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 1 B, server: 120.233.42.138, port: 30045, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 4 A, server: 54.223.151.178, port: 30078, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 4 B, server: 120.233.42.138, port: 30078, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 5 A [0.6X]", server: 54.223.151.178, port: 30076, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 JPN 5 B [0.6X]", server: 120.233.42.138, port: 30076, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 6 A, server: 54.223.151.178, port: 30200, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 7 A, server: 54.223.151.178, port: 30201, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 8 A, server: 54.223.151.178, port: 30202, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 9 A, server: 54.223.151.178, port: 30203, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 10 A, server: 54.223.151.178, port: 30204, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 11 A, server: 54.223.151.178, port: 30205, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 12 A, server: 54.223.151.178, port: 30206, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 13 A, server: 54.223.151.178, port: 30207, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 6 B, server: 120.233.42.138, port: 30200, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 7 B, server: 120.233.42.138, port: 30201, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 8 B, server: 120.233.42.138, port: 30202, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 9 B, server: 120.233.42.138, port: 30203, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 10 B, server: 120.233.42.138, port: 30204, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 11 B, server: 120.233.42.138, port: 30205, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 12 B, server: 120.233.42.138, port: 30206, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 13 B, server: 120.233.42.138, port: 30207, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 1 A, server: 54.223.151.178, port: 30046, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 1 B, server: 120.233.42.138, port: 30046, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SGP 2 A [0.1X]", server: 54.223.151.178, port: 30074, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SGP 2 B [0.1X]", server: 120.233.42.138, port: 30074, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 4 A, server: 54.223.151.178, port: 30208, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 5 A, server: 54.223.151.178, port: 30209, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 6 A, server: 54.223.151.178, port: 30210, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 7 A, server: 54.223.151.178, port: 30211, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 8 A, server: 54.223.151.178, port: 30212, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 9 A, server: 54.223.151.178, port: 30213, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 10 A, server: 54.223.151.178, port: 30214, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 11 A, server: 54.223.151.178, port: 30215, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 12 A, server: 54.223.151.178, port: 30216, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 4 B, server: 120.233.42.138, port: 30208, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 5 B, server: 120.233.42.138, port: 30209, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 6 B, server: 120.233.42.138, port: 30210, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 7 B, server: 120.233.42.138, port: 30211, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 8 B, server: 120.233.42.138, port: 30212, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 9 B, server: 120.233.42.138, port: 30213, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 10 B, server: 120.233.42.138, port: 30214, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 11 B, server: 120.233.42.138, port: 30215, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 12 B, server: 120.233.42.138, port: 30216, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 2 A, server: 54.223.151.178, port: 30052, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 4 A, server: 54.223.151.178, port: 30218, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 5 A, server: 54.223.151.178, port: 30219, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 6 A, server: 54.223.151.178, port: 30220, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 7 A, server: 54.223.151.178, port: 30221, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 8 A, server: 54.223.151.178, port: 30222, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 9 A, server: 54.223.151.178, port: 30223, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 10 A, server: 54.223.151.178, port: 30224, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 11 A, server: 54.223.151.178, port: 30225, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 12 A, server: 54.223.151.178, port: 30226, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 2 B, server: 120.233.42.138, port: 30052, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 4 B, server: 120.233.42.138, port: 30218, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 5 B, server: 120.233.42.138, port: 30219, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 6 B, server: 120.233.42.138, port: 30220, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 7 B, server: 120.233.42.138, port: 30221, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 8 B, server: 120.233.42.138, port: 30222, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 9 B, server: 120.233.42.138, port: 30223, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 10 B, server: 120.233.42.138, port: 30224, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 11 B, server: 120.233.42.138, port: 30225, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA 12 B, server: 120.233.42.138, port: 30226, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 HKG 1 A [0.8X]", server: 120.241.65.165, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 HKG 1 B [0.8X]", server: 68.79.60.27, port: 30048, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 2 A, server: 120.241.65.165, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 2 B, server: 68.79.60.27, port: 30055, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 3 A, server: 120.241.65.165, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 3 B, server: 68.79.60.27, port: 30056, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 4 A, server: 120.241.65.165, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 4 B, server: 68.79.60.27, port: 30057, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 5 A, server: 120.241.65.165, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 5 B, server: 68.79.60.27, port: 30058, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 6 A, server: 120.241.65.165, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 6 B, server: 68.79.60.27, port: 30079, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 7 A, server: 120.241.65.165, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 7 B, server: 68.79.60.27, port: 30080, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 8 A, server: 120.241.65.165, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 8 B, server: 68.79.60.27, port: 30081, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 9 A, server: 120.241.65.165, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 9 B, server: 68.79.60.27, port: 30082, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 10 A, server: 120.241.65.165, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 10 B, server: 68.79.60.27, port: 30083, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 11 A, server: 120.241.65.165, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HKG 11 B, server: 68.79.60.27, port: 30084, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 2 A, server: 120.241.65.165, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 3 A, server: 120.241.65.165, port: 30087, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 4 A, server: 120.241.65.165, port: 30088, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 5 A, server: 120.241.65.165, port: 30089, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 6 A, server: 120.241.65.165, port: 30090, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 7 A, server: 120.241.65.165, port: 30091, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 8 A, server: 120.241.65.165, port: 30092, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 9 A, server: 120.241.65.165, port: 30093, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 10 A, server: 120.241.65.165, port: 30094, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 11 A, server: 120.241.65.165, port: 30095, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 2 B, server: 68.79.60.27, port: 30086, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 3 B, server: 68.79.60.27, port: 30087, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 4 B, server: 68.79.60.27, port: 30088, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 5 B, server: 68.79.60.27, port: 30089, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 6 B, server: 68.79.60.27, port: 30090, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 7 B, server: 68.79.60.27, port: 30091, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 8 B, server: 68.79.60.27, port: 30092, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 9 B, server: 68.79.60.27, port: 30093, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 10 B, server: 68.79.60.27, port: 30094, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN 11 B, server: 68.79.60.27, port: 30095, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 TWN HiNet A [0.8X]", server: 120.241.65.165, port: 30072, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 TWN HiNet B [0.8X]", server: 68.79.60.27, port: 30072, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 1 A, server: 52.81.159.125, port: 30045, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 1 B, server: 54.223.182.189, port: 30045, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 4 A, server: 52.81.159.125, port: 30078, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 4 B, server: 54.223.182.189, port: 30078, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 5 A, server: 52.81.159.125, port: 30076, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 5 B, server: 54.223.182.189, port: 30076, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 6 A, server: 52.81.159.125, port: 30200, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 7 A, server: 52.81.159.125, port: 30201, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 8 A, server: 52.81.159.125, port: 30202, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 9 A, server: 52.81.159.125, port: 30203, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 10 A, server: 52.81.159.125, port: 30204, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 11 A, server: 52.81.159.125, port: 30205, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 12 A, server: 52.81.159.125, port: 30206, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 13 A, server: 52.81.159.125, port: 30207, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 6 B, server: 54.223.182.189, port: 30200, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 7 B, server: 54.223.182.189, port: 30201, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 8 B, server: 54.223.182.189, port: 30202, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 9 B, server: 54.223.182.189, port: 30203, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 10 B, server: 54.223.182.189, port: 30204, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 11 B, server: 54.223.182.189, port: 30205, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 12 B, server: 54.223.182.189, port: 30206, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JPN 13 B, server: 54.223.182.189, port: 30207, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 1 A, server: 52.81.159.125, port: 30046, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 1 B, server: 54.223.182.189, port: 30046, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 SGP 2 A [0.8X]", server: 52.81.159.125, port: 30074, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 SGP 2 B [0.8X]", server: 54.223.182.189, port: 30074, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 4 A, server: 52.81.159.125, port: 30208, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 5 A, server: 52.81.159.125, port: 30209, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 6 A, server: 52.81.159.125, port: 30210, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 7 A, server: 52.81.159.125, port: 30211, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 8 A, server: 52.81.159.125, port: 30212, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 9 A, server: 52.81.159.125, port: 30213, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 10 A, server: 52.81.159.125, port: 30214, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 11 A, server: 52.81.159.125, port: 30215, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 12 A, server: 52.81.159.125, port: 30216, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 4 B, server: 54.223.182.189, port: 30208, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 5 B, server: 54.223.182.189, port: 30209, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 6 B, server: 54.223.182.189, port: 30210, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 7 B, server: 54.223.182.189, port: 30211, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 8 B, server: 54.223.182.189, port: 30212, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 9 B, server: 54.223.182.189, port: 30213, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 10 B, server: 54.223.182.189, port: 30214, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 11 B, server: 54.223.182.189, port: 30215, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGP 12 B, server: 54.223.182.189, port: 30216, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 2 A, server: 52.81.159.125, port: 30052, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 4 A, server: 52.81.159.125, port: 30218, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 5 A, server: 52.81.159.125, port: 30219, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 6 A, server: 52.81.159.125, port: 30220, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 7 A, server: 52.81.159.125, port: 30221, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 8 A, server: 52.81.159.125, port: 30222, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 9 A, server: 52.81.159.125, port: 30223, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 10 A, server: 52.81.159.125, port: 30224, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 11 A, server: 52.81.159.125, port: 30225, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 12 A, server: 52.81.159.125, port: 30226, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 2 B, server: 54.223.182.189, port: 30052, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 4 B, server: 54.223.182.189, port: 30218, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 5 B, server: 54.223.182.189, port: 30219, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 6 B, server: 54.223.182.189, port: 30220, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 7 B, server: 54.223.182.189, port: 30221, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 8 B, server: 54.223.182.189, port: 30222, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 9 B, server: 54.223.182.189, port: 30223, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 10 B, server: 54.223.182.189, port: 30224, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 11 B, server: 54.223.182.189, port: 30225, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USA 12 B, server: 54.223.182.189, port: 30226, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MYS, server: 120.233.42.138, port: 30059, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 1 A, server: 54.223.151.178, port: 30227, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 2 A, server: 54.223.151.178, port: 30228, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 3 A, server: 54.223.151.178, port: 30229, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 4 A, server: 54.223.151.178, port: 30230, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 5 A, server: 54.223.151.178, port: 30231, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR 6 A, server: 54.223.151.178, port: 30232, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 1 A, server: 52.81.159.125, port: 30227, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 2 A, server: 52.81.159.125, port: 30228, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 3 A, server: 52.81.159.125, port: 30229, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 4 A, server: 52.81.159.125, port: 30230, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 5 A, server: 52.81.159.125, port: 30231, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 6 A, server: 52.81.159.125, port: 30232, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 7 A, server: 52.81.159.125, port: 30233, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 8 A, server: 52.81.159.125, port: 30234, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 9 A, server: 52.81.159.125, port: 30235, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 10 A, server: 52.81.159.125, port: 30236, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 1 B, server: 54.223.182.189, port: 30227, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 2 B, server: 54.223.182.189, port: 30228, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 3 B, server: 54.223.182.189, port: 30229, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 4 B, server: 54.223.182.189, port: 30230, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 5 B, server: 54.223.182.189, port: 30231, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GBR 6 B, server: 54.223.182.189, port: 30232, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NGA FUN, server: 120.233.42.138, port: 30068, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 7 B, server: 54.223.182.189, port: 30233, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 8 B, server: 54.223.182.189, port: 30234, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 9 B, server: 54.223.182.189, port: 30235, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR 10 B, server: 54.223.182.189, port: 30236, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NGA FUN, server: 68.79.60.27, port: 30068, type: vmess, uuid: 2694603d-366f-4e6e-933b-ad4f4e42b6f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -163,8 +171,8 @@ proxy-groups:
       - 🇭🇰 cm-hk-2-3
       - 🇭🇰 ct-hk-2-1
       - 🇭🇰 ct-hk-2-3
-      - 🇭🇰 HKG 1 A [0.1X]
-      - 🇭🇰 HKG 1 B [0.1X]
+      - 🇭🇰 HKG 1 A [0.8X]
+      - 🇭🇰 HKG 1 B [0.8X]
       - 🇭🇰 HKG 2 A
       - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
@@ -205,14 +213,14 @@ proxy-groups:
       - 🇨🇳 TWN 9 B
       - 🇨🇳 TWN 10 B
       - 🇨🇳 TWN 11 B
-      - 🇨🇳 TWN HiNet A [0.5X]
-      - 🇨🇳 TWN HiNet B [0.5X]
+      - 🇨🇳 TWN HiNet A [0.8X]
+      - 🇨🇳 TWN HiNet B [0.8X]
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6X]
-      - 🇯🇵 JPN 5 B [0.6X]
+      - 🇯🇵 JPN 5 A
+      - 🇯🇵 JPN 5 B
       - 🇯🇵 JPN 6 A
       - 🇯🇵 JPN 7 A
       - 🇯🇵 JPN 8 A
@@ -231,8 +239,8 @@ proxy-groups:
       - 🇯🇵 JPN 13 B
       - 🇸🇬 SGP 1 A
       - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1X]
-      - 🇸🇬 SGP 2 B [0.1X]
+      - 🇸🇬 SGP 2 A [0.8X]
+      - 🇸🇬 SGP 2 B [0.8X]
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -278,12 +286,20 @@ proxy-groups:
       - 🇬🇧 GBR 4 A
       - 🇬🇧 GBR 5 A
       - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 7 A
+      - 🇬🇧 GBR 8 A
+      - 🇬🇧 GBR 9 A
+      - 🇬🇧 GBR 10 A
       - 🇬🇧 GBR 1 B
       - 🇬🇧 GBR 2 B
       - 🇬🇧 GBR 3 B
       - 🇬🇧 GBR 4 B
       - 🇬🇧 GBR 5 B
       - 🇬🇧 GBR 6 B
+      - 🇬🇧 GBR 7 B
+      - 🇬🇧 GBR 8 B
+      - 🇬🇧 GBR 9 B
+      - 🇬🇧 GBR 10 B
       - NGA FUN
   - name: ♻️ 自动选择
     type: url-test
@@ -306,8 +322,8 @@ proxy-groups:
       - 🇭🇰 cm-hk-2-3
       - 🇭🇰 ct-hk-2-1
       - 🇭🇰 ct-hk-2-3
-      - 🇭🇰 HKG 1 A [0.1X]
-      - 🇭🇰 HKG 1 B [0.1X]
+      - 🇭🇰 HKG 1 A [0.8X]
+      - 🇭🇰 HKG 1 B [0.8X]
       - 🇭🇰 HKG 2 A
       - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
@@ -348,14 +364,14 @@ proxy-groups:
       - 🇨🇳 TWN 9 B
       - 🇨🇳 TWN 10 B
       - 🇨🇳 TWN 11 B
-      - 🇨🇳 TWN HiNet A [0.5X]
-      - 🇨🇳 TWN HiNet B [0.5X]
+      - 🇨🇳 TWN HiNet A [0.8X]
+      - 🇨🇳 TWN HiNet B [0.8X]
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6X]
-      - 🇯🇵 JPN 5 B [0.6X]
+      - 🇯🇵 JPN 5 A
+      - 🇯🇵 JPN 5 B
       - 🇯🇵 JPN 6 A
       - 🇯🇵 JPN 7 A
       - 🇯🇵 JPN 8 A
@@ -374,8 +390,8 @@ proxy-groups:
       - 🇯🇵 JPN 13 B
       - 🇸🇬 SGP 1 A
       - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1X]
-      - 🇸🇬 SGP 2 B [0.1X]
+      - 🇸🇬 SGP 2 A [0.8X]
+      - 🇸🇬 SGP 2 B [0.8X]
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -421,12 +437,20 @@ proxy-groups:
       - 🇬🇧 GBR 4 A
       - 🇬🇧 GBR 5 A
       - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 7 A
+      - 🇬🇧 GBR 8 A
+      - 🇬🇧 GBR 9 A
+      - 🇬🇧 GBR 10 A
       - 🇬🇧 GBR 1 B
       - 🇬🇧 GBR 2 B
       - 🇬🇧 GBR 3 B
       - 🇬🇧 GBR 4 B
       - 🇬🇧 GBR 5 B
       - 🇬🇧 GBR 6 B
+      - 🇬🇧 GBR 7 B
+      - 🇬🇧 GBR 8 B
+      - 🇬🇧 GBR 9 B
+      - 🇬🇧 GBR 10 B
       - NGA FUN
   - name: 🎯 全球直连
     type: select
@@ -460,8 +484,8 @@ proxy-groups:
       - 🇭🇰 cm-hk-2-3
       - 🇭🇰 ct-hk-2-1
       - 🇭🇰 ct-hk-2-3
-      - 🇭🇰 HKG 1 A [0.1X]
-      - 🇭🇰 HKG 1 B [0.1X]
+      - 🇭🇰 HKG 1 A [0.8X]
+      - 🇭🇰 HKG 1 B [0.8X]
       - 🇭🇰 HKG 2 A
       - 🇭🇰 HKG 2 B
       - 🇭🇰 HKG 3 A
@@ -502,14 +526,14 @@ proxy-groups:
       - 🇨🇳 TWN 9 B
       - 🇨🇳 TWN 10 B
       - 🇨🇳 TWN 11 B
-      - 🇨🇳 TWN HiNet A [0.5X]
-      - 🇨🇳 TWN HiNet B [0.5X]
+      - 🇨🇳 TWN HiNet A [0.8X]
+      - 🇨🇳 TWN HiNet B [0.8X]
       - 🇯🇵 JPN 1 A
       - 🇯🇵 JPN 1 B
       - 🇯🇵 JPN 4 A
       - 🇯🇵 JPN 4 B
-      - 🇯🇵 JPN 5 A [0.6X]
-      - 🇯🇵 JPN 5 B [0.6X]
+      - 🇯🇵 JPN 5 A
+      - 🇯🇵 JPN 5 B
       - 🇯🇵 JPN 6 A
       - 🇯🇵 JPN 7 A
       - 🇯🇵 JPN 8 A
@@ -528,8 +552,8 @@ proxy-groups:
       - 🇯🇵 JPN 13 B
       - 🇸🇬 SGP 1 A
       - 🇸🇬 SGP 1 B
-      - 🇸🇬 SGP 2 A [0.1X]
-      - 🇸🇬 SGP 2 B [0.1X]
+      - 🇸🇬 SGP 2 A [0.8X]
+      - 🇸🇬 SGP 2 B [0.8X]
       - 🇸🇬 SGP 4 A
       - 🇸🇬 SGP 5 A
       - 🇸🇬 SGP 6 A
@@ -575,12 +599,20 @@ proxy-groups:
       - 🇬🇧 GBR 4 A
       - 🇬🇧 GBR 5 A
       - 🇬🇧 GBR 6 A
+      - 🇬🇧 GBR 7 A
+      - 🇬🇧 GBR 8 A
+      - 🇬🇧 GBR 9 A
+      - 🇬🇧 GBR 10 A
       - 🇬🇧 GBR 1 B
       - 🇬🇧 GBR 2 B
       - 🇬🇧 GBR 3 B
       - 🇬🇧 GBR 4 B
       - 🇬🇧 GBR 5 B
       - 🇬🇧 GBR 6 B
+      - 🇬🇧 GBR 7 B
+      - 🇬🇧 GBR 8 B
+      - 🇬🇧 GBR 9 B
+      - 🇬🇧 GBR 10 B
       - NGA FUN
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
