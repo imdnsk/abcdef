@@ -1,10 +1,28 @@
-mixed-port: 1080
-allow-lan: true
+mixed-port: 7890
+allow-lan: false
 mode: Rule
-ipv6: true
 log-level: info
 external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+hosts:
+  mtalk.google.com: 108.177.125.188
+dns:
+  enable: true
+  listen: 127.0.0.1:5335
+  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
+  ipv6: true
+  use-hosts: true
+  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
+  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
+  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
+  - {name: 🇭🇰 HK-10, server: 34.92.119.96, port: 12020, type: vmess, uuid: df475e52-f7a1-4939-f6c5-8e972fe37635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /login}, udp: true}
+  - {name: 🇯🇵 JP-10, server: 34.146.109.240, port: 33796, type: vmess, uuid: 9ef51fb6-f10c-4516-b9f4-0cdbd1f8fac0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /setup}, udp: true}
+  - {name: 🇰🇷 KR-10, server: 34.47.70.208, port: 17709, type: vmess, uuid: bba72aea-75d0-4ac6-ab30-52b97932dbf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /inbounds}, udp: true}
+  - {name: 🇯🇵 JP-11, server: 89.213.123.25, port: 13654, type: vmess, uuid: f5790c61-2898-4911-9a76-5dc0517d464d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /manage}, udp: true}
   - {name: 🇭🇰 CN-HK-WAP, server: gd.bjnetwork.cyou, port: 36602, type: ss, cipher: aes-128-gcm, password: e75547ac-614e-413a-9f86-3870fa3ec7a4, plugin: obfs, plugin-opts: {mode: http, host: 39903cdb6e485d806f51d2d5e7967d71.baidu.com}, udp: true}
   - {name: 🇨🇳 CN-TW-WAP, server: gd.bjnetwork.cyou, port: 36104, type: ss, cipher: aes-128-gcm, password: e75547ac-614e-413a-9f86-3870fa3ec7a4, plugin: obfs, plugin-opts: {mode: http, host: 39903cdb6e485d806f51d2d5e7967d71.baidu.com}, udp: true}
   - {name: 🇸🇬 CN-SG-IEPL, server: gd.bjnetwork.cyou, port: 36604, type: ss, cipher: aes-128-gcm, password: e75547ac-614e-413a-9f86-3870fa3ec7a4, plugin: obfs, plugin-opts: {mode: http, host: 39903cdb6e485d806f51d2d5e7967d71.baidu.com}, udp: true}
@@ -20,6 +38,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 HK-10
+      - 🇯🇵 JP-10
+      - 🇰🇷 KR-10
+      - 🇯🇵 JP-11
       - 🇭🇰 CN-HK-WAP
       - 🇨🇳 CN-TW-WAP
       - 🇸🇬 CN-SG-IEPL
@@ -35,6 +57,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 HK-10
+      - 🇯🇵 JP-10
+      - 🇰🇷 KR-10
+      - 🇯🇵 JP-11
       - 🇭🇰 CN-HK-WAP
       - 🇨🇳 CN-TW-WAP
       - 🇸🇬 CN-SG-IEPL
@@ -61,6 +87,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 HK-10
+      - 🇯🇵 JP-10
+      - 🇰🇷 KR-10
+      - 🇯🇵 JP-11
       - 🇭🇰 CN-HK-WAP
       - 🇨🇳 CN-TW-WAP
       - 🇸🇬 CN-SG-IEPL
