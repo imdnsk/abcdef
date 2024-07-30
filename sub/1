@@ -1,73 +1,59 @@
-mixed-port: 7890
-allow-lan: false
+mixed-port: 1080
+allow-lan: true
 mode: Rule
+ipv6: true
 log-level: info
 external-controller: 127.0.0.1:9090
-clash-for-android:
-  append-system-dns: false
-hosts:
-  mtalk.google.com: 108.177.125.188
-dns:
-  enable: true
-  listen: 127.0.0.1:5335
-  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
-  ipv6: true
-  use-hosts: true
-  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
-  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
-  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
-  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: 🇭🇰 专线 香港 01, server: bldgz.qialanqian.xyz, port: 8100, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 02, server: bldgz.qialanqian.xyz, port: 8101, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 03, server: bldgz.qialanqian.xyz, port: 8102, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 04, server: bldgz.qialanqian.xyz, port: 8103, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 05, server: bldgz.qialanqian.xyz, port: 8104, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 06, server: bldgz.qialanqian.xyz, port: 8105, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 07, server: bldgz.qialanqian.xyz, port: 8106, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线 香港 08, server: bldgz.qialanqian.xyz, port: 8107, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 01, server: bldsh.qialanqian.xyz, port: 8200, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 02, server: bldsh.qialanqian.xyz, port: 8201, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 03, server: bldsh.qialanqian.xyz, port: 8202, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 04, server: bldsh.qialanqian.xyz, port: 8203, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 05, server: bldsh.qialanqian.xyz, port: 8204, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 06, server: bldsh.qialanqian.xyz, port: 8205, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 07, server: bldsh.qialanqian.xyz, port: 8206, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 专线 日本 08, server: bldsh.qialanqian.xyz, port: 8207, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 01, server: bldgz.qialanqian.xyz, port: 8300, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 02, server: bldgz.qialanqian.xyz, port: 8301, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 03, server: bldgz.qialanqian.xyz, port: 8302, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 04, server: bldgz.qialanqian.xyz, port: 8303, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 05, server: bldgz.qialanqian.xyz, port: 8304, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 06, server: bldgz.qialanqian.xyz, port: 8305, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 07, server: bldgz.qialanqian.xyz, port: 8306, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 专线 狮城 08, server: bldgz.qialanqian.xyz, port: 8307, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 专线 台湾 01, server: bldgz.qialanqian.xyz, port: 8400, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 专线 台湾 02, server: bldgz.qialanqian.xyz, port: 8401, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 01, server: bldsh.qialanqian.xyz, port: 8500, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 02, server: bldsh.qialanqian.xyz, port: 8501, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 03, server: bldsh.qialanqian.xyz, port: 8502, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 04, server: bldsh.qialanqian.xyz, port: 8503, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 05, server: bldsh.qialanqian.xyz, port: 8504, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 06, server: bldsh.qialanqian.xyz, port: 8505, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 07, server: bldsh.qialanqian.xyz, port: 8506, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 专线 美国 08, server: bldsh.qialanqian.xyz, port: 8507, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 专线 英国 01, server: bldbj.qialanqian.xyz, port: 8600, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 专线 英国 02, server: bldbj.qialanqian.xyz, port: 8601, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 专线 德国 01, server: bldbj.qialanqian.xyz, port: 8602, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 专线 德国 02, server: bldbj.qialanqian.xyz, port: 8603, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 专线 荷兰 01, server: bldbj.qialanqian.xyz, port: 8604, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 专线 荷兰 02, server: bldbj.qialanqian.xyz, port: 8605, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇷 专线 阿根廷 01, server: bldsh.qialanqian.xyz, port: 8606, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 专线 巴西 01, server: bldsh.qialanqian.xyz, port: 8607, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 专线 韩国 01, server: bldsh.qialanqian.xyz, port: 8608, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 专线 韩国 02, server: bldsh.qialanqian.xyz, port: 8609, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 专线 澳洲 01, server: bldgz.qialanqian.xyz, port: 8610, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 专线 印度 01, server: bldgz.qialanqian.xyz, port: 8611, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 专线 加拿大 01, server: bldsh.qialanqian.xyz, port: 8612, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 专线 俄罗斯 01, server: bldbj.qialanqian.xyz, port: 8613, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 专线 土耳其 01, server: bldbj.qialanqian.xyz, port: 8614, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 专线 香港 01, server: bldgz.qialanqian.xyz, port: 8100, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 02, server: bldgz.qialanqian.xyz, port: 8101, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 03, server: bldgz.qialanqian.xyz, port: 8102, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 04, server: bldgz.qialanqian.xyz, port: 8103, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 05, server: bldgz.qialanqian.xyz, port: 8104, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 06, server: bldgz.qialanqian.xyz, port: 8105, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 07, server: bldgz.qialanqian.xyz, port: 8106, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线 香港 08, server: bldgz.qialanqian.xyz, port: 8107, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 01, server: bldsh.qialanqian.xyz, port: 8200, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 02, server: bldsh.qialanqian.xyz, port: 8201, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 03, server: bldsh.qialanqian.xyz, port: 8202, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 04, server: bldsh.qialanqian.xyz, port: 8203, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 05, server: bldsh.qialanqian.xyz, port: 8204, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 06, server: bldsh.qialanqian.xyz, port: 8205, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 07, server: bldsh.qialanqian.xyz, port: 8206, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线 日本 08, server: bldsh.qialanqian.xyz, port: 8207, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 01, server: bldgz.qialanqian.xyz, port: 8300, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 02, server: bldgz.qialanqian.xyz, port: 8301, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 03, server: bldgz.qialanqian.xyz, port: 8302, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 04, server: bldgz.qialanqian.xyz, port: 8303, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 05, server: bldgz.qialanqian.xyz, port: 8304, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 06, server: bldgz.qialanqian.xyz, port: 8305, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 07, server: bldgz.qialanqian.xyz, port: 8306, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线 狮城 08, server: bldgz.qialanqian.xyz, port: 8307, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 专线 台湾 01, server: bldgz.qialanqian.xyz, port: 8400, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 专线 台湾 02, server: bldgz.qialanqian.xyz, port: 8401, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 01, server: bldsh.qialanqian.xyz, port: 8500, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 02, server: bldsh.qialanqian.xyz, port: 8501, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 03, server: bldsh.qialanqian.xyz, port: 8502, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 04, server: bldsh.qialanqian.xyz, port: 8503, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 05, server: bldsh.qialanqian.xyz, port: 8504, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 06, server: bldsh.qialanqian.xyz, port: 8505, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 07, server: bldsh.qialanqian.xyz, port: 8506, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 专线 美国 08, server: bldsh.qialanqian.xyz, port: 8507, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 专线 英国 01, server: bldbj.qialanqian.xyz, port: 8600, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 专线 英国 02, server: bldbj.qialanqian.xyz, port: 8601, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 专线 德国 01, server: bldbj.qialanqian.xyz, port: 8602, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 专线 德国 02, server: bldbj.qialanqian.xyz, port: 8603, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 专线 荷兰 01, server: bldbj.qialanqian.xyz, port: 8604, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 专线 荷兰 02, server: bldbj.qialanqian.xyz, port: 8605, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 专线 阿根廷 01, server: bldsh.qialanqian.xyz, port: 8606, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 专线 巴西 01, server: bldsh.qialanqian.xyz, port: 8607, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 专线 韩国 01, server: bldsh.qialanqian.xyz, port: 8608, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 专线 韩国 02, server: bldsh.qialanqian.xyz, port: 8609, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 专线 澳洲 01, server: bldgz.qialanqian.xyz, port: 8610, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 专线 印度 01, server: bldgz.qialanqian.xyz, port: 8611, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 专线 加拿大 01, server: bldsh.qialanqian.xyz, port: 8612, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 专线 俄罗斯 01, server: bldbj.qialanqian.xyz, port: 8613, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 专线 土耳其 01, server: bldbj.qialanqian.xyz, port: 8614, type: trojan, password: C737F727-98BF-8C5A-26C9-5626F6AA0ACD, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01丨1x HK, server: silver-south.autohome.icu, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港 02丨1x HK, server: silver-south.autohome.icu, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港 03丨1x HK, server: silver-south.autohome.icu, port: 12024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
@@ -133,7 +119,7 @@ proxies:
   - {name: 巴勒斯坦丨3x PS, server: silver-north.autohome.icu, port: 13158, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇹🇷 土耳其丨1x TR, server: silver-north.autohome.icu, port: 12603, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇹🇷 土耳其家宽丨10x TR, server: silver-north.autohome.icu, port: 13168, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 尼泊尔丨1x NP, server: silver-south.autohome.icu, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇳🇵 尼泊尔丨1x NP, server: silver-south.autohome.icu, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 东帝汶丨3x TL, server: silver-south.autohome.icu, port: 20030, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 黎巴嫩丨5x LB, server: silver-north.autohome.icu, port: 13123, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 伊拉克丨5x IQ, server: silver-north.autohome.icu, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
@@ -182,13 +168,13 @@ proxies:
   - {name: 🇵🇱 波兰丨1x PL, server: silver-north.autohome.icu, port: 12261, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 黑山丨3x ME, server: silver-north.autohome.icu, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇷🇺 俄罗斯丨1x RU, server: silver-north.autohome.icu, port: 13122, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 乌克兰丨2x UA, server: silver-north.autohome.icu, port: 12614, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇺🇦 乌克兰丨2x UA, server: silver-north.autohome.icu, port: 12614, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇭🇺 匈牙利丨1x HU, server: silver-north.autohome.icu, port: 12631, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇱🇺 卢森堡丨2x LU, server: silver-north.autohome.icu, port: 12629, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇦🇹 奥地利丨2x AT, server: silver-north.autohome.icu, port: 12628, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇮🇹 意大利丨1x IT, server: silver-north.autohome.icu, port: 12616, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇮🇹 意大利家宽丨5x IT, server: silver-north.autohome.icu, port: 13149, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 🇻🇦 梵蒂冈丨3x VA, server: silver-north.autohome.icu, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 梵蒂冈丨3x VA, server: silver-north.autohome.icu, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇧🇪 比利时丨1x BE, server: silver-north.autohome.icu, port: 12618, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇮🇪 爱尔兰丨2x IE, server: silver-north.autohome.icu, port: 12617, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇱🇹 立陶宛丨1x LT, server: silver-north.autohome.icu, port: 12652, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
@@ -262,11 +248,11 @@ proxies:
   - {name: 法属圭亚那丨3x GF, server: silver-east.autohome.icu, port: 13251, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 特立尼达和多巴哥丨3x TT, server: silver-east.autohome.icu, port: 13252, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇨🇴 哥伦比亚丨5x CO, server: silver-east.autohome.icu, port: 13246, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 厄瓜多尔丨5x EC, server: silver-east.autohome.icu, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 委内瑞拉丨3x VE, server: silver-east.autohome.icu, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇪🇨 厄瓜多尔丨5x EC, server: silver-east.autohome.icu, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇻🇪 委内瑞拉丨3x VE, server: silver-east.autohome.icu, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 玻利维亚丨3x BO, server: silver-east.autohome.icu, port: 13255, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 危地马拉丨1x GT, server: silver-east.autohome.icu, port: 13218, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 波多黎各丨2x PR, server: silver-east.autohome.icu, port: 13219, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇵🇷 波多黎各丨2x PR, server: silver-east.autohome.icu, port: 13219, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 开曼群岛丨3x KY, server: silver-east.autohome.icu, port: 13225, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 洪都拉斯丨3x HN, server: silver-east.autohome.icu, port: 13237, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 尼加拉瓜丨3x NI, server: silver-east.autohome.icu, port: 13238, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
@@ -279,7 +265,7 @@ proxies:
   - {name: 贝宁丨3x BJ, server: silver-north.autohome.icu, port: 13161, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 马里丨3x ML, server: silver-north.autohome.icu, port: 13166, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 刚果（金）丨3x CD, server: silver-north.autohome.icu, port: 13167, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 摩洛哥家宽丨3x MA, server: silver-north.autohome.icu, port: 12731, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 🇲🇦 摩洛哥家宽丨3x MA, server: silver-north.autohome.icu, port: 12731, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇹🇳 突尼斯丨2x TN, server: silver-north.autohome.icu, port: 12703, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 利比亚丨2x LY, server: silver-north.autohome.icu, port: 12742, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 🇰🇪 肯尼亚丨1x KE, server: silver-north.autohome.icu, port: 12716, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
@@ -295,7 +281,7 @@ proxies:
   - {name: 坦桑尼亚丨5x TZ, server: silver-north.autohome.icu, port: 13171, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 阿尔及利亚丨3x DZ, server: silver-north.autohome.icu, port: 13157, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
   - {name: 马达加斯加丨3x MG, server: silver-north.autohome.icu, port: 13173, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
-  - {name: 🇦🇶 南极丨3x AQ, server: silver-south.autohome.icu, port: 20031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
+  - {name: 南极丨3x AQ, server: silver-south.autohome.icu, port: 20031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 1876d86d40f9.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -416,7 +402,7 @@ proxy-groups:
       - 巴勒斯坦丨3x PS
       - 🇹🇷 土耳其丨1x TR
       - 🇹🇷 土耳其家宽丨10x TR
-      - 尼泊尔丨1x NP
+      - 🇳🇵 尼泊尔丨1x NP
       - 东帝汶丨3x TL
       - 黎巴嫩丨5x LB
       - 伊拉克丨5x IQ
@@ -465,13 +451,13 @@ proxy-groups:
       - 🇵🇱 波兰丨1x PL
       - 黑山丨3x ME
       - 🇷🇺 俄罗斯丨1x RU
-      - 乌克兰丨2x UA
+      - 🇺🇦 乌克兰丨2x UA
       - 🇭🇺 匈牙利丨1x HU
       - 🇱🇺 卢森堡丨2x LU
       - 🇦🇹 奥地利丨2x AT
       - 🇮🇹 意大利丨1x IT
       - 🇮🇹 意大利家宽丨5x IT
-      - 🇻🇦 梵蒂冈丨3x VA
+      - 梵蒂冈丨3x VA
       - 🇧🇪 比利时丨1x BE
       - 🇮🇪 爱尔兰丨2x IE
       - 🇱🇹 立陶宛丨1x LT
@@ -545,11 +531,11 @@ proxy-groups:
       - 法属圭亚那丨3x GF
       - 特立尼达和多巴哥丨3x TT
       - 🇨🇴 哥伦比亚丨5x CO
-      - 厄瓜多尔丨5x EC
-      - 委内瑞拉丨3x VE
+      - 🇪🇨 厄瓜多尔丨5x EC
+      - 🇻🇪 委内瑞拉丨3x VE
       - 玻利维亚丨3x BO
       - 危地马拉丨1x GT
-      - 波多黎各丨2x PR
+      - 🇵🇷 波多黎各丨2x PR
       - 开曼群岛丨3x KY
       - 洪都拉斯丨3x HN
       - 尼加拉瓜丨3x NI
@@ -562,7 +548,7 @@ proxy-groups:
       - 贝宁丨3x BJ
       - 马里丨3x ML
       - 刚果（金）丨3x CD
-      - 摩洛哥家宽丨3x MA
+      - 🇲🇦 摩洛哥家宽丨3x MA
       - 🇹🇳 突尼斯丨2x TN
       - 利比亚丨2x LY
       - 🇰🇪 肯尼亚丨1x KE
@@ -578,7 +564,7 @@ proxy-groups:
       - 坦桑尼亚丨5x TZ
       - 阿尔及利亚丨3x DZ
       - 马达加斯加丨3x MG
-      - 🇦🇶 南极丨3x AQ
+      - 南极丨3x AQ
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -699,7 +685,7 @@ proxy-groups:
       - 巴勒斯坦丨3x PS
       - 🇹🇷 土耳其丨1x TR
       - 🇹🇷 土耳其家宽丨10x TR
-      - 尼泊尔丨1x NP
+      - 🇳🇵 尼泊尔丨1x NP
       - 东帝汶丨3x TL
       - 黎巴嫩丨5x LB
       - 伊拉克丨5x IQ
@@ -748,13 +734,13 @@ proxy-groups:
       - 🇵🇱 波兰丨1x PL
       - 黑山丨3x ME
       - 🇷🇺 俄罗斯丨1x RU
-      - 乌克兰丨2x UA
+      - 🇺🇦 乌克兰丨2x UA
       - 🇭🇺 匈牙利丨1x HU
       - 🇱🇺 卢森堡丨2x LU
       - 🇦🇹 奥地利丨2x AT
       - 🇮🇹 意大利丨1x IT
       - 🇮🇹 意大利家宽丨5x IT
-      - 🇻🇦 梵蒂冈丨3x VA
+      - 梵蒂冈丨3x VA
       - 🇧🇪 比利时丨1x BE
       - 🇮🇪 爱尔兰丨2x IE
       - 🇱🇹 立陶宛丨1x LT
@@ -828,11 +814,11 @@ proxy-groups:
       - 法属圭亚那丨3x GF
       - 特立尼达和多巴哥丨3x TT
       - 🇨🇴 哥伦比亚丨5x CO
-      - 厄瓜多尔丨5x EC
-      - 委内瑞拉丨3x VE
+      - 🇪🇨 厄瓜多尔丨5x EC
+      - 🇻🇪 委内瑞拉丨3x VE
       - 玻利维亚丨3x BO
       - 危地马拉丨1x GT
-      - 波多黎各丨2x PR
+      - 🇵🇷 波多黎各丨2x PR
       - 开曼群岛丨3x KY
       - 洪都拉斯丨3x HN
       - 尼加拉瓜丨3x NI
@@ -845,7 +831,7 @@ proxy-groups:
       - 贝宁丨3x BJ
       - 马里丨3x ML
       - 刚果（金）丨3x CD
-      - 摩洛哥家宽丨3x MA
+      - 🇲🇦 摩洛哥家宽丨3x MA
       - 🇹🇳 突尼斯丨2x TN
       - 利比亚丨2x LY
       - 🇰🇪 肯尼亚丨1x KE
@@ -861,7 +847,7 @@ proxy-groups:
       - 坦桑尼亚丨5x TZ
       - 阿尔及利亚丨3x DZ
       - 马达加斯加丨3x MG
-      - 🇦🇶 南极丨3x AQ
+      - 南极丨3x AQ
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -993,7 +979,7 @@ proxy-groups:
       - 巴勒斯坦丨3x PS
       - 🇹🇷 土耳其丨1x TR
       - 🇹🇷 土耳其家宽丨10x TR
-      - 尼泊尔丨1x NP
+      - 🇳🇵 尼泊尔丨1x NP
       - 东帝汶丨3x TL
       - 黎巴嫩丨5x LB
       - 伊拉克丨5x IQ
@@ -1042,13 +1028,13 @@ proxy-groups:
       - 🇵🇱 波兰丨1x PL
       - 黑山丨3x ME
       - 🇷🇺 俄罗斯丨1x RU
-      - 乌克兰丨2x UA
+      - 🇺🇦 乌克兰丨2x UA
       - 🇭🇺 匈牙利丨1x HU
       - 🇱🇺 卢森堡丨2x LU
       - 🇦🇹 奥地利丨2x AT
       - 🇮🇹 意大利丨1x IT
       - 🇮🇹 意大利家宽丨5x IT
-      - 🇻🇦 梵蒂冈丨3x VA
+      - 梵蒂冈丨3x VA
       - 🇧🇪 比利时丨1x BE
       - 🇮🇪 爱尔兰丨2x IE
       - 🇱🇹 立陶宛丨1x LT
@@ -1122,11 +1108,11 @@ proxy-groups:
       - 法属圭亚那丨3x GF
       - 特立尼达和多巴哥丨3x TT
       - 🇨🇴 哥伦比亚丨5x CO
-      - 厄瓜多尔丨5x EC
-      - 委内瑞拉丨3x VE
+      - 🇪🇨 厄瓜多尔丨5x EC
+      - 🇻🇪 委内瑞拉丨3x VE
       - 玻利维亚丨3x BO
       - 危地马拉丨1x GT
-      - 波多黎各丨2x PR
+      - 🇵🇷 波多黎各丨2x PR
       - 开曼群岛丨3x KY
       - 洪都拉斯丨3x HN
       - 尼加拉瓜丨3x NI
@@ -1139,7 +1125,7 @@ proxy-groups:
       - 贝宁丨3x BJ
       - 马里丨3x ML
       - 刚果（金）丨3x CD
-      - 摩洛哥家宽丨3x MA
+      - 🇲🇦 摩洛哥家宽丨3x MA
       - 🇹🇳 突尼斯丨2x TN
       - 利比亚丨2x LY
       - 🇰🇪 肯尼亚丨1x KE
@@ -1155,7 +1141,7 @@ proxy-groups:
       - 坦桑尼亚丨5x TZ
       - 阿尔及利亚丨3x DZ
       - 马达加斯加丨3x MG
-      - 🇦🇶 南极丨3x AQ
+      - 南极丨3x AQ
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
