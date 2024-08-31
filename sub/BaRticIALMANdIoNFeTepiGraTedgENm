@@ -21,6 +21,21 @@ dns:
 proxies:
   - {name: 🇺🇸 HD美国洛杉矶 独立 B, server: hdcnus2.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇺🇸 HD美国洛杉矶 独立 A, server: hdcnus.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港 | 上海 | WAP | AP, server: yd-sh.mmt.donghui.tech, port: 54150, type: ss, cipher: chacha20-ietf-poly1305, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇭🇰 香港03 | 深圳 | AKILE | AP, server: bwg.jpqjt3.buzz, port: 30002, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇺🇸 美国01 | 深圳 | ADG, server: bwg.jpqjt3.buzz, port: 30006, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇺🇸 美国02 | 深圳 | DMIT | ADG, server: bwg.jpqjt3.buzz, port: 30000, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇸🇬 新加坡01 | 深圳 | AWS | AP, server: biedazjyd.zhangwei.li, port: 22652, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇸🇬 新加坡04 | 杭州 | AP, server: hzcu.ysqhq.top, port: 40950, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇸🇬 新加坡06 | 北京 | AWS | AP, server: bjcu.donghui.tech, port: 17177, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本01 | 上海 | AWS | AP, server: shcua.donghui.tech, port: 59491, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本03 | 上海 | AKILE | AP, server: shcua.donghui.tech, port: 23578, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本04 | 视频专用 | STREAM, server: yd-sh.mmt.donghui.tech, port: 31102, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本05 | 视频专用 | STREAM, server: bwg.jpqjt3.buzz, port: 30008, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本06 | 深圳 | AWS | ADG, server: bwg.jpqjt3.buzz, port: 30004, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本07 | 上海 | AWS | ADG, server: shcub.donghui.tech, port: 22652, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇯🇵 日本08 | 深圳 | AWS | AP, server: bwg.jpqjt3.buzz, port: 30007, type: ss, cipher: aes-128-gcm, password: b1f5b227-b11b-4727-80fa-3a1875405252, udp: true}
+  - {name: 🇰🇷 韩国 | CFT | AP, server: fbi.gov, port: 80, type: vmess, uuid: b1f5b227-b11b-4727-80fa-3a1875405252, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cfcf.90zyd.buzz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -29,6 +44,21 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,6 +66,21 @@ proxy-groups:
     proxies:
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -44,6 +89,21 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,10 +124,27 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -76,6 +153,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,6 +175,21 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -91,6 +198,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,6 +230,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 HD美国洛杉矶 独立 B
       - 🇺🇸 HD美国洛杉矶 独立 A
+      - 🇭🇰 香港 | 上海 | WAP | AP
+      - 🇭🇰 香港03 | 深圳 | AKILE | AP
+      - 🇺🇸 美国01 | 深圳 | ADG
+      - 🇺🇸 美国02 | 深圳 | DMIT | ADG
+      - 🇸🇬 新加坡01 | 深圳 | AWS | AP
+      - 🇸🇬 新加坡04 | 杭州 | AP
+      - 🇸🇬 新加坡06 | 北京 | AWS | AP
+      - 🇯🇵 日本01 | 上海 | AWS | AP
+      - 🇯🇵 日本03 | 上海 | AKILE | AP
+      - 🇯🇵 日本04 | 视频专用 | STREAM
+      - 🇯🇵 日本05 | 视频专用 | STREAM
+      - 🇯🇵 日本06 | 深圳 | AWS | ADG
+      - 🇯🇵 日本07 | 上海 | AWS | ADG
+      - 🇯🇵 日本08 | 深圳 | AWS | AP
+      - 🇰🇷 韩国 | CFT | AP
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
