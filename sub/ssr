@@ -1,0 +1,3 @@
+proxies:
+  - {name: 🇺🇸 美国01, server: hdcnus2.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 美国02, server: hdcnus.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
