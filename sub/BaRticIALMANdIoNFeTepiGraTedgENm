@@ -1,23 +1,20 @@
-mixed-port: 7890
-allow-lan: false
-mode: Rule
+ipv6: true
+mode: rule
+allow-lan: true
 log-level: info
+mixed-port: 1080
+unified-delay: true
+tcp-concurrent: true
 external-controller: 127.0.0.1:9090
-clash-for-android:
-  append-system-dns: false
-hosts:
-  mtalk.google.com: 108.177.125.188
-dns:
+global-client-fingerprint: random
+sniffer:
   enable: true
-  listen: 127.0.0.1:5335
-  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
-  ipv6: true
-  use-hosts: true
-  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
-  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
-  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
-  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
+  parse-pure-ip: true
+  force-dns-mapping: true
+  sniff:
+    TLS: {ports: [0-65535], override-destination: true}
+    HTTP: {ports: [0-65535], override-destination: true}
+    QUIC: {ports: [0-65535], override-destination: true}
 proxies:
   - {name: 🇺🇸 USA 01, server: dbd8ac4.fcqzga.sbs, port: 20251, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
   - {name: 🇺🇸 USA 02, server: dbd8ac4.fcqzga.sbs, port: 20252, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
@@ -35,18 +32,18 @@ proxies:
   - {name: 🇺🇸 USA 14, server: dbd8ac4.fcqzga.sbs, port: 20264, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
   - {name: 🇺🇸 USA 15, server: dbd8ac4.fcqzga.sbs, port: 20265, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
   - {name: 🇺🇸 USA 16, server: dbd8ac4.fcqzga.sbs, port: 20266, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 1 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30051, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 2 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30052, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 3 Starlink 3x, server: automata.cc.gtm.volcdns.com, port: 30053, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 4 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30218, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 5 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30219, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 6 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30220, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 7 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30221, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 8 0.3x, server: automata.cc.gtm.volcdns.com, port: 30222, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 9 0.3x, server: automata.cc.gtm.volcdns.com, port: 30223, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 10 0.3x, server: automata.cc.gtm.volcdns.com, port: 30224, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 11 0.3x, server: automata.cc.gtm.volcdns.com, port: 30225, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇺🇸 USA 12 0.3x, server: automata.cc.gtm.volcdns.com, port: 30226, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 1 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30051, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 2 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30052, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 3 Starlink 3x, server: automata.cc.gtm.volcdns.com, port: 30053, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 4 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30218, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 5 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30219, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 6 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30220, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 7 Home 3x, server: automata.cc.gtm.volcdns.com, port: 30221, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 8 0.3x, server: automata.cc.gtm.volcdns.com, port: 30222, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 9 0.3x, server: automata.cc.gtm.volcdns.com, port: 30223, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 10 0.3x, server: automata.cc.gtm.volcdns.com, port: 30224, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 11 0.3x, server: automata.cc.gtm.volcdns.com, port: 30225, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
+  - {name: 🇺🇸 USA 12 0.3x, server: automata.cc.gtm.volcdns.com, port: 30226, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
   - {name: 🇭🇰 Hong Kong 01, server: d24361a.pszbua.lol, port: 42745, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
   - {name: 🇭🇰 Hong Kong 02, server: d24361a.pszbua.lol, port: 41902, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
   - {name: 🇭🇰 Hong Kong 03, server: d24361a.pszbua.lol, port: 45713, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
@@ -132,12 +129,21 @@ proxies:
   - {name: 🇨🇳 Taiwan 09, server: ddd76f5.ljcmlu.lol, port: 40765, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
   - {name: 🇨🇳 Taiwan 10, server: d24361a.pszbua.lol, port: 43108, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
   - {name: United Arab Emirates 01, server: ddd76f5.ljcmlu.lol, port: 45367, type: ss, cipher: aes-128-gcm, password: 4589b0646e3c41b2, udp: true}
+  - {name: 🇺🇸 美国01, server: hdcnus2.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇺🇸 美国02, server: hdcnus.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港-IEPL, server: gd.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇨🇳 台湾-IEPL, server: gd.bjnet2.com, port: 36104, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇸🇬 新加坡-IEPL, server: gd.bjnet2.com, port: 36604, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇯🇵 日本-IEPL-GPT, server: gd.bjnet2.com, port: 36609, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇺🇸 美国-IEPL-GPT, server: gd.bjnet2.com, port: 36608, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇯🇵 日本-IEPL2-GPT, server: sh.bjnet2.com, port: 36612, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇺🇸 美国-IEPL2-GPT, server: sh.bjnet2.com, port: 36608, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
+  - {name: 🇩🇪 德国-IEPL, server: gd.bjnet2.com, port: 36611, type: ss, cipher: chacha20-ietf-poly1305, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - DIRECT
       - 🇺🇸 USA 01
       - 🇺🇸 USA 02
       - 🇺🇸 USA 03
@@ -251,11 +257,21 @@ proxy-groups:
       - 🇨🇳 Taiwan 09
       - 🇨🇳 Taiwan 10
       - United Arab Emirates 01
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+      - 🇭🇰 香港-IEPL
+      - 🇨🇳 台湾-IEPL
+      - 🇸🇬 新加坡-IEPL
+      - 🇯🇵 日本-IEPL-GPT
+      - 🇺🇸 美国-IEPL-GPT
+      - 🇯🇵 日本-IEPL2-GPT
+      - 🇺🇸 美国-IEPL2-GPT
+      - 🇩🇪 德国-IEPL
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+    tolerance: 10
     proxies:
       - 🇺🇸 USA 01
       - 🇺🇸 USA 02
@@ -370,6 +386,16 @@ proxy-groups:
       - 🇨🇳 Taiwan 09
       - 🇨🇳 Taiwan 10
       - United Arab Emirates 01
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+      - 🇭🇰 香港-IEPL
+      - 🇨🇳 台湾-IEPL
+      - 🇸🇬 新加坡-IEPL
+      - 🇯🇵 日本-IEPL-GPT
+      - 🇺🇸 美国-IEPL-GPT
+      - 🇯🇵 日本-IEPL2-GPT
+      - 🇺🇸 美国-IEPL2-GPT
+      - 🇩🇪 德国-IEPL
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -500,6 +526,16 @@ proxy-groups:
       - 🇨🇳 Taiwan 09
       - 🇨🇳 Taiwan 10
       - United Arab Emirates 01
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+      - 🇭🇰 香港-IEPL
+      - 🇨🇳 台湾-IEPL
+      - 🇸🇬 新加坡-IEPL
+      - 🇯🇵 日本-IEPL-GPT
+      - 🇺🇸 美国-IEPL-GPT
+      - 🇯🇵 日本-IEPL2-GPT
+      - 🇺🇸 美国-IEPL2-GPT
+      - 🇩🇪 德国-IEPL
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
