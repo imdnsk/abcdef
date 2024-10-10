@@ -1,3 +1,4 @@
+proxies:
   - {name: 🇭🇰 HKG 01, server: d78a05b.vlrzgf.sbs, port: 20001, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
   - {name: 🇭🇰 HKG 02, server: d78a05b.vlrzgf.sbs, port: 20002, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
   - {name: 🇭🇰 HKG 03, server: d78a05b.vlrzgf.sbs, port: 20003, type: ss, cipher: aes-128-gcm, password: f5fc7405a7c25d0f, plugin: obfs, plugin-opts: {mode: http, host: gEbVLZcRxe.microsoft.com}, udp: true}
