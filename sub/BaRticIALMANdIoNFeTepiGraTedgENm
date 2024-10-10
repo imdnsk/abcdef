@@ -18,6 +18,39 @@ sniffer:
 proxies:
   - {name: 🇺🇸 HD洛杉矶 独立 B, server: hdcnus2.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇺🇸 HD洛杉矶 独立 A, server: hdcnus.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 01, server: s.hk1.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 02, server: s.hk2.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 03, server: s.hk3.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 04, server: s.hk4.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 05, server: s.hk5.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 06, server: s.hk6.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 01, server: s.tw1.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 02, server: s.tw2.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 03, server: s.tw3.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 01, server: s.jp1.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 02, server: s.jp2.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 03, server: s.jp3.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 04, server: s.jp4.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 05, server: s.jp5.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 06, server: s.jp6.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇰🇷 【1x】隧道丨韩国 01, server: s.kr1.niceduck.me, port: 52364, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇰🇷 【1x】隧道丨韩国 02, server: s.kr2.niceduck.me, port: 52364, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇰🇷 【1x】隧道丨韩国 03, server: s.kr3.niceduck.me, port: 52364, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 01, server: s.sg1.niceduck.me, port: 52365, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 02, server: s.sg2.niceduck.me, port: 52365, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 03, server: s.sg3.niceduck.me, port: 52365, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 04, server: s.sg4.niceduck.me, port: 52371, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 05, server: s.sg5.niceduck.me, port: 52371, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇸🇬 【1x】隧道丨新加坡 06, server: s.sg6.niceduck.me, port: 52371, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇲🇴 【1x】隧道丨澳门 01, server: s.mo1.niceduck.me, port: 52368, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇲🇴 【1x】隧道丨澳门 02, server: s.mo2.niceduck.me, port: 52368, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇲🇴 【1x】隧道丨澳门 03, server: s.mo3.niceduck.me, port: 52368, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 01, server: s.us1.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 02, server: s.us2.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 03, server: s.us3.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 04, server: s.us4.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 05, server: s.us5.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 06, server: s.us6.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
   - {name: 🇭🇰 香港-IEPL, server: gd.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
   - {name: 🇨🇳 台湾-IEPL, server: gd.bjnet2.com, port: 36104, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
   - {name: 🇸🇬 新加坡-IEPL, server: gd.bjnet2.com, port: 36604, type: ss, cipher: aes-128-gcm, password: f87e71a8-130d-4e6b-a77a-4b80a9e7a1ea, plugin: obfs, plugin-opts: {mode: http, host: 226520e41333388a746f9508e3cb30e2.baidu.com}, udp: true}
@@ -33,6 +66,39 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
+      - 🇭🇰 【1x】隧道丨香港 01
+      - 🇭🇰 【1x】隧道丨香港 02
+      - 🇭🇰 【1x】隧道丨香港 03
+      - 🇭🇰 【1x】隧道丨香港 04
+      - 🇭🇰 【1x】隧道丨香港 05
+      - 🇭🇰 【1x】隧道丨香港 06
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
+      - 🇯🇵 【1x】隧道丨日本 01
+      - 🇯🇵 【1x】隧道丨日本 02
+      - 🇯🇵 【1x】隧道丨日本 03
+      - 🇯🇵 【1x】隧道丨日本 04
+      - 🇯🇵 【1x】隧道丨日本 05
+      - 🇯🇵 【1x】隧道丨日本 06
+      - 🇰🇷 【1x】隧道丨韩国 01
+      - 🇰🇷 【1x】隧道丨韩国 02
+      - 🇰🇷 【1x】隧道丨韩国 03
+      - 🇸🇬 【1x】隧道丨新加坡 01
+      - 🇸🇬 【1x】隧道丨新加坡 02
+      - 🇸🇬 【1x】隧道丨新加坡 03
+      - 🇸🇬 【1x】隧道丨新加坡 04
+      - 🇸🇬 【1x】隧道丨新加坡 05
+      - 🇸🇬 【1x】隧道丨新加坡 06
+      - 🇲🇴 【1x】隧道丨澳门 01
+      - 🇲🇴 【1x】隧道丨澳门 02
+      - 🇲🇴 【1x】隧道丨澳门 03
+      - 🇺🇸 【1x】隧道丨美国 01
+      - 🇺🇸 【1x】隧道丨美国 02
+      - 🇺🇸 【1x】隧道丨美国 03
+      - 🇺🇸 【1x】隧道丨美国 04
+      - 🇺🇸 【1x】隧道丨美国 05
+      - 🇺🇸 【1x】隧道丨美国 06
       - 🇭🇰 香港-IEPL
       - 🇨🇳 台湾-IEPL
       - 🇸🇬 新加坡-IEPL
@@ -49,6 +115,39 @@ proxy-groups:
     proxies:
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
+      - 🇭🇰 【1x】隧道丨香港 01
+      - 🇭🇰 【1x】隧道丨香港 02
+      - 🇭🇰 【1x】隧道丨香港 03
+      - 🇭🇰 【1x】隧道丨香港 04
+      - 🇭🇰 【1x】隧道丨香港 05
+      - 🇭🇰 【1x】隧道丨香港 06
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
+      - 🇯🇵 【1x】隧道丨日本 01
+      - 🇯🇵 【1x】隧道丨日本 02
+      - 🇯🇵 【1x】隧道丨日本 03
+      - 🇯🇵 【1x】隧道丨日本 04
+      - 🇯🇵 【1x】隧道丨日本 05
+      - 🇯🇵 【1x】隧道丨日本 06
+      - 🇰🇷 【1x】隧道丨韩国 01
+      - 🇰🇷 【1x】隧道丨韩国 02
+      - 🇰🇷 【1x】隧道丨韩国 03
+      - 🇸🇬 【1x】隧道丨新加坡 01
+      - 🇸🇬 【1x】隧道丨新加坡 02
+      - 🇸🇬 【1x】隧道丨新加坡 03
+      - 🇸🇬 【1x】隧道丨新加坡 04
+      - 🇸🇬 【1x】隧道丨新加坡 05
+      - 🇸🇬 【1x】隧道丨新加坡 06
+      - 🇲🇴 【1x】隧道丨澳门 01
+      - 🇲🇴 【1x】隧道丨澳门 02
+      - 🇲🇴 【1x】隧道丨澳门 03
+      - 🇺🇸 【1x】隧道丨美国 01
+      - 🇺🇸 【1x】隧道丨美国 02
+      - 🇺🇸 【1x】隧道丨美国 03
+      - 🇺🇸 【1x】隧道丨美国 04
+      - 🇺🇸 【1x】隧道丨美国 05
+      - 🇺🇸 【1x】隧道丨美国 06
       - 🇭🇰 香港-IEPL
       - 🇨🇳 台湾-IEPL
       - 🇸🇬 新加坡-IEPL
@@ -76,6 +175,39 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
+      - 🇭🇰 【1x】隧道丨香港 01
+      - 🇭🇰 【1x】隧道丨香港 02
+      - 🇭🇰 【1x】隧道丨香港 03
+      - 🇭🇰 【1x】隧道丨香港 04
+      - 🇭🇰 【1x】隧道丨香港 05
+      - 🇭🇰 【1x】隧道丨香港 06
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
+      - 🇯🇵 【1x】隧道丨日本 01
+      - 🇯🇵 【1x】隧道丨日本 02
+      - 🇯🇵 【1x】隧道丨日本 03
+      - 🇯🇵 【1x】隧道丨日本 04
+      - 🇯🇵 【1x】隧道丨日本 05
+      - 🇯🇵 【1x】隧道丨日本 06
+      - 🇰🇷 【1x】隧道丨韩国 01
+      - 🇰🇷 【1x】隧道丨韩国 02
+      - 🇰🇷 【1x】隧道丨韩国 03
+      - 🇸🇬 【1x】隧道丨新加坡 01
+      - 🇸🇬 【1x】隧道丨新加坡 02
+      - 🇸🇬 【1x】隧道丨新加坡 03
+      - 🇸🇬 【1x】隧道丨新加坡 04
+      - 🇸🇬 【1x】隧道丨新加坡 05
+      - 🇸🇬 【1x】隧道丨新加坡 06
+      - 🇲🇴 【1x】隧道丨澳门 01
+      - 🇲🇴 【1x】隧道丨澳门 02
+      - 🇲🇴 【1x】隧道丨澳门 03
+      - 🇺🇸 【1x】隧道丨美国 01
+      - 🇺🇸 【1x】隧道丨美国 02
+      - 🇺🇸 【1x】隧道丨美国 03
+      - 🇺🇸 【1x】隧道丨美国 04
+      - 🇺🇸 【1x】隧道丨美国 05
+      - 🇺🇸 【1x】隧道丨美国 06
       - 🇭🇰 香港-IEPL
       - 🇨🇳 台湾-IEPL
       - 🇸🇬 新加坡-IEPL
