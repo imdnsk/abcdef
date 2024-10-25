@@ -1,137 +1,177 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
+mixed-port: 7890
+allow-lan: false
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+hosts:
+  mtalk.google.com: 108.177.125.188
 dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+  enable: true
+  listen: 127.0.0.1:5335
+  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
+  ipv6: true
+  use-hosts: true
+  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
+  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
+  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: 🇭🇰 【1x】隧道丨香港 01, server: s.hk1.niceduck.me, port: 52361, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇭🇰 【1x】隧道丨香港 02, server: s.hk2.niceduck.me, port: 52361, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇭🇰 【1x】隧道丨香港 03, server: s.hk3.niceduck.me, port: 52361, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇭🇰 【1x】隧道丨香港 04, server: s.hk4.niceduck.me, port: 52367, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇭🇰 【1x】隧道丨香港 05, server: s.hk5.niceduck.me, port: 52367, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇭🇰 【1x】隧道丨香港 06, server: s.hk6.niceduck.me, port: 52367, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇹🇼 【1x】隧道丨台湾 01, server: s.tw1.niceduck.me, port: 52362, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇹🇼 【1x】隧道丨台湾 02, server: s.tw2.niceduck.me, port: 52362, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇹🇼 【1x】隧道丨台湾 03, server: s.tw3.niceduck.me, port: 52362, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 01, server: s.jp1.niceduck.me, port: 52363, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 02, server: s.jp2.niceduck.me, port: 52363, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 03, server: s.jp3.niceduck.me, port: 52363, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 04, server: s.jp4.niceduck.me, port: 52370, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 05, server: s.jp5.niceduck.me, port: 52370, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇯🇵 【1x】隧道丨日本 06, server: s.jp6.niceduck.me, port: 52370, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇰🇷 【1x】隧道丨韩国 01, server: s.kr1.niceduck.me, port: 52364, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇰🇷 【1x】隧道丨韩国 02, server: s.kr2.niceduck.me, port: 52364, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇰🇷 【1x】隧道丨韩国 03, server: s.kr3.niceduck.me, port: 52364, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 01, server: s.sg1.niceduck.me, port: 52365, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 02, server: s.sg2.niceduck.me, port: 52365, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 03, server: s.sg3.niceduck.me, port: 52365, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 04, server: s.sg4.niceduck.me, port: 52371, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 05, server: s.sg5.niceduck.me, port: 52371, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇸🇬 【1x】隧道丨新加坡 06, server: s.sg6.niceduck.me, port: 52371, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇲🇴 【1x】隧道丨澳门 01, server: s.mo1.niceduck.me, port: 52368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇲🇴 【1x】隧道丨澳门 02, server: s.mo2.niceduck.me, port: 52368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇲🇴 【1x】隧道丨澳门 03, server: s.mo3.niceduck.me, port: 52368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 01, server: s.us1.niceduck.me, port: 52366, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 02, server: s.us2.niceduck.me, port: 52366, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 03, server: s.us3.niceduck.me, port: 52366, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 04, server: s.us4.niceduck.me, port: 52372, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 05, server: s.us5.niceduck.me, port: 52372, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 【1x】隧道丨美国 06, server: s.us6.niceduck.me, port: 52372, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, tfo: false, udp: true}
-  - {name: 🇺🇸 HD洛杉矶 独立 B, server: hdcnus2.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇺🇸 HD洛杉矶 独立 A, server: hdcnus.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港 01丨1x HK, server: v2jgyj9w.epicgames.ink, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 02丨1x HK, server: v2jgyj9w.epicgames.ink, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 03丨1x HK, server: v2jgyj9w.epicgames.ink, port: 12024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港游戏丨2x HK, server: v2jgyj9w.epicgames.ink, port: 12312, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 01丨1x TW, server: v2jgyj9w.epicgames.ink, port: 12304, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 02丨1x TW, server: v2jgyj9w.epicgames.ink, port: 12305, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 03丨1x TW, server: v2jgyj9w.epicgames.ink, port: 12306, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 01丨1x JP, server: etnnq8zl.epicgames.ink, port: 12011, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 02丨1x JP, server: etnnq8zl.epicgames.ink, port: 12010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 03丨1x JP, server: etnnq8zl.epicgames.ink, port: 12012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 04丨3x JP, server: etnnq8zl.epicgames.ink, port: 13235, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本游戏丨2x JP, server: etnnq8zl.epicgames.ink, port: 13024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-纽约 01丨1x US, server: etnnq8zl.epicgames.ink, port: 13006, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-丹佛丨1x US, server: etnnq8zl.epicgames.ink, port: 13110, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 01丨1x US, server: etnnq8zl.epicgames.ink, port: 13007, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 02丨1x US, server: etnnq8zl.epicgames.ink, port: 13010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 03丨1x US, server: etnnq8zl.epicgames.ink, port: 12706, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-圣何塞丨3x US, server: etnnq8zl.epicgames.ink, port: 13107, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-迈阿密丨1x US, server: etnnq8zl.epicgames.ink, port: 13109, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-西雅图丨1x US, server: etnnq8zl.epicgames.ink, port: 13111, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-夏威夷丨3x US, server: etnnq8zl.epicgames.ink, port: 13108, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-旧金山丨1x US, server: etnnq8zl.epicgames.ink, port: 13113, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-堪萨斯丨1x US, server: etnnq8zl.epicgames.ink, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-芝加哥丨1x US, server: etnnq8zl.epicgames.ink, port: 13253, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-夏洛特丨1x US, server: etnnq8zl.epicgames.ink, port: 13257, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-阿什本丨1x US, server: etnnq8zl.epicgames.ink, port: 13266, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6d8dcf89844e.microsoft.com}, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 01, server: s.hk1.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 02, server: s.hk2.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 03, server: s.hk3.niceduck.me, port: 52361, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 04, server: s.hk4.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 05, server: s.hk5.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇭🇰 【1x】隧道丨香港 06, server: s.hk6.niceduck.me, port: 52367, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 01, server: s.tw1.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 02, server: s.tw2.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇨🇳 【1x】隧道丨台湾 03, server: s.tw3.niceduck.me, port: 52362, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 01, server: s.jp1.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 02, server: s.jp2.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 03, server: s.jp3.niceduck.me, port: 52363, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 04, server: s.jp4.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 05, server: s.jp5.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇯🇵 【1x】隧道丨日本 06, server: s.jp6.niceduck.me, port: 52370, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 01, server: s.us1.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 02, server: s.us2.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 03, server: s.us3.niceduck.me, port: 52366, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 04, server: s.us4.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 05, server: s.us5.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
+  - {name: 🇺🇸 【1x】隧道丨美国 06, server: s.us6.niceduck.me, port: 52372, type: ss, cipher: aes-256-gcm, password: 705fc5e0-a912-4151-a497-2b45deab1ab9, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港游戏丨2x HK
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+      - 🇯🇵 日本 04丨3x JP
+      - 🇯🇵 日本游戏丨2x JP
+      - 🇺🇸 美国-纽约 01丨1x US
+      - 🇺🇸 美国-丹佛丨1x US
+      - 🇺🇸 美国-洛杉矶 01丨1x US
+      - 🇺🇸 美国-洛杉矶 02丨1x US
+      - 🇺🇸 美国-洛杉矶 03丨1x US
+      - 🇺🇸 美国-圣何塞丨3x US
+      - 🇺🇸 美国-迈阿密丨1x US
+      - 🇺🇸 美国-西雅图丨1x US
+      - 🇺🇸 美国-夏威夷丨3x US
+      - 🇺🇸 美国-旧金山丨1x US
+      - 🇺🇸 美国-堪萨斯丨1x US
+      - 🇺🇸 美国-芝加哥丨1x US
+      - 🇺🇸 美国-夏洛特丨1x US
+      - 🇺🇸 美国-阿什本丨1x US
       - 🇭🇰 【1x】隧道丨香港 01
       - 🇭🇰 【1x】隧道丨香港 02
       - 🇭🇰 【1x】隧道丨香港 03
       - 🇭🇰 【1x】隧道丨香港 04
       - 🇭🇰 【1x】隧道丨香港 05
       - 🇭🇰 【1x】隧道丨香港 06
-      - 🇹🇼 【1x】隧道丨台湾 01
-      - 🇹🇼 【1x】隧道丨台湾 02
-      - 🇹🇼 【1x】隧道丨台湾 03
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
       - 🇯🇵 【1x】隧道丨日本 01
       - 🇯🇵 【1x】隧道丨日本 02
       - 🇯🇵 【1x】隧道丨日本 03
       - 🇯🇵 【1x】隧道丨日本 04
       - 🇯🇵 【1x】隧道丨日本 05
       - 🇯🇵 【1x】隧道丨日本 06
-      - 🇰🇷 【1x】隧道丨韩国 01
-      - 🇰🇷 【1x】隧道丨韩国 02
-      - 🇰🇷 【1x】隧道丨韩国 03
-      - 🇸🇬 【1x】隧道丨新加坡 01
-      - 🇸🇬 【1x】隧道丨新加坡 02
-      - 🇸🇬 【1x】隧道丨新加坡 03
-      - 🇸🇬 【1x】隧道丨新加坡 04
-      - 🇸🇬 【1x】隧道丨新加坡 05
-      - 🇸🇬 【1x】隧道丨新加坡 06
-      - 🇲🇴 【1x】隧道丨澳门 01
-      - 🇲🇴 【1x】隧道丨澳门 02
-      - 🇲🇴 【1x】隧道丨澳门 03
       - 🇺🇸 【1x】隧道丨美国 01
       - 🇺🇸 【1x】隧道丨美国 02
       - 🇺🇸 【1x】隧道丨美国 03
       - 🇺🇸 【1x】隧道丨美国 04
       - 🇺🇸 【1x】隧道丨美国 05
       - 🇺🇸 【1x】隧道丨美国 06
-      - 🇺🇸 HD洛杉矶 独立 B
-      - 🇺🇸 HD洛杉矶 独立 A
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港游戏丨2x HK
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+      - 🇯🇵 日本 04丨3x JP
+      - 🇯🇵 日本游戏丨2x JP
+      - 🇺🇸 美国-纽约 01丨1x US
+      - 🇺🇸 美国-丹佛丨1x US
+      - 🇺🇸 美国-洛杉矶 01丨1x US
+      - 🇺🇸 美国-洛杉矶 02丨1x US
+      - 🇺🇸 美国-洛杉矶 03丨1x US
+      - 🇺🇸 美国-圣何塞丨3x US
+      - 🇺🇸 美国-迈阿密丨1x US
+      - 🇺🇸 美国-西雅图丨1x US
+      - 🇺🇸 美国-夏威夷丨3x US
+      - 🇺🇸 美国-旧金山丨1x US
+      - 🇺🇸 美国-堪萨斯丨1x US
+      - 🇺🇸 美国-芝加哥丨1x US
+      - 🇺🇸 美国-夏洛特丨1x US
+      - 🇺🇸 美国-阿什本丨1x US
       - 🇭🇰 【1x】隧道丨香港 01
       - 🇭🇰 【1x】隧道丨香港 02
       - 🇭🇰 【1x】隧道丨香港 03
       - 🇭🇰 【1x】隧道丨香港 04
       - 🇭🇰 【1x】隧道丨香港 05
       - 🇭🇰 【1x】隧道丨香港 06
-      - 🇹🇼 【1x】隧道丨台湾 01
-      - 🇹🇼 【1x】隧道丨台湾 02
-      - 🇹🇼 【1x】隧道丨台湾 03
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
       - 🇯🇵 【1x】隧道丨日本 01
       - 🇯🇵 【1x】隧道丨日本 02
       - 🇯🇵 【1x】隧道丨日本 03
       - 🇯🇵 【1x】隧道丨日本 04
       - 🇯🇵 【1x】隧道丨日本 05
       - 🇯🇵 【1x】隧道丨日本 06
-      - 🇰🇷 【1x】隧道丨韩国 01
-      - 🇰🇷 【1x】隧道丨韩国 02
-      - 🇰🇷 【1x】隧道丨韩国 03
-      - 🇸🇬 【1x】隧道丨新加坡 01
-      - 🇸🇬 【1x】隧道丨新加坡 02
-      - 🇸🇬 【1x】隧道丨新加坡 03
-      - 🇸🇬 【1x】隧道丨新加坡 04
-      - 🇸🇬 【1x】隧道丨新加坡 05
-      - 🇸🇬 【1x】隧道丨新加坡 06
-      - 🇲🇴 【1x】隧道丨澳门 01
-      - 🇲🇴 【1x】隧道丨澳门 02
-      - 🇲🇴 【1x】隧道丨澳门 03
       - 🇺🇸 【1x】隧道丨美国 01
       - 🇺🇸 【1x】隧道丨美国 02
       - 🇺🇸 【1x】隧道丨美国 03
       - 🇺🇸 【1x】隧道丨美国 04
       - 🇺🇸 【1x】隧道丨美国 05
       - 🇺🇸 【1x】隧道丨美国 06
-      - 🇺🇸 HD洛杉矶 独立 B
-      - 🇺🇸 HD洛杉矶 独立 A
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,41 +189,53 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港游戏丨2x HK
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+      - 🇯🇵 日本 04丨3x JP
+      - 🇯🇵 日本游戏丨2x JP
+      - 🇺🇸 美国-纽约 01丨1x US
+      - 🇺🇸 美国-丹佛丨1x US
+      - 🇺🇸 美国-洛杉矶 01丨1x US
+      - 🇺🇸 美国-洛杉矶 02丨1x US
+      - 🇺🇸 美国-洛杉矶 03丨1x US
+      - 🇺🇸 美国-圣何塞丨3x US
+      - 🇺🇸 美国-迈阿密丨1x US
+      - 🇺🇸 美国-西雅图丨1x US
+      - 🇺🇸 美国-夏威夷丨3x US
+      - 🇺🇸 美国-旧金山丨1x US
+      - 🇺🇸 美国-堪萨斯丨1x US
+      - 🇺🇸 美国-芝加哥丨1x US
+      - 🇺🇸 美国-夏洛特丨1x US
+      - 🇺🇸 美国-阿什本丨1x US
       - 🇭🇰 【1x】隧道丨香港 01
       - 🇭🇰 【1x】隧道丨香港 02
       - 🇭🇰 【1x】隧道丨香港 03
       - 🇭🇰 【1x】隧道丨香港 04
       - 🇭🇰 【1x】隧道丨香港 05
       - 🇭🇰 【1x】隧道丨香港 06
-      - 🇹🇼 【1x】隧道丨台湾 01
-      - 🇹🇼 【1x】隧道丨台湾 02
-      - 🇹🇼 【1x】隧道丨台湾 03
+      - 🇨🇳 【1x】隧道丨台湾 01
+      - 🇨🇳 【1x】隧道丨台湾 02
+      - 🇨🇳 【1x】隧道丨台湾 03
       - 🇯🇵 【1x】隧道丨日本 01
       - 🇯🇵 【1x】隧道丨日本 02
       - 🇯🇵 【1x】隧道丨日本 03
       - 🇯🇵 【1x】隧道丨日本 04
       - 🇯🇵 【1x】隧道丨日本 05
       - 🇯🇵 【1x】隧道丨日本 06
-      - 🇰🇷 【1x】隧道丨韩国 01
-      - 🇰🇷 【1x】隧道丨韩国 02
-      - 🇰🇷 【1x】隧道丨韩国 03
-      - 🇸🇬 【1x】隧道丨新加坡 01
-      - 🇸🇬 【1x】隧道丨新加坡 02
-      - 🇸🇬 【1x】隧道丨新加坡 03
-      - 🇸🇬 【1x】隧道丨新加坡 04
-      - 🇸🇬 【1x】隧道丨新加坡 05
-      - 🇸🇬 【1x】隧道丨新加坡 06
-      - 🇲🇴 【1x】隧道丨澳门 01
-      - 🇲🇴 【1x】隧道丨澳门 02
-      - 🇲🇴 【1x】隧道丨澳门 03
       - 🇺🇸 【1x】隧道丨美国 01
       - 🇺🇸 【1x】隧道丨美国 02
       - 🇺🇸 【1x】隧道丨美国 03
       - 🇺🇸 【1x】隧道丨美国 04
       - 🇺🇸 【1x】隧道丨美国 05
       - 🇺🇸 【1x】隧道丨美国 06
-      - 🇺🇸 HD洛杉矶 独立 B
-      - 🇺🇸 HD洛杉矶 独立 A
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
