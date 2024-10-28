@@ -1,101 +1,42 @@
-ipv6: true
-mode: rule
-allow-lan: true
+mixed-port: 7890
+allow-lan: false
+mode: Rule
 log-level: info
-mixed-port: 1080
-unified-delay: true
-tcp-concurrent: true
 external-controller: 127.0.0.1:9090
-global-client-fingerprint: random
-sniffer:
+clash-for-android:
+  append-system-dns: false
+hosts:
+  mtalk.google.com: 108.177.125.188
+dns:
   enable: true
-  parse-pure-ip: true
-  force-dns-mapping: true
-  sniff:
-    TLS: {ports: [0-65535], override-destination: true}
-    HTTP: {ports: [0-65535], override-destination: true}
-    QUIC: {ports: [0-65535], override-destination: true}
+  listen: 127.0.0.1:5335
+  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
+  ipv6: true
+  use-hosts: true
+  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
+  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
+  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: 🇭🇰 HK 01 IPLC × 6, server: shengang.huajia.xyz, port: 39000, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 02 IPLC × 6, server: shengang.huajia.xyz, port: 39001, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 03 IPLC × 6, server: shengang.huajia.xyz, port: 39002, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 04 IPLC × 6, server: shengang.huajia.xyz, port: 39003, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 05 IPLC × 6, server: shengang.huajia.xyz, port: 39004, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 06 IPLC × 6, server: shengang.huajia.xyz, port: 39005, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 07 IPLC × 6, server: shengang.huajia.xyz, port: 39006, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇭🇰 HK 08 IPLC × 6, server: shengang.huajia.xyz, port: 39007, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 01 IPLC × 6, server: shengang.huajia.xyz, port: 39009, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 02 IPLC × 6, server: shengang.huajia.xyz, port: 39010, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 03 IPLC × 6, server: shengang.huajia.xyz, port: 39011, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 04 IPLC × 6, server: shengang.huajia.xyz, port: 39012, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 01 IPLC × 6, server: shengang.huajia.xyz, port: 39013, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 02 IPLC × 6, server: shengang.huajia.xyz, port: 39014, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 03 IPLC × 6, server: shengang.huajia.xyz, port: 39015, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 04 IPLC × 6, server: shengang.huajia.xyz, port: 39016, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 05 IPLC × 6, server: shengang.huajia.xyz, port: 39017, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 01 IPLC × 6, server: huri.huajia.xyz, port: 35001, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 02 IPLC × 6, server: huri.huajia.xyz, port: 35002, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 03 IPLC × 6, server: huri.huajia.xyz, port: 35003, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 04 IPLC × 6, server: huri.huajia.xyz, port: 35004, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 05 IPLC × 6, server: huri.huajia.xyz, port: 35005, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 06 IPLC × 6, server: huri.huajia.xyz, port: 35006, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
+  - {name: 🇺🇸 HD洛杉矶 独立 B, server: hdcnus2.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇺🇸 HD洛杉矶 独立 A, server: hdcnus.menghuan168.ru, port: 12226, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 HK 01 IPLC × 6
-      - 🇭🇰 HK 02 IPLC × 6
-      - 🇭🇰 HK 03 IPLC × 6
-      - 🇭🇰 HK 04 IPLC × 6
-      - 🇭🇰 HK 05 IPLC × 6
-      - 🇭🇰 HK 06 IPLC × 6
-      - 🇭🇰 HK 07 IPLC × 6
-      - 🇭🇰 HK 08 IPLC × 6
-      - 🇨🇳 TW 01 IPLC × 6
-      - 🇨🇳 TW 02 IPLC × 6
-      - 🇨🇳 TW 03 IPLC × 6
-      - 🇨🇳 TW 04 IPLC × 6
-      - 🇸🇬 SG 01 IPLC × 6
-      - 🇸🇬 SG 02 IPLC × 6
-      - 🇸🇬 SG 03 IPLC × 6
-      - 🇸🇬 SG 04 IPLC × 6
-      - 🇸🇬 SG 05 IPLC × 6
-      - 🇯🇵 JP 01 IPLC × 6
-      - 🇯🇵 JP 02 IPLC × 6
-      - 🇯🇵 JP 03 IPLC × 6
-      - 🇯🇵 JP 04 IPLC × 6
-      - 🇯🇵 JP 05 IPLC × 6
-      - 🇯🇵 JP 06 IPLC × 6
+      - DIRECT
+      - 🇺🇸 HD洛杉矶 独立 B
+      - 🇺🇸 HD洛杉矶 独立 A
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 10
+    tolerance: 50
     proxies:
-      - 🇭🇰 HK 01 IPLC × 6
-      - 🇭🇰 HK 02 IPLC × 6
-      - 🇭🇰 HK 03 IPLC × 6
-      - 🇭🇰 HK 04 IPLC × 6
-      - 🇭🇰 HK 05 IPLC × 6
-      - 🇭🇰 HK 06 IPLC × 6
-      - 🇭🇰 HK 07 IPLC × 6
-      - 🇭🇰 HK 08 IPLC × 6
-      - 🇨🇳 TW 01 IPLC × 6
-      - 🇨🇳 TW 02 IPLC × 6
-      - 🇨🇳 TW 03 IPLC × 6
-      - 🇨🇳 TW 04 IPLC × 6
-      - 🇸🇬 SG 01 IPLC × 6
-      - 🇸🇬 SG 02 IPLC × 6
-      - 🇸🇬 SG 03 IPLC × 6
-      - 🇸🇬 SG 04 IPLC × 6
-      - 🇸🇬 SG 05 IPLC × 6
-      - 🇯🇵 JP 01 IPLC × 6
-      - 🇯🇵 JP 02 IPLC × 6
-      - 🇯🇵 JP 03 IPLC × 6
-      - 🇯🇵 JP 04 IPLC × 6
-      - 🇯🇵 JP 05 IPLC × 6
-      - 🇯🇵 JP 06 IPLC × 6
+      - 🇺🇸 HD洛杉矶 独立 B
+      - 🇺🇸 HD洛杉矶 独立 A
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -113,29 +54,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK 01 IPLC × 6
-      - 🇭🇰 HK 02 IPLC × 6
-      - 🇭🇰 HK 03 IPLC × 6
-      - 🇭🇰 HK 04 IPLC × 6
-      - 🇭🇰 HK 05 IPLC × 6
-      - 🇭🇰 HK 06 IPLC × 6
-      - 🇭🇰 HK 07 IPLC × 6
-      - 🇭🇰 HK 08 IPLC × 6
-      - 🇨🇳 TW 01 IPLC × 6
-      - 🇨🇳 TW 02 IPLC × 6
-      - 🇨🇳 TW 03 IPLC × 6
-      - 🇨🇳 TW 04 IPLC × 6
-      - 🇸🇬 SG 01 IPLC × 6
-      - 🇸🇬 SG 02 IPLC × 6
-      - 🇸🇬 SG 03 IPLC × 6
-      - 🇸🇬 SG 04 IPLC × 6
-      - 🇸🇬 SG 05 IPLC × 6
-      - 🇯🇵 JP 01 IPLC × 6
-      - 🇯🇵 JP 02 IPLC × 6
-      - 🇯🇵 JP 03 IPLC × 6
-      - 🇯🇵 JP 04 IPLC × 6
-      - 🇯🇵 JP 05 IPLC × 6
-      - 🇯🇵 JP 06 IPLC × 6
+      - 🇺🇸 HD洛杉矶 独立 B
+      - 🇺🇸 HD洛杉矶 独立 A
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
