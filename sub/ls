@@ -1,31 +1,36 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 SG-E1 Hala 0.2x, server: 001e1.nod3.org, port: 31081, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S1 Hala 0.2x, server: 001s1.nod3.org, port: 31081, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-E1 Akamai 0.2x, server: 001e1.nod3.org, port: 56911, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S1 Akamai 0.2x, server: 001s1.nod3.org, port: 56911, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S2 SpeedyPage, server: 934955s2.nod3.org, port: 50578, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-E1 SpeedyPage 0.2x, server: 001e1.nod3.org, port: 22405, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S3 SpeedyPage, server: 0s92s3.nod3.org, port: 39441, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S5 SpeedyPage, server: olts5.nod3.org, port: 50578, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S2 SG.GS, server: 934955s2.nod3.org, port: 48324, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S3 SG.GS, server: 0s92s3.nod3.org, port: 48324, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇸🇬 SG-S5 SG.GS, server: olts5.nod3.org, port: 37698, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇯🇵 JP-E1 Akari 0.2x, server: 001e1.nod3.org, port: 25092, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇯🇵 JP-E1 Oracle 0.2x, server: 001e1.nod3.org, port: 21699, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇯🇵 JP-E1 Akamai 0.2x, server: 001e1.nod3.org, port: 42363, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇯🇵 JP-E1 Akari, server: 001e1.nod3.org, port: 34238, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇯🇵 JP-E2 Akari, server: p341131e2-jp.nod3.org, port: 34238, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇨🇳 TW-E1 Akari 0.2x, server: 001e1.nod3.org, port: 31281, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇨🇳 TW-S1 Akari 0.2x, server: 001s1.nod3.org, port: 31281, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇨🇳 TW-S2 Akari, server: 934955s2.nod3.org, port: 32849, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇨🇳 TW-S3 Akari, server: 0s92s3.nod3.org, port: 32849, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
-  - {name: 🇨🇳 TW-S5 Akari, server: olts5.nod3.org, port: 53497, type: ss, cipher: aes-128-gcm, password: f0a31cee-9ec4-46b8-b342-9f17f9d009f1, udp: true}
+  - {name: 🇭🇰 HK-01 S1, server: premiumgg.mtls.xyz, port: 30001, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-02 S1, server: premiumgg.mtls.xyz, port: 30002, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-03 S1, server: premiumgg.mtls.xyz, port: 30003, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-04 S1, server: premiumgg.mtls.xyz, port: 30006, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-05 S1, server: premiumgg.mtls.xyz, port: 30077, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-06 S1, server: premiumgg.mtls.xyz, port: 30110, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-07 S1 HKT, server: premiumgg.mtls.xyz, port: 30234, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-08 S1 HKBN, server: premiumgg.mtls.xyz, port: 20292, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-09 S1 HGC, server: premiumgg.mtls.xyz, port: 30482, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-10 S1, server: premiumgg.mtls.xyz, port: 30494, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-01 E1, server: ll-hg.mtls.xyz, port: 30001, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-02 E1, server: ll-hg.mtls.xyz, port: 30002, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-03 E1, server: ll-hg.mtls.xyz, port: 30003, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-04 E1, server: ll-hg.mtls.xyz, port: 30006, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-05 E1, server: ll-hg.mtls.xyz, port: 30077, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-06 E1, server: ll-hg.mtls.xyz, port: 30110, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-07 E1 HKT, server: ll-hg.mtls.xyz, port: 30234, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-08 E1 HKBN, server: ll-hg.mtls.xyz, port: 20292, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-09 E1 HGC, server: ll-hg.mtls.xyz, port: 30482, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-10 E1, server: ll-hg.mtls.xyz, port: 30494, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-01 N1, server: ll-jg.mtls.xyz, port: 30001, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-02 N1, server: ll-jg.mtls.xyz, port: 30002, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-03 N1, server: ll-jg.mtls.xyz, port: 30003, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-04 N1, server: ll-jg.mtls.xyz, port: 30006, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-05 N1, server: ll-jg.mtls.xyz, port: 30077, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-06 N1, server: ll-jg.mtls.xyz, port: 30110, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-07 N1 HKT, server: ll-jg.mtls.xyz, port: 30234, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-08 N1 HKBN, server: ll-jg.mtls.xyz, port: 20292, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-09 N1 HGC, server: ll-jg.mtls.xyz, port: 30482, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: 🇭🇰 HK-10 N1, server: ll-jg.mtls.xyz, port: 30494, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
+  - {name: "🇭🇰 HK-11 [Special]", server: ll-hk-sp-fwsefoie-02.linkeless.net, port: 43811, type: trojan, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 HK-12 [Special]", server: llhkcn2.mtls.xyz, port: 40021, type: trojan, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW-01 S1, server: premiumgg.mtls.xyz, port: 30169, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
   - {name: 🇨🇳 TW-02 S1, server: premiumgg.mtls.xyz, port: 30173, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
   - {name: 🇨🇳 TW-03 S1, server: premiumgg.mtls.xyz, port: 30183, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
@@ -50,192 +55,4 @@ proxies:
   - {name: 🇸🇬 SG-02 N1, server: ll-jg.mtls.xyz, port: 30005, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
   - {name: 🇸🇬 SG-03 N1, server: ll-jg.mtls.xyz, port: 30107, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
   - {name: 🇸🇬 SG-04 N1 SGGS, server: ll-jg.mtls.xyz, port: 30140, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: "🇸🇬 SG-05 [Special]", server: ll-sg-sp-sdfwef-01.linkeless.net, port: 32213, type: trojan, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-01 E2, server: premiumhr.mtls.xyz, port: 30001, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: 🇯🇵 JP-02 E2, server: premiumhr.mtls.xyz, port: 30008, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: 🇯🇵 JP-03 E2, server: premiumhr.mtls.xyz, port: 30029, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: 🇯🇵 JP-04 E2, server: premiumhr.mtls.xyz, port: 30216, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: 🇯🇵 JP-05 E2 Sonet, server: premiumhr.mtls.xyz, port: 30231, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: 🇯🇵 JP-06 E2 BIGLOBE, server: premiumhr.mtls.xyz, port: 30490, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
-  - {name: "🇯🇵 JP-07 [Special]", server: lljpcn2.mtls.xyz, port: 40021, type: trojan, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 01, server: tw01.huajia.xyz, port: 36029, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 02, server: tw02.huajia.xyz, port: 36007, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 03, server: tw03.huajia.xyz, port: 36008, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TW 04, server: tw04.huajia.xyz, port: 36018, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 01, server: sg01.huajia.xyz, port: 36017, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 02, server: sg02.huajia.xyz, port: 36012, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 03, server: sg03.huajia.xyz, port: 36023, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 04, server: sg04.huajia.xyz, port: 36035, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 05, server: sg05.huajia.xyz, port: 36013, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇸🇬 SG 06 TG.DC5, server: sg06.huajia.xyz, port: 36041, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 01, server: jp01.huajia.xyz, port: 36003, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 04, server: jp04.huajia.xyz, port: 36026, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 05, server: jp05.huajia.xyz, port: 36014, type: ss, cipher: aes-256-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇯🇵 JP 06, server: jp06.huajia.xyz, port: 36040, type: ss, cipher: aes-128-gcm, password: 6dff5568-4efe-4188-9c1c-86ca8ac7cadd, udp: true}
-  - {name: 🇨🇳 TWN 2, server: automata.cc.gtm.volcdns.com, port: 30086, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇨🇳 TWN 3, server: automata.cc.gtm.volcdns.com, port: 30087, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇨🇳 TWN 4, server: automata.cc.gtm.volcdns.com, port: 30088, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇨🇳 TWN 5, server: automata.cc.gtm.volcdns.com, port: 30089, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇨🇳 TWN 6, server: automata.cc.gtm.volcdns.com, port: 30090, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇨🇳 TWN 7, server: automata.cc.gtm.volcdns.com, port: 30091, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 8, server: automata.cc.gtm.volcdns.com, port: 30092, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 9, server: automata.cc.gtm.volcdns.com, port: 30093, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 10, server: automata.cc.gtm.volcdns.com, port: 30094, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TWN 11, server: automata.cc.gtm.volcdns.com, port: 30095, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 2, server: automata.cc.gtm.volcdns.com, port: 33045, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇯🇵 JPN 3, server: automata.cc.gtm.volcdns.com, port: 30075, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇯🇵 JPN 4, server: automata.cc.gtm.volcdns.com, port: 30078, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇯🇵 JPN 5, server: automata.cc.gtm.volcdns.com, port: 30076, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇯🇵 JPN 6, server: automata.cc.gtm.volcdns.com, port: 30200, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 1, server: automata.cc.gtm.volcdns.com, port: 30046, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 2 0.8x, server: automata.cc.gtm.volcdns.com, port: 30074, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 4, server: automata.cc.gtm.volcdns.com, port: 30208, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 5, server: automata.cc.gtm.volcdns.com, port: 30209, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 6, server: automata.cc.gtm.volcdns.com, port: 30210, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 7, server: automata.cc.gtm.volcdns.com, port: 30211, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 8, server: automata.cc.gtm.volcdns.com, port: 30212, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 9, server: automata.cc.gtm.volcdns.com, port: 30213, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 10 2, server: automata.cc.gtm.volcdns.com, port: 30214, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 11 2, server: automata.cc.gtm.volcdns.com, port: 30215, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-  - {name: 🇸🇬 SGP 12 2, server: automata.cc.gtm.volcdns.com, port: 30216, type: vmess, uuid: 79aaf8be-400c-4f5a-8b0a-f2a906d36f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/apple-push?ed=2048", headers: {Host: automata.cc.gtm.volcdns.com}}, udp: true}
-proxy-groups:
-  - name: Proxies
-    type: select
-    proxies:
-      - 🇸🇬 SG-E1 Hala 0.2x
-      - 🇸🇬 SG-S1 Hala 0.2x
-      - 🇸🇬 SG-E1 Akamai 0.2x
-      - 🇸🇬 SG-S1 Akamai 0.2x
-      - 🇸🇬 SG-S2 SpeedyPage
-      - 🇸🇬 SG-E1 SpeedyPage 0.2x
-      - 🇸🇬 SG-S3 SpeedyPage
-      - 🇸🇬 SG-S5 SpeedyPage
-      - 🇸🇬 SG-S2 SG.GS
-      - 🇸🇬 SG-S3 SG.GS
-      - 🇸🇬 SG-S5 SG.GS
-      - 🇯🇵 JP-E1 Akari 0.2x
-      - 🇯🇵 JP-E1 Oracle 0.2x
-      - 🇯🇵 JP-E1 Akamai 0.2x
-      - 🇯🇵 JP-E1 Akari
-      - 🇯🇵 JP-E2 Akari
-      - 🇨🇳 TW-E1 Akari 0.2x
-      - 🇨🇳 TW-S1 Akari 0.2x
-      - 🇨🇳 TW-S2 Akari
-      - 🇨🇳 TW-S3 Akari
-      - 🇨🇳 TW-S5 Akari
-      - 🇨🇳 TW-01 S1
-      - 🇨🇳 TW-02 S1
-      - 🇨🇳 TW-03 S1
-      - 🇨🇳 TW-04 S1 Hinet
-      - 🇨🇳 TW-01 E1
-      - 🇨🇳 TW-02 E1
-      - 🇨🇳 TW-03 E1
-      - 🇨🇳 TW-04 E1 Hinet
-      - 🇨🇳 TW-01 N1
-      - 🇨🇳 TW-02 N1
-      - 🇨🇳 TW-03 N1
-      - 🇨🇳 TW-04 N1 Hinet
-      - 🇸🇬 SG-01 S1
-      - 🇸🇬 SG-02 S1
-      - 🇸🇬 SG-03 S1
-      - 🇸🇬 SG-04 S1 SGGS
-      - 🇸🇬 SG-01 E1
-      - 🇸🇬 SG-02 E1
-      - 🇸🇬 SG-03 E1
-      - 🇸🇬 SG-04 E1 SGGS
-      - 🇸🇬 SG-01 N1
-      - 🇸🇬 SG-02 N1
-      - 🇸🇬 SG-03 N1
-      - 🇸🇬 SG-04 N1 SGGS
-      - 🇸🇬 SG-05 [Special]
-      - 🇯🇵 JP-01 E2
-      - 🇯🇵 JP-02 E2
-      - 🇯🇵 JP-03 E2
-      - 🇯🇵 JP-04 E2
-      - 🇯🇵 JP-05 E2 Sonet
-      - 🇯🇵 JP-06 E2 BIGLOBE
-      - 🇯🇵 JP-07 [Special]
-      - 🇨🇳 TW 01
-      - 🇨🇳 TW 02
-      - 🇨🇳 TW 03
-      - 🇨🇳 TW 04
-      - 🇸🇬 SG 01
-      - 🇸🇬 SG 02
-      - 🇸🇬 SG 03
-      - 🇸🇬 SG 04
-      - 🇸🇬 SG 05
-      - 🇸🇬 SG 06 TG.DC5
-      - 🇯🇵 JP 01
-      - 🇯🇵 JP 04
-      - 🇯🇵 JP 05
-      - 🇯🇵 JP 06
-      - 🇨🇳 TWN 2
-      - 🇨🇳 TWN 3
-      - 🇨🇳 TWN 4
-      - 🇨🇳 TWN 5
-      - 🇨🇳 TWN 6
-      - 🇨🇳 TWN 7
-      - 🇨🇳 TWN 8
-      - 🇨🇳 TWN 9
-      - 🇨🇳 TWN 10
-      - 🇨🇳 TWN 11
-      - 🇯🇵 JPN 2
-      - 🇯🇵 JPN 3
-      - 🇯🇵 JPN 4
-      - 🇯🇵 JPN 5
-      - 🇯🇵 JPN 6
-      - 🇸🇬 SGP 1
-      - 🇸🇬 SGP 2 0.8x
-      - 🇸🇬 SGP 4
-      - 🇸🇬 SGP 5
-      - 🇸🇬 SGP 6
-      - 🇸🇬 SGP 7
-      - 🇸🇬 SGP 8
-      - 🇸🇬 SGP 9
-      - 🇸🇬 SGP 10 2
-      - 🇸🇬 SGP 11 2
-      - 🇸🇬 SGP 12 2
-rules:
-  - DOMAIN-SUFFIX,1password.com,DIRECT
-  - DOMAIN-SUFFIX,vultr.com,DIRECT
-  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
-  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
-  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
-  - DOMAIN,mtalk.google.com,DIRECT
-  - DOMAIN,alt1-mtalk.google.com,DIRECT
-  - DOMAIN,alt2-mtalk.google.com,DIRECT
-  - DOMAIN,alt3-mtalk.google.com,DIRECT
-  - DOMAIN,alt4-mtalk.google.com,DIRECT
-  - DOMAIN,alt5-mtalk.google.com,DIRECT
-  - DOMAIN,alt6-mtalk.google.com,DIRECT
-  - DOMAIN,alt7-mtalk.google.com,DIRECT
-  - DOMAIN,alt8-mtalk.google.com,DIRECT
-  - DOMAIN,alt9-mtalk.google.com,DIRECT
-  - DOMAIN,captive.apple.com,DIRECT
-  - DOMAIN,time-ios.apple.com,DIRECT
-  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
-  - DOMAIN-SUFFIX,push.apple.com,DIRECT
-  - DOMAIN-KEYWORD,baidu,DIRECT
-  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
-  - DOMAIN-KEYWORD,github,Proxies
-  - DOMAIN-SUFFIX,github.com,Proxies
-  - DOMAIN-SUFFIX,github.io,Proxies
-  - DOMAIN-SUFFIX,githubapp.com,Proxies
-  - DOMAIN-SUFFIX,githubassets.com,Proxies
-  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
-  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
-  - DOMAIN,ip.skk.moe,Proxies
-  - DOMAIN,ip.sb,Proxies
-  - DOMAIN-SUFFIX,googleapis.cn,Proxies
-  - DOMAIN-KEYWORD,m-team,Proxies
-  - DOMAIN,o33249.ingest.sentry.io,Proxies
-  - DOMAIN,openaiapi-site.azureedge.net,Proxies
-  - DOMAIN-SUFFIX,ai.com,Proxies
-  - DOMAIN-SUFFIX,auth0.com,Proxies
-  - DOMAIN-SUFFIX,identrust.com,Proxies
-  - DOMAIN-SUFFIX,intercom.io,Proxies
-  - DOMAIN-SUFFIX,openai.com,Proxies
-  - DOMAIN-SUFFIX,oaistatic.com,Proxies
-  - DOMAIN-SUFFIX,oaiusercontent.com,Proxies
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxies
+  - {name: "🇸🇬 SG-05 [Special]", server: ll-sg-sp-sdfwef-01.linkeless.net, port: 32213, type: trojan, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, skip-cert-verify: false, udp: true}
