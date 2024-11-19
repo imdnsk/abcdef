@@ -30,6 +30,15 @@ proxies:
   - {name: 🇬🇧 GBR Akile, server: mmt.bjcu.donghui.tech, port: 25203, type: ss, cipher: aes-256-gcm, password: fa4efd14-b3af-4ec9-a9b8-e212fa8a09e9, udp: true}
   - {name: 🇩🇪 DE h2.nexus, server: mmt.bjcu.donghui.tech, port: 49647, type: ss, cipher: aes-256-gcm, password: fa4efd14-b3af-4ec9-a9b8-e212fa8a09e9, udp: true}
   - {name: NGA Cloudflare WARP, server: biedazjyd.zhangwei.li, port: 14836, type: ss, cipher: aes-256-gcm, password: fa4efd14-b3af-4ec9-a9b8-e212fa8a09e9, udp: true}
+  - {name: 🇭🇰 Alike-HK->MO, server: 141.11.219.209, port: 28630, type: vmess, uuid: 5d57e683-c71a-4df2-885f-99fdb30d97c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Alike-HK->KR, server: 141.11.219.209, port: 39227, type: vmess, uuid: 6d0c515a-4fc6-484f-a4b4-3b9a05401f6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Alike-HK->MY, server: 141.11.219.209, port: 20587, type: vmess, uuid: 41ab1b2d-e495-4a39-806f-655c85bbf81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS-KR->JP, server: biedazjyd.zhangwei.li, port: 39189, type: ss, cipher: aes-128-gcm, password: FlXNbPFFeVr+N+DiFKWNRCPO6jmswQUZyuDIV29OZkQ=, udp: true}
+  - {name: 🇰🇷 AWS-KR->NG, server: mmt-shyd.iwe.la, port: 31308, type: ss, cipher: aes-128-gcm, password: sQPZTh7jQGWll9mMJevmXkFOHpY1DK3+4qBA3fESHuE=, udp: true}
+  - {name: 🇯🇵 Claw-JP, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 41259, type: vmess, uuid: 0bfc8fc7-9cdc-4831-96d4-65d294f31d09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇨🇳 Claw-JP->TW, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 45305, type: vmess, uuid: 5be9f1eb-6458-41fb-8623-7d2f2dc9af52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 Claw-JP->SG, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 55118, type: vmess, uuid: b5a79c4c-d11a-423b-ad04-3cf0cb5cae6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇯🇵 Claw-JP->UK, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 59442, type: vmess, uuid: d33e1946-3847-4baa-886c-8258f83b3b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,6 +56,15 @@ proxy-groups:
       - 🇬🇧 GBR Akile
       - 🇩🇪 DE h2.nexus
       - NGA Cloudflare WARP
+      - 🇭🇰 Alike-HK->MO
+      - 🇭🇰 Alike-HK->KR
+      - 🇭🇰 Alike-HK->MY
+      - 🇯🇵 AWS-KR->JP
+      - 🇰🇷 AWS-KR->NG
+      - 🇯🇵 Claw-JP
+      - 🇨🇳 Claw-JP->TW
+      - 🇸🇬 Claw-JP->SG
+      - 🇯🇵 Claw-JP->UK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -64,6 +82,15 @@ proxy-groups:
       - 🇬🇧 GBR Akile
       - 🇩🇪 DE h2.nexus
       - NGA Cloudflare WARP
+      - 🇭🇰 Alike-HK->MO
+      - 🇭🇰 Alike-HK->KR
+      - 🇭🇰 Alike-HK->MY
+      - 🇯🇵 AWS-KR->JP
+      - 🇰🇷 AWS-KR->NG
+      - 🇯🇵 Claw-JP
+      - 🇨🇳 Claw-JP->TW
+      - 🇸🇬 Claw-JP->SG
+      - 🇯🇵 Claw-JP->UK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,6 +119,15 @@ proxy-groups:
       - 🇬🇧 GBR Akile
       - 🇩🇪 DE h2.nexus
       - NGA Cloudflare WARP
+      - 🇭🇰 Alike-HK->MO
+      - 🇭🇰 Alike-HK->KR
+      - 🇭🇰 Alike-HK->MY
+      - 🇯🇵 AWS-KR->JP
+      - 🇰🇷 AWS-KR->NG
+      - 🇯🇵 Claw-JP
+      - 🇨🇳 Claw-JP->TW
+      - 🇸🇬 Claw-JP->SG
+      - 🇯🇵 Claw-JP->UK
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
