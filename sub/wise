@@ -39,6 +39,75 @@ proxies:
   - {name: 🇨🇳 Claw-JP->TW, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 45305, type: vmess, uuid: 5be9f1eb-6458-41fb-8623-7d2f2dc9af52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇸🇬 Claw-JP->SG, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 55118, type: vmess, uuid: b5a79c4c-d11a-423b-ad04-3cf0cb5cae6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇯🇵 Claw-JP->UK, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 59442, type: vmess, uuid: d33e1946-3847-4baa-886c-8258f83b3b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 香港TROJAN直连 0.01x, server: 172f00f80719edf399fc4d5e3b5c2255.node.tro.node-is.green, port: 49270, type: trojan, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, sni: data.bilibili.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01 SS, server: ss.hkglink.xyz, port: 11001, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 02 SS, server: ss.hkglink.xyz, port: 11002, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 03 SS, server: ss.hkglink.xyz, port: 11003, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 04 SS, server: ss.hkglink.xyz, port: 11004, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 05 SS, server: ss.hkglink.xyz, port: 11005, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 06 SS, server: ss.hkglink.xyz, port: 11006, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 07 SS, server: ss.hkglink.xyz, port: 11007, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 08 SS, server: ss.hkglink.xyz, port: 11008, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 01, server: ss.sgplink.xyz, port: 20641, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 02, server: ss.sgplink.xyz, port: 20642, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 03, server: ss.sgplink.xyz, port: 20643, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 04, server: ss.sgplink.xyz, port: 20644, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 05, server: ss.sgplink.xyz, port: 20645, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 06, server: ss.sgplink.xyz, port: 20646, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 07, server: ss.sgplink.xyz, port: 20647, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 08, server: ss.sgplink.xyz, port: 20648, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 01, server: ss.twplink.xyz, port: 20541, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 02, server: ss.twplink.xyz, port: 20542, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 03, server: ss.twplink.xyz, port: 20543, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 04, server: ss.twplink.xyz, port: 20544, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 05, server: ss.twplink.xyz, port: 20545, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 06, server: ss.twplink.xyz, port: 20546, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇰🇷 韩国 01, server: kr.node1link.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 01, server: ss.jpnlink.xyz, port: 20841, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 02, server: ss.jpnlink.xyz, port: 20842, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 03, server: ss.jpnlink.xyz, port: 20843, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 04, server: ss.jpnlink.xyz, port: 20844, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 05, server: ss.jpnlink.xyz, port: 20845, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 06, server: ss.jpnlink.xyz, port: 20846, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 07, server: ss.jpnlink.xyz, port: 20847, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 08, server: ss.jpnlink.xyz, port: 20848, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 01, server: ss.usalink.xyz, port: 20741, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 02, server: ss.usalink.xyz, port: 20742, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 03, server: ss.usalink.xyz, port: 20743, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 04, server: ss.usalink.xyz, port: 20744, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 05, server: ss.usalink.xyz, port: 20745, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 06, server: ss.usalink.xyz, port: 20746, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 07, server: ss.usalink.xyz, port: 20747, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 08, server: ss.usalink.xyz, port: 20748, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇦 加拿大 01, server: ens.node1link.xyz, port: 22002, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 01, server: ens.node1link.xyz, port: 22004, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 02, server: ens.node1link.xyz, port: 22005, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 03, server: ens.node1link.xyz, port: 22006, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 04, server: ens.node1link.xyz, port: 22007, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 05, server: ens.node1link.xyz, port: 22008, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇩🇪 德国 01, server: i.node1link.xyz, port: 22005, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 乌克兰 01, server: i.node1link.xyz, port: 22009, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇵🇭 菲律宾 01, server: i.node1link.xyz, port: 22010, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇪🇪 爱沙尼亚 01, server: i.node1link.xyz, port: 22012, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇹🇭 泰国 01, server: i.node1link.xyz, port: 22013, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇴 澳门 01, server: i.node1link.xyz, port: 22014, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇴 澳门 02, server: i.node1link.xyz, port: 22033, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇰🇭 柬埔寨 01, server: i.node1link.xyz, port: 22015, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇻🇳 越南 01, server: i.node1link.xyz, port: 22016, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 缅甸 01, server: i.node1link.xyz, port: 22017, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 老挝 01, server: i.node1link.xyz, port: 22018, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 尼日利亚 01, server: i.node1link.xyz, port: 22019, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: "🇺🇸 美国AT&T 01", server: i.node1link.xyz, port: 22020, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国Comcast 01, server: i.node1link.xyz, port: 22021, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇷🇺 俄罗斯 01, server: i.node1link.xyz, port: 22023, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇬🇧 英国 01, server: i.node1link.xyz, port: 22024, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇦 沙特阿拉伯 01, server: i.node1link.xyz, port: 22025, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 伊拉克 01, server: i.node1link.xyz, port: 22026, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇧🇷 巴西 01, server: i.node1link.xyz, port: 22027, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 孟加拉国 01, server: i.node1link.xyz, port: 22029, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇦🇪 迪拜 01, server: i.node1link.xyz, port: 22030, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇦🇺 澳大利亚 01, server: i.node1link.xyz, port: 22031, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 新加坡StarHub 01, server: i.node1link.xyz, port: 22032, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -65,6 +134,75 @@ proxy-groups:
       - 🇨🇳 Claw-JP->TW
       - 🇸🇬 Claw-JP->SG
       - 🇯🇵 Claw-JP->UK
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 乌克兰 01
+      - 🇵🇭 菲律宾 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - 🇰🇭 柬埔寨 01
+      - 🇻🇳 越南 01
+      - 缅甸 01
+      - 老挝 01
+      - 🇯🇵 尼日利亚 01
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇷🇺 俄罗斯 01
+      - 🇬🇧 英国 01
+      - 🇸🇦 沙特阿拉伯 01
+      - 伊拉克 01
+      - 🇧🇷 巴西 01
+      - 孟加拉国 01
+      - 🇦🇪 迪拜 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -91,6 +229,75 @@ proxy-groups:
       - 🇨🇳 Claw-JP->TW
       - 🇸🇬 Claw-JP->SG
       - 🇯🇵 Claw-JP->UK
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 乌克兰 01
+      - 🇵🇭 菲律宾 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - 🇰🇭 柬埔寨 01
+      - 🇻🇳 越南 01
+      - 缅甸 01
+      - 老挝 01
+      - 🇯🇵 尼日利亚 01
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇷🇺 俄罗斯 01
+      - 🇬🇧 英国 01
+      - 🇸🇦 沙特阿拉伯 01
+      - 伊拉克 01
+      - 🇧🇷 巴西 01
+      - 孟加拉国 01
+      - 🇦🇪 迪拜 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,6 +335,75 @@ proxy-groups:
       - 🇨🇳 Claw-JP->TW
       - 🇸🇬 Claw-JP->SG
       - 🇯🇵 Claw-JP->UK
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 乌克兰 01
+      - 🇵🇭 菲律宾 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - 🇰🇭 柬埔寨 01
+      - 🇻🇳 越南 01
+      - 缅甸 01
+      - 老挝 01
+      - 🇯🇵 尼日利亚 01
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇷🇺 俄罗斯 01
+      - 🇬🇧 英国 01
+      - 🇸🇦 沙特阿拉伯 01
+      - 伊拉克 01
+      - 🇧🇷 巴西 01
+      - 孟加拉国 01
+      - 🇦🇪 迪拜 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
