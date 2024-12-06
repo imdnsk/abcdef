@@ -18,60 +18,249 @@ sniffer:
 proxies:
   - {name: 🇺🇸 HD洛杉矶 独立 B, server: hdcnus2.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇺🇸 HD洛杉矶 独立 A, server: hdcnus.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbso.bnnodeservice.com, port: 32001, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbso.bnnodeservice.com, port: 32028, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-广东专线 NeaRoute, server: lbso.bnnodeservice.com, port: 32003, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32009, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32010, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32039, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32011, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbso.bnnodeservice.com, port: 32012, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbso.bnnodeservice.com, port: 32038, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国-广东专线 Bangmod, server: lbso.bnnodeservice.com, port: 32043, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbso.bnnodeservice.com, port: 32014, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32026, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbso.bnnodeservice.com, port: 32015, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbso.bnnodeservice.com, port: 32017, tfo: true, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港TROJAN直连 0.01x, server: 03aad9bf55d58978b24e7d319813db6c.node.tro.node-is.green, port: 42767, tfo: true, type: trojan, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, sni: data.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01 SS, server: ss.hkglink.xyz, port: 11001, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 02 SS, server: ss.hkglink.xyz, port: 11002, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 03 SS, server: ss.hkglink.xyz, port: 11003, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 04 SS, server: ss.hkglink.xyz, port: 11004, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 05 SS, server: ss.hkglink.xyz, port: 11005, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 06 SS, server: ss.hkglink.xyz, port: 11006, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 07 SS, server: ss.hkglink.xyz, port: 11007, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 香港 08 SS, server: ss.hkglink.xyz, port: 11008, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 01, server: ss.sgplink.xyz, port: 20641, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 02, server: ss.sgplink.xyz, port: 20642, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 03, server: ss.sgplink.xyz, port: 20643, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 04, server: ss.sgplink.xyz, port: 20644, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 05, server: ss.sgplink.xyz, port: 20645, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 06, server: ss.sgplink.xyz, port: 20646, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 07, server: ss.sgplink.xyz, port: 20647, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 狮城 08, server: ss.sgplink.xyz, port: 20648, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 01, server: ss.twplink.xyz, port: 20541, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 02, server: ss.twplink.xyz, port: 20542, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 03, server: ss.twplink.xyz, port: 20543, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 04, server: ss.twplink.xyz, port: 20544, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 05, server: ss.twplink.xyz, port: 20545, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇳 台湾 06, server: ss.twplink.xyz, port: 20546, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇰🇷 韩国 01, server: kr.node1link.xyz, port: 21101, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 01, server: ss.jpnlink.xyz, port: 20841, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 02, server: ss.jpnlink.xyz, port: 20842, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 03, server: ss.jpnlink.xyz, port: 20843, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 04, server: ss.jpnlink.xyz, port: 20844, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 05, server: ss.jpnlink.xyz, port: 20845, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 06, server: ss.jpnlink.xyz, port: 20846, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 07, server: ss.jpnlink.xyz, port: 20847, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇯🇵 日本 08, server: ss.jpnlink.xyz, port: 20848, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 01, server: ss.usalink.xyz, port: 20741, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 02, server: ss.usalink.xyz, port: 20742, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 03, server: ss.usalink.xyz, port: 20743, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 04, server: ss.usalink.xyz, port: 20744, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 05, server: ss.usalink.xyz, port: 20745, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 06, server: ss.usalink.xyz, port: 20746, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 07, server: ss.usalink.xyz, port: 20747, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国 08, server: ss.usalink.xyz, port: 20748, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇨🇦 加拿大 01, server: ens.node1link.xyz, port: 22002, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 01, server: ens.node1link.xyz, port: 22004, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 02, server: ens.node1link.xyz, port: 22005, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 03, server: ens.node1link.xyz, port: 22006, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 04, server: ens.node1link.xyz, port: 22007, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇾 马来西亚 05, server: ens.node1link.xyz, port: 22008, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇩🇪 德国 01, server: i.node1link.xyz, port: 22005, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇪🇪 爱沙尼亚 01, server: i.node1link.xyz, port: 22012, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇹🇭 泰国 01, server: i.node1link.xyz, port: 22013, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇴 澳门 01, server: i.node1link.xyz, port: 22014, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇲🇴 澳门 02, server: i.node1link.xyz, port: 22033, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: "🇺🇸 美国AT&T 01", server: i.node1link.xyz, port: 22020, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇺🇸 美国Comcast 01, server: i.node1link.xyz, port: 22021, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇬🇧 英国 01, server: i.node1link.xyz, port: 22024, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇦🇺 澳大利亚 01, server: i.node1link.xyz, port: 22031, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇸🇬 新加坡StarHub 01, server: i.node1link.xyz, port: 22032, tfo: true, type: ss, cipher: aes-128-gcm, password: a565bafa-d2d4-435c-91cb-c6419875d9c0, udp: true}
+  - {name: 🇭🇰 HKG Akile, server: biedazjyd.zhangwei.li, port: 16120, tfo: true, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, udp: true}
+  - {name: 🇭🇰 HKG Alike, server: default.hk.akile.ddns.ad.989567.xyz, port: 29705, tfo: true, type: vmess, uuid: 957a4bd6-29da-48f3-bdae-047ab88dc884, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.hk.akile.ddns.ad.989567.xyz}}, udp: true}
+  - {name: MAC Alike->MO, server: 141.11.219.209, port: 28630, tfo: true, type: vmess, uuid: 5d57e683-c71a-4df2-885f-99fdb30d97c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TWN Hinet, server: shcua.donghui.tech, port: 33193, tfo: true, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, udp: true}
+  - {name: 🇨🇳 TWN Claw->TW, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 45305, tfo: true, type: vmess, uuid: 5be9f1eb-6458-41fb-8623-7d2f2dc9af52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇯🇵 JPN AWS->JP, server: biedazjyd.zhangwei.li, port: 39189, tfo: true, type: ss, cipher: aes-128-gcm, password: FlXNbPFFeVr+N+DiFKWNRCPO6jmswQUZyuDIV29OZkQ=, udp: true}
+  - {name: 🇯🇵 JPN Claw, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 41259, tfo: true, type: vmess, uuid: 0bfc8fc7-9cdc-4831-96d4-65d294f31d09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇰🇷 KOR Alike->KR, server: 141.11.219.209, port: 39227, tfo: true, type: vmess, uuid: 6d0c515a-4fc6-484f-a4b4-3b9a05401f6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KOR AWS, server: mmt.bjcu.donghui.tech, port: 38380, tfo: true, type: ss, cipher: aes-128-gcm, password: dAp4G4E0vO6djsXfoj7TwJ+3Y6ZvuUmFSvNEqz90Oco=, udp: true}
+  - {name: 🇰🇷 KOR Moack, server: default.kr.moack.ddns.ad.989567.xyz, port: 55274, tfo: true, type: vmess, uuid: 8b9f8ad6-b3c1-4da8-aec4-d4bf0eb36171, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.kr.moack.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 SGP Claw->SG, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 55118, tfo: true, type: vmess, uuid: b5a79c4c-d11a-423b-ad04-3cf0cb5cae6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 SGP DigitalOcean, server: default.sg.digitalocean.ddns.ad.989567.xyz, port: 43138, tfo: true, type: vmess, uuid: e18cdb2f-91d1-40f0-8626-0cde0936cc36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.sg.digitalocean.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 SGP Huawei Cloud-SG, server: default.sg.huawei.ddns.ad.989567.xyz, port: 44462, tfo: true, type: vmess, uuid: c3569114-c377-44db-8e27-366d0f79ac1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.huawei.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇲🇾 MYS Alike->MY, server: 141.11.219.209, port: 20587, tfo: true, type: vmess, uuid: 41ab1b2d-e495-4a39-806f-655c85bbf81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GBR Akile, server: default.uk.akile.ddns.ad.989567.xyz, port: 39911, tfo: true, type: vmess, uuid: 67232935-de5d-4d5d-8998-936c7084185c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.uk.akile.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇬🇧 GBR Claw->UK, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 59442, tfo: true, type: vmess, uuid: d33e1946-3847-4baa-886c-8258f83b3b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇩🇪 DEU Wuyoucloud-DE, server: mmt.bjcu.donghui.tech, port: 34197, tfo: true, type: ss, cipher: aes-128-gcm, password: IF1LdAmq+rU3rSIkBNTGOXKWqNQo97VL5he+eExAj88=, udp: true}
+  - {name: 🇩🇪 DEU H2.Nexus, server: default.de.h2nexus.ddns.ad.989567.xyz, port: 45481, tfo: true, type: vmess, uuid: 50292347-aab2-4bd7-bae5-55d0aa60fe40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.de.h2nexus.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇺🇸 USA VmShell-US IPv6, server: "[2602:f947:0:6b::359d]", port: 38705, tfo: true, type: vmess, uuid: 10574735-7786-4c2a-b6c9-4e40ddac6bf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NGA Haruka Cloud, server: biedazjyd.zhangwei.li, port: 14836, tfo: true, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, udp: true}
+  - {name: INR DigitalOcean, server: default.in.digitalocean.ddns.ad.989567.xyz, port: 19645, tfo: true, type: vmess, uuid: f90c88e0-c206-4849-b2ca-833348c0cad1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.in.digitalocean.ddns.ad.989567.xyz}}, udp: true}
 proxy-groups:
   - name: shopee
     type: select
     proxies:
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇨🇳 台湾-广东专线 NeaRoute
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇮🇳 印度-广东专线 DOIN
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇬🇧 英国 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
+      - 🇭🇰 HKG Akile
+      - 🇭🇰 HKG Alike
+      - MAC Alike->MO
+      - 🇨🇳 TWN Hinet
+      - 🇨🇳 TWN Claw->TW
+      - 🇯🇵 JPN AWS->JP
+      - 🇯🇵 JPN Claw
+      - 🇰🇷 KOR Alike->KR
+      - 🇰🇷 KOR AWS
+      - 🇰🇷 KOR Moack
+      - 🇸🇬 SGP Claw->SG
+      - 🇸🇬 SGP DigitalOcean
+      - 🇸🇬 SGP Huawei Cloud-SG
+      - 🇲🇾 MYS Alike->MY
+      - 🇬🇧 GBR Akile
+      - 🇬🇧 GBR Claw->UK
+      - 🇩🇪 DEU Wuyoucloud-DE
+      - 🇩🇪 DEU H2.Nexus
+      - 🇺🇸 USA VmShell-US IPv6
+      - NGA Haruka Cloud
+      - INR DigitalOcean
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇨🇳 台湾-广东专线 NeaRoute
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇮🇳 印度-广东专线 DOIN
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇬🇧 英国 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
+      - 🇭🇰 HKG Akile
+      - 🇭🇰 HKG Alike
+      - MAC Alike->MO
+      - 🇨🇳 TWN Hinet
+      - 🇨🇳 TWN Claw->TW
+      - 🇯🇵 JPN AWS->JP
+      - 🇯🇵 JPN Claw
+      - 🇰🇷 KOR Alike->KR
+      - 🇰🇷 KOR AWS
+      - 🇰🇷 KOR Moack
+      - 🇸🇬 SGP Claw->SG
+      - 🇸🇬 SGP DigitalOcean
+      - 🇸🇬 SGP Huawei Cloud-SG
+      - 🇲🇾 MYS Alike->MY
+      - 🇬🇧 GBR Akile
+      - 🇬🇧 GBR Claw->UK
+      - 🇩🇪 DEU Wuyoucloud-DE
+      - 🇩🇪 DEU H2.Nexus
+      - 🇺🇸 USA VmShell-US IPv6
+      - NGA Haruka Cloud
+      - INR DigitalOcean
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,58 +269,247 @@ proxy-groups:
     proxies:
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇨🇳 台湾-广东专线 NeaRoute
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇮🇳 印度-广东专线 DOIN
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇬🇧 英国 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
+      - 🇭🇰 HKG Akile
+      - 🇭🇰 HKG Alike
+      - MAC Alike->MO
+      - 🇨🇳 TWN Hinet
+      - 🇨🇳 TWN Claw->TW
+      - 🇯🇵 JPN AWS->JP
+      - 🇯🇵 JPN Claw
+      - 🇰🇷 KOR Alike->KR
+      - 🇰🇷 KOR AWS
+      - 🇰🇷 KOR Moack
+      - 🇸🇬 SGP Claw->SG
+      - 🇸🇬 SGP DigitalOcean
+      - 🇸🇬 SGP Huawei Cloud-SG
+      - 🇲🇾 MYS Alike->MY
+      - 🇬🇧 GBR Akile
+      - 🇬🇧 GBR Claw->UK
+      - 🇩🇪 DEU Wuyoucloud-DE
+      - 🇩🇪 DEU H2.Nexus
+      - 🇺🇸 USA VmShell-US IPv6
+      - NGA Haruka Cloud
+      - INR DigitalOcean
   - name: google
     type: select
     proxies:
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇨🇳 台湾-广东专线 NeaRoute
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇮🇳 印度-广东专线 DOIN
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇬🇧 英国 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
+      - 🇭🇰 HKG Akile
+      - 🇭🇰 HKG Alike
+      - MAC Alike->MO
+      - 🇨🇳 TWN Hinet
+      - 🇨🇳 TWN Claw->TW
+      - 🇯🇵 JPN AWS->JP
+      - 🇯🇵 JPN Claw
+      - 🇰🇷 KOR Alike->KR
+      - 🇰🇷 KOR AWS
+      - 🇰🇷 KOR Moack
+      - 🇸🇬 SGP Claw->SG
+      - 🇸🇬 SGP DigitalOcean
+      - 🇸🇬 SGP Huawei Cloud-SG
+      - 🇲🇾 MYS Alike->MY
+      - 🇬🇧 GBR Akile
+      - 🇬🇧 GBR Claw->UK
+      - 🇩🇪 DEU Wuyoucloud-DE
+      - 🇩🇪 DEU H2.Nexus
+      - 🇺🇸 USA VmShell-US IPv6
+      - NGA Haruka Cloud
+      - INR DigitalOcean
   - name: line
     type: select
     proxies:
       - 🇺🇸 HD洛杉矶 独立 B
       - 🇺🇸 HD洛杉矶 独立 A
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇨🇳 台湾-广东专线 NeaRoute
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇮🇳 印度-广东专线 DOIN
+      - 🇭🇰 香港TROJAN直连 0.01x
+      - 🇭🇰 香港 01 SS
+      - 🇭🇰 香港 02 SS
+      - 🇭🇰 香港 03 SS
+      - 🇭🇰 香港 04 SS
+      - 🇭🇰 香港 05 SS
+      - 🇭🇰 香港 06 SS
+      - 🇭🇰 香港 07 SS
+      - 🇭🇰 香港 08 SS
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04
+      - 🇸🇬 狮城 05
+      - 🇸🇬 狮城 06
+      - 🇸🇬 狮城 07
+      - 🇸🇬 狮城 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇨🇦 加拿大 01
+      - 🇲🇾 马来西亚 01
+      - 🇲🇾 马来西亚 02
+      - 🇲🇾 马来西亚 03
+      - 🇲🇾 马来西亚 04
+      - 🇲🇾 马来西亚 05
+      - 🇩🇪 德国 01
+      - 🇪🇪 爱沙尼亚 01
+      - 🇹🇭 泰国 01
+      - 🇲🇴 澳门 01
+      - 🇲🇴 澳门 02
+      - "🇺🇸 美国AT&T 01"
+      - 🇺🇸 美国Comcast 01
+      - 🇬🇧 英国 01
+      - 🇦🇺 澳大利亚 01
+      - 🇸🇬 新加坡StarHub 01
+      - 🇭🇰 HKG Akile
+      - 🇭🇰 HKG Alike
+      - MAC Alike->MO
+      - 🇨🇳 TWN Hinet
+      - 🇨🇳 TWN Claw->TW
+      - 🇯🇵 JPN AWS->JP
+      - 🇯🇵 JPN Claw
+      - 🇰🇷 KOR Alike->KR
+      - 🇰🇷 KOR AWS
+      - 🇰🇷 KOR Moack
+      - 🇸🇬 SGP Claw->SG
+      - 🇸🇬 SGP DigitalOcean
+      - 🇸🇬 SGP Huawei Cloud-SG
+      - 🇲🇾 MYS Alike->MY
+      - 🇬🇧 GBR Akile
+      - 🇬🇧 GBR Claw->UK
+      - 🇩🇪 DEU Wuyoucloud-DE
+      - 🇩🇪 DEU H2.Nexus
+      - 🇺🇸 USA VmShell-US IPv6
+      - NGA Haruka Cloud
+      - INR DigitalOcean
 rules:
   - DOMAIN-SUFFIX,shopee.cl,shopee
   - DOMAIN-SUFFIX,shopee.cn,shopee
