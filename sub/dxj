@@ -17,38 +17,48 @@ dns:
 proxies:
   - {name: 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量, server: hdcnus2.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量, server: hdcnus.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbso.bnnodeservice.com, port: 32001, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbso.bnnodeservice.com, port: 32028, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾-广东专线 NeaRoute, server: lbso.bnnodeservice.com, port: 32003, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯-广东专线 PQ, server: lbso.bnnodeservice.com, port: 32008, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32009, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32010, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32039, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32011, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbso.bnnodeservice.com, port: 32012, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbso.bnnodeservice.com, port: 32038, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbso.bnnodeservice.com, port: 32013, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国-广东专线 Bangmod, server: lbso.bnnodeservice.com, port: 32043, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbso.bnnodeservice.com, port: 32014, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32026, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 阿根廷-广东专线 DonWeb, server: lbso.bnnodeservice.com, port: 32015, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇬 尼日利亚-广东专线 Melbicom, server: lbso.bnnodeservice.com, port: 32034, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 乌克兰-广东专线 Vik, server: lbso.bnnodeservice.com, port: 32019, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbso.bnnodeservice.com, port: 32016, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbso.bnnodeservice.com, port: 32017, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇦 沙特-广东专线 STC, server: lbso.bnnodeservice.com, port: 32035, client-fingerprint: chrome, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG Alike, server: default.hk.akile-5.ddns.ad.989567.xyz, port: 56214, client-fingerprint: chrome, type: vmess, uuid: 394294cc-eb0f-4f17-8453-5edbed60f4ee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.akile-5.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇹🇼 TWN Hinet, server: shcua.donghui.tech, port: 33193, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, tfo: false, udp: true}
-  - {name: 🇯🇵 JPN Claw, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 41259, client-fingerprint: chrome, type: vmess, uuid: 0bfc8fc7-9cdc-4831-96d4-65d294f31d09, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇯🇵 JPN Claw Reality, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 32349, reality-opts: {public-key: dG4dNlXd_UC9s8vxgfcORGw4xjOdt_VGQrD43y0QZiY, short-id: 1767b9}, client-fingerprint: chrome, type: vless, uuid: 3129e501-42f2-47c7-8448-73e4c73499a0, tls: true, tfo: false, skip-cert-verify: true, servername: microsoft.com, network: tcp, udp: true}
-  - {name: 🇰🇷 KOR AWS, server: default.kr.aws.ddns.ad.989567.xyz, port: 24287, client-fingerprint: chrome, type: vmess, uuid: 2f808c69-d3c2-4813-88e4-113e9196bc98, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.kr.aws.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP Claw->SG, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 55118, client-fingerprint: chrome, type: vmess, uuid: b5a79c4c-d11a-423b-ad04-3cf0cb5cae6e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP Huawei Cloud-SG, server: default.sg.huawei.ddns.ad.989567.xyz, port: 44462, client-fingerprint: chrome, type: vmess, uuid: c3569114-c377-44db-8e27-366d0f79ac1d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.huawei.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇬🇧 GBR Akile, server: default.uk.akile.ddns.ad.989567.xyz, port: 39911, client-fingerprint: chrome, type: vmess, uuid: 67232935-de5d-4d5d-8998-936c7084185c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.uk.akile.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇩🇪 DEU Wuyoucloud-DE, server: mmt.bjcu.donghui.tech, port: 34197, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: IF1LdAmq+rU3rSIkBNTGOXKWqNQo97VL5he+eExAj88=, tfo: false, udp: true}
-  - {name: 🇩🇪 DEU H2.Nexus, server: default.de.h2nexus.ddns.ad.989567.xyz, port: 45481, client-fingerprint: chrome, type: vmess, uuid: 50292347-aab2-4bd7-bae5-55d0aa60fe40, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.de.h2nexus.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇺🇸 USA VmShell-US IPv6, server: "[2602:f947:0:6b::359d]", port: 38705, client-fingerprint: chrome, type: vmess, uuid: 10574735-7786-4c2a-b6c9-4e40ddac6bf1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: NGA Haruka Cloud, server: biedazjyd.zhangwei.li, port: 14836, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, tfo: false, udp: true}
+  - {name: 🏳️‍🌈 下面的节点避免大流量, server: node.344111010.dnsubs.com, port: 11010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇭🇰 香港 02, server: node.344111020.dnsubs.com, port: 11020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇭🇰 香港 03, server: node.344111030.dnsubs.com, port: 11030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇭🇰 香港 04 AIR 0.5x, server: node.344111040.dnsubs.com, port: 11040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇭🇰 香港 05 IEPL 2x, server: node.344111050.dnsubs.com, port: 11050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇭🇰 香港 06 IEPL 2x, server: node.344111060.dnsubs.com, port: 11060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 01, server: node.158112010.dnsubs.com, port: 12010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 02, server: node.158112020.dnsubs.com, port: 12020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 03, server: node.158112030.dnsubs.com, port: 12030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 04 AIR 0.5x, server: node.158112040.dnsubs.com, port: 12040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 05 IEPL 2x, server: node.158112050.dnsubs.com, port: 12050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾 06 IEPL 2x, server: node.158112060.dnsubs.com, port: 12060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 01, server: node.702113010.dnsubs.com, port: 13010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 02, server: node.702113020.dnsubs.com, port: 13020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 03, server: node.702113030.dnsubs.com, port: 13030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 04 AIR 0.5x, server: node.702113040.dnsubs.com, port: 13040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 05 IEPL 2x, server: node.702113050.dnsubs.com, port: 13050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇸🇬 狮城 06 IEPL 2x, server: node.702113060.dnsubs.com, port: 13060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 01, server: node.392114010.dnsubs.com, port: 14010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 02, server: node.392114020.dnsubs.com, port: 14020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 03, server: node.392114030.dnsubs.com, port: 14030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 04 AIR 0.5x, server: node.392114040.dnsubs.com, port: 14040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 05 IEPL 2x, server: node.392114050.dnsubs.com, port: 14050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇯🇵 日本 06 IEPL 2x, server: node.392114060.dnsubs.com, port: 14060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 01, server: node.840115010.dnsubs.com, port: 15010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 02, server: node.840115020.dnsubs.com, port: 15020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 03, server: node.840115030.dnsubs.com, port: 15030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 04 AIR 0.5x, server: node.840115040.dnsubs.com, port: 15040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 05 IEPL 2x, server: node.840115050.dnsubs.com, port: 15050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇺🇸 美国 06 IEPL 2x, server: node.840115060.dnsubs.com, port: 15060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇻🇳 越南 IEPL 2x, server: node.704116020.dnsubs.com, port: 16020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇮🇩 印尼 IEPL 2x, server: node.360116100.dnsubs.com, port: 16100, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇭 泰国 IEPL 2x, server: node.764116040.dnsubs.com, port: 16040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇮🇳 印度 IEPL 2x, server: node.356116050.dnsubs.com, port: 16050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇲🇾 马来西亚 IEPL 2x, server: node.458116010.dnsubs.com, port: 16010, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇦🇺 澳大利亚 IEPL 2x, server: node.036116030.dnsubs.com, port: 16030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇵🇰 巴基斯坦 IEPL 2x, server: node.586116140.dnsubs.com, port: 16140, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇨🇦 加拿大 IEPL 2x, server: node.124116090.dnsubs.com, port: 16090, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇬🇧 英国 IEPL 2x, server: node.826116060.dnsubs.com, port: 16060, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇩🇪 德国 IEPL 2x, server: node.276116130.dnsubs.com, port: 16130, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇹🇷 土耳其 IEPL 2x, server: node.792116120.dnsubs.com, port: 16120, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
+  - {name: 🇪🇸 西班牙 IEPL 2x, server: node.724116070.dnsubs.com, port: 16070, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 999d2322-eaa6-484b-b1c0-bec7cae6c140, tfo: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -56,38 +66,48 @@ proxy-groups:
       - ♻️ 自动选择
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -96,299 +116,379 @@ proxy-groups:
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: google
     type: select
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: apple
     type: select
     proxies:
       - DIRECT
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: Microsoft
     type: select
     proxies:
       - DIRECT
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: OpenAi
     type: select
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: whatsapp
     type: select
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: shopee
     type: select
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
   - name: line
     type: select
     proxies:
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇺🇸 美国-广东专线 BGP 1
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇹🇼 台湾-广东专线 NeaRoute
-      - 🇷🇺 俄罗斯-广东专线 PQ
-      - 🇫🇷 法国-广东专线 BGP
-      - 🇬🇧 英国-广东专线 BGP
-      - 🇨🇦 加拿大-广东专线 BGP
-      - 🇩🇪 德国-广东专线 BGP
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇲🇾 马来西亚-广东专线 Shin
-      - 🇵🇭 菲律宾-广东专线 Zenlayer
-      - 🇹🇭 泰国-广东专线 Bangmod
-      - 🇹🇷 土耳其-广东专线 Kapteyan
-      - 🇹🇷 土耳其-广东专线 GCore
-      - 🇦🇷 阿根廷-广东专线 DonWeb
-      - 🇳🇬 尼日利亚-广东专线 Melbicom
-      - 🇺🇦 乌克兰-广东专线 Vik
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇮🇳 印度-广东专线 DOIN
-      - 🇸🇦 沙特-广东专线 STC
-      - 🇭🇰 HKG Alike
-      - 🇹🇼 TWN Hinet
-      - 🇯🇵 JPN Claw
-      - 🇯🇵 JPN Claw Reality
-      - 🇰🇷 KOR AWS
-      - 🇸🇬 SGP Claw->SG
-      - 🇸🇬 SGP Huawei Cloud-SG
-      - 🇬🇧 GBR Akile
-      - 🇩🇪 DEU Wuyoucloud-DE
-      - 🇩🇪 DEU H2.Nexus
-      - 🇺🇸 USA VmShell-US IPv6
-      - NGA Haruka Cloud
+      - 🏳️‍🌈 下面的节点避免大流量
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04 AIR 0.5x
+      - 🇭🇰 香港 05 IEPL 2x
+      - 🇭🇰 香港 06 IEPL 2x
+      - 🇹🇼 台湾 01
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾 04 AIR 0.5x
+      - 🇹🇼 台湾 05 IEPL 2x
+      - 🇹🇼 台湾 06 IEPL 2x
+      - 🇸🇬 狮城 01
+      - 🇸🇬 狮城 02
+      - 🇸🇬 狮城 03
+      - 🇸🇬 狮城 04 AIR 0.5x
+      - 🇸🇬 狮城 05 IEPL 2x
+      - 🇸🇬 狮城 06 IEPL 2x
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04 AIR 0.5x
+      - 🇯🇵 日本 05 IEPL 2x
+      - 🇯🇵 日本 06 IEPL 2x
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04 AIR 0.5x
+      - 🇺🇸 美国 05 IEPL 2x
+      - 🇺🇸 美国 06 IEPL 2x
+      - 🇻🇳 越南 IEPL 2x
+      - 🇮🇩 印尼 IEPL 2x
+      - 🇹🇭 泰国 IEPL 2x
+      - 🇮🇳 印度 IEPL 2x
+      - 🇲🇾 马来西亚 IEPL 2x
+      - 🇦🇺 澳大利亚 IEPL 2x
+      - 🇵🇰 巴基斯坦 IEPL 2x
+      - 🇨🇦 加拿大 IEPL 2x
+      - 🇬🇧 英国 IEPL 2x
+      - 🇩🇪 德国 IEPL 2x
+      - 🇹🇷 土耳其 IEPL 2x
+      - 🇪🇸 西班牙 IEPL 2x
 rules:
   - DOMAIN-KEYWORD,whatsapp,whatsapp
   - DOMAIN-SUFFIX,whatsapp.com,whatsapp
