@@ -3,36 +3,116 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 ️‍🌈 美国01-近期流量异常，自行排查是否开了icloud和onedrive上传文件, server: hdcnus2.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🏳️‍🌈 ️‍🌈 美国02-近期流量异常，自行排查是否开了icloud和onedrive上传文件, server: hdcnus.menghuan168.ru, port: 12226, client-fingerprint: chrome, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量, server: hdcnus2.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量, server: hdcnus.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港01 | HK, server: gateway.hk.degyax.one, port: 55008, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇭🇰 香港02 | HK, server: gateway.hk.degyax.one, port: 55009, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇭🇰 香港03 | HK, server: gateway.linos.degyax.one, port: 55008, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇭🇰 香港04 | HK, server: gateway.linos.degyax.one, port: 55009, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇨🇳 台湾01 | TW, server: gateway.hk.degyax.one, port: 55011, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇨🇳 台湾02 | TW, server: gateway.hk.degyax.one, port: 55012, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇨🇳 台湾03 | TW, server: gateway.linos.degyax.one, port: 55011, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇨🇳 台湾04 | TW, server: gateway.linos.degyax.one, port: 55012, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇸🇬 狮城01 | SG, server: gateway.sg.degyax.one, port: 55005, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇸🇬 狮城02 | SG, server: gateway.sg.degyax.one, port: 55006, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇸🇬 狮城03 | SG, server: gateway.linos.degyax.one, port: 55005, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇸🇬 狮城04 | SG, server: gateway.linos.degyax.one, port: 55006, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇯🇵 日本01 | JP, server: gateway.jp.degyax.one, port: 55014, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇯🇵 日本02 | JP, server: gateway.jp.degyax.one, port: 55015, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇯🇵 日本03 | JP, server: gateway.linos.degyax.one, port: 55014, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇯🇵 日本04 | JP, server: gateway.linos.degyax.one, port: 55015, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇺🇸 美国01 | US, server: gateway.us.degyax.one, port: 55002, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇺🇸 美国02 | US, server: gateway.us.degyax.one, port: 55003, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇺🇸 美国03 | US, server: gateway.linos.degyax.one, port: 55002, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇺🇸 美国04 | US, server: gateway.linos.degyax.one, port: 55003, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇲🇴 澳门 | MO, server: gateway.hk.degyax.one, port: 55511, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇰🇷 韩国 | KR, server: gateway.jp.degyax.one, port: 55018, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇹🇷 土耳其 | TR, server: gateway.degyax.one, port: 55121, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇬🇧 英国 | UK, server: gateway.degyax.one, port: 55514, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇳🇬 尼日利亚 | NG, server: gateway.degyax.one, port: 55515, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇦🇶 南极 | AQ, server: gateway.degyax.one, port: 55516, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇪🇬 埃及 | EG, server: gateway.degyax.one, port: 55517, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇵🇰 巴基斯坦 | PK, server: gateway.degyax.one, port: 55518, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 列支敦士登 | LI, server: gateway.degyax.one, port: 55519, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
+  - {name: 🇻🇦 梵蒂冈 | VA, server: gateway.degyax.one, port: 55520, tfo: true, type: ss, cipher: aes-256-gcm, password: 99ce5ea6-4598-444d-b9f4-ae66f7ce2a42, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏳️‍🌈 ️‍🌈 美国01-近期流量异常，自行排查是否开了icloud和onedrive上传文件
-      - 🏳️‍🌈 ️‍🌈 美国02-近期流量异常，自行排查是否开了icloud和onedrive上传文件
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
+      - 🇭🇰 香港01 | HK
+      - 🇭🇰 香港02 | HK
+      - 🇭🇰 香港03 | HK
+      - 🇭🇰 香港04 | HK
+      - 🇨🇳 台湾01 | TW
+      - 🇨🇳 台湾02 | TW
+      - 🇨🇳 台湾03 | TW
+      - 🇨🇳 台湾04 | TW
+      - 🇸🇬 狮城01 | SG
+      - 🇸🇬 狮城02 | SG
+      - 🇸🇬 狮城03 | SG
+      - 🇸🇬 狮城04 | SG
+      - 🇯🇵 日本01 | JP
+      - 🇯🇵 日本02 | JP
+      - 🇯🇵 日本03 | JP
+      - 🇯🇵 日本04 | JP
+      - 🇺🇸 美国01 | US
+      - 🇺🇸 美国02 | US
+      - 🇺🇸 美国03 | US
+      - 🇺🇸 美国04 | US
+      - 🇲🇴 澳门 | MO
+      - 🇰🇷 韩国 | KR
+      - 🇹🇷 土耳其 | TR
+      - 🇬🇧 英国 | UK
+      - 🇳🇬 尼日利亚 | NG
+      - 🇦🇶 南极 | AQ
+      - 🇪🇬 埃及 | EG
+      - 🇵🇰 巴基斯坦 | PK
+      - 列支敦士登 | LI
+      - 🇻🇦 梵蒂冈 | VA
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏳️‍🌈 ️‍🌈 美国01-近期流量异常，自行排查是否开了icloud和onedrive上传文件
-      - 🏳️‍🌈 ️‍🌈 美国02-近期流量异常，自行排查是否开了icloud和onedrive上传文件
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
+      - 🇭🇰 香港01 | HK
+      - 🇭🇰 香港02 | HK
+      - 🇭🇰 香港03 | HK
+      - 🇭🇰 香港04 | HK
+      - 🇨🇳 台湾01 | TW
+      - 🇨🇳 台湾02 | TW
+      - 🇨🇳 台湾03 | TW
+      - 🇨🇳 台湾04 | TW
+      - 🇸🇬 狮城01 | SG
+      - 🇸🇬 狮城02 | SG
+      - 🇸🇬 狮城03 | SG
+      - 🇸🇬 狮城04 | SG
+      - 🇯🇵 日本01 | JP
+      - 🇯🇵 日本02 | JP
+      - 🇯🇵 日本03 | JP
+      - 🇯🇵 日本04 | JP
+      - 🇺🇸 美国01 | US
+      - 🇺🇸 美国02 | US
+      - 🇺🇸 美国03 | US
+      - 🇺🇸 美国04 | US
+      - 🇲🇴 澳门 | MO
+      - 🇰🇷 韩国 | KR
+      - 🇹🇷 土耳其 | TR
+      - 🇬🇧 英国 | UK
+      - 🇳🇬 尼日利亚 | NG
+      - 🇦🇶 南极 | AQ
+      - 🇪🇬 埃及 | EG
+      - 🇵🇰 巴基斯坦 | PK
+      - 列支敦士登 | LI
+      - 🇻🇦 梵蒂冈 | VA
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -50,8 +130,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏳️‍🌈 ️‍🌈 美国01-近期流量异常，自行排查是否开了icloud和onedrive上传文件
-      - 🏳️‍🌈 ️‍🌈 美国02-近期流量异常，自行排查是否开了icloud和onedrive上传文件
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
+      - 🇭🇰 香港01 | HK
+      - 🇭🇰 香港02 | HK
+      - 🇭🇰 香港03 | HK
+      - 🇭🇰 香港04 | HK
+      - 🇨🇳 台湾01 | TW
+      - 🇨🇳 台湾02 | TW
+      - 🇨🇳 台湾03 | TW
+      - 🇨🇳 台湾04 | TW
+      - 🇸🇬 狮城01 | SG
+      - 🇸🇬 狮城02 | SG
+      - 🇸🇬 狮城03 | SG
+      - 🇸🇬 狮城04 | SG
+      - 🇯🇵 日本01 | JP
+      - 🇯🇵 日本02 | JP
+      - 🇯🇵 日本03 | JP
+      - 🇯🇵 日本04 | JP
+      - 🇺🇸 美国01 | US
+      - 🇺🇸 美国02 | US
+      - 🇺🇸 美国03 | US
+      - 🇺🇸 美国04 | US
+      - 🇲🇴 澳门 | MO
+      - 🇰🇷 韩国 | KR
+      - 🇹🇷 土耳其 | TR
+      - 🇬🇧 英国 | UK
+      - 🇳🇬 尼日利亚 | NG
+      - 🇦🇶 南极 | AQ
+      - 🇪🇬 埃及 | EG
+      - 🇵🇰 巴基斯坦 | PK
+      - 列支敦士登 | LI
+      - 🇻🇦 梵蒂冈 | VA
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
