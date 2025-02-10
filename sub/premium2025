@@ -5,168 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量, server: hdcnus2.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量, server: hdcnus.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇭🇰 香港01 | HK, server: gateway.hk.degyax.one, port: 55008, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 香港02 | HK, server: gateway.hk.degyax.one, port: 55009, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 香港03 | HK, server: gateway.linos.degyax.one, port: 55008, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 香港04 | HK, server: gateway.linos.degyax.one, port: 55009, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 香港05 | HK, server: gateway.ferhat.degyax.one, port: 55008, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 香港06 | HK, server: gateway.ferhat.degyax.one, port: 55009, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾01 | TW, server: gateway.hk.degyax.one, port: 55011, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾02 | TW, server: gateway.hk.degyax.one, port: 55012, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾03 | TW, server: gateway.linos.degyax.one, port: 55011, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾04 | TW, server: gateway.linos.degyax.one, port: 55012, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾05 | TW, server: gateway.ferhat.degyax.one, port: 55011, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇨🇳 台湾06 | TW, server: gateway.ferhat.degyax.one, port: 55012, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城01 | SG, server: gateway.sg.degyax.one, port: 55005, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城02 | SG, server: gateway.sg.degyax.one, port: 55006, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城03 | SG, server: gateway.linos.degyax.one, port: 55005, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城04 | SG, server: gateway.linos.degyax.one, port: 55006, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城05 | SG, server: gateway.ferhat.degyax.one, port: 55005, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇸🇬 狮城06 | SG, server: gateway.ferhat.degyax.one, port: 55006, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本01 | JP, server: gateway.jp.degyax.one, port: 55014, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本02 | JP, server: gateway.jp.degyax.one, port: 55015, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本03 | JP, server: gateway.linos.degyax.one, port: 55014, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本04 | JP, server: gateway.linos.degyax.one, port: 55015, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本05 | JP, server: gateway.ferhat.degyax.one, port: 55014, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇯🇵 日本06 | JP, server: gateway.ferhat.degyax.one, port: 55015, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国01 | US, server: gateway.us.degyax.one, port: 55002, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国02 | US, server: gateway.us.degyax.one, port: 55003, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国03 | US, server: gateway.linos.degyax.one, port: 55002, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国04 | US, server: gateway.linos.degyax.one, port: 55003, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国05 | US, server: gateway.ferhat.degyax.one, port: 55002, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇺🇸 美国06 | US, server: gateway.ferhat.degyax.one, port: 55003, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇲🇴 澳门 | MO, server: gateway.hk.degyax.one, port: 55511, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇰🇷 韩国 | KR, server: gateway.jp.degyax.one, port: 55018, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇹🇷 土耳其 | TR, server: gateway.degyax.one, port: 55121, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇬🇧 英国 | UK, server: gateway.degyax.one, port: 55514, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇦🇶 南极 | AQ, server: gateway.degyax.one, port: 55516, tfo: true, type: ss, cipher: aes-256-gcm, password: f444ce14-bcb4-4c61-addc-5f77fac0fcfa, udp: true}
-  - {name: 🇭🇰 HKG Alike IPLC, server: mmt-clc.xuwei.hk, port: 21133, tfo: true, type: ss, cipher: aes-128-gcm, password: TM2XIUphAI3jZrKK4gORtGwaYPDi3BRFsv2Qgj6yqbU=, udp: true}
-  - {name: 🇭🇰 HKG Alike, server: default.hk.akile-5.ddns.ad.989567.xyz, port: 8080, tfo: true, type: vmess, uuid: 394294cc-eb0f-4f17-8453-5edbed60f4ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.akile-5.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 HKG Acck, server: default.hk.claw.ddns.ad.989567.xyz, port: 10001, tfo: true, type: vmess, uuid: 95d8e0e0-81c9-4e2e-9987-471ed35f6202, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.acck.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /signin, headers: {Host: default.hk.acck.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 HKG Bage, server: default.hk.claw.ddns.ad.989567.xyz, port: 10000, tfo: true, type: vmess, uuid: f0937d3f-15cf-476a-a87d-84bd88e8deb9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.bagevm.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /signin, headers: {Host: default.hk.bagevm.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 HKG Bage IPLC, server: mmt-clc.xuwei.hk, port: 21133, tfo: true, type: ss, cipher: aes-128-gcm, password: SC+Rk55ludTfOI98qeUo1YtENVla2+swi3u2MaO2bB4=, udp: true}
   - {name: 🇭🇰 HKG Claw, server: default.hk.claw.ddns.ad.989567.xyz, port: 20327, tfo: true, type: vmess, uuid: a27ab767-4d85-472c-baab-e0af04c61cd1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.claw.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.claw.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇯🇵 JPN AWS, server: default.jp.aws.ddns.ad.989567.xyz, port: 38782, tfo: true, type: vmess, uuid: 55457413-dfef-4fac-9a25-dddcc1b0c83a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.jp.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.aws.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇯🇵 JPN Claw, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 41259, tfo: true, type: vmess, uuid: 0bfc8fc7-9cdc-4831-96d4-65d294f31d09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇰🇷 KOR Moack, server: default.kr.moack.ddns.ad.989567.xyz, port: 42714, tfo: true, type: vmess, uuid: 8b9f8ad6-b3c1-4da8-aec4-d4bf0eb36171, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.kr.moack.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP Huawei Cloud, server: default.sg.huawei.ddns.ad.989567.xyz, port: 44462, tfo: true, type: vmess, uuid: c3569114-c377-44db-8e27-366d0f79ac1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.huawei.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP AWS, server: default.sg.aws.ddns.ad.989567.xyz, port: 28715, tfo: true, type: vmess, uuid: 7fffcfc0-9ca8-4874-9684-295bf6e4f722, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /singup, headers: {Host: default.sg.aws.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP Vultr, server: default.sg.vultr.ddns.ad.989567.xyz, port: 46088, tfo: true, type: vmess, uuid: 06cef6a6-42db-48fc-ad07-7099c4fd449e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.vultr.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇺🇸 USA VmShell, server: mmt.bjcu.donghui.tech, port: 20879, tfo: true, type: ss, cipher: aes-128-gcm, password: 1049VPFkzaSE1XmmeMRxJDZTyV7QY4NkPnn+6Jm+Lmg=, udp: true}
+  - {name: 🇸🇬 SGP AWS, server: default.sg.aws.ddns.ad.989567.xyz, port: 16993, tfo: true, type: vmess, uuid: 7ebcf25e-4355-4b68-90e5-5062964deb9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.aws.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 SGP Huawei Cloud, server: default.sg.huawei.ddns.ad.989567.xyz, port: 34247, tfo: true, type: vmess, uuid: b9959011-bfba-48f4-bbbe-736bf674aac4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.huawei.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.huawei.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇺🇸 USA VmShell, server: mmt.bjcu.donghui.tech, port: 20879, tfo: true, type: ss, cipher: aes-128-gcm, password: QpuemktCN3B0JwmUD/slLJas6eZbnKaamLZioA82UFo=, udp: true}
   - {name: 🇬🇧 GBR Akile, server: default.uk.akile.ddns.ad.989567.xyz, port: 39911, tfo: true, type: vmess, uuid: 67232935-de5d-4d5d-8998-936c7084185c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.uk.akile.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇩🇪 DEU Wuyoucloud, server: mmt.bjcu.donghui.tech, port: 34197, tfo: true, type: ss, cipher: aes-128-gcm, password: IF1LdAmq+rU3rSIkBNTGOXKWqNQo97VL5he+eExAj88=, udp: true}
+  - {name: 🇫🇷 FRA Scaleway, server: default.fr.scaleway.ddns.ad.989567.xyz, port: 23022, tfo: true, type: vmess, uuid: 771c2f60-9183-4d10-b1b2-a59a23f74a0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.fr.scaleway.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /signin, headers: {Host: default.fr.scaleway.ddns.ad.989567.xyz}}, udp: true}
   - {name: NGA Haruka Cloud, server: shcua.donghui.tech, port: 14836, tfo: true, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, udp: true}
+  - {name: 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量, server: hdcnus2.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量, server: hdcnus.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
-      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇭🇰 香港01 | HK
-      - 🇭🇰 香港02 | HK
-      - 🇭🇰 香港03 | HK
-      - 🇭🇰 香港04 | HK
-      - 🇭🇰 香港05 | HK
-      - 🇭🇰 香港06 | HK
-      - 🇨🇳 台湾01 | TW
-      - 🇨🇳 台湾02 | TW
-      - 🇨🇳 台湾03 | TW
-      - 🇨🇳 台湾04 | TW
-      - 🇨🇳 台湾05 | TW
-      - 🇨🇳 台湾06 | TW
-      - 🇸🇬 狮城01 | SG
-      - 🇸🇬 狮城02 | SG
-      - 🇸🇬 狮城03 | SG
-      - 🇸🇬 狮城04 | SG
-      - 🇸🇬 狮城05 | SG
-      - 🇸🇬 狮城06 | SG
-      - 🇯🇵 日本01 | JP
-      - 🇯🇵 日本02 | JP
-      - 🇯🇵 日本03 | JP
-      - 🇯🇵 日本04 | JP
-      - 🇯🇵 日本05 | JP
-      - 🇯🇵 日本06 | JP
-      - 🇺🇸 美国01 | US
-      - 🇺🇸 美国02 | US
-      - 🇺🇸 美国03 | US
-      - 🇺🇸 美国04 | US
-      - 🇺🇸 美国05 | US
-      - 🇺🇸 美国06 | US
-      - 🇲🇴 澳门 | MO
-      - 🇰🇷 韩国 | KR
-      - 🇹🇷 土耳其 | TR
-      - 🇬🇧 英国 | UK
-      - 🇦🇶 南极 | AQ
-      - 🇭🇰 HKG Alike IPLC
-      - 🇭🇰 HKG Alike
+      - 🇭🇰 HKG Acck
+      - 🇭🇰 HKG Bage
+      - 🇭🇰 HKG Bage IPLC
       - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
-      - 🇰🇷 KOR Moack
-      - 🇸🇬 SGP Huawei Cloud
       - 🇸🇬 SGP AWS
-      - 🇸🇬 SGP Vultr
+      - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
       - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
+      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
-      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇭🇰 香港01 | HK
-      - 🇭🇰 香港02 | HK
-      - 🇭🇰 香港03 | HK
-      - 🇭🇰 香港04 | HK
-      - 🇭🇰 香港05 | HK
-      - 🇭🇰 香港06 | HK
-      - 🇨🇳 台湾01 | TW
-      - 🇨🇳 台湾02 | TW
-      - 🇨🇳 台湾03 | TW
-      - 🇨🇳 台湾04 | TW
-      - 🇨🇳 台湾05 | TW
-      - 🇨🇳 台湾06 | TW
-      - 🇸🇬 狮城01 | SG
-      - 🇸🇬 狮城02 | SG
-      - 🇸🇬 狮城03 | SG
-      - 🇸🇬 狮城04 | SG
-      - 🇸🇬 狮城05 | SG
-      - 🇸🇬 狮城06 | SG
-      - 🇯🇵 日本01 | JP
-      - 🇯🇵 日本02 | JP
-      - 🇯🇵 日本03 | JP
-      - 🇯🇵 日本04 | JP
-      - 🇯🇵 日本05 | JP
-      - 🇯🇵 日本06 | JP
-      - 🇺🇸 美国01 | US
-      - 🇺🇸 美国02 | US
-      - 🇺🇸 美国03 | US
-      - 🇺🇸 美国04 | US
-      - 🇺🇸 美国05 | US
-      - 🇺🇸 美国06 | US
-      - 🇲🇴 澳门 | MO
-      - 🇰🇷 韩国 | KR
-      - 🇹🇷 土耳其 | TR
-      - 🇬🇧 英国 | UK
-      - 🇦🇶 南极 | AQ
-      - 🇭🇰 HKG Alike IPLC
-      - 🇭🇰 HKG Alike
+      - 🇭🇰 HKG Acck
+      - 🇭🇰 HKG Bage
+      - 🇭🇰 HKG Bage IPLC
       - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
-      - 🇰🇷 KOR Moack
-      - 🇸🇬 SGP Huawei Cloud
       - 🇸🇬 SGP AWS
-      - 🇸🇬 SGP Vultr
+      - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
       - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
+      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,56 +79,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
-      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
-      - 🇭🇰 香港01 | HK
-      - 🇭🇰 香港02 | HK
-      - 🇭🇰 香港03 | HK
-      - 🇭🇰 香港04 | HK
-      - 🇭🇰 香港05 | HK
-      - 🇭🇰 香港06 | HK
-      - 🇨🇳 台湾01 | TW
-      - 🇨🇳 台湾02 | TW
-      - 🇨🇳 台湾03 | TW
-      - 🇨🇳 台湾04 | TW
-      - 🇨🇳 台湾05 | TW
-      - 🇨🇳 台湾06 | TW
-      - 🇸🇬 狮城01 | SG
-      - 🇸🇬 狮城02 | SG
-      - 🇸🇬 狮城03 | SG
-      - 🇸🇬 狮城04 | SG
-      - 🇸🇬 狮城05 | SG
-      - 🇸🇬 狮城06 | SG
-      - 🇯🇵 日本01 | JP
-      - 🇯🇵 日本02 | JP
-      - 🇯🇵 日本03 | JP
-      - 🇯🇵 日本04 | JP
-      - 🇯🇵 日本05 | JP
-      - 🇯🇵 日本06 | JP
-      - 🇺🇸 美国01 | US
-      - 🇺🇸 美国02 | US
-      - 🇺🇸 美国03 | US
-      - 🇺🇸 美国04 | US
-      - 🇺🇸 美国05 | US
-      - 🇺🇸 美国06 | US
-      - 🇲🇴 澳门 | MO
-      - 🇰🇷 韩国 | KR
-      - 🇹🇷 土耳其 | TR
-      - 🇬🇧 英国 | UK
-      - 🇦🇶 南极 | AQ
-      - 🇭🇰 HKG Alike IPLC
-      - 🇭🇰 HKG Alike
+      - 🇭🇰 HKG Acck
+      - 🇭🇰 HKG Bage
+      - 🇭🇰 HKG Bage IPLC
       - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
-      - 🇰🇷 KOR Moack
-      - 🇸🇬 SGP Huawei Cloud
       - 🇸🇬 SGP AWS
-      - 🇸🇬 SGP Vultr
+      - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
       - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
+      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
+      - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
+      - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
