@@ -5,18 +5,15 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 HKG Acck, server: default.hk.claw.ddns.ad.989567.xyz, port: 19085, tfo: true, type: vmess, uuid: 84202e69-935a-4f4f-b798-b4306f927632, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.claw.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.claw.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇭🇰 HKG Bage, server: default.hk.claw.ddns.ad.989567.xyz, port: 20327, tfo: true, type: vmess, uuid: a27ab767-4d85-472c-baab-e0af04c61cd1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.claw.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.claw.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 HKG Acck, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 34418, tfo: true, type: vmess, uuid: 3a050e8e-388d-4fdd-a3d1-8fec6a2f955e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇭🇰 HKG Bage, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 35214, tfo: true, type: vmess, uuid: 65365aca-af00-4bd7-b6fc-5e392d8552af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇭🇰 HKG Bage IPLC, server: mmt-clc.xuwei.hk, port: 21133, tfo: true, type: ss, cipher: aes-128-gcm, password: SC+Rk55ludTfOI98qeUo1YtENVla2+swi3u2MaO2bB4=, udp: true}
-  - {name: 🇭🇰 HKG Claw, server: default.hk.claw.ddns.ad.989567.xyz, port: 51019, tfo: true, type: vmess, uuid: ed5c0ecf-f99f-4af1-a137-027f96acfff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.hk.claw.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.hk.claw.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇯🇵 JPN AWS, server: default.jp.aws.ddns.ad.989567.xyz, port: 38782, tfo: true, type: vmess, uuid: 55457413-dfef-4fac-9a25-dddcc1b0c83a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.jp.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.aws.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇯🇵 JPN Claw, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 41259, tfo: true, type: vmess, uuid: 0bfc8fc7-9cdc-4831-96d4-65d294f31d09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
-  - {name: 🇸🇬 SGP AWS, server: default.sg.aws.ddns.ad.989567.xyz, port: 16993, tfo: true, type: vmess, uuid: 7ebcf25e-4355-4b68-90e5-5062964deb9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.aws.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇯🇵 JPN Claw, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 16507, tfo: true, type: vmess, uuid: 90332065-6f2b-4fb4-a9d8-68c6a079c114, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}, udp: true}
+  - {name: 🇸🇬 SGP AWS, server: default.sg.aws.ddns.ad.989567.xyz, port: 40750, tfo: true, type: vmess, uuid: 2373a4ed-ff47-4907-bb2e-ceb9356dcd85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.aws.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.aws.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇸🇬 SGP Huawei Cloud, server: default.sg.huawei.ddns.ad.989567.xyz, port: 34247, tfo: true, type: vmess, uuid: b9959011-bfba-48f4-bbbe-736bf674aac4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.sg.huawei.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /login, headers: {Host: default.sg.huawei.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇺🇸 USA VmShell, server: mmt.bjcu.donghui.tech, port: 20879, tfo: true, type: ss, cipher: aes-128-gcm, password: QpuemktCN3B0JwmUD/slLJas6eZbnKaamLZioA82UFo=, udp: true}
-  - {name: 🇬🇧 GBR Akile, server: default.uk.akile.ddns.ad.989567.xyz, port: 39911, tfo: true, type: vmess, uuid: 67232935-de5d-4d5d-8998-936c7084185c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: default.uk.akile.ddns.ad.989567.xyz}}, udp: true}
   - {name: 🇩🇪 DEU Wuyoucloud, server: mmt.bjcu.donghui.tech, port: 34197, tfo: true, type: ss, cipher: aes-128-gcm, password: IF1LdAmq+rU3rSIkBNTGOXKWqNQo97VL5he+eExAj88=, udp: true}
-  - {name: 🇫🇷 FRA Scaleway, server: default.fr.scaleway.ddns.ad.989567.xyz, port: 23022, tfo: true, type: vmess, uuid: 771c2f60-9183-4d10-b1b2-a59a23f74a0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: default.fr.scaleway.ddns.ad.989567.xyz, network: ws, ws-opts: {path: /signin, headers: {Host: default.fr.scaleway.ddns.ad.989567.xyz}}, udp: true}
   - {name: NGA Haruka Cloud, server: shcua.donghui.tech, port: 14836, tfo: true, type: ss, cipher: aes-256-gcm, password: 5fb104fe-77b2-4a72-80f4-af1ef8dd6767, udp: true}
   - {name: 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量, server: hdcnus2.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量, server: hdcnus.menghuan168.ru, port: 12226, tfo: true, type: ssr, cipher: aes-128-ctr, password: mhhdusys, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
@@ -29,15 +26,12 @@ proxy-groups:
       - 🇭🇰 HKG Acck
       - 🇭🇰 HKG Bage
       - 🇭🇰 HKG Bage IPLC
-      - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
       - 🇸🇬 SGP AWS
       - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
-      - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
-      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
@@ -50,15 +44,12 @@ proxy-groups:
       - 🇭🇰 HKG Acck
       - 🇭🇰 HKG Bage
       - 🇭🇰 HKG Bage IPLC
-      - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
       - 🇸🇬 SGP AWS
       - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
-      - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
-      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
@@ -82,15 +73,12 @@ proxy-groups:
       - 🇭🇰 HKG Acck
       - 🇭🇰 HKG Bage
       - 🇭🇰 HKG Bage IPLC
-      - 🇭🇰 HKG Claw
       - 🇯🇵 JPN AWS
       - 🇯🇵 JPN Claw
       - 🇸🇬 SGP AWS
       - 🇸🇬 SGP Huawei Cloud
       - 🇺🇸 USA VmShell
-      - 🇬🇧 GBR Akile
       - 🇩🇪 DEU Wuyoucloud
-      - 🇫🇷 FRA Scaleway
       - NGA Haruka Cloud
       - 🏳️‍🌈 ️‍🌈 美国01-适合下载大流量
       - 🏳️‍🌈 ️‍🌈 美国02-适合下载大流量
